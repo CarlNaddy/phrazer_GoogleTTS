@@ -1,0 +1,5 @@
+bin/Debug/*
+obj/Debug/*
+_appdata/input/*
+_appdata/export/*
+!.gitkeep
