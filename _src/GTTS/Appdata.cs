@@ -12,10 +12,12 @@ namespace Phrazer
 
         public static string GetTplFileName(string text)
         {
-            string[] siblings = text.Split(" ");
-            if(siblings.Length == 1) return "word.tpl";
-            if(siblings.Length > 1) return "phrase.tpl";
-            return "none.tpl";
+            return "phrase_en-US.tpl";
+
+            // string[] siblings = text.Split(" ");
+            // if(siblings.Length == 1) return "word.tpl";
+            // if(siblings.Length > 1) return "phrase.tpl";
+            // return "none.tpl";
         }
 
         public static string GetAppdataPath()
@@ -26,7 +28,6 @@ namespace Phrazer
         public static string GetCsvPath()
         {
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
-            // return GetAppdataPath() + "input" + Path.DirectorySeparatorChar + GetCsvFileName();
         }
 
         public static string GetTplPath(string text)

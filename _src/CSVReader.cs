@@ -25,7 +25,7 @@ namespace Phrazer
         {
             // Generate a file from the script and save
             string OutputSortOrderStr = ("" + (RowNumberCsv-1)).PadLeft(3, '0');
-            return Appdata.GetExportPath(InputFileName) + OutputSortOrderStr + "." + FromLang + "-" + ToLang + "." + FromText + "-" + ToText + "." + "wav";
+            return GTTSAppdata.GetExportPath(InputFileName) + OutputSortOrderStr + "." + FromLang + "-" + ToLang + "." + FromText + "-" + ToText + "." + "wav";
         }
 
         public void ProceedRow(string csvRow)
