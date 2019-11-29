@@ -1,24 +1,15 @@
-﻿<break time="1s"/>
-[speaker:__FROMSPEAKER__] __FROMTEXT__
-<break time="4s"/>
+﻿__FROMSPEAKER__: <speak><break time="1s"/><prosody rate="90%">__FROMTEXT__</prosody><break time="3s"/></speak>
 
-[speaker:Matthew] __TOTEXT__
-<break time="3s"/>
+en-US-Wavenet-D: <speak> <prosody rate="80%">__TOTEXT__</prosody> <break time="4s"/> </speak>
+en-US-Wavenet-D: <speak> <prosody rate="90%">__TOTEXT__</prosody> <break time="3s"/> </speak>
 
-[speaker:Salli] __TOTEXT__
-<break time="3s"/>
+en-US-Wavenet-E: <speak> <prosody rate="80%">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-US-Wavenet-E: <speak> <prosody rate="90%">__TOTEXT__</prosody>  <break time="3s"/> </speak>
 
-[speaker:__FROMSPEAKER__] __FROMTEXT__
-<break time="4s"/>
+__FROMSPEAKER__: <speak><break time="1s"/><prosody rate="90%">__FROMTEXT__</prosody><break time="3s"/></speak>
 
-[speaker:Brian] __TOTEXT__
-<break time="3s"/>
+en-GB-Wavenet-D: <speak> <prosody rate="70%">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-GB-Wavenet-D: <speak> <prosody rate="90%">__TOTEXT__</prosody>  <break time="3s"/> </speak>
 
-[speaker:Joanna] __TOTEXT__
-<break time="3s"/>
-
-[speaker:Amy] __TOTEXT__
-<break time="3s"/>
-
-[speaker:Matthew] __TOTEXT__
-<break time="3s"/>
+en-GB-Wavenet-C: <speak> <prosody rate="70%" pitch="-4st">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-GB-Wavenet-C: <speak> <prosody rate="90%" pitch="-4st">__TOTEXT__</prosody>  <break time="3s"/> </speak>

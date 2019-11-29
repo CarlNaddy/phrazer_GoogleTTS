@@ -1,5 +1,15 @@
-﻿__FROMSPEAKER__: <speak>__FROMTEXT__<break time="5s"/></speak>
-en-GB-Wavenet-C: <speak>__TOTEXT__<break time="5s"/></speak>
-en-GB-Wavenet-B: <speak>__TOTEXT__<break time="5s"/></speak>
-en-GB-Wavenet-D: <speak>__TOTEXT__<break time="5s"/></speak>
-en-US-Wavenet-D: <speak>__TOTEXT__<break time="5s"/></speak>
+﻿__FROMSPEAKER__: <speak><break time="1s"/><prosody rate="90%">__FROMTEXT__</prosody><break time="3s"/></speak>
+
+en-US-Wavenet-D: <speak> <prosody rate="80%">__TOTEXT__</prosody> <break time="4s"/> </speak>
+en-US-Wavenet-D: <speak> <prosody rate="90%">__TOTEXT__</prosody> <break time="3s"/> </speak>
+
+en-US-Wavenet-E: <speak> <prosody rate="80%">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-US-Wavenet-E: <speak> <prosody rate="90%">__TOTEXT__</prosody>  <break time="3s"/> </speak>
+
+__FROMSPEAKER__: <speak><break time="1s"/><prosody rate="90%">__FROMTEXT__</prosody><break time="3s"/></speak>
+
+en-GB-Wavenet-D: <speak> <prosody rate="70%">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-GB-Wavenet-D: <speak> <prosody rate="90%">__TOTEXT__</prosody>  <break time="3s"/> </speak>
+
+en-GB-Wavenet-C: <speak> <prosody rate="70%" pitch="-4st">__TOTEXT__</prosody>  <break time="4s"/> </speak>
+en-GB-Wavenet-C: <speak> <prosody rate="90%" pitch="-4st">__TOTEXT__</prosody>  <break time="3s"/> </speak>

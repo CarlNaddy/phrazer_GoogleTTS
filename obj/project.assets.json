@@ -173,6 +173,15 @@
           "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
+      "NAudio/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.dll": {}
+        }
+      },
       "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
@@ -448,6 +457,24 @@
         "lib/netstandard2.0/Grpc.Core.Api.xml"
       ]
     },
+    "NAudio/1.9.0": {
+      "sha512": "PjcPhL5AnbF1YmZxqFYuAEVVRNCNWWIm6Gi32AGQ0dmHF9+s7TUFfVxEo46MbeIfpUE+Wz60ZNTLMXTxBI1m9w==",
+      "type": "package",
+      "path": "naudio/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NAudio.dll",
+        "lib/net35/NAudio.xml",
+        "lib/netstandard2.0/NAudio.dll",
+        "lib/netstandard2.0/NAudio.xml",
+        "lib/uap10.0.10240/NAudio.dll",
+        "lib/uap10.0.10240/NAudio.pri",
+        "lib/uap10.0.10240/NAudio.xml",
+        "naudio.1.9.0.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
     "Newtonsoft.Json/11.0.2": {
       "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
@@ -523,7 +550,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Google.Cloud.TextToSpeech.V1 >= 1.1.0-beta01"
+      "Google.Cloud.TextToSpeech.V1 >= 1.1.0-beta01",
+      "NAudio >= 1.9.0"
     ]
   },
   "packageFolders": {
@@ -532,11 +560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
+      "projectUniqueName": "c:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
       "projectName": "phrazer",
-      "projectPath": "C:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
+      "projectPath": "c:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
       "packagesPath": "C:\\Users\\knadobnykh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\knadobnykh\\phrazer2\\obj\\",
+      "outputPath": "c:\\Users\\knadobnykh\\phrazer2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -564,6 +592,10 @@
           "Google.Cloud.TextToSpeech.V1": {
             "target": "Package",
             "version": "[1.1.0-beta01, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[1.9.0, )"
           }
         },
         "imports": [

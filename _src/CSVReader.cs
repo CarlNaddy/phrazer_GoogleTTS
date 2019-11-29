@@ -5,11 +5,8 @@ using System.IO;
 namespace Phrazer
 {
     class CSVReader
-    {  
-        //public string GeneratorEngine { get; set; }
-        
+    {   
         public string InputFileName { get; set; }
-        public string OutputFileExt { get; set; }
         public int RowNumberCsv { get; set; }
         public int RowNumberTpl { get; set; }
         public string FromLang { get; set; }
@@ -22,19 +19,19 @@ namespace Phrazer
 
         public CSVReader()
         {
-            OutputFileExt = "wav";
         }
 
         public string GetOutputFilename()
         {
             // Generate a file from the script and save
-            string OutputSortOrderStr = ("0" + RowNumberCsv).PadLeft(3, '0') +"_"+ ("0" + RowNumberTpl).PadLeft(3, '0');
-            return Appdata.GetExportPath(InputFileName) + OutputSortOrderStr + "." + FromLang + "-" + ToLang + "." + FromText + "-" + ToText + "." + OutputFileExt;
+            string OutputSortOrderStr = ("" + (RowNumberCsv-1)).PadLeft(3, '0');
+            return Appdata.GetExportPath(InputFileName) + OutputSortOrderStr + "." + FromLang + "-" + ToLang + "." + FromText + "-" + ToText + "." + "wav";
         }
 
         public void ProceedRow(string csvRow)
         {
             string[] csvEntries = csvRow.Split('\t');
+            if(csvEntries.Length < 2) return; // Skip not well defined row /placeholder
 
             if(RowNumberCsv == 1) {
                 FromLang = csvEntries[0];
@@ -78,7 +75,7 @@ namespace Phrazer
                 ProcessTplRow(row);
             }
 
-            
+            Generator.ConcatenateAndSaveWavContents(GetOutputFilename());
         }
 
         public void ProcessTplRow(string text)
@@ -89,7 +86,10 @@ namespace Phrazer
             text = text.Replace("__TOTEXT__", ToText);
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
-            //Console.WriteLine("Proceed ROW: " + text);
+            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("250ms"));
+            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("750ms"));
+
+            Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
 
             // Than SPLIT
             string[] csvEntries = text.Split(':');
@@ -98,11 +98,10 @@ namespace Phrazer
             CurrentVoice = csvEntries[0].Trim();
             CurrentSsml   = csvEntries[1].Trim();
 
-            //Generator.SynthesizeSSML(CurrentVoice, CurrentSsml); return;
+            // Please call before going to the G-TTS
+            if(File.Exists(GetOutputFilename())) return;
 
-            Generator.SaveToFile(GetOutputFilename(), Generator.SynthesizeSSML(CurrentVoice, CurrentSsml));
-
-            //Audioproc.WaveToMP3(GetOutputFilename(), GetOutputFilename().Replace(".wav", ".mp3"));
+            Generator.SynthesizeSSML(CurrentVoice, CurrentSsml);
         }
     }
 }
