@@ -12,6 +12,23 @@ namespace Phrazer
 
     class GTTSGenerator
     {
+        public GTTSGenerator() {
+            // Check Google TTS API Key
+            Console.WriteLine("***************************************************************");
+            Console.WriteLine("****                    CHECK API DATA                     ****");
+            string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
+            Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS is set to:");
+            Console.WriteLine(value);
+            if(File.Exists(value)) {
+                Console.WriteLine("All right!");
+            } else {
+                Console.WriteLine("ERROR: GOOGLE_APPLICATION_CREDENTIALS ERROR is not set!");
+                Console.WriteLine(value + " NOT EXISTS!");
+            }
+            Console.WriteLine("***************************************************************");
+        }
+        
+        
         public List<Google.Protobuf.ByteString> AudioContents = new List<Google.Protobuf.ByteString>();
 
         public Google.Protobuf.ByteString SynthesizeSSML(string voice, string ssml)
