@@ -12,13 +12,15 @@ namespace Phrazer
 
         public static string GetTplFileName(string text)
         {
-            return "phrase_en-US.tpl";
+            return "phrase_4.tpl";
 
             // string[] siblings = text.Split(" ");
             // if(siblings.Length == 1) return "word.tpl";
             // if(siblings.Length > 1) return "phrase.tpl";
             // return "none.tpl";
         }
+
+
 
         public static string GetAppdataPath()
         {
@@ -37,16 +39,11 @@ namespace Phrazer
 
         public static string GetExportPath(string currentFileName)
         {
-            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar + GetProjectName(currentFileName) + Path.DirectorySeparatorChar;
+            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(currentFileName) + Path.DirectorySeparatorChar;
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }
             return path;
-        }
-
-        public static string GetProjectName(string currentFileName)
-        {
-            return Path.GetFileNameWithoutExtension(currentFileName);
         }
     }
 }

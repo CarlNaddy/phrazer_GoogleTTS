@@ -22,12 +22,17 @@ namespace Phrazer
 
         public static string GetTextSlow(string text)
         {
-            return text.Replace(" ", GetBreakSsmlTag("500ms"));
+            return text.Replace(" ", GetBreakSsmlTag("700ms"));
         }
 
         public static string GetBreakSsmlTag(string time)
         {
             return " <break time=\"" + time.Trim() + "\"/> ";
+        }
+
+        public static int GetWordsCount(string text)
+        {
+            return text.Split(" ").Length;
         }
         
     }

@@ -13,6 +13,7 @@ namespace Phrazer
         public string ToLang { get; set; }
         public string FromText { get; set; }
         public string ToText { get; set; }
+        public string ProjectName { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
@@ -21,11 +22,22 @@ namespace Phrazer
         {
         }
 
+        public string GetOutputFilenamePrefix()
+        {
+            string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+            string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
+
+            if(ProjectName.Length > 0) {
+                return FromLang + "_" + ToLang + "." + FormatProjectName(ProjectName) + "." + rowNumberStr;
+            }
+
+            return FromLang + "_" + ToLang +  "." + wordsCountStr;
+        }
+
         public string GetOutputFilename()
         {
             // Generate a file from the script and save
-            string OutputSortOrderStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
-            string OFileName = AdjustPath(OutputSortOrderStr + "." + FromLang + "-" + ToLang + "." + FromText + "-" + ToText + "." + "wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + FromText + "-" + ToText + "." + "wav");
             return GTTSAppdata.GetExportPath(InputFileName) + OFileName;
         }
 
@@ -34,24 +46,33 @@ namespace Phrazer
             return System.Text.RegularExpressions.Regex.Replace(Input, @"[\\/:*?""<>|]", string.Empty);
         }
 
+        private string FormatProjectName(string text)
+        {
+            int maxProjectNameLength = 24;
+            text = text.Trim().ToLower();
+            if(text.Length > maxProjectNameLength) text = text.Substring(0, maxProjectNameLength);
+            return text;
+        }
+
         public void ProceedRow(string csvRow)
         {
             string[] csvEntries = csvRow.Trim().Split('\t');
 
-            // File.WriteAllText(GetOutputFilename() + ".txt", csvRow.Trim());
-            // return;
-
-            if (csvEntries.Length < 2) return; // Skip not well defined row /placeholder
+            if (csvEntries.Length < 2) return; // Skip not well defined rows
 
             if (RowNumberCsv == 1)
             {
-                FromLang = csvEntries[0];
-                ToLang = csvEntries[1];
+                FromLang = csvEntries[0].Trim();
+                ToLang = csvEntries[1].Trim();
+                ProjectName = (csvEntries.Length > 2) ? FormatProjectName(csvEntries[2]) : "";
                 return;
             }
 
-            FromText = csvEntries[0];
-            ToText = csvEntries[1];
+            FromText = csvEntries[0].Trim();
+            ToText = csvEntries[1].Trim();
+
+            Console.WriteLine(ProjectName);
+            ProjectName = (csvEntries.Length > 2) ? FormatProjectName(csvEntries[2]) : ProjectName;
 
             ProcessTplFile();
         }
@@ -90,6 +111,8 @@ namespace Phrazer
             }
 
             Generator.ConcatenateAndSaveWavContents(GetOutputFilename());
+
+            // Download the file GetOutputFilename()
         }
 
         public void ProcessTplRow(string text)
@@ -112,7 +135,7 @@ namespace Phrazer
             CurrentVoice = csvEntries[0].Trim();
             CurrentSsml = csvEntries[1].Trim();
 
-            // Please call before going to the G-TTS
+            // Please check if exists before going to the G-TTS
             if (File.Exists(GetOutputFilename())) return;
 
             Generator.SynthesizeSSML(CurrentVoice, CurrentSsml);

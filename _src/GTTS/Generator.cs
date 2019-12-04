@@ -41,31 +41,6 @@ namespace Phrazer
             return response.AudioContent;
         }
 
-        public void SaveToFile(string filename, Google.Protobuf.ByteString audioContent)
-        {
-            // Write Audio to File
-            using (Stream output = File.Create(filename))
-            {
-                audioContent.WriteTo(output);
-            }
-        }
-
-        public static void ListAllVoices()
-        {
-            // string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
-            // Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS");
-            // Console.WriteLine(value); 
-            // return;
-
-            // var client = TextToSpeechClient.Create();
-            // var response = client.ListVoices("de");
-            // foreach (var voice in response.Voices)
-            // {
-            //     Console.WriteLine($"{voice.Name} ({voice.SsmlGender}); Language codes: {string.Join(", ", voice.LanguageCodes)}");
-            // }
-
-        }
-
         public void ConcatenateAndSaveWavContents(string outputFile)
         {
             byte[] buffer = new byte[1024];
@@ -108,6 +83,37 @@ namespace Phrazer
                     waveFileWriter.Dispose();
                 }
             }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public static void ListAllVoices()
+        {
+            // string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
+            // Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS");
+            // Console.WriteLine(value); 
+            // return;
+
+            // var client = TextToSpeechClient.Create();
+            // var response = client.ListVoices("de");
+            // foreach (var voice in response.Voices)
+            // {
+            //     Console.WriteLine($"{voice.Name} ({voice.SsmlGender}); Language codes: {string.Join(", ", voice.LanguageCodes)}");
+            // }
+
         }
 
 
