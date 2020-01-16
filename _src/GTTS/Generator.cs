@@ -29,9 +29,9 @@ namespace Phrazer
         }
         
         
-        public List<Google.Protobuf.ByteString> AudioContents = new List<Google.Protobuf.ByteString>();
+        public List<byte[]> AudioContents = new List<byte[]>();
 
-        public Google.Protobuf.ByteString SynthesizeSSML(string voice, string ssml)
+        public void SynthesizeSSML(string voice, string ssml)
         {
             var client = TextToSpeechClient.Create();
             var response = client.SynthesizeSpeech(new SynthesizeSpeechRequest
@@ -53,24 +53,29 @@ namespace Phrazer
                 }
             });
 
-            AudioContents.Add(response.AudioContent);
-
-            return response.AudioContent;
+            AudioContents.Add(response.AudioContent.ToByteArray());
         }
 
-        public void ConcatenateAndSaveWavContents(string outputFile)
+        public void JustAddWavSound(string sound)
+        {
+            string fileName = GTTSAppdata.GetSoundPath(sound);
+            if(File.Exists(fileName)) AudioContents.Add(File.ReadAllBytes(fileName));
+        }
+
+        public void ConcatAndSaveWavContents(string outputFile)
         {
             byte[] buffer = new byte[1024];
             WaveFileWriter waveFileWriter = null;
 
             try
             {
-                foreach (Google.Protobuf.ByteString audioContent in AudioContents.ToArray())
+                foreach (byte[] audioContentByteArray in AudioContents.ToArray())
                 {
-                    using (var audioStream = new MemoryStream(audioContent.ToByteArray()))
+                    using (var audioStream = new MemoryStream(audioContentByteArray))
                     {
                         using (WaveFileReader reader = new WaveFileReader(audioStream))
                         {
+                            Console.WriteLine(reader.WaveFormat);
                             if (waveFileWriter == null)
                             {
                                 // first time in create new Writer

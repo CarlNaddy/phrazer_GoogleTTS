@@ -22,12 +22,22 @@ namespace Phrazer
 
         public static string GetTextSlow(string text)
         {
-            return text.Replace(" ", GetBreakSsmlTag("300ms"));
+            return text.Replace(" ", GetBreakSsmlTag("400ms"));
         }
 
         public static string GetBreakSsmlTag(string time)
         {
             return " <break time=\"" + time.Trim() + "\"/> ";
+        }
+        public static string GetAudioSsmlTag(string effect)
+        {
+            // <audio src="http://drive.google.com/uc?export=view&id=1_cczL_XD_7JZWyAwJCU7yrZBa8R_5jgF"/>
+
+            string effectFile = "";
+               
+            //if(effect == "#") effectFile = "http://drive.google.com/uc?export=view&id=1_cczL_XD_7JZWyAwJCU7yrZBa8R_5jgF";
+
+            return " <audio src=\"" + effectFile + "\" soundLevel=\"-0dB\" /> ";
         }
 
         public static int GetWordsCount(string text)

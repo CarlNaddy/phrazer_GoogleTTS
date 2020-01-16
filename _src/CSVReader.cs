@@ -16,16 +16,14 @@ namespace Phrazer
         public string ToText { get; set; }
         public int MaxTextLength { get; set; }
         public string ProjectType { get; set; }
-        public string ProjectName { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
 
         public CSVReader()
         {
-            MaxTextLength = 100;
+            MaxTextLength = 80;
             ProjectType = "";
-            ProjectName = "";
         }
 
         public List<string> GetAllowedProjectTypes()
@@ -45,13 +43,13 @@ namespace Phrazer
             string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
             string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
 
-            if (ProjectType == "sorted" || ProjectType == "song" || ProjectType == "dialogue") // song is a legacy value 
+            if (ProjectType == "sorted" || ProjectType == "dialogue")
             {
-                return FromLang + "_" + ToLang + "." + ProjectName + "." + rowNumberStr;
+                return rowNumberStr;
             }
 
             // buildup is default procedure
-            return FromLang + "_" + ToLang + "." + ProjectName + "." + wordsCountStr;
+            return wordsCountStr;
         }
 
 
@@ -70,11 +68,11 @@ namespace Phrazer
             return System.Text.RegularExpressions.Regex.Replace(Input, @"[\\/:*?""<>|]", string.Empty);
         }
 
-        private string FormatProjectName(string text)
+        private string FormatProjectType(string text)
         {
-            int maxProjectNameLength = 20;
+            int maxLength = 20;
             text = text.Trim().ToLower();
-            if (text.Length > maxProjectNameLength) text = text.Substring(0, maxProjectNameLength);
+            if (text.Length > maxLength) text = text.Substring(0, maxLength);
             return text;
         }
 
@@ -107,8 +105,7 @@ namespace Phrazer
             if (csvEntries.Length < 2) return; // Skip not well defined rows
 
             // Project Metadata / Params to set before creating audio
-            ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectName(csvEntries[2]) : ProjectType;
-            ProjectName = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? FormatProjectName(csvEntries[3]) : ProjectName;
+            ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
 
             if (RowNumberCsv == 1)
             {
@@ -141,22 +138,41 @@ namespace Phrazer
                 ProcessTplRow(row);
             }
 
-            Generator.ConcatenateAndSaveWavContents(GetOutputFilename());
+            Generator.ConcatAndSaveWavContents(GetOutputFilename());
             
             // Download the file GetOutputFilename()
+        }
+
+        public string addHeadingSoundAndCut(string text, string heading)
+        {
+            if(text.Contains(heading)) {
+                if(heading == "###") Generator.JustAddWavSound("h3");
+                if(heading == "##") Generator.JustAddWavSound("h2");
+                if(heading == "#") Generator.JustAddWavSound("h1");
+                return text.Replace(heading, "");
+            }
+            return text;
         }
 
         public void ProcessTplRow(string text)
         {
             // First REPLACE
+
+            // replace TEXTS
             text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
             text = text.Replace("__FROMTEXT__", FromText);
             text = text.Replace("__TOTEXT__", ToText);
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
+            // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("200ms"));
             text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("200ms"));
             text = text.Replace("..", GTTSHelper.GetBreakSsmlTag("600ms"));
+
+            // add some SOUNDS
+            text = addHeadingSoundAndCut(text, "###");
+            text = addHeadingSoundAndCut(text, "##");
+            text = addHeadingSoundAndCut(text, "#");
 
             Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
 

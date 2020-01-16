@@ -19,6 +19,12 @@ namespace Phrazer
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
         }
 
+        public static string GetSoundPath(string sound)
+        {
+            string package = "epic_mono";
+            return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
+        }
+
         public static string GetTplPath(string templateName)
         {
             return GetAppdataPath() + "_tpl" + Path.DirectorySeparatorChar + "GTTS" + Path.DirectorySeparatorChar + templateName;
