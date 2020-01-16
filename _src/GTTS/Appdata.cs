@@ -9,19 +9,6 @@ namespace Phrazer
     {
         public GTTSAppdata(){
         }
-
-        public static string GetTplFileName(string text)
-        {
-            return "phrase_4.tpl";
-
-            // string[] siblings = text.Split(" ");
-            // if(siblings.Length == 1) return "word.tpl";
-            // if(siblings.Length > 1) return "phrase.tpl";
-            // return "none.tpl";
-        }
-
-
-
         public static string GetAppdataPath()
         {
             return Environment.CurrentDirectory + Path.DirectorySeparatorChar + "_appdata" + Path.DirectorySeparatorChar;
@@ -32,9 +19,9 @@ namespace Phrazer
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
         }
 
-        public static string GetTplPath(string text)
+        public static string GetTplPath(string templateName)
         {
-            return GetAppdataPath() + "_tpl" + Path.DirectorySeparatorChar + "GTTS" + Path.DirectorySeparatorChar + GetTplFileName(text);
+            return GetAppdataPath() + "_tpl" + Path.DirectorySeparatorChar + "GTTS" + Path.DirectorySeparatorChar + templateName;
         }
 
         public static string GetExportPath(string currentFileName)

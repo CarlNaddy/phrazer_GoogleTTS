@@ -1,0 +1,1 @@
+﻿en-US-Wavenet-D: <speak> <prosody rate="80%">__TOTEXT__</prosody> <break time="1s"/> </speak>

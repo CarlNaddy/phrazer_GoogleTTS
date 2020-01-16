@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
 
 namespace Phrazer
@@ -13,6 +14,7 @@ namespace Phrazer
         public string ToLang { get; set; }
         public string FromText { get; set; }
         public string ToText { get; set; }
+        public int MaxTextLength { get; set; }
         public string ProjectType { get; set; }
         public string ProjectName { get; set; }
         public string CurrentVoice { get; set; }
@@ -21,8 +23,21 @@ namespace Phrazer
 
         public CSVReader()
         {
+            MaxTextLength = 100;
             ProjectType = "";
             ProjectName = "";
+        }
+
+        public List<string> GetAllowedProjectTypes()
+        {
+            List<string> allowedProjectTypes = new List<string>();
+
+            allowedProjectTypes.Add("buildup");
+            allowedProjectTypes.Add("sorted");
+            allowedProjectTypes.Add("dialogue");
+            allowedProjectTypes.Add("text");
+            
+            return allowedProjectTypes;
         }
 
         public string GetOutputFilenamePrefix()
@@ -30,18 +45,23 @@ namespace Phrazer
             string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
             string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
 
-            if (ProjectType == "song")
+            if (ProjectType == "sorted" || ProjectType == "song" || ProjectType == "dialogue") // song is a legacy value 
             {
-                return FromLang + "_" + ToLang + "." + ProjectName + "_" + rowNumberStr;
+                return FromLang + "_" + ToLang + "." + ProjectName + "." + rowNumberStr;
             }
 
-            return FromLang + "_" + ToLang + "." + wordsCountStr;
+            // buildup is default procedure
+            return FromLang + "_" + ToLang + "." + ProjectName + "." + wordsCountStr;
         }
+
+
 
         public string GetOutputFilename()
         {
             // Generate a file from the script and save
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + FromText + "-" + ToText + "." + "wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(ToText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(FromText, 0, MaxTextLength) + ")." + "wav");
+            Console.WriteLine(">>> Filename: " + OFileName); 
+            Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
             return GTTSAppdata.GetExportPath(InputFileName) + OFileName;
         }
 
@@ -82,13 +102,13 @@ namespace Phrazer
 
         public void ProceedRow(string csvRow)
         {
-            string[] csvEntries = csvRow.Trim().Split('\t');
+            string[] csvEntries = csvRow.Split('\t');
 
             if (csvEntries.Length < 2) return; // Skip not well defined rows
 
             // Project Metadata / Params to set before creating audio
-            ProjectType = (csvEntries.Length > 2) ? FormatProjectName(csvEntries[2]) : ProjectType;
-            ProjectName = (csvEntries.Length > 3) ? FormatProjectName(csvEntries[3]) : ProjectName;
+            ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectName(csvEntries[2]) : ProjectType;
+            ProjectName = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? FormatProjectName(csvEntries[3]) : ProjectName;
 
             if (RowNumberCsv == 1)
             {
@@ -100,6 +120,9 @@ namespace Phrazer
             FromText = csvEntries[0].Trim();
             ToText = csvEntries[1].Trim();
 
+            // if nothing todo dont start the generator. Just skip!
+            if(FromText.Length < 1 && ToText.Length < 1) return;
+
             ProcessTplFile();
         }
 
@@ -109,7 +132,8 @@ namespace Phrazer
         public void ProcessTplFile()
         {
             Generator = new GTTSGenerator();
-            string[] rows = File.ReadAllLines(GTTSAppdata.GetTplPath(ToText));
+
+            string[] rows = File.ReadAllLines(GTTSAppdata.GetTplPath(GetTemplateName()));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -130,8 +154,9 @@ namespace Phrazer
             text = text.Replace("__TOTEXT__", ToText);
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
-            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("400ms"));
-            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("1s"));
+            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("200ms"));
+            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("200ms"));
+            text = text.Replace("..", GTTSHelper.GetBreakSsmlTag("600ms"));
 
             Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
 
@@ -146,6 +171,36 @@ namespace Phrazer
             if (File.Exists(GetOutputFilename())) return;
 
             Generator.SynthesizeSSML(CurrentVoice, CurrentSsml);
+        }
+
+
+
+
+
+
+
+        public string GetTemplateName()
+        {
+            // Dialogue / conversation is a special format.
+            if(ProjectType == "dialogue") {
+                if(RowNumberCsv % 2 == 0) {
+                    return "dialogue_even.tpl";
+                } else {
+                    return "dialogue_odd.tpl";
+                }
+            }
+
+            // if no TEXT_FROM, then make just text
+            if(FromText.Length == 0) {
+                return "text_2.tpl";
+            }
+
+            // else just a usual audioflashcard
+            return "phrase_3.tpl";
+
+            // string[] siblings = text.Split(" ");
+            // if(siblings.Length == 1) return "word.tpl";
+            // if(siblings.Length > 1) return "phrase.tpl";
         }
     }
 }

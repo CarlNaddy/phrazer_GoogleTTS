@@ -22,7 +22,7 @@ namespace Phrazer
 
         public static string GetTextSlow(string text)
         {
-            return text.Replace(" ", GetBreakSsmlTag("700ms"));
+            return text.Replace(" ", GetBreakSsmlTag("300ms"));
         }
 
         public static string GetBreakSsmlTag(string time)
@@ -33,6 +33,12 @@ namespace Phrazer
         public static int GetWordsCount(string text)
         {
             return text.Split(" ").Length;
+        }
+
+        public static string Substring(string text, int start, int length)
+        {
+            if(text.Length >= length) return text.Substring(start, length);
+            return text;
         }
         
     }
