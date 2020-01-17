@@ -21,7 +21,7 @@ namespace Phrazer
 
         public static string GetSoundPath(string sound)
         {
-            string package = "epic_mono";
+            string package = "piano_mono";
             return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
         }
 
