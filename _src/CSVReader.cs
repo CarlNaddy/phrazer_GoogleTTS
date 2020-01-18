@@ -22,7 +22,7 @@ namespace Phrazer
 
         public CSVReader()
         {
-            MaxTextLength = 80;
+            MaxTextLength = 140;
             ProjectType = "";
         }
 
@@ -57,7 +57,7 @@ namespace Phrazer
         public string GetOutputFilename()
         {
             // Generate a file from the script and save
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(ToText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(FromText, 0, MaxTextLength) + ")." + "wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(ToText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(FromText, 0, MaxTextLength - ToText.Length) + ")." + "wav");
             Console.WriteLine(">>> Filename: " + OFileName); 
             Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
             return GTTSAppdata.GetExportPath(InputFileName) + OFileName;
@@ -138,9 +138,11 @@ namespace Phrazer
                 ProcessTplRow(row);
             }
 
+            if (File.Exists(GetOutputFilename())) return;
+
             Generator.ConcatAndSaveWavContents(GetOutputFilename());
             
-            // Download the file GetOutputFilename()
+            // WS-TODO: Download the file GetOutputFilename()
         }
 
         public string addHeadingSoundAndCut(string text, string heading)
@@ -165,7 +167,8 @@ namespace Phrazer
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
             // add some BREAKS
-            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("200ms"));
+            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
+            text = text.Replace(";", GTTSHelper.GetBreakSsmlTag("200ms"));
             text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("200ms"));
             text = text.Replace("..", GTTSHelper.GetBreakSsmlTag("600ms"));
 
