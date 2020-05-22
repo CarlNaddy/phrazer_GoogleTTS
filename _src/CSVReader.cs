@@ -169,8 +169,7 @@ namespace Phrazer
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
             text = text.Replace(";", GTTSHelper.GetBreakSsmlTag("200ms"));
-            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("200ms"));
-            text = text.Replace("..", GTTSHelper.GetBreakSsmlTag("600ms"));
+            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("300ms"));
 
             // add some SOUNDS
             text = addHeadingSoundAndCut(text, "###");
