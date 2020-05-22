@@ -156,6 +156,14 @@ namespace Phrazer
             return text;
         }
 
+        public int GetWaitTime(string text)
+        {
+            // DEBUG:
+            //Console.WriteLine("__STRING_____: " + text);
+            //Console.WriteLine("WAITINGTIME__: " + Convert.ToInt32(text.Split(" ").Length).ToString());
+            return Convert.ToInt32(text.Split(" ").Length * 0.2 + 3);
+        }
+
         public void ProcessTplRow(string text)
         {
             // First REPLACE
@@ -165,6 +173,9 @@ namespace Phrazer
             text = text.Replace("__FROMTEXT__", FromText);
             text = text.Replace("__TOTEXT__", ToText);
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
+
+            // Wartezeit berechnen (spaeter extrahieren)
+            text = text.Replace("__WAITTIME__", GetWaitTime(FromText).ToString());
 
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
@@ -193,10 +204,6 @@ namespace Phrazer
 
 
 
-
-
-
-
         public string GetTemplateName()
         {
             // Dialogue / conversation is a special format.
@@ -215,10 +222,6 @@ namespace Phrazer
 
             // else just a usual audioflashcard
             return "phrase_3.tpl";
-
-            // string[] siblings = text.Split(" ");
-            // if(siblings.Length == 1) return "word.tpl";
-            // if(siblings.Length > 1) return "phrase.tpl";
         }
     }
 }

@@ -560,11 +560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
+      "projectUniqueName": "C:\\_DATA\\phrazer2\\phrazer.csproj",
       "projectName": "phrazer",
-      "projectPath": "c:\\Users\\knadobnykh\\phrazer2\\phrazer.csproj",
+      "projectPath": "C:\\_DATA\\phrazer2\\phrazer.csproj",
       "packagesPath": "C:\\Users\\knadobnykh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\knadobnykh\\phrazer2\\obj\\",
+      "outputPath": "C:\\_DATA\\phrazer2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
