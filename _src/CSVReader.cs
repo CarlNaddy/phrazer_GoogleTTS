@@ -156,12 +156,14 @@ namespace Phrazer
             return text;
         }
 
-        public int GetWaitTime(string text)
+        public int GetWaitTime(string text, bool includingThingingTime)
         {
-            // DEBUG:
-            //Console.WriteLine("__STRING_____: " + text);
-            //Console.WriteLine("WAITINGTIME__: " + Convert.ToInt32(text.Split(" ").Length).ToString());
-            return Convert.ToInt32(text.Split(" ").Length * 0.2 + 3);
+            double thinkingTime = 0;
+            double repeatingTime = text.Split(" ").Length * 0.25 + 2;
+            if(includingThingingTime)
+                thinkingTime = text.Split(" ").Length * 0.2 + 0.5;
+                
+            return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
 
         public void ProcessTplRow(string text)
@@ -175,7 +177,8 @@ namespace Phrazer
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
             // Wartezeit berechnen (spaeter extrahieren)
-            text = text.Replace("__WAITTIME__", GetWaitTime(FromText).ToString());
+            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(FromText, true).ToString());
+            text = text.Replace("__WAITTIMETO__", GetWaitTime(FromText, false).ToString());
 
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
