@@ -159,9 +159,9 @@ namespace Phrazer
         public int GetWaitTime(string text, bool includingThingingTime)
         {
             double thinkingTime = 0;
-            double repeatingTime = text.Split(" ").Length * 0.25 + 2;
+            double repeatingTime = text.Split(" ").Length * 0.3 + 2;
             if(includingThingingTime)
-                thinkingTime = text.Split(" ").Length * 0.2 + 0.5;
+                thinkingTime = text.Split(" ").Length * 0.2;
                 
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
@@ -177,8 +177,8 @@ namespace Phrazer
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
 
             // Wartezeit berechnen (spaeter extrahieren)
-            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(FromText, true).ToString());
-            text = text.Replace("__WAITTIMETO__", GetWaitTime(FromText, false).ToString());
+            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(ToText, true).ToString());
+            text = text.Replace("__WAITTIMETO__", GetWaitTime(ToText, false).ToString());
 
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
