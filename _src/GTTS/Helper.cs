@@ -20,6 +20,22 @@ namespace Phrazer
             return speaker; 
         }
 
+        public static string GetSanitizedText(string text, string forWhat)
+        {
+            text = text.Replace(":", ","); // Wichtiges Trennzeichen
+            text = text.Trim();
+            text = text.Trim(',');
+            text = text.Trim('.');
+            if(forWhat == "filename") {
+                text = text.Replace("  ", " ");
+                text = text.Replace("(", "-");
+                text = text.Replace(")", "-");
+                text = text.Replace("?", "..");
+                text = System.Text.RegularExpressions.Regex.Replace(text, @"[\\/:*?""<>|]", string.Empty);
+            }
+            return text;
+        }
+
         public static string GetTextSlow(string text)
         {
             return text.Replace(" ", GetBreakSsmlTag("500ms"));
@@ -28,16 +44,6 @@ namespace Phrazer
         public static string GetBreakSsmlTag(string time)
         {
             return " <break time=\"" + time.Trim() + "\"/> ";
-        }
-        public static string GetAudioSsmlTag(string effect)
-        {
-            // <audio src="http://drive.google.com/uc?export=view&id=1_cczL_XD_7JZWyAwJCU7yrZBa8R_5jgF"/>
-
-            string effectFile = "";
-               
-            //if(effect == "#") effectFile = "http://drive.google.com/uc?export=view&id=1_cczL_XD_7JZWyAwJCU7yrZBa8R_5jgF";
-
-            return " <audio src=\"" + effectFile + "\" soundLevel=\"-0dB\" /> ";
         }
 
         public static int GetWordsCount(string text)

@@ -56,8 +56,11 @@ namespace Phrazer
 
         public string GetOutputFilename()
         {
+            string fromText = GTTSHelper.GetSanitizedText(FromText, "filename");
+            string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
+
             // Generate a file from the script and save
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(ToText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(FromText, 0, MaxTextLength - ToText.Length) + ")." + "wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")." + "wav");
             Console.WriteLine(">>> Filename: " + OFileName); 
             Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
             return GTTSAppdata.GetExportPath(InputFileName) + OFileName;
@@ -141,8 +144,6 @@ namespace Phrazer
             if (File.Exists(GetOutputFilename())) return;
 
             Generator.ConcatAndSaveWavContents(GetOutputFilename());
-            
-            // WS-TODO: Download the file GetOutputFilename()
         }
 
         public string addHeadingSoundAndCut(string text, string heading)
