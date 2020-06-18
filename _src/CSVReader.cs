@@ -173,9 +173,9 @@ namespace Phrazer
 
             // replace TEXTS
             text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
-            text = text.Replace("__FROMTEXT__", FromText);
-            text = text.Replace("__TOTEXT__", ToText);
-            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(ToText));
+            text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
+            text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
+            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
 
             // Wartezeit berechnen (spaeter extrahieren)
             text = text.Replace("__WAITTIMEFROM__", GetWaitTime(ToText, true).ToString());
