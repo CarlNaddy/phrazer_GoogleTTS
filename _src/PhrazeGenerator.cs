@@ -166,9 +166,9 @@ namespace Phrazer
         public int GetWaitTime(string text, bool includingThingingTime)
         {
             double thinkingTime = 0;
-            double repeatingTime = text.Split(" ").Length * 0.3 + 2;
+            double repeatingTime = text.Split(" ").Length * 0.25 + 2;
             if(includingThingingTime)
-                thinkingTime = text.Split(" ").Length * 0.2;
+                thinkingTime = text.Split(" ").Length * 0.15;
                 
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
