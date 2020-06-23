@@ -8,6 +8,9 @@ namespace Phrazer
     {
         static void Main(string[] args)
         {
+            VTTConverter.convertToTSV(); return;
+
+
             PhrazeGenerator.ProceedAllInputPhrazerFiles();
         }
     }
