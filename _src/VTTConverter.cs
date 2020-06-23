@@ -55,7 +55,7 @@ namespace Phrazer
             List<string> tsvRows = new List<string>();
 
             // Add header
-            tsvRows.Add("EN" + "\t" + "DE" + "\t" + "LENGTH" + "\t" + "TAGS" + "\t" + "TIME");
+            tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LENGTH" + "\t" + "TAGS" + "\t" + "TIME");
 
             string textBuffer = "";
             string time = "";
