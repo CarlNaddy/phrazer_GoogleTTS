@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Phrazer
 {
-    class CSVReader
+    class PhrazeGenerator
     {
         public string InputFileName { get; set; }
         public int RowNumberCsv { get; set; }
@@ -20,7 +20,7 @@ namespace Phrazer
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
 
-        public CSVReader()
+        public PhrazeGenerator()
         {
             MaxTextLength = 140;
             ProjectType = "";
@@ -79,8 +79,14 @@ namespace Phrazer
             return text;
         }
 
-        
-
+        static public void ProceedAllInputPhrazerFiles()
+        {
+            string[] files = Directory.GetFiles(GTTSAppdata.GetCsvPath(), "*.tsv");
+            foreach(string file in files) {
+                PhrazeGenerator obj = new PhrazeGenerator();
+                obj.ProceedCsvFile(file);
+            }
+        }
         public void ProceedCsvFile(string currentFileName)
         {
             if (!File.Exists(currentFileName))

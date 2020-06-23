@@ -8,11 +8,7 @@ namespace Phrazer
     {
         static void Main(string[] args)
         {
-            string[] files = Directory.GetFiles(GTTSAppdata.GetCsvPath(), "*.tsv");
-            foreach(string file in files) {
-                CSVReader obj = new CSVReader();
-                obj.ProceedCsvFile(file);
-            }
+            PhrazeGenerator.ProceedAllInputPhrazerFiles();
         }
     }
 }
