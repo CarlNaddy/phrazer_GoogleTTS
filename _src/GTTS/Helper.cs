@@ -23,6 +23,7 @@ namespace Phrazer
         public static string GetSanitizedText(string text, string forWhat)
         {
             text = text.Replace(":", ","); // Wichtiges Trennzeichen
+            text = text.Replace("’", "'");
             text = text.Trim();
             text = text.Trim(',');
             text = text.Trim('.');
