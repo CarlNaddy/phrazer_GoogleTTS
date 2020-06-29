@@ -32,8 +32,8 @@ namespace Phrazer
                 text = text.Replace("(", "-");
                 text = text.Replace(")", "-");
                 text = text.Replace("?", "..");
-                text = System.Text.RegularExpressions.Regex.Replace(text, @"[\\/:*?""<>|]", string.Empty);
             }
+            text = System.Text.RegularExpressions.Regex.Replace(text, @"[\\/:*""<>|]", string.Empty); // BEWARE: ? will not be treated here
             return text;
         }
 

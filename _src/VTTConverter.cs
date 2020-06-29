@@ -16,6 +16,12 @@ namespace Phrazer
             if(text.Contains(" --> ") && text.Length == muster.Length) {
                 return text.Substring(0, 5);
             }
+
+            string muster2 = "00:00:20.729 --> 00:00:22.731";
+            if(text.Contains(" --> ") && text.Length == muster2.Length) {
+                return text.Substring(0, 8);
+            }
+
             return "";
         }
 
@@ -34,8 +40,8 @@ namespace Phrazer
         }
         static public void convertToTSV()
         {
-            //string[] files = Directory.GetFiles(GetInputPath(), "*.vtt");
-            string[] files = Directory.GetFiles(GetInputPath(), "*.vtt.txt");
+            string[] files = Directory.GetFiles(GetInputPath(), "*.vtt");
+            //string[] files = Directory.GetFiles(GetInputPath(), "*.vtt.txt");
             foreach(string file in files) {
                 VTTConverter obj = new VTTConverter();
                 obj.ProcessVTTFile(file);
@@ -69,7 +75,7 @@ namespace Phrazer
 
 
                 // new Block determined
-                if(GetOutputTime(row).Length == 5) {
+                if(GetOutputTime(row).Length > 0) {
                     // Save Buffer
                     SaveTextBufferToList(tsvRows, ref textBuffer, ref time);
 
@@ -86,7 +92,7 @@ namespace Phrazer
 
         public void SaveTextBufferToList(List<string> list, ref string textBuffer, ref string time)
         {
-            if(textBuffer.Length > 0 && time.Length == 5) {
+            if(textBuffer.Length > 0 && time.Length > 0) {
                 list.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + "vtt" + "\t" + time);
                 textBuffer = "";
             }
@@ -110,6 +116,7 @@ namespace Phrazer
             text = text.Trim();
             text = text.Replace(":", ","); // Wichtiges Trennzeichen
             text = text.Replace("\t", "");
+            text = text.Replace("\"", "");
             text = text.Replace("<i>", "");
             text = text.Replace("</i>", "");
             text = text.Replace(" !", "!");
