@@ -8,6 +8,22 @@ namespace Phrazer
 {
     class VTTConverter
     {
+        /* Try this, if you get well scripted subscribtion.
+        
+        0: Cut on new Timecode and end of sentense only.
+        1: Cut on end of sentense and comma, if length greater MaxSentenseLength
+        
+         */
+        
+        public static int StrictModeLevel()
+        {
+            return 1;
+        }
+
+        public static int MaxSentenseLength()
+        {
+            return 60;
+        }
 
         public static string GetOutputTime(string text)
         {
@@ -77,16 +93,26 @@ namespace Phrazer
                 // new Block determined
                 if(GetOutputTime(row).Length > 0) {
                     // Save Buffer
-                    SaveTextBufferToList(tsvRows, ref textBuffer, ref time);
+                    if(StrictModeLevel() == 0) SaveTextBufferToList(tsvRows, ref textBuffer, ref time);
 
                     // Prepare for next block
-                    textBuffer = "";
+                    if(StrictModeLevel() == 0) textBuffer = "";
+                    
                     time = GetOutputTime(row);
                     continue;
                 }
 
                 textBuffer = (textBuffer + " " + SanitizeText(row)).Trim();
+
+
+
+                if(textBuffer.Contains("going home.")) {
+                    Console.WriteLine("********************BUFFER: " + textBuffer);
+                    Console.WriteLine("********************time: " + time);
+                }
+
             }
+            SaveTextBufferToList(tsvRows, ref textBuffer, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows.ToArray(), Encoding.UTF8);
         }
 
@@ -100,11 +126,15 @@ namespace Phrazer
 
         public bool ShouldCreateNewRow(string textBuffer, string nextValue)
         {
+
             if(
                 textBuffer.StartsWith("- ") && nextValue.StartsWith("- ") // recognize dialogue
                 || textBuffer.EndsWith(".")
                 || textBuffer.EndsWith("?")
                 || textBuffer.EndsWith("!")
+                || textBuffer.EndsWith(")")
+                || textBuffer.EndsWith(",") && (StrictModeLevel() == 1) 
+                && (textBuffer.Length > MaxSentenseLength()/2 && nextValue.Length > MaxSentenseLength()/3)
             ) return true;
 
             return false;
