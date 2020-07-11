@@ -104,13 +104,6 @@ namespace Phrazer
 
                 textBuffer = (textBuffer + " " + SanitizeText(row)).Trim();
 
-
-
-                if(textBuffer.Contains("going home.")) {
-                    Console.WriteLine("********************BUFFER: " + textBuffer);
-                    Console.WriteLine("********************time: " + time);
-                }
-
             }
             SaveTextBufferToList(tsvRows, ref textBuffer, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows.ToArray(), Encoding.UTF8);
@@ -133,6 +126,8 @@ namespace Phrazer
                 || textBuffer.EndsWith("?")
                 || textBuffer.EndsWith("!")
                 || textBuffer.EndsWith(")")
+                || textBuffer.EndsWith("]")
+                || textBuffer.Contains("NETFLIX")
                 || textBuffer.EndsWith(",") && (StrictModeLevel() == 1) 
                 && (textBuffer.Length > MaxSentenseLength()/2 && nextValue.Length > MaxSentenseLength()/3)
             ) return true;
