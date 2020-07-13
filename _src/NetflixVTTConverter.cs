@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -68,19 +69,22 @@ namespace Phrazer
 
             foreach (string row in rows)
             {
+                if(row.Trim() == "") continue;
                 if(GetOutputTime(row).Length > 0) {
                         time = GetOutputTime(row);
                         continue;
                 }
                 if(time == "") continue;
 
-                foreach(string word in row.Split(" "))
+                string rowText = SanitizeText(row);
+
+                foreach(string word in rowText.Split(" "))
                 {
-                    if(ShouldCreateNewRow(textBuffer, word))
+                    if(ShouldCreateNewRow(textBuffer))
                     {
                         SaveTextBufferToList(tsvRows, ref textBuffer, ref time);
                     }
-                    textBuffer = (textBuffer + " " + SanitizeText(word)).Trim();
+                    textBuffer = (textBuffer + " " + word).Trim();
                 }
             }
             SaveTextBufferToList(tsvRows, ref textBuffer, ref time); // flush last buffer before save
@@ -95,26 +99,42 @@ namespace Phrazer
             }
         }
 
-        public bool ShouldCreateNewRow(string textBuffer, string nextWord)
+        public bool ShouldCreateNewRow(string textBuffer)
         {
+            if(
+                NextRowSignDetected(textBuffer)
+                && !textBuffer.EndsWith("Mr.")
+                && !textBuffer.EndsWith("Mrs.")
+                && textBuffer.Length > 2
+            ) return true;
 
+            return false;
+        }
+
+        public bool NextRowSignDetected(string textBuffer)
+        {
             if(
                 textBuffer.EndsWith(".")
                 || textBuffer.EndsWith("?")
                 || textBuffer.EndsWith("!")
                 || textBuffer.EndsWith(")")
                 || textBuffer.EndsWith("]")
+                || textBuffer.EndsWith("--")
                 || textBuffer.Contains("NETFLIX")
             ) return true;
 
-            return false;
-            
+            return false;   
         }
 
         static string SanitizeText(string text)
         {
+            text = Regex.Replace(text, @"\s+", " ");
+
+            text = RemoveBracketsText(text, '[', ']');
+            text = RemoveBracketsText(text, '(', ')');
+
             text = text.Trim();
-            text = text.Replace(":", ","); // Wichtiges Trennzeichen
+            //text = text.Replace(":", ","); // Wichtiges Trennzeichen
             text = text.Replace("\t", "");
             text = text.Replace("\"", "");
             text = text.Replace("<i>", "");
@@ -124,7 +144,6 @@ namespace Phrazer
             text = text.Replace(" !", "!");
             text = text.Replace(" ?", "?");
             text = text.Replace("’", "'");
-            text = text.Replace("...", " ");
             text = text.TrimStart('-');
             text = text.Trim();
             return text;
@@ -133,6 +152,18 @@ namespace Phrazer
         static string WordCount(string text)
         {
             return ("" + GTTSHelper.GetWordsCount(text)).PadLeft(2, '0');
+        }
+
+        static string RemoveBracketsText(string text, char startsWith, char endsWith)
+        {
+            int firstBracket = text.IndexOf(startsWith);
+            int lastBracket = text.LastIndexOf(endsWith);
+
+            if(firstBracket == -1) return text;
+            if(lastBracket == -1) return text;
+
+            int diff = lastBracket - firstBracket + 1;
+            return text.Remove(firstBracket, diff);
         }
     }
 }
