@@ -10,6 +10,9 @@ namespace Phrazer
 {
     class NetflixVTTConverter
     {
+        List<string> tsvRows = new List<string>();
+        HashSet<string> dieKontrollliste = new HashSet<string>();
+
         public static string GetOutputTime(string text)
         {
             text = text.Trim();
@@ -59,8 +62,7 @@ namespace Phrazer
             }
 
             string[] rows = File.ReadAllLines(currentFileName);
-            List<string> tsvRows = new List<string>();
-
+            
             // Add header
             tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LENGTH" + "\t" + "TAGS" + "\t" + "TIME");
 
@@ -82,21 +84,35 @@ namespace Phrazer
                 {
                     if(ShouldCreateNewRow(textBuffer))
                     {
-                        SaveTextBufferToList(tsvRows, ref textBuffer, ref time);
+                        SaveTextBufferToList(ref textBuffer, ref time);
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
                 }
             }
-            SaveTextBufferToList(tsvRows, ref textBuffer, ref time); // flush last buffer before save
+            SaveTextBufferToList(ref textBuffer, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows, Encoding.UTF8);
         }
 
-        public void SaveTextBufferToList(List<string> list, ref string textBuffer, ref string time)
+        public void SaveTextBufferToList(ref string textBuffer, ref string time)
         {
             if(textBuffer.Length > 0 && time.Length > 0) {
-                list.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + "vtt" + "\t" + time);
+                string kontrollText = textBuffer;
+
+                // Add this to remove doubles ignoring special chars
+                kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled);
+
+                if(!dieKontrollliste.Contains(kontrollText)) {
+                    tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + "vtt" + "\t" + time);
+                    dieKontrollliste.Add(kontrollText);
+                }
                 textBuffer = "";
             }
+        }
+
+        public bool AlreadyOnList(string textBuffer)
+        {
+            if(dieKontrollliste.Contains(textBuffer)) return true;
+            return false;
         }
 
         public bool ShouldCreateNewRow(string textBuffer)
@@ -105,6 +121,8 @@ namespace Phrazer
                 NextRowSignDetected(textBuffer)
                 && !textBuffer.EndsWith("Mr.")
                 && !textBuffer.EndsWith("Mrs.")
+                && !textBuffer.EndsWith("Dr.")
+                && !textBuffer.EndsWith("U.S.")
                 && textBuffer.Length > 2
             ) return true;
 
@@ -120,6 +138,7 @@ namespace Phrazer
                 || textBuffer.EndsWith(")")
                 || textBuffer.EndsWith("]")
                 || textBuffer.EndsWith("--")
+                || textBuffer.EndsWith("♪")
                 || textBuffer.Contains("NETFLIX")
             ) return true;
 
@@ -145,8 +164,25 @@ namespace Phrazer
             text = text.Replace(" ?", "?");
             text = text.Replace("’", "'");
             text = text.TrimStart('-');
+
+            // Remove all "NAMES:"  
+            if(IsAllUpper(text.Split()[0].Replace(":","")) && text.Contains(":")) {
+                text = RemoveBracketsText(text, text[0], ':');
+            }
+
             text = text.Trim();
             return text;
+        }
+
+        static bool IsAllUpper(string input)
+        {
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (!Char.IsUpper(input[i]))
+                    return false;
+            }
+
+            return true;
         }
 
         static string WordCount(string text)
