@@ -18,7 +18,17 @@ namespace Phrazer
             text = text.Trim();
             string muster = "03:00.242 --> 03:03.002";
             if(text.Contains(" --> ") && text.Length == muster.Length) {
-                return text.Substring(0, 5);
+                return "00:" + text.Substring(0, 5);
+            }
+
+            string muster1_1 = "1:03:00.242 --> 1:03:03.002";
+            if(text.Contains(" --> ") && text.Length == muster1_1.Length) {
+                return "0" + text.Substring(0, 7);
+            }
+
+            string muster1_2 = "59:58.512 --> 1:00:00.472";
+            if(text.Contains(" --> ") && text.Length == muster1_2.Length) {
+                return "00:" + text.Substring(0, 5);
             }
 
             string muster2 = "00:00:20.729 --> 00:00:22.731";
@@ -123,6 +133,7 @@ namespace Phrazer
                 && !textBuffer.EndsWith("Mrs.")
                 && !textBuffer.EndsWith("Dr.")
                 && !textBuffer.EndsWith("U.S.")
+                && !textBuffer.EndsWith("K.O.")
                 && textBuffer.Length > 2
             ) return true;
 
