@@ -175,7 +175,9 @@ namespace Phrazer
 
         public void ProcessTplRow(string text)
         {
-            // First REPLACE
+            // Please check if exists before going to the G-TTS
+            if (ToText.Length > MaxTextLength) return;
+            if (File.Exists(GetOutputFilename())) return;
 
             // replace TEXTS
             text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
@@ -197,7 +199,7 @@ namespace Phrazer
             text = addHeadingSoundAndCut(text, "##");
             text = addHeadingSoundAndCut(text, "#");
 
-            Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
+            //Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
 
             // Than SPLIT
             string[] csvEntries = text.Split(':');
@@ -205,9 +207,6 @@ namespace Phrazer
 
             CurrentVoice = csvEntries[0].Trim();
             CurrentSsml = csvEntries[1].Trim();
-
-            // Please check if exists before going to the G-TTS
-            if (File.Exists(GetOutputFilename())) return;
 
             Generator.SynthesizeSSML(CurrentVoice, CurrentSsml);
         }
