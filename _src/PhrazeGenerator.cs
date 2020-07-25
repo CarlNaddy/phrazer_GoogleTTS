@@ -28,6 +28,7 @@ namespace Phrazer
             MaxTextLength = 130;
             ProjectType = "";
             FilesPerFolder = 100;
+            RowTime = "";
         }
 
         public List<string> GetAllowedProjectTypes()
@@ -105,6 +106,7 @@ namespace Phrazer
             foreach (string csvString in rows)
             {
                 RowNumberCsv++;
+                // row based folder suffix
                 FolderSuffix = "_" + ("" + Math.Ceiling((decimal) RowNumberCsv / FilesPerFolder)).PadLeft(2, '0');
                 ProceedRow(csvString);
             }
@@ -120,7 +122,9 @@ namespace Phrazer
 
             // Project Metadata / Params to set before creating audio
             ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
-            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? FormatProjectType(csvEntries[4]) : RowTime;
+            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
+            // time based folder suffix (only if rowTime provided in the right format)
+            if(RowTime.Length == 8) FolderSuffix = "_" + RowTime.Replace(":","").Substring(1, 2);
 
             if (RowNumberCsv == 1)
             {
