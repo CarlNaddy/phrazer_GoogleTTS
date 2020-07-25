@@ -30,9 +30,9 @@ namespace Phrazer
             return GetAppdataPath() + "_tpl" + Path.DirectorySeparatorChar + "GTTS" + Path.DirectorySeparatorChar + templateName;
         }
 
-        public static string GetExportPath(string currentFileName)
+        public static string GetExportPath(string currentFileName, string folderSuffix)
         {
-            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(currentFileName) + Path.DirectorySeparatorChar;
+            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(currentFileName) + folderSuffix + Path.DirectorySeparatorChar;
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }

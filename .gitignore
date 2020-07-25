@@ -2,6 +2,7 @@ bin/Debug/*
 obj/Debug/*
 _appdata/input/*
 _appdata/export/*
+_appdata/export*/*
 _appdata/_extern/inputVTT/*
 _appdata/_extern/inputVTT/*
 _appdata/_extern/outputTSV/*

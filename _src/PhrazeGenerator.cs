@@ -16,14 +16,18 @@ namespace Phrazer
         public string ToText { get; set; }
         public int MaxTextLength { get; set; }
         public string ProjectType { get; set; }
+        public int FilesPerFolder { get; set; }
+        public string FolderSuffix { get; set; }
+        public string RowTime { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
 
         public PhrazeGenerator()
         {
-            MaxTextLength = 140;
+            MaxTextLength = 130;
             ProjectType = "";
+            FilesPerFolder = 50;
         }
 
         public List<string> GetAllowedProjectTypes()
@@ -40,15 +44,11 @@ namespace Phrazer
 
         public string GetOutputFilenamePrefix()
         {
-            string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
             string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
-
-            if (ProjectType == "sorted" || ProjectType == "dialogue")
-            {
-                return rowNumberStr;
-            }
-
+            if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr;
+            
             // buildup is default procedure
+            string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
             return wordsCountStr;
         }
 
@@ -60,10 +60,11 @@ namespace Phrazer
             string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
 
             // Generate a file from the script and save
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")." + "wav");
+            string fileSuffix = "." + RowTime.Replace(".", "");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")" + fileSuffix + ".wav");
             Console.WriteLine(">>> Filename: " + OFileName); 
             Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
-            return GTTSAppdata.GetExportPath(InputFileName) + OFileName;
+            return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
 
         private string AdjustPath(string Input)
@@ -97,10 +98,12 @@ namespace Phrazer
 
             InputFileName = currentFileName;
             string[] rows = File.ReadAllLines(InputFileName);
+
             RowNumberCsv = 0;
             foreach (string csvString in rows)
             {
                 RowNumberCsv++;
+                FolderSuffix = "_" + ("" + Math.Ceiling((decimal) RowNumberCsv / FilesPerFolder)).PadLeft(2, '0');
                 ProceedRow(csvString);
             }
         }
@@ -115,6 +118,7 @@ namespace Phrazer
 
             // Project Metadata / Params to set before creating audio
             ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
+            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? FormatProjectType(csvEntries[4]) : RowTime;
 
             if (RowNumberCsv == 1)
             {
@@ -198,8 +202,6 @@ namespace Phrazer
             text = addHeadingSoundAndCut(text, "###");
             text = addHeadingSoundAndCut(text, "##");
             text = addHeadingSoundAndCut(text, "#");
-
-            //Console.WriteLine("ROW: " + ("" + RowNumberTpl).PadLeft(3, '0') + ": " + text);
 
             // Than SPLIT
             string[] csvEntries = text.Split(':');
