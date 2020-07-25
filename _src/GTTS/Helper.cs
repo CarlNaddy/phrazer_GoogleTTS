@@ -24,6 +24,7 @@ namespace Phrazer
         {
             text = text.Replace(":", ","); // Wichtiges Trennzeichen
             text = text.Replace("’", "'");
+            text = text.Replace("♪", "");
             text = text.Trim();
             text = text.Trim(',');
             text = text.Trim('.');
@@ -45,6 +46,13 @@ namespace Phrazer
         public static string GetBreakSsmlTag(string time)
         {
             return " <break time=\"" + time.Trim() + "\"/> ";
+        }
+
+        public static string FormatRowTime(string text)
+        {
+            string rowTime = text.Replace(":", ".").Substring(1);
+            if(rowTime.StartsWith("0.")) rowTime = rowTime.Substring(2);
+            return rowTime;
         }
 
         public static int GetWordsCount(string text)

@@ -27,7 +27,7 @@ namespace Phrazer
         {
             MaxTextLength = 130;
             ProjectType = "";
-            FilesPerFolder = 50;
+            FilesPerFolder = 100;
         }
 
         public List<string> GetAllowedProjectTypes()
@@ -60,8 +60,10 @@ namespace Phrazer
             string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
 
             // Generate a file from the script and save
-            string fileSuffix = "." + RowTime.Replace(".", "");
+            string fileSuffix = "-" + GTTSHelper.FormatRowTime(RowTime);
             string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")" + fileSuffix + ".wav");
+            
+            Console.WriteLine(">>> Suff: " + fileSuffix); 
             Console.WriteLine(">>> Filename: " + OFileName); 
             Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
