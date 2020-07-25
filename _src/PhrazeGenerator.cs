@@ -64,9 +64,6 @@ namespace Phrazer
             string fileSuffix = "-" + GTTSHelper.FormatRowTime(RowTime);
             string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")" + fileSuffix + ".wav");
             
-            Console.WriteLine(">>> Suff: " + fileSuffix); 
-            Console.WriteLine(">>> Filename: " + OFileName); 
-            Console.WriteLine("--> Filename Length  : " + OFileName.Length); 
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
 
@@ -157,9 +154,12 @@ namespace Phrazer
                 ProcessTplRow(row);
             }
 
-            if (File.Exists(GetOutputFilename())) return;
-
-            Generator.ConcatAndSaveWavContents(GetOutputFilename());
+            string fileName = GetOutputFilename();
+            if (File.Exists(fileName)) {
+                Console.WriteLine("! ALREADY EXISTS: " + fileName); return;
+            }
+            Console.WriteLine(">> GENERATE FILE: " + fileName);
+            Generator.ConcatAndSaveWavContents(fileName);
         }
 
         public string addHeadingSoundAndCut(string text, string heading)

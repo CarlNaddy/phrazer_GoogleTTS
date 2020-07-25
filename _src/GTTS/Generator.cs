@@ -14,18 +14,12 @@ namespace Phrazer
     {
         public GTTSGenerator() {
             // Check Google TTS API Key
-            Console.WriteLine("***************************************************************");
-            Console.WriteLine("****                    CHECK API DATA                     ****");
             string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
-            Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS is set to:");
-            Console.WriteLine(value);
-            if(File.Exists(value)) {
-                Console.WriteLine("All right!");
-            } else {
+            if(!File.Exists(value)) {
                 Console.WriteLine("ERROR: GOOGLE_APPLICATION_CREDENTIALS ERROR is not set!");
                 Console.WriteLine(value + " NOT EXISTS!");
+                Console.WriteLine("*******************************************************");
             }
-            Console.WriteLine("***************************************************************");
         }
         
         
@@ -75,7 +69,7 @@ namespace Phrazer
                     {
                         using (WaveFileReader reader = new WaveFileReader(audioStream))
                         {
-                            Console.WriteLine(reader.WaveFormat);
+                            //Console.WriteLine(reader.WaveFormat);
                             if (waveFileWriter == null)
                             {
                                 // first time in create new Writer
