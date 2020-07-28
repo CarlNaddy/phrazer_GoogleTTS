@@ -55,6 +55,15 @@ namespace Phrazer
             return rowTime;
         }
 
+        public static int GetFolderNumber(string text)
+        {
+            int minutesPerPackage = 5;
+            // Get time in seconds
+            string[] timeArray = text.Split(":");
+            int timeInSeconds = int.Parse(timeArray[0]) * 3600 + int.Parse(timeArray[1]) * 60 + int.Parse(timeArray[2]);
+            return (int) (Math.Floor((decimal) timeInSeconds/(minutesPerPackage * 62)) + 1);
+        }
+
         public static int GetWordsCount(string text)
         {
             return text.Split(" ").Length;

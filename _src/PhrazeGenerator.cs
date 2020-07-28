@@ -121,7 +121,7 @@ namespace Phrazer
             ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
             RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
             // time based folder suffix (only if rowTime provided in the right format)
-            if(RowTime.Length == 8) FolderSuffix = "_" + RowTime.Replace(":","").Substring(1, 2);
+            if(RowTime.Length == 8) FolderSuffix = "_" + ("" + GTTSHelper.GetFolderNumber(RowTime)).PadLeft(2, '0');
 
             if (RowNumberCsv == 1)
             {
