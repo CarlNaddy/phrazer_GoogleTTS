@@ -8,3 +8,4 @@ _appdata/_extern/inputVTT/*
 _appdata/_extern/outputTSV/*
 _appdata/_extern/outputTSV/*
 !.gitkeep
+_appdata/ThePursuitOfHappiness.tsv

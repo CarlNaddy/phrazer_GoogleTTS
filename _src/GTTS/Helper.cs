@@ -48,18 +48,21 @@ namespace Phrazer
             return " <break time=\"" + time.Trim() + "\"/> ";
         }
 
-        public static string FormatRowTime(string text)
+        public static string GetFormattedTimeCode(string rowTime)
         {
-            string rowTime = text.Replace(":", ".").Substring(1);
-            if(rowTime.StartsWith("0.")) rowTime = rowTime.Substring(2);
+            if(rowTime.Length == 8) return rowTime.Replace(":", "").Substring(2);
             return rowTime;
         }
 
-        public static int GetFolderNumber(string text)
+        public static int GetFolderNumber(string rowTime, bool justHour)
         {
+            if(rowTime.Length != 8) return 0;
+
+            if(justHour) return int.Parse(rowTime.Substring(0, 2));
+
             int minutesPerPackage = 5;
             // Get time in seconds
-            string[] timeArray = text.Split(":");
+            string[] timeArray = rowTime.Split(":");
             int timeInSeconds = int.Parse(timeArray[0]) * 3600 + int.Parse(timeArray[1]) * 60 + int.Parse(timeArray[2]);
             return (int) (Math.Floor((decimal) timeInSeconds/(minutesPerPackage * 62)) + 1);
         }

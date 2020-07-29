@@ -16,7 +16,7 @@ namespace Phrazer
         public string ToText { get; set; }
         public int MaxTextLength { get; set; }
         public string ProjectType { get; set; }
-        public int FilesPerFolder { get; set; }
+        public bool ShouldSplitInFolders { get; set; }
         public string FolderSuffix { get; set; }
         public string RowTime { get; set; }
         public string CurrentVoice { get; set; }
@@ -27,7 +27,7 @@ namespace Phrazer
         {
             MaxTextLength = 130;
             ProjectType = "";
-            FilesPerFolder = 100;
+            ShouldSplitInFolders = true;
             RowTime = "";
         }
 
@@ -47,10 +47,12 @@ namespace Phrazer
         {
             string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
             if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr;
-            
+
+            // create time code if available
+            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime) + "." + ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+
             // buildup is default procedure
-            string wordsCountStr = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
-            return wordsCountStr;
+            return ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
         }
 
 
@@ -61,8 +63,8 @@ namespace Phrazer
             string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
 
             // Generate a file from the script and save
-            string fileSuffix = "-" + GTTSHelper.FormatRowTime(RowTime);
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ")" + fileSuffix + ".wav");
+            
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ").wav");
             
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
@@ -103,8 +105,6 @@ namespace Phrazer
             foreach (string csvString in rows)
             {
                 RowNumberCsv++;
-                // row based folder suffix
-                FolderSuffix = "_" + ("" + Math.Ceiling((decimal) RowNumberCsv / FilesPerFolder)).PadLeft(2, '0');
                 ProceedRow(csvString);
             }
         }
@@ -121,7 +121,7 @@ namespace Phrazer
             ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
             RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
             // time based folder suffix (only if rowTime provided in the right format)
-            if(RowTime.Length == 8) FolderSuffix = "_" + ("" + GTTSHelper.GetFolderNumber(RowTime)).PadLeft(2, '0');
+            if(ShouldSplitInFolders == true && RowTime.Length == 8) FolderSuffix = "_h" + ("" + GTTSHelper.GetFolderNumber(RowTime, true));
 
             if (RowNumberCsv == 1)
             {
@@ -176,7 +176,7 @@ namespace Phrazer
         public int GetWaitTime(string text, bool includingThingingTime)
         {
             double thinkingTime = 0;
-            double repeatingTime = text.Split(" ").Length * 0.25 + 2;
+            double repeatingTime = text.Split(" ").Length * 0.2 + 2;
             if(includingThingingTime)
                 thinkingTime = text.Split(" ").Length * 0.15;
                 
