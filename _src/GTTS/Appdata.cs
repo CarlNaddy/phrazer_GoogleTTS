@@ -21,6 +21,7 @@ namespace Phrazer
 
         public static string GetSoundPath(string sound)
         {
+            // 24000 Khz Mono Wav only
             string package = "piano_mono";
             return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
         }

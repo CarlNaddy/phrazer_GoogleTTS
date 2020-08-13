@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 
 namespace Phrazer
@@ -25,9 +26,9 @@ namespace Phrazer
 
         public PhrazeGenerator()
         {
-            MaxTextLength = 130;
+            MaxTextLength = 128;
             ProjectType = "";
-            ShouldSplitInFolders = true;
+            ShouldSplitInFolders = false;
             RowTime = "";
         }
 
@@ -49,7 +50,7 @@ namespace Phrazer
             if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr;
 
             // create time code if available
-            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime) + "." + ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime);
 
             // buildup is default procedure
             return ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
@@ -162,15 +163,27 @@ namespace Phrazer
             Generator.ConcatAndSaveWavContents(fileName);
         }
 
-        public string addHeadingSoundAndCut(string text, string heading)
+        public string addHeadingSoundAndCut(string FromText)
         {
-            if(text.Contains(heading)) {
-                if(heading == "###") Generator.JustAddWavSound("h3");
-                if(heading == "##") Generator.JustAddWavSound("h2");
-                if(heading == "#") Generator.JustAddWavSound("h1");
-                return text.Replace(heading, "");
+            // Just for Compat with legacy stuff
+            if(FromText.StartsWith("### ")) { Generator.JustAddWavSound("h3"); FromText = FromText.Replace("### ", ""); }
+            if(FromText.StartsWith("## ")) { Generator.JustAddWavSound("h2"); FromText = FromText.Replace("## ", ""); }
+            if(FromText.StartsWith("# ")) { Generator.JustAddWavSound("h1"); FromText = FromText.Replace("# ", ""); }
+
+
+            // Add sound file by name
+            if(FromText.StartsWith("#")) {
+                Match match = Regex.Match(FromText, @"^#([a-zA-Z0-9]+)\.");
+                if(match.Success) {
+                    string headingPrefix = match.Value;
+                    string soundName = headingPrefix.TrimStart('#').TrimEnd('.');
+
+                    Generator.JustAddWavSound(soundName); FromText = FromText.Replace(headingPrefix, "").Trim();
+                }
             }
-            return text;
+
+            
+            return FromText;
         }
 
         public int GetWaitTime(string text, bool includingThingingTime)
@@ -189,6 +202,9 @@ namespace Phrazer
             if (ToText.Length > MaxTextLength) return;
             if (File.Exists(GetOutputFilename())) return;
 
+            // add some SOUNDS
+            FromText = addHeadingSoundAndCut(FromText);
+
             // replace TEXTS
             text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
             text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
@@ -202,12 +218,8 @@ namespace Phrazer
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
             text = text.Replace(";", GTTSHelper.GetBreakSsmlTag("200ms"));
+            text = text.Replace("...", GTTSHelper.GetBreakSsmlTag("250ms"));
             text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("300ms"));
-
-            // add some SOUNDS
-            text = addHeadingSoundAndCut(text, "###");
-            text = addHeadingSoundAndCut(text, "##");
-            text = addHeadingSoundAndCut(text, "#");
 
             // Than SPLIT
             string[] csvEntries = text.Split(':');

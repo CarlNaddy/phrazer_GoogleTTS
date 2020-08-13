@@ -50,7 +50,7 @@ namespace Phrazer
 
         public static string GetFormattedTimeCode(string rowTime)
         {
-            if(rowTime.Length == 8) return rowTime.Replace(":", "").Substring(2);
+            if(rowTime.Length == 8) return rowTime.Replace(":", ".").Substring(1);
             return rowTime;
         }
 
