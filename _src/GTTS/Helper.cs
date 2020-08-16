@@ -23,6 +23,7 @@ namespace Phrazer
         public static string GetSanitizedText(string text, string forWhat)
         {
             text = text.Replace(":", ","); // Wichtiges Trennzeichen
+            text = text.Replace("/", " ");
             text = text.Replace("’", "'");
             text = text.Replace("♪", "");
             text = text.Trim();
@@ -50,7 +51,7 @@ namespace Phrazer
 
         public static string GetFormattedTimeCode(string rowTime)
         {
-            if(rowTime.Length == 8) return rowTime.Replace(":", ".").Substring(1);
+            if(rowTime.Length == 8) return rowTime.Replace(":", "").Substring(1);
             return rowTime;
         }
 

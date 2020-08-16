@@ -47,13 +47,17 @@ namespace Phrazer
         public string GetOutputFilenamePrefix()
         {
             string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
-            if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr;
+            string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+            
+            // make a sorted bunch of files
+            if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr + "." + wordCount + ".";
 
             // create time code if available
-            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime);
+            
+            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime) + "." + wordCount + ".";
 
             // buildup is default procedure
-            return ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+            return wordCount + ".";
         }
 
 
@@ -65,7 +69,7 @@ namespace Phrazer
 
             // Generate a file from the script and save
             
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + "." + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ").wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ").wav");
             
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
