@@ -77,6 +77,7 @@ namespace Phrazer
             tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
 
             string textBuffer = "";
+            int maxBufferSize = 90;
             int rowNumber = 1;
             string time = "";
 
@@ -90,14 +91,17 @@ namespace Phrazer
                 if(time == "") continue;
 
                 string rowText = SanitizeText(row);
-
                 foreach(string word in rowText.Split(" "))
                 {
-                    if(ShouldCreateNewRow(textBuffer))
+                    if(ShouldCreateNewRow(textBuffer, word))
                     {
                         SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
+                }
+
+                if(textBuffer.Length + row.Length > maxBufferSize) {
+                    SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                 }
             }
             SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time); // flush last buffer before save
@@ -127,10 +131,13 @@ namespace Phrazer
             return false;
         }
 
-        public bool ShouldCreateNewRow(string textBuffer)
+        public bool ShouldCreateNewRow(string textBuffer, string word)
         {
+            
+            // Experimantal end of phrase recognition feature
             if(
-                NextRowSignDetected(textBuffer)
+                StartingWordDetected(textBuffer, word)
+                || EndOfPhraseDetected(textBuffer, word)
                 && !textBuffer.EndsWith("Mr.")
                 && !textBuffer.EndsWith("Mrs.")
                 && !textBuffer.EndsWith("Dr.")
@@ -142,12 +149,29 @@ namespace Phrazer
             return false;
         }
 
-        public bool NextRowSignDetected(string textBuffer)
+        public bool StartingWordDetected(string textBuffer, string word)
         {
             if(
-                textBuffer.EndsWith(".")
-                || textBuffer.EndsWith("?")
-                || textBuffer.EndsWith("!")
+                word.StartsWith("We're")
+                || word.StartsWith("The")
+                || word.StartsWith("Then")
+                || word.StartsWith("To")
+                || word.StartsWith("In")
+                || word.StartsWith("So")
+                || word.StartsWith("Perhaps")
+            ) return true;
+
+            return false;
+        }
+        public bool EndOfPhraseDetected(string textBuffer, string word)
+        {
+            if(
+                textBuffer.Length > 20 && textBuffer.EndsWith(",")
+                || textBuffer.Length > 20 && textBuffer.EndsWith("-")
+                || textBuffer.Length > 5 && textBuffer.EndsWith(".")
+                || textBuffer.Length > 5 && textBuffer.EndsWith(":")
+                || textBuffer.Length > 5 && textBuffer.EndsWith("?")
+                || textBuffer.Length > 5 && textBuffer.EndsWith("!")
                 || textBuffer.EndsWith(")")
                 || textBuffer.EndsWith("]")
                 || textBuffer.EndsWith("--")
@@ -161,10 +185,8 @@ namespace Phrazer
         static string SanitizeText(string text)
         {
             text = Regex.Replace(text, @"\s+", " ");
-
             text = RemoveBracketsText(text, '[', ']');
             text = RemoveBracketsText(text, '(', ')');
-
             text = text.Trim();
             //text = text.Replace(":", ","); // Wichtiges Trennzeichen
             text = text.Replace("\t", "");
