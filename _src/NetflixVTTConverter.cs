@@ -77,8 +77,8 @@ namespace Phrazer
             tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
 
             string textBuffer = "";
-            int maxBufferSize = 90;
-            int rowNumber = 1;
+            int maxBufferSize = 70;
+            int rowNumber = 10;
             string time = "";
 
             foreach (string row in rows)
@@ -93,16 +93,16 @@ namespace Phrazer
                 string rowText = SanitizeText(row);
                 foreach(string word in rowText.Split(" "))
                 {
-                    if(ShouldCreateNewRow(textBuffer, word))
+                    if(textBuffer.Length > maxBufferSize || ShouldCreateNewRow(textBuffer, word))
                     {
                         SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
                 }
 
-                if(textBuffer.Length + row.Length > maxBufferSize) {
-                    SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
-                }
+                // if(textBuffer.Length > maxBufferSize) {
+                //     SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
+                // }
             }
             SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows, Encoding.UTF8);
@@ -112,14 +112,15 @@ namespace Phrazer
         {
             if(textBuffer.Length > 0 && time.Length > 0) {
                 string kontrollText = textBuffer;
+                bool allowRepeat = true;
 
                 // Add this to remove doubles ignoring special chars
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled);
 
                 if(!dieKontrollliste.Contains(kontrollText)) {
                     tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + rowNumber + "\t" + time);
-                    rowNumber++;
-                    dieKontrollliste.Add(kontrollText);
+                    rowNumber += 10;
+                    if(!allowRepeat) dieKontrollliste.Add(kontrollText);
                 }
                 textBuffer = "";
             }
@@ -166,8 +167,8 @@ namespace Phrazer
         public bool EndOfPhraseDetected(string textBuffer, string word)
         {
             if(
-                textBuffer.Length > 20 && textBuffer.EndsWith(",")
-                || textBuffer.Length > 20 && textBuffer.EndsWith("-")
+                textBuffer.Length > 25 && textBuffer.EndsWith(",")
+                || textBuffer.Length > 25 && textBuffer.EndsWith("-")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(".")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(":")
                 || textBuffer.Length > 5 && textBuffer.EndsWith("?")

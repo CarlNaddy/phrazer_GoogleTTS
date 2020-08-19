@@ -34,7 +34,7 @@ namespace Phrazer
 
         public string GetOutputFilenamePrefix()
         {
-            string rowNumberStr = ("" + RowNumber).PadLeft(3, '0');
+            string rowNumberStr = ("" + RowNumber).PadLeft(4, '0');
             string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
 
             if(RowTime.Length == 8) return rowNumberStr + wordCount + ".";
