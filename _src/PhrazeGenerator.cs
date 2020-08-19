@@ -9,16 +9,16 @@ namespace Phrazer
     class PhrazeGenerator
     {
         public string InputFileName { get; set; }
-        public int RowNumberCsv { get; set; }
         public int RowNumberTpl { get; set; }
         public string FromLang { get; set; }
         public string ToLang { get; set; }
         public string FromText { get; set; }
         public string ToText { get; set; }
         public int MaxTextLength { get; set; }
-        public string ProjectType { get; set; }
         public bool ShouldSplitInFolders { get; set; }
         public string FolderSuffix { get; set; }
+
+        public int RowNumber { get; set; }
         public string RowTime { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
@@ -26,35 +26,19 @@ namespace Phrazer
 
         public PhrazeGenerator()
         {
-            MaxTextLength = 128;
-            ProjectType = "";
+            FromLang = "";
+            ToLang = "";
+            MaxTextLength = 120;
             ShouldSplitInFolders = false;
             RowTime = "";
         }
 
-        public List<string> GetAllowedProjectTypes()
-        {
-            List<string> allowedProjectTypes = new List<string>();
-
-            allowedProjectTypes.Add("buildup");
-            allowedProjectTypes.Add("sorted");
-            allowedProjectTypes.Add("dialogue");
-            allowedProjectTypes.Add("text");
-            
-            return allowedProjectTypes;
-        }
-
         public string GetOutputFilenamePrefix()
         {
-            string rowNumberStr = ("" + (RowNumberCsv - 1)).PadLeft(3, '0');
+            string rowNumberStr = ("" + RowNumber).PadLeft(3, '0');
             string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
-            
-            // make a sorted bunch of files
-            if (ProjectType == "sorted" || ProjectType == "dialogue") return rowNumberStr + "." + wordCount + ".";
 
-            // create time code if available
-            
-            if(RowTime.Length == 8) return GTTSHelper.GetFormattedTimeCode(RowTime) + "." + wordCount + ".";
+            if(RowTime.Length == 8) return rowNumberStr + "." + wordCount + ".";
 
             // buildup is default procedure
             return wordCount + ".";
@@ -69,7 +53,10 @@ namespace Phrazer
 
             // Generate a file from the script and save
             
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() + GTTSHelper.Substring(toText, 0, MaxTextLength) + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ").wav");
+            string OFileName = AdjustPath(GetOutputFilenamePrefix() 
+            + GTTSHelper.Substring(toText, 0, MaxTextLength) 
+            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ") " 
+            + GTTSHelper.GetFormattedTimeCode(RowTime) + ".wav");
             
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
@@ -77,14 +64,6 @@ namespace Phrazer
         private string AdjustPath(string Input)
         {
             return System.Text.RegularExpressions.Regex.Replace(Input, @"[\\/:*?""<>|]", string.Empty);
-        }
-
-        private string FormatProjectType(string text)
-        {
-            int maxLength = 20;
-            text = text.Trim().ToLower();
-            if (text.Length > maxLength) text = text.Substring(0, maxLength);
-            return text;
         }
 
         static public void ProceedAllInputPhrazerFiles()
@@ -106,11 +85,9 @@ namespace Phrazer
             InputFileName = currentFileName;
             string[] rows = File.ReadAllLines(InputFileName);
 
-            RowNumberCsv = 0;
-            foreach (string csvString in rows)
+            foreach (string csvRow in rows)
             {
-                RowNumberCsv++;
-                ProceedRow(csvString);
+                ProceedRow(csvRow);
             }
         }
 
@@ -123,12 +100,12 @@ namespace Phrazer
             if (csvEntries.Length < 2) return; // Skip not well defined rows
 
             // Project Metadata / Params to set before creating audio
-            ProjectType = (csvEntries.Length > 2 && csvEntries[2].Trim().Length > 0) ? FormatProjectType(csvEntries[2]) : ProjectType;
+            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
             RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
             // time based folder suffix (only if rowTime provided in the right format)
-            if(ShouldSplitInFolders == true && RowTime.Length == 8) FolderSuffix = "_h" + ("" + GTTSHelper.GetFolderNumber(RowTime, true));
+            if(ShouldSplitInFolders == true && RowTime.Length == 8) FolderSuffix = "_" + ("" + GTTSHelper.GetFolderNumber(RowTime, true));
 
-            if (RowNumberCsv == 1)
+            if (FromLang == "" && ToLang == "")
             {
                 FromLang = csvEntries[0].Trim();
                 ToLang = csvEntries[1].Trim();
@@ -239,15 +216,6 @@ namespace Phrazer
 
         public string GetTemplateName()
         {
-            // Dialogue / conversation is a special format.
-            if(ProjectType == "dialogue") {
-                if(RowNumberCsv % 2 == 0) {
-                    return "dialogue_even.tpl";
-                } else {
-                    return "dialogue_odd.tpl";
-                }
-            }
-
             // if no TEXT_FROM, then make just text
             if(FromText.Length == 0) {
                 return "text_2.tpl";
