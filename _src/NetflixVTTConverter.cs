@@ -74,9 +74,10 @@ namespace Phrazer
             string[] rows = File.ReadAllLines(currentFileName);
             
             // Add header
-            tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LENGTH" + "\t" + "TAGS" + "\t" + "TIME");
+            tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
 
             string textBuffer = "";
+            int rowNumber = 1;
             string time = "";
 
             foreach (string row in rows)
@@ -94,16 +95,16 @@ namespace Phrazer
                 {
                     if(ShouldCreateNewRow(textBuffer))
                     {
-                        SaveTextBufferToList(ref textBuffer, ref time);
+                        SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
                 }
             }
-            SaveTextBufferToList(ref textBuffer, ref time); // flush last buffer before save
+            SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows, Encoding.UTF8);
         }
 
-        public void SaveTextBufferToList(ref string textBuffer, ref string time)
+        public void SaveTextBufferToList(ref string textBuffer, ref int rowNumber, ref string time)
         {
             if(textBuffer.Length > 0 && time.Length > 0) {
                 string kontrollText = textBuffer;
@@ -112,7 +113,8 @@ namespace Phrazer
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled);
 
                 if(!dieKontrollliste.Contains(kontrollText)) {
-                    tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + "vtt" + "\t" + time);
+                    tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + rowNumber + "\t" + time);
+                    rowNumber++;
                     dieKontrollliste.Add(kontrollText);
                 }
                 textBuffer = "";
