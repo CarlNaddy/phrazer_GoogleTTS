@@ -51,21 +51,16 @@ namespace Phrazer
 
         public static string GetFormattedTimeCode(string rowTime)
         {
-            if(rowTime.Length == 8) return "[" + rowTime.Replace(":", ".").Substring(1) + "]";
+            if(rowTime.Length == 8) return rowTime.Replace(":", ".").Substring(1);
             return rowTime;
         }
 
-        public static int GetFolderNumber(string rowTime, bool justHour)
+        public static string GetFolderSuffix(int rowNumber)
         {
-            if(rowTime.Length != 8) return 0;
-
-            if(justHour) return int.Parse(rowTime.Substring(0, 2));
-
-            int minutesPerPackage = 5;
-            // Get time in seconds
-            string[] timeArray = rowTime.Split(":");
-            int timeInSeconds = int.Parse(timeArray[0]) * 3600 + int.Parse(timeArray[1]) * 60 + int.Parse(timeArray[2]);
-            return (int) (Math.Floor((decimal) timeInSeconds/(minutesPerPackage * 62)) + 1);
+            if(rowNumber == 0) return "";
+            int folderNumber = (int) (Math.Ceiling(((decimal)rowNumber / 500)));
+            if(folderNumber > 1) return "_" + folderNumber;
+            return "";
         }
 
         public static int GetWordsCount(string text)
@@ -75,6 +70,7 @@ namespace Phrazer
 
         public static string Substring(string text, int start, int length)
         {
+            
             if(text.Length >= length) return text.Substring(start, length);
             return text;
         }

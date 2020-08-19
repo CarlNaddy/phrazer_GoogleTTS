@@ -14,12 +14,10 @@ namespace Phrazer
         public string ToLang { get; set; }
         public string FromText { get; set; }
         public string ToText { get; set; }
-        public int MaxTextLength { get; set; }
-        public bool ShouldSplitInFolders { get; set; }
-        public string FolderSuffix { get; set; }
-
         public int RowNumber { get; set; }
         public string RowTime { get; set; }
+        public int MaxTextLength { get; set; }
+        public string FolderSuffix { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
@@ -29,8 +27,9 @@ namespace Phrazer
             FromLang = "";
             ToLang = "";
             MaxTextLength = 120;
-            ShouldSplitInFolders = false;
+            RowNumber = 0;
             RowTime = "";
+            FolderSuffix = "";
         }
 
         public string GetOutputFilenamePrefix()
@@ -38,7 +37,7 @@ namespace Phrazer
             string rowNumberStr = ("" + RowNumber).PadLeft(3, '0');
             string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
 
-            if(RowTime.Length == 8) return rowNumberStr + "." + wordCount + ".";
+            if(RowTime.Length == 8) return rowNumberStr + wordCount + ".";
 
             // buildup is default procedure
             return wordCount + ".";
@@ -55,7 +54,7 @@ namespace Phrazer
             
             string OFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
-            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - toText.Length) + ") " 
+            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ") " 
             + GTTSHelper.GetFormattedTimeCode(RowTime) + ".wav");
             
             return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
@@ -96,15 +95,8 @@ namespace Phrazer
         public void ProceedRow(string csvRow)
         {
             string[] csvEntries = csvRow.Split('\t');
-
             if (csvEntries.Length < 2) return; // Skip not well defined rows
-
-            // Project Metadata / Params to set before creating audio
-            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
-            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
-            // time based folder suffix (only if rowTime provided in the right format)
-            if(ShouldSplitInFolders == true && RowTime.Length == 8) FolderSuffix = "_" + ("" + GTTSHelper.GetFolderNumber(RowTime, true));
-
+            
             if (FromLang == "" && ToLang == "")
             {
                 FromLang = csvEntries[0].Trim();
@@ -114,9 +106,13 @@ namespace Phrazer
 
             FromText = csvEntries[0].Trim();
             ToText = csvEntries[1].Trim();
+            if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
 
-            // if nothing todo dont start the generator. Just skip!
-            if(FromText.Length < 1 && ToText.Length < 1) return;
+            // Project Metadata / Params to set before creating audio
+            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
+            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
+            // time based folder suffix (only if rowTime provided in the right format)
+            if(RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
             ProcessTplFile();
         }
