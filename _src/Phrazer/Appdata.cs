@@ -5,9 +5,9 @@ using System.Text;
 namespace Phrazer
 {
 
-    class GTTSAppdata
+    class Appdata
     {
-        public GTTSAppdata(){
+        public Appdata(){
         }
         public static string GetAppdataPath()
         {

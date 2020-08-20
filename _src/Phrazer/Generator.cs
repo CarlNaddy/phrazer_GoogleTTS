@@ -52,7 +52,7 @@ namespace Phrazer
 
         public void JustAddWavSound(string sound)
         {
-            string fileName = GTTSAppdata.GetSoundPath(sound);
+            string fileName = Appdata.GetSoundPath(sound);
             if(File.Exists(fileName)) AudioContents.Add(File.ReadAllBytes(fileName));
         }
 

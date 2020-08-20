@@ -57,7 +57,7 @@ namespace Phrazer
             + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ") " 
             + GTTSHelper.GetFormattedTimeCode(RowTime) + ".wav");
             
-            return GTTSAppdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
+            return Appdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
 
         private string AdjustPath(string Input)
@@ -67,7 +67,7 @@ namespace Phrazer
 
         static public void ProceedAllInputPhrazerFiles()
         {
-            string[] files = Directory.GetFiles(GTTSAppdata.GetCsvPath(), "*.tsv");
+            string[] files = Directory.GetFiles(Appdata.GetCsvPath(), "*.tsv");
             foreach(string file in files) {
                 PhrazeGenerator obj = new PhrazeGenerator();
                 obj.ProceedCsvFile(file);
@@ -124,7 +124,7 @@ namespace Phrazer
         {
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(GTTSAppdata.GetTplPath(GetTemplateName()));
+            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GetTemplateName()));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {

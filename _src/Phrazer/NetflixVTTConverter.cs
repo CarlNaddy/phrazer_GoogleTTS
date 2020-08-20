@@ -41,12 +41,12 @@ namespace Phrazer
 
         public static string GetInputPath()
         {
-            return GTTSAppdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "inputVTT" + Path.DirectorySeparatorChar;
+            return Appdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "inputVTT" + Path.DirectorySeparatorChar;
         }
 
         public static string GetOutputAbsoluteFilename(string currentFileName)
         {
-            string path = GTTSAppdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "outputTSV" + Path.DirectorySeparatorChar;
+            string path = Appdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "outputTSV" + Path.DirectorySeparatorChar;
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }
