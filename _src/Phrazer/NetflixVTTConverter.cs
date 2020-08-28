@@ -12,6 +12,7 @@ namespace Phrazer
     {
         List<string> tsvRows = new List<string>();
         HashSet<string> dieKontrollliste = new HashSet<string>();
+        HashSet<string> dieTimeCodeKontrollliste = new HashSet<string>();
 
         public static string GetOutputTime(string text)
         {
@@ -59,7 +60,6 @@ namespace Phrazer
             foreach(string file in files) {
                 NetflixVTTConverter obj = new NetflixVTTConverter();
                 obj.ProcessVTTFile(file);
-
             }
         }
 
@@ -77,16 +77,16 @@ namespace Phrazer
             tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
 
             string textBuffer = "";
-            int maxBufferSize = 70;
-            int rowNumber = 10;
+            int maxBufferSize = 90;
+            int rowNumber = 1;
             string time = "";
 
             foreach (string row in rows)
             {
                 if(row.Trim() == "") continue;
                 if(GetOutputTime(row).Length > 0) {
-                        time = GetOutputTime(row);
-                        continue;
+                    time = GetOutputTime(row);
+                    continue;
                 }
                 if(time == "") continue;
 
@@ -100,13 +100,24 @@ namespace Phrazer
                     textBuffer = (textBuffer + " " + word).Trim();
                 }
 
-                // if(textBuffer.Length > maxBufferSize) {
-                //     SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
-                // }
+                if(textBuffer.Length > maxBufferSize) {
+                    SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
+                }
             }
             SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time); // flush last buffer before save
             File.WriteAllLines(GetOutputAbsoluteFilename(currentFileName), tsvRows, Encoding.UTF8);
         }
+
+        public string GetTimeCodeSuffix(string currentTime)
+        {
+            string[] signs = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+
+            for(int i = 0; i < signs.Length; i++) {
+                if(!dieTimeCodeKontrollliste.Contains(currentTime + signs[i])) return signs[i];
+            }
+            return "_ERROR";
+        }
+
 
         public void SaveTextBufferToList(ref string textBuffer, ref int rowNumber, ref string time)
         {
@@ -116,10 +127,11 @@ namespace Phrazer
 
                 // Add this to remove doubles ignoring special chars
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled);
-
                 if(!dieKontrollliste.Contains(kontrollText)) {
-                    tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + rowNumber + "\t" + time);
-                    rowNumber += 10;
+                    string timeCode = time + GetTimeCodeSuffix(time);
+                    tsvRows.Add("" + "\t" + textBuffer + "\t" + WordCount(textBuffer) + "\t" + rowNumber + "\t" + timeCode);
+                    dieTimeCodeKontrollliste.Add(timeCode);
+                    rowNumber ++;
                     if(!allowRepeat) dieKontrollliste.Add(kontrollText);
                 }
                 textBuffer = "";
@@ -144,6 +156,7 @@ namespace Phrazer
                 && !textBuffer.EndsWith("Dr.")
                 && !textBuffer.EndsWith("U.S.")
                 && !textBuffer.EndsWith("K.O.")
+                && !textBuffer.EndsWith("C.E.O.")
                 && textBuffer.Length > 2
             ) return true;
 

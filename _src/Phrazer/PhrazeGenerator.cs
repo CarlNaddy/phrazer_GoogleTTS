@@ -15,8 +15,9 @@ namespace Phrazer
         public string FromText { get; set; }
         public string ToText { get; set; }
         public int RowNumber { get; set; }
-        public string RowTime { get; set; }
+        public string TimeCode { get; set; }
         public int MaxTextLength { get; set; }
+        public string FilenamePrefixFormat { get; set; }
         public string FolderSuffix { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
@@ -28,7 +29,8 @@ namespace Phrazer
             ToLang = "";
             MaxTextLength = 120;
             RowNumber = 0;
-            RowTime = "";
+            TimeCode = "";
+            FilenamePrefixFormat = "timecode";
             FolderSuffix = "";
         }
 
@@ -37,13 +39,11 @@ namespace Phrazer
             string rowNumberStr = ("" + RowNumber).PadLeft(4, '0');
             string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
 
-            if(RowTime.Length == 8) return rowNumberStr + wordCount + ".";
-
-            // buildup is default procedure
-            return wordCount + ".";
+            if(FilenamePrefixFormat == "timecode" && TimeCode.Length > 0) return TimeCode + ".";
+            if(FilenamePrefixFormat == "sorted" && RowNumber > 0) return rowNumberStr + wordCount + ".";
+            
+            return wordCount + "."; // buildup is default procedure
         }
-
-
 
         public string GetOutputFilename()
         {
@@ -54,8 +54,8 @@ namespace Phrazer
             
             string OFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
-            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ") " 
-            + GTTSHelper.GetFormattedTimeCode(RowTime) + ".wav");
+            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ")" 
+            + ".wav");
             
             return Appdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
         }
@@ -110,7 +110,7 @@ namespace Phrazer
 
             // Project Metadata / Params to set before creating audio
             RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
-            RowTime = (csvEntries.Length > 4 && csvEntries[4].Trim().Length == 8) ? csvEntries[4].Trim() : RowTime;
+            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GTTSHelper.GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
             // time based folder suffix (only if rowTime provided in the right format)
             if(RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
@@ -212,6 +212,10 @@ namespace Phrazer
 
         public string GetTemplateName()
         {
+            if(FromLang == "DE" && ToLang == "DE") {
+                return "de_de.tpl";
+            }
+
             // if no TEXT_FROM, then make just text
             if(FromText.Length == 0) {
                 return "text_2.tpl";

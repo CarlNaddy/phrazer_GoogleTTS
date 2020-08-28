@@ -49,10 +49,17 @@ namespace Phrazer
             return " <break time=\"" + time.Trim() + "\"/> ";
         }
 
-        public static string GetFormattedTimeCode(string rowTime)
+        public static string GetFormattedTimeCode(string timeCode)
         {
-            if(rowTime.Length == 8) return rowTime.Replace(":", ".").Substring(1);
-            return rowTime;
+            if(timeCode.Length < 8 && !timeCode.Contains(":")) return timeCode;
+
+            string formattedTime = timeCode;
+            formattedTime = timeCode.Replace(":", "").Replace("a", "");
+            if(formattedTime.StartsWith("00")) return formattedTime.Substring(2);
+            if(formattedTime.StartsWith("01")) return "I" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("02")) return "II" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("03")) return "III" + formattedTime.Substring(2);
+            return timeCode;
         }
 
         public static string GetFolderSuffix(int rowNumber)
