@@ -16,7 +16,9 @@ namespace Phrazer
         public string ToText { get; set; }
         public int RowNumber { get; set; }
         public string TimeCode { get; set; }
+        public string TimeCodeList { get; set; }
         public int MaxTextLength { get; set; }
+        public bool SkipWithoutTranslation { get; set; }
         public string FilenamePrefixFormat { get; set; }
         public string FolderSuffix { get; set; }
         public string CurrentVoice { get; set; }
@@ -30,8 +32,10 @@ namespace Phrazer
             MaxTextLength = 120;
             RowNumber = 0;
             TimeCode = "";
+            TimeCodeList = "";
             FilenamePrefixFormat = "timecode";
             FolderSuffix = "";
+            SkipWithoutTranslation = true;
         }
 
         public string GetOutputFilenamePrefix()
@@ -84,6 +88,7 @@ namespace Phrazer
             InputFileName = currentFileName;
             string[] rows = File.ReadAllLines(InputFileName);
 
+            FillTheTimeCodeList(rows);
             foreach (string csvRow in rows)
             {
                 ProceedRow(csvRow);
@@ -107,10 +112,11 @@ namespace Phrazer
             FromText = csvEntries[0].Trim();
             ToText = csvEntries[1].Trim();
             if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
+            if(FromText.Length < 1 && SkipWithoutTranslation == true) return; 
 
             // Project Metadata / Params to set before creating audio
             RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
-            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GTTSHelper.GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
+            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
             // time based folder suffix (only if rowTime provided in the right format)
             if(RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
@@ -223,6 +229,37 @@ namespace Phrazer
 
             // else just a usual audioflashcard
             return "phrase_3.tpl";
+        }
+
+
+        public void FillTheTimeCodeList(string[] rows)
+        {
+            string timeCode = "";
+            foreach (string csvRow in rows)
+            {
+                string[] csvEntries = csvRow.Split('\t');
+                if (csvEntries.Length < 2) return; // Skip not well defined rows
+                timeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? csvEntries[4].Trim() : "";
+                TimeCodeList = TimeCodeList + "_" + timeCode;
+            }
+        }
+
+        public string GetFormattedTimeCode(string timeCode)
+        {
+            if(timeCode.Length < 8 && !timeCode.Contains(":")) return timeCode;
+
+            string formattedTime = timeCode;
+            formattedTime = timeCode.Replace(":", "");
+
+            if(timeCode.EndsWith("a")) {
+                if(!TimeCodeList.Contains("_" + timeCode.Replace("a", "") + "b")) formattedTime = formattedTime.Replace("a", "");
+            }
+
+            if(formattedTime.StartsWith("00")) return formattedTime.Substring(2);
+            if(formattedTime.StartsWith("01")) return "I" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("02")) return "II" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("03")) return "III" + formattedTime.Substring(2);
+            return timeCode;
         }
     }
 }

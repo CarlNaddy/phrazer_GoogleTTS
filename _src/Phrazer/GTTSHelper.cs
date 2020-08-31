@@ -26,6 +26,8 @@ namespace Phrazer
             text = text.Replace("/", " ");
             text = text.Replace("’", "'");
             text = text.Replace("♪", "");
+            text = text.Replace("... ", "...");
+            text = text.Replace(" ...", "...");
             text = text.Trim();
             text = text.Trim(',');
             text = text.Trim('.');
@@ -49,18 +51,6 @@ namespace Phrazer
             return " <break time=\"" + time.Trim() + "\"/> ";
         }
 
-        public static string GetFormattedTimeCode(string timeCode)
-        {
-            if(timeCode.Length < 8 && !timeCode.Contains(":")) return timeCode;
-
-            string formattedTime = timeCode;
-            formattedTime = timeCode.Replace(":", "").Replace("a", "");
-            if(formattedTime.StartsWith("00")) return formattedTime.Substring(2);
-            if(formattedTime.StartsWith("01")) return "I" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("02")) return "II" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("03")) return "III" + formattedTime.Substring(2);
-            return timeCode;
-        }
 
         public static string GetFolderSuffix(int rowNumber)
         {
