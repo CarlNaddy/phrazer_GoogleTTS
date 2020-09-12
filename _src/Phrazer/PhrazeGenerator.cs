@@ -21,6 +21,7 @@ namespace Phrazer
         public bool SkipWithoutTranslation { get; set; }
         public string FilenamePrefixFormat { get; set; }
         public string FolderSuffix { get; set; }
+        public bool FolderSuffixAllowed { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
@@ -35,6 +36,7 @@ namespace Phrazer
             TimeCodeList = "";
             FilenamePrefixFormat = "timecode";
             FolderSuffix = "";
+            FolderSuffixAllowed = false;
             SkipWithoutTranslation = true;
         }
 
@@ -124,8 +126,8 @@ namespace Phrazer
             // Project Metadata / Params to set before creating audio
             RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
             TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
-            // time based folder suffix (only if rowTime provided in the right format)
-            if(RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
+
+            if(FolderSuffixAllowed && RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
             ProcessTplFile();
         }
