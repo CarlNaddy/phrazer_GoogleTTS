@@ -55,13 +55,20 @@ namespace Phrazer
             string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
 
             // Generate a file from the script and save
+            string oFileName = "";
+
+            // Special format for Marcel
+            if(FromLang == "DE" && ToLang == "DE") {
+                oFileName = AdjustPath(fromText + " ..... ..... ..... .... .... .... ..... ..... ..... .... " + toText + ".wav");
+                return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
+            }
             
-            string OFileName = AdjustPath(GetOutputFilenamePrefix() 
+            oFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
             + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ")" 
             + ".wav");
             
-            return Appdata.GetExportPath(InputFileName, FolderSuffix) + OFileName;
+            return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
         }
 
         private string AdjustPath(string Input)
