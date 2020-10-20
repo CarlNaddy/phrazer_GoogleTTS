@@ -260,8 +260,9 @@ namespace Phrazer
             string formattedTime = timeCode;
             formattedTime = timeCode.Replace(":", "");
 
+            // no cut the "a" letter off, if no b-item provided
             if(timeCode.EndsWith("a")) {
-                if(!TimeCodeList.Contains("_" + timeCode.Replace("a", "") + "b")) formattedTime = formattedTime.Replace("a", "");
+                //if(!TimeCodeList.Contains("_" + timeCode.Replace("a", "") + "b")) formattedTime = formattedTime.Replace("a", "");
             }
 
             if(formattedTime.StartsWith("00")) return formattedTime.Substring(2);

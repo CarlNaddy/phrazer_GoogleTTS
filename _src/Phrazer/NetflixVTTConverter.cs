@@ -180,7 +180,7 @@ namespace Phrazer
         public bool EndOfPhraseDetected(string textBuffer, string word)
         {
             if(
-                textBuffer.Length > 25 && textBuffer.EndsWith(",")
+                textBuffer.Length > 25 && textBuffer.EndsWith(",") && !word.EndsWith(".")
                 || textBuffer.Length > 25 && textBuffer.EndsWith("-")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(".")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(":")
