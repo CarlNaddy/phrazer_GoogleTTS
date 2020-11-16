@@ -10,6 +10,7 @@ namespace Phrazer
         {
             // Uncomment if need to convert VTT files
             //NetflixVTTConverter.convertToTSV(); return;
+            //VTTConverter.convertToTSV(); return;
             
             PhrazeGenerator.ProceedAllInputPhrazerFiles();
         }

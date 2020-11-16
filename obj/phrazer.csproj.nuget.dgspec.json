@@ -40,6 +40,10 @@
               "target": "Package",
               "version": "[1.1.0-beta01, )"
             },
+            "Google.Cloud.Translation.V2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "NAudio": {
               "target": "Package",
               "version": "[1.9.0, )"

@@ -4,8 +4,6 @@ _appdata/input/*
 _appdata/export/*
 _appdata/export*/*
 _appdata/_extern/inputVTT/*
-_appdata/_extern/inputVTT/*
 _appdata/_extern/outputTSV/*
-_appdata/_extern/outputTSV/*
+_appdata/_history/*
 !.gitkeep
-_appdata/ThePursuitOfHappiness.tsv

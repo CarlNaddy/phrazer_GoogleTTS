@@ -14,11 +14,11 @@
           "lib/netstandard2.0/Google.Api.CommonProtos.dll": {}
         }
       },
-      "Google.Api.Gax/2.10.0-beta04": {
+      "Google.Api.Gax/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2",
-          "System.Interactive.Async": "[3.2.0, 4.0.0)"
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "lib/netstandard2.0/Google.Api.Gax.dll": {}
@@ -43,11 +43,23 @@
           "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {}
         }
       },
-      "Google.Apis/1.41.1": {
+      "Google.Api.Gax.Rest/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Google.Apis.Core": "1.41.1",
-          "Newtonsoft.Json": "10.0.2"
+          "Google.Api.Gax": "3.0.0",
+          "Google.Apis.Auth": "1.44.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {}
+        }
+      },
+      "Google.Apis/1.44.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.44.1"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.dll": {}
@@ -56,11 +68,11 @@
           "lib/netstandard2.0/Google.Apis.dll": {}
         }
       },
-      "Google.Apis.Auth/1.41.1": {
+      "Google.Apis.Auth/1.44.1": {
         "type": "package",
         "dependencies": {
-          "Google.Apis": "1.41.1",
-          "Google.Apis.Core": "1.41.1"
+          "Google.Apis": "1.44.1",
+          "Google.Apis.Core": "1.44.1"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
@@ -71,16 +83,29 @@
           "lib/netstandard2.0/Google.Apis.Auth.dll": {}
         }
       },
-      "Google.Apis.Core/1.41.1": {
+      "Google.Apis.Core/1.44.1": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "10.0.2"
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Translate.v2/1.42.0.875": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.42.0",
+          "Google.Apis.Auth": "1.42.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {}
         }
       },
       "Google.Cloud.TextToSpeech.V1/1.1.0-beta01": {
@@ -94,6 +119,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll": {}
+        }
+      },
+      "Google.Cloud.Translation.V2/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Rest": "3.0.0",
+          "Google.Apis.Translate.v2": "1.42.0.875"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {}
         }
       },
       "Google.Protobuf/3.8.0": {
@@ -173,6 +211,15 @@
           "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
       "NAudio/1.9.0": {
         "type": "package",
         "compile": {
@@ -182,7 +229,7 @@
           "lib/netstandard2.0/NAudio.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -233,22 +280,20 @@
         "lib/netstandard2.0/Google.Api.CommonProtos.xml"
       ]
     },
-    "Google.Api.Gax/2.10.0-beta04": {
-      "sha512": "LiCrkyQQRia8jkY/UAQL7BBUCiFRMarH1ltPYVef8nLutqNGQyQZo6S11S5+1PsfY15b2LZBf9JvuZq+2MCE1w==",
+    "Google.Api.Gax/3.0.0": {
+      "sha512": "jDXWaxeOjzUmaFBtEaGuWZmIl6CkR3yRrFuiMPFL9YNR6TWA4EZXl9K8mxae1fi7Z7H0j1CRfyAt2iZlomk9bw==",
       "type": "package",
-      "path": "google.api.gax/2.10.0-beta04",
+      "path": "google.api.gax/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "google.api.gax.2.10.0-beta04.nupkg.sha512",
+        "NuGetIcon.png",
+        "google.api.gax.3.0.0.nupkg.sha512",
         "google.api.gax.nuspec",
-        "lib/net45/Google.Api.Gax.dll",
-        "lib/net45/Google.Api.Gax.pdb",
-        "lib/net45/Google.Api.Gax.xml",
-        "lib/netstandard1.3/Google.Api.Gax.dll",
-        "lib/netstandard1.3/Google.Api.Gax.pdb",
-        "lib/netstandard1.3/Google.Api.Gax.xml",
+        "lib/net461/Google.Api.Gax.dll",
+        "lib/net461/Google.Api.Gax.pdb",
+        "lib/net461/Google.Api.Gax.xml",
         "lib/netstandard2.0/Google.Api.Gax.dll",
         "lib/netstandard2.0/Google.Api.Gax.pdb",
         "lib/netstandard2.0/Google.Api.Gax.xml"
@@ -275,15 +320,35 @@
         "lib/netstandard2.0/Google.Api.Gax.Grpc.xml"
       ]
     },
-    "Google.Apis/1.41.1": {
-      "sha512": "/gNhxyiCY66ElHrOG0jMg6l13++PXFn69ULoeDabA92z4tCMzTBToY2XuuZhcxHzROcAjiVWPpj03ZEJl7s5kg==",
+    "Google.Api.Gax.Rest/3.0.0": {
+      "sha512": "BwqDdrOCkA4vi3JlB98B5Ta9rkNa1cY23bxJSJaEcXeshl9AIYJ7TAe/ur3rw+DoHqnPHG5qMzT4AVns9NujvQ==",
       "type": "package",
-      "path": "google.apis/1.41.1",
+      "path": "google.api.gax.rest/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "google.apis.1.41.1.nupkg.sha512",
+        "NuGetIcon.png",
+        "google.api.gax.rest.3.0.0.nupkg.sha512",
+        "google.api.gax.rest.nuspec",
+        "lib/net461/Google.Api.Gax.Rest.dll",
+        "lib/net461/Google.Api.Gax.Rest.pdb",
+        "lib/net461/Google.Api.Gax.Rest.xml",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.dll",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.pdb",
+        "lib/netstandard2.0/Google.Api.Gax.Rest.xml"
+      ]
+    },
+    "Google.Apis/1.44.1": {
+      "sha512": "5l8vy1bwhuKDuE4Uku8qz2YnLaDhK1YJBGqzohx3MiaXyTucZWutovpEGYkvo6014rKUHa4hWDDuPxBJs/yxpA==",
+      "type": "package",
+      "path": "google.apis/1.44.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.1.44.1.nupkg.sha512",
         "google.apis.nuspec",
         "lib/net45/Google.Apis.PlatformServices.dll",
         "lib/net45/Google.Apis.dll",
@@ -297,15 +362,16 @@
         "lib/netstandard2.0/Google.Apis.xml"
       ]
     },
-    "Google.Apis.Auth/1.41.1": {
-      "sha512": "zsb5QnQVDaeU4rTnYcRJead+obLEsi+iJH/T12+zUzu7/r5Pg6PD/I8RW7aG3qJ6TLyLpKDKDgm/IyQ6G4qOFg==",
+    "Google.Apis.Auth/1.44.1": {
+      "sha512": "5gIhSOw362+daGBT2YgElpQUWgLERsKOS7k8d2FzIxi6wXTpeu7ov5kT4fWrnoX4fUJ+ibxqTfhmEY8UThCxyA==",
       "type": "package",
-      "path": "google.apis.auth/1.41.1",
+      "path": "google.apis.auth/1.44.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "google.apis.auth.1.41.1.nupkg.sha512",
+        "NuGetIcon.png",
+        "google.apis.auth.1.44.1.nupkg.sha512",
         "google.apis.auth.nuspec",
         "lib/net45/Google.Apis.Auth.PlatformServices.dll",
         "lib/net45/Google.Apis.Auth.dll",
@@ -321,15 +387,16 @@
         "lib/netstandard2.0/Google.Apis.Auth.xml"
       ]
     },
-    "Google.Apis.Core/1.41.1": {
-      "sha512": "6jZDk7VsnZGLXGREYdy+3v4Xvdtc6zJs9E4mkxmKC3d1B1NxK0fBX0Ir6/wFdmEt95cnoILRQVi2vNCisU6hIg==",
+    "Google.Apis.Core/1.44.1": {
+      "sha512": "VjN2tpE5++8xRjBcHgXuW7HoxgvPYoAsONj6ekq1Uv20TaC3aDsw+1tVCt1M60pO4mK0vnoZAxupb49B308+0Q==",
       "type": "package",
-      "path": "google.apis.core/1.41.1",
+      "path": "google.apis.core/1.44.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "google.apis.core.1.41.1.nupkg.sha512",
+        "NuGetIcon.png",
+        "google.apis.core.1.44.1.nupkg.sha512",
         "google.apis.core.nuspec",
         "lib/net45/Google.Apis.Core.dll",
         "lib/net45/Google.Apis.Core.pdb",
@@ -340,6 +407,33 @@
         "lib/netstandard2.0/Google.Apis.Core.dll",
         "lib/netstandard2.0/Google.Apis.Core.pdb",
         "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.Translate.v2/1.42.0.875": {
+      "sha512": "tyGzu4pbtapDXppZnmw8rD8xzXPcgrt+dcrRn7j6ZkNalBFz8WZTFvI/lWCVmlKh1RuhCe0hZXOlsUQAp/QBxA==",
+      "type": "package",
+      "path": "google.apis.translate.v2/1.42.0.875",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.translate.v2.1.42.0.875.nupkg.sha512",
+        "google.apis.translate.v2.nuspec",
+        "lib/net40/Google.Apis.Translate.v2.dll",
+        "lib/net40/Google.Apis.Translate.v2.pdb",
+        "lib/net40/Google.Apis.Translate.v2.xml",
+        "lib/net45/Google.Apis.Translate.v2.dll",
+        "lib/net45/Google.Apis.Translate.v2.pdb",
+        "lib/net45/Google.Apis.Translate.v2.xml",
+        "lib/netstandard1.0/Google.Apis.Translate.v2.dll",
+        "lib/netstandard1.0/Google.Apis.Translate.v2.pdb",
+        "lib/netstandard1.0/Google.Apis.Translate.v2.xml",
+        "lib/netstandard1.3/Google.Apis.Translate.v2.dll",
+        "lib/netstandard1.3/Google.Apis.Translate.v2.pdb",
+        "lib/netstandard1.3/Google.Apis.Translate.v2.xml",
+        "lib/netstandard2.0/Google.Apis.Translate.v2.dll",
+        "lib/netstandard2.0/Google.Apis.Translate.v2.pdb",
+        "lib/netstandard2.0/Google.Apis.Translate.v2.xml"
       ]
     },
     "Google.Cloud.TextToSpeech.V1/1.1.0-beta01": {
@@ -361,6 +455,25 @@
         "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll",
         "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.pdb",
         "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.xml"
+      ]
+    },
+    "Google.Cloud.Translation.V2/2.0.0": {
+      "sha512": "85HkHroDSCtIffxxaPoVWJZnIqH1OYuu/fu/JVUBmqWWe0kxuNCSYLOiII028NK0/w4rqYIVt1HPK2M9HpiH2Q==",
+      "type": "package",
+      "path": "google.cloud.translation.v2/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.translation.v2.2.0.0.nupkg.sha512",
+        "google.cloud.translation.v2.nuspec",
+        "lib/net461/Google.Cloud.Translation.V2.dll",
+        "lib/net461/Google.Cloud.Translation.V2.pdb",
+        "lib/net461/Google.Cloud.Translation.V2.xml",
+        "lib/netstandard2.0/Google.Cloud.Translation.V2.dll",
+        "lib/netstandard2.0/Google.Cloud.Translation.V2.pdb",
+        "lib/netstandard2.0/Google.Cloud.Translation.V2.xml"
       ]
     },
     "Google.Protobuf/3.8.0": {
@@ -457,6 +570,30 @@
         "lib/netstandard2.0/Grpc.Core.Api.xml"
       ]
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "NAudio/1.9.0": {
       "sha512": "PjcPhL5AnbF1YmZxqFYuAEVVRNCNWWIm6Gi32AGQ0dmHF9+s7TUFfVxEo46MbeIfpUE+Wz60ZNTLMXTxBI1m9w==",
       "type": "package",
@@ -475,10 +612,10 @@
         "naudio.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -501,8 +638,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "System.Interactive.Async/3.2.0": {
@@ -551,6 +689,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Google.Cloud.TextToSpeech.V1 >= 1.1.0-beta01",
+      "Google.Cloud.Translation.V2 >= 2.0.0",
       "NAudio >= 1.9.0"
     ]
   },
@@ -592,6 +731,10 @@
           "Google.Cloud.TextToSpeech.V1": {
             "target": "Package",
             "version": "[1.1.0-beta01, )"
+          },
+          "Google.Cloud.Translation.V2": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "NAudio": {
             "target": "Package",

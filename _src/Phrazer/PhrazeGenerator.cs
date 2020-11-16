@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
+using System.Text;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 
 namespace Phrazer
@@ -153,6 +154,14 @@ namespace Phrazer
             }
             Console.WriteLine(">> GENERATE FILE: " + fileName);
             Generator.ConcatAndSaveWavContents(fileName);
+            CreateHistoryRow();
+        }
+
+        public void CreateHistoryRow()
+        {
+            if(TimeCode.Length > 0) return;
+            string fileName = "history.csv";
+            File.AppendAllText(Appdata.GetHistoryPath() + fileName, FromText + "\t" + ToText + "\n");
         }
 
         public string addHeadingSoundAndCut(string FromText)
