@@ -14,7 +14,7 @@ namespace Phrazer
         // Configuration params
         bool translateRightNow = false;
         bool allowRepeat = false;
-        bool transformTextToLowercase = true;
+        bool transformTextToLowercase = false;
 
         List<string> tsvRows = new List<string>();
         HashSet<string> dieKontrollliste = new HashSet<string>();
@@ -84,15 +84,23 @@ namespace Phrazer
 
         static public void convertToTSV()
         {
-            string[] files = Directory.GetFiles(GetInputPath(), "*.vtt");
+            // PROCESS VTTs
+            string[] vttFiles = Directory.GetFiles(GetInputPath(), "*.vtt");
             //string[] files = Directory.GetFiles(GetInputPath(), "*.vtt.txt");
-            foreach(string file in files) {
+            foreach(string file in vttFiles) {
                 VTTConverter obj = new VTTConverter();
-                obj.ProcessVTTFile(file);
+                obj.ProcessFile(file, "vtt");
+            }
+
+            // PROCESS TXTs
+            string[] txtFiles = Directory.GetFiles(GetInputPath(), "*.txt");
+            foreach(string file in txtFiles) {
+                VTTConverter obj = new VTTConverter();
+                obj.ProcessFile(file, "txt");
             }
         }
 
-        public void ProcessVTTFile(string currentFileName)
+        public void ProcessFile(string currentFileName, string inputFormat)
         {
             if (!File.Exists(currentFileName))
             {
@@ -112,12 +120,15 @@ namespace Phrazer
 
             foreach (string row in rows)
             {
-                if(row.Trim() == "") continue;
-                if(GetOutputTime(row).Length > 0) {
-                    time = GetOutputTime(row);
-                    continue;
+                if(inputFormat == "vtt") {
+                    if(row.Trim() == "") continue;
+                    if(GetOutputTime(row).Length > 0) {
+                        time = GetOutputTime(row);
+                        continue;
+                    }
+                    if(time == "") continue;
                 }
-                if(time == "") continue;
+                
 
                 string rowText = SanitizeText(row);
                 foreach(string word in rowText.Split(" "))
@@ -158,14 +169,13 @@ namespace Phrazer
 
         public void SaveTextBufferToList(ref string textBuffer, ref int rowNumber, ref string time)
         {
-            if(textBuffer.Length > 0 && time.Length > 0) {
+            if(textBuffer.Length > 0) {
                 string kontrollText = textBuffer;
                 
-
                 // Add this to remove doubles ignoring special chars
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled);
                 if(!dieKontrollliste.Contains(kontrollText)) {
-                    string timeCode = time + GetTimeCodeSuffix(time);
+                    string timeCode = (time.Length > 0) ? time + GetTimeCodeSuffix(time) : "";
 
                     textBufferList [rowNumber] = textBuffer;
                     wordCountList  [rowNumber] = WordCount(textBuffer);
@@ -188,11 +198,9 @@ namespace Phrazer
 
         public bool ShouldCreateNewRow(string textBuffer, string word)
         {
-            
             // Experimantal end of phrase recognition feature
             if(
-                StartingWordDetected(textBuffer, word)
-                || EndOfPhraseDetected(textBuffer, word)
+                EndOfPhraseDetected(textBuffer, word)
                 && !textBuffer.EndsWith("Mr.")
                 && !textBuffer.EndsWith("Mrs.")
                 && !textBuffer.EndsWith("Dr.")
@@ -206,24 +214,10 @@ namespace Phrazer
             return false;
         }
 
-        public bool StartingWordDetected(string textBuffer, string word)
-        {
-            if(
-                word.StartsWith("We're")
-                || word.StartsWith("The")
-                || word.StartsWith("Then")
-                || word.StartsWith("To")
-                || word.StartsWith("In")
-                || word.StartsWith("So")
-                || word.StartsWith("Perhaps")
-                || word.StartsWith(">>")
-            ) return true;
-
-            return false;
-        }
         public bool EndOfPhraseDetected(string textBuffer, string word)
         {
             if(
+                /* EndOfPhraseDetected */
                 textBuffer.Length > 25 && textBuffer.EndsWith(",") && !word.EndsWith(".")
                 || textBuffer.Length > 25 && textBuffer.EndsWith("-")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(".")
@@ -235,6 +229,18 @@ namespace Phrazer
                 || textBuffer.EndsWith("--")
                 || textBuffer.EndsWith("♪")
                 || textBuffer.Contains("NETFLIX")
+                /* StartingWordDetected */
+                || word.StartsWith("We're")
+                || word.StartsWith("The")
+                || word.StartsWith("Then")
+                || word.StartsWith("To")
+                || word.StartsWith("In")
+                || word.StartsWith("So")
+                || word.StartsWith("Perhaps")
+                || word.StartsWith(">>")
+                || textBuffer.Length > 25 && word.Trim() == "to"
+                || textBuffer.Length > 25 && word.Trim() == "and"
+                || textBuffer.Length > 25 && word.Trim() == "of"
             ) return true;
 
             return false;   

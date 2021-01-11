@@ -20,7 +20,6 @@ namespace Phrazer
         public string TimeCodeList { get; set; }
         public int MaxTextLength { get; set; }
         public bool SkipWithoutTranslation { get; set; }
-        public string FilenamePrefixFormat { get; set; }
         public string FolderSuffix { get; set; }
         public bool FolderSuffixAllowed { get; set; }
         public string CurrentVoice { get; set; }
@@ -35,7 +34,6 @@ namespace Phrazer
             RowNumber = 0;
             TimeCode = "";
             TimeCodeList = "";
-            FilenamePrefixFormat = "timecode";
             FolderSuffix = "";
             FolderSuffixAllowed = false;
             SkipWithoutTranslation = true;
@@ -43,13 +41,13 @@ namespace Phrazer
 
         public string GetOutputFilenamePrefix()
         {
-            string rowNumberStr = ("" + RowNumber).PadLeft(4, '0');
-            string wordCount = ("" + GTTSHelper.GetWordsCount(ToText)).PadLeft(2, '0');
+            int wordCount = GTTSHelper.GetWordsCount(ToText);
+            string wordCountStr = ("" + wordCount).PadLeft(2, '0');
+            string rowNumberStr = "c" + ("" + RowNumber).PadLeft(3, '0');
 
-            if(FilenamePrefixFormat == "timecode" && TimeCode.Length > 0) return TimeCode + ".";
-            if(FilenamePrefixFormat == "sorted" && RowNumber > 0) return rowNumberStr + wordCount + ".";
-            
-            return wordCount + "."; // buildup is default procedure
+            if(TimeCode.Length > 0) return TimeCode + ". ";
+            if(RowNumber > 0) return rowNumberStr + ". ";
+            return wordCountStr + ". "; // buildup is default procedure
         }
 
         public string GetOutputFilename()
@@ -59,17 +57,23 @@ namespace Phrazer
 
             // Generate a file from the script and save
             string oFileName = "";
+            string oTranslation = "";
 
             // Special format for Marcel
             if(FromLang == "DE" && ToLang == "DE") {
                 oFileName = AdjustPath(fromText + " ..... ..... ..... .... .... .... ..... ..... ..... .... " + toText + ".wav");
                 return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
             }
+
+            oTranslation = GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length -3);
+            if(oTranslation.Length < fromText.Length) oTranslation = oTranslation + "...";
             
             oFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
-            + " (" + GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length) + ")" 
+            + " (" + oTranslation + ")" 
             + ".wav");
+
+            Console.WriteLine(oFileName.Length + ": " + oFileName);
             
             return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
         }
@@ -274,10 +278,10 @@ namespace Phrazer
                 //if(!TimeCodeList.Contains("_" + timeCode.Replace("a", "") + "b")) formattedTime = formattedTime.Replace("a", "");
             }
 
-            if(formattedTime.StartsWith("00")) return formattedTime.Substring(2);
-            if(formattedTime.StartsWith("01")) return "I" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("02")) return "II" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("03")) return "III" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("00")) return "I" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("01")) return "II" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("02")) return "III" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("03")) return "IIII" + formattedTime.Substring(2);
             return timeCode;
         }
     }
