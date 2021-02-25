@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Google.Cloud.Translation.V2;
 
+using System.Net;
+
 
 namespace Phrazer
 {
@@ -13,7 +15,7 @@ namespace Phrazer
     {
         // Configuration params
         bool translateRightNow = false;
-        bool allowRepeat = false;
+        bool allowRepeat = true;
         bool transformTextToLowercase = false;
 
         List<string> tsvRows = new List<string>();
@@ -66,6 +68,11 @@ namespace Phrazer
             }
 
             return "";
+        }
+
+        public static string GetDownloadPath()
+        {
+            return Appdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "downloadSubs" + Path.DirectorySeparatorChar;
         }
 
         public static string GetInputPath()
@@ -218,8 +225,8 @@ namespace Phrazer
         {
             if(
                 /* EndOfPhraseDetected */
-                textBuffer.Length > 25 && textBuffer.EndsWith(",") && !word.EndsWith(".")
-                || textBuffer.Length > 25 && textBuffer.EndsWith("-")
+                textBuffer.Length > 20 && textBuffer.EndsWith(",") && !word.EndsWith(".") && !word.EndsWith("?") && !word.EndsWith("!")
+                || textBuffer.Length > 20 && textBuffer.EndsWith("-")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(".")
                 || textBuffer.Length > 5 && textBuffer.EndsWith(":")
                 || textBuffer.Length > 5 && textBuffer.EndsWith("?")
@@ -238,9 +245,9 @@ namespace Phrazer
                 || word.StartsWith("So")
                 || word.StartsWith("Perhaps")
                 || word.StartsWith(">>")
-                || textBuffer.Length > 25 && word.Trim() == "to"
-                || textBuffer.Length > 25 && word.Trim() == "and"
-                || textBuffer.Length > 25 && word.Trim() == "of"
+                || textBuffer.Length > 60 && word.Trim() == "to"
+                || textBuffer.Length > 60 && word.Trim() == "and"
+                || textBuffer.Length > 60 && word.Trim() == "of"
             ) return true;
 
             return false;   
@@ -300,5 +307,36 @@ namespace Phrazer
             int diff = lastBracket - firstBracket + 1;
             return text.Remove(firstBracket, diff);
         }
+
+
+
+
+
+        // Subtitles downloader (TAAHM from ling.online)
+        static public void createDownloadSubtitlesHTML()
+        {
+            string remoteUri = "http://www.contoso.com/library/homepage/images/";
+            string fileName = "";
+            string destHtml = "";
+            string destFolder = GetDownloadPath();
+
+            // SEASON
+            for(int s = 1; s < 13; s++)
+            {
+                // EPISODE
+                for(int e = 1; e < 26; e++) {
+                    remoteUri = "https://media.ling.online/media/filebrowser/video/series/two-and-a-half-men/"+s+"/"+s+"-"+e+"/subtitles/en.vvt";
+                    fileName = "Two and a Half Men (S" + s.ToString().PadLeft(2, '0') + " E" + e.ToString().PadLeft(2, '0') + ").vtt";
+
+                    destHtml = destHtml + "<a href=\""+remoteUri+"\" download=\""+fileName+"\">"+fileName+"</a><br/>" + Environment.NewLine;
+                    Console.WriteLine(remoteUri);
+                }
+            }
+            File.WriteAllText(destFolder+"TAAHM_Subs.html", destHtml);
+        }
+
+
+
+
     }
 }

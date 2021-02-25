@@ -9,10 +9,13 @@ namespace Phrazer
         static void Main(string[] args)
         {
             // Uncomment if need to convert VTT files
-            //NetflixVTTConverter.convertToTSV(); return;
+            
+            //VTTConverter.createDownloadSubtitlesHTML(); return;
+
             //VTTConverter.convertToTSV(); return;
             
             PhrazeGenerator.ProceedAllInputPhrazerFiles();
+
         }
     }
 }
