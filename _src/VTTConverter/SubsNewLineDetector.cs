@@ -62,12 +62,13 @@ namespace Phrazer
 
             if(
                 !harvesterMode &&
-                (  textBuffer.Length > 30 && textBuffer.EndsWith(",") && !word.EndsWith(".") && !word.EndsWith("?") && !word.EndsWith("!")
-                || textBuffer.Length > 30 && textBuffer.EndsWith("-")
-                || textBuffer.Length > 60 && word.Trim() == "to"
-                || textBuffer.Length > 60 && word.Trim() == "that"
-                || textBuffer.Length > 60 && word.Trim() == "and"
-                || textBuffer.Length > 60 && word.Trim() == "of"
+                !word.EndsWith(".") && !word.EndsWith("?") && !word.EndsWith("!") &&
+                (  textBuffer.Length > 20 && textBuffer.EndsWith(",") 
+                || textBuffer.Length > 20 && textBuffer.EndsWith("-")
+                || textBuffer.Length > 35 && word.Trim() == "to"
+                || textBuffer.Length > 35 && word.Trim() == "that"
+                || textBuffer.Length > 35 && word.Trim() == "and"
+                || textBuffer.Length > 35 && word.Trim() == "of"
                 )
             ) return true;
 
@@ -90,7 +91,7 @@ namespace Phrazer
                 || textBuffer.EndsWith(")")
                 || textBuffer.EndsWith("]")
                 || textBuffer.EndsWith("--")
-                || textBuffer.EndsWith("___")
+                || textBuffer.EndsWith("...")
                 || textBuffer.EndsWith("♪")
                 || textBuffer.Contains("NETFLIX")
                 

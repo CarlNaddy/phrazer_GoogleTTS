@@ -12,7 +12,7 @@ namespace Phrazer
     {
         // Configuration params
 
-        bool harvesterMode = true;
+        bool harvesterMode = false;
         bool translateWithGoogle = false;
         bool allowRepeat = true;
         bool transformTextToLowercase = false;
@@ -148,7 +148,7 @@ namespace Phrazer
 
             textBuffer = SubsTextSanitizer.SanitizeText(textBuffer);
 
-            if(!SubsRowFilter.SkipRow(textBuffer)) {
+            if(!SubsRowFilter.SkipRow(textBuffer, harvesterMode)) {
                 // Add this to remove doubles ignoring special chars
                 string kontrollText = textBuffer;
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\d\s]+", "", RegexOptions.Compiled);

@@ -29,9 +29,7 @@ namespace Phrazer
             text = text.Replace(" ?", "?");
             text = text.Replace("I-I", "I");
             text = text.Replace("’", "'");
-            text = text.Replace("...", "___");
             text = text.Replace("!", ".");
-            //text = text.Replace(".", ". ");
             text = text.Replace(">", ". ");
             text = text.TrimStart('-');
             
@@ -59,17 +57,17 @@ namespace Phrazer
                 "Mm.", "Mm,", "mm,",
                 "Hmm.", "Hmm,", "hmm,",
                 "Blah.", "Blah,", "blah,",
-                "Ah.", "Ah,", "ah,", "Ah___", "ah___",
-                "Oh.", "Oh,", "oh,", "Oh___", "oh___",
-                "Uh.", "Uh,", "uh,", "Uh___", "uh___",
-                "Um.", "Um,", "um,", "Um___", "um___",
+                "Ah.", "Ah,", "ah,", "Ah...", "ah...",
+                "Oh.", "Oh,", "oh,", "Oh...", "oh...",
+                "Uh.", "Uh,", "uh,", "Uh...", "uh...",
+                "Um.", "Um,", "um,", "Um...", "um...",
 
                 "Ooh.", "Ooh,", "ooh,",
                 "Hey.", "Hey,", "hey,",
                 "Yeah.", "Yeah,", "yeah,",
                 "Okay.", "Okay,", "okay,",
-                "Well.", "Well,", "well,", "Well___", "well___",
-                "So.", "So,", "so,", "So___", "so___",
+                "Well.", "Well,", "well,", "Well...", "well...",
+                "So.", "So,", "so,", "So...", "so...",
                 
                 // DELETE MAYBE
                 "Gee,", "Boy,",
