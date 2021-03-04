@@ -53,13 +53,13 @@ namespace Phrazer
 
         public static bool SkipRow(string text)
         {
+            if(text.Length < 2) return true;
             string filteredText = Regex.Replace(text, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled).Trim();
             if(text.Contains("♪")) return true;
             if(text.StartsWith("&lt;")) return true;
             if(text.StartsWith("==")) return true;
 
-
-            if(GetWordsCount(filteredText) < 2) return true;
+            //if(GetWordsCount(filteredText) < 2) return true;
             return false;
         }
 

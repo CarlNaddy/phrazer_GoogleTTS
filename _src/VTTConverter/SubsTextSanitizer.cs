@@ -26,6 +26,7 @@ namespace Phrazer
             text = text.Replace(" ?", "?");
             text = text.Replace(" !", "!");
             text = text.Replace(" ?", "?");
+            text = text.Replace("I-I", "I");
             text = text.Replace("’", "'");
             text = text.Replace("...", "---");
             text = text.Replace("!", ".");
@@ -46,21 +47,22 @@ namespace Phrazer
 
         static string SanitizePrefix(string text)
         {
+            text = text.Trim();
             if(text.Length == 0) return text;
 
             string[] strings = {
                 // DELETE ANYWAY
-                "Wow.", "Wow,", "wow,", "Whoa,", "Mmm.", "Nah.",
-                "Blah,", "blah,",
-                "Ah.", "Ah,", "ah,",
-                "Oh.", "Oh,", "oh,",
+                "Wow.", "Wow,", "wow,", "Whoa,", "Mmm.", "Nah.", "Hmm.", "Aw.",
+                "Blah.", "Blah,", "blah,",
+                "Ah.", "Ah,", "ah,", "Ah---", "ah---",
+                "Oh.", "Oh,", "oh,", "Oh---", "oh---",
+                "Uh.", "Uh,", "uh,", "Uh---", "uh---",
+                "Um.", "Um,", "um,", "Um---", "um---",
                 "Ooh.", "Ooh,", "ooh,",
-                "Uh.", "Uh,", "uh,",
-                "Um.", "Um,", "um,",
                 "Yeah.", "Yeah,", "yeah,",
                 "Okay.", "Okay,", "okay,",
-                "Well.", "Well,", "well,",
-                "So.", "So,", "so,",
+                "Well.", "Well,", "well,", "Well---", "well---",
+                "So.", "So,", "so,", "So---", "so---",
                 
                 // DELETE MAYBE
                 "Yes,", "yes,",
@@ -96,6 +98,9 @@ namespace Phrazer
                     text = text.First().ToString().ToUpper() + text.Substring(1);
                     break;
                 }
+            }
+            if(text == "I don't think so.") {
+                bool ok = true;
             }
             return text;
         }

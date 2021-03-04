@@ -12,7 +12,7 @@ namespace Phrazer
     {
         // Configuration params
 
-        bool phrazeMode = false;
+        bool phrazeMode = true;
         bool translateWithGoogle = false;
         bool allowRepeat = true;
         bool transformTextToLowercase = false;
@@ -101,7 +101,7 @@ namespace Phrazer
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
 
-                    if(textBuffer.Length > 1 && (capitalizeFirstSign)) {
+                    if(textBuffer.Length > 1 && (phrazeMode || capitalizeFirstSign)) {
                         textBuffer = textBuffer.First().ToString().ToUpper() + textBuffer.Substring(1);
                     }
 
@@ -147,10 +147,9 @@ namespace Phrazer
         {
             if(textBuffer.Length < 2) return;
 
+            textBuffer = SubsTextSanitizer.SanitizeText(textBuffer);
+
             if(!SubsHelper.SkipRow(textBuffer)) {
-
-                textBuffer = SubsTextSanitizer.SanitizeText(textBuffer);
-
                 // Add this to remove doubles ignoring special chars
                 string kontrollText = textBuffer;
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\d\s]+", "", RegexOptions.Compiled);
@@ -166,7 +165,6 @@ namespace Phrazer
                     rowNumber ++;
                     if(!allowRepeat) dieKontrollliste.Add(kontrollText);
                 }
-
             }
 
             textBuffer = "";
