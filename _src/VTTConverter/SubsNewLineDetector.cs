@@ -55,6 +55,8 @@ namespace Phrazer
                 || textBuffer.StartsWith("I'm sorry,")
                 || textBuffer.StartsWith("I don't know,")
                 || textBuffer.StartsWith("You know,")
+                || textBuffer.StartsWith("All right,")
+                || textBuffer.StartsWith("No big deal,")
                 )
             ) return true;
 
@@ -88,6 +90,7 @@ namespace Phrazer
                 || textBuffer.EndsWith(")")
                 || textBuffer.EndsWith("]")
                 || textBuffer.EndsWith("--")
+                || textBuffer.EndsWith("___")
                 || textBuffer.EndsWith("♪")
                 || textBuffer.Contains("NETFLIX")
                 

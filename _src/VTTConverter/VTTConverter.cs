@@ -148,7 +148,7 @@ namespace Phrazer
 
             textBuffer = SubsTextSanitizer.SanitizeText(textBuffer);
 
-            if(!SubsHelper.SkipRow(textBuffer)) {
+            if(!SubsRowFilter.SkipRow(textBuffer)) {
                 // Add this to remove doubles ignoring special chars
                 string kontrollText = textBuffer;
                 kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\d\s]+", "", RegexOptions.Compiled);

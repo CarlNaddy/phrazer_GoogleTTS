@@ -29,9 +29,9 @@ namespace Phrazer
             text = text.Replace(" ?", "?");
             text = text.Replace("I-I", "I");
             text = text.Replace("’", "'");
-            text = text.Replace("...", "---");
+            text = text.Replace("...", "___");
             text = text.Replace("!", ".");
-            text = text.Replace(".", ". ");
+            //text = text.Replace(".", ". ");
             text = text.Replace(">", ". ");
             text = text.TrimStart('-');
             
@@ -39,6 +39,8 @@ namespace Phrazer
             if(IsAllUpper(text.Split()[0].Replace(":","")) && text.Contains(":")) {
                 text = RemoveBracketsText(text, text[0], ':');
             }
+
+            text = text.Replace(":", ".");
 
             text = SanitizePrefix(text);
             text = SanitizeMiddle(text);
@@ -53,17 +55,21 @@ namespace Phrazer
 
             string[] strings = {
                 // DELETE ANYWAY
-                "Wow.", "Wow,", "wow,", "Whoa,", "Mmm.", "Nah.", "Hmm.", "Aw.",
+                "Wow.", "Wow,", "wow,", "Whoa,", "Mmm.", "Nah.", "Aw.",
+                "Mm.", "Mm,", "mm,",
+                "Hmm.", "Hmm,", "hmm,",
                 "Blah.", "Blah,", "blah,",
-                "Ah.", "Ah,", "ah,", "Ah---", "ah---",
-                "Oh.", "Oh,", "oh,", "Oh---", "oh---",
-                "Uh.", "Uh,", "uh,", "Uh---", "uh---",
-                "Um.", "Um,", "um,", "Um---", "um---",
+                "Ah.", "Ah,", "ah,", "Ah___", "ah___",
+                "Oh.", "Oh,", "oh,", "Oh___", "oh___",
+                "Uh.", "Uh,", "uh,", "Uh___", "uh___",
+                "Um.", "Um,", "um,", "Um___", "um___",
+
                 "Ooh.", "Ooh,", "ooh,",
+                "Hey.", "Hey,", "hey,",
                 "Yeah.", "Yeah,", "yeah,",
                 "Okay.", "Okay,", "okay,",
-                "Well.", "Well,", "well,", "Well---", "well---",
-                "So.", "So,", "so,", "So---", "so---",
+                "Well.", "Well,", "well,", "Well___", "well___",
+                "So.", "So,", "so,", "So___", "so___",
                 
                 // DELETE MAYBE
                 "Gee,", "Boy,",
@@ -79,7 +85,8 @@ namespace Phrazer
 
                 // DELETE NAMES
                 "Alan.", "Alan,",
-                "Charlie.", "Charlie,", "Judith,", "Rose,", "Jake,", "Berta,", "Lyndsey,", "Frankie,", "Mom,"
+                "Charlie.", "Charlie,",
+                "Judith,", "Rose,", "Jake,", "Berta,", "Lyndsey,", "Frankie,", "Mom,", "Naomi,"
             };
 
             int affected = 0;
@@ -107,19 +114,23 @@ namespace Phrazer
             if(text.Length == 0) return text;
 
             string[] strings = {
-                ", ah, ",
-                ", oh, ",
-                ", uh, ",
-                ", um, ",
-                ", well,"
+                "ah,",
+                "oh,",
+                "uh,",
+                "um,",
+                "well,",
+
+                "Alan.", "Lyndsey.", "Charlie.", "Mom.", "Walden Smith.", "Sam.", "Monkey Man."
             };
 
+            string pattern = "";
             int affected = 0;
             for(int t = 0; t < 10; t++) {
                 affected = 0;
                 for(int i = 0; i < strings.Length; i++) {
-                    if(text.Contains(strings[i])) {
-                        text = text.Replace(strings[i], ", ");
+                    pattern = ", " + strings[i];
+                    if(text.Contains(pattern)) {
+                        text = text.Replace(pattern, strings[i].Substring(strings[i].Length - 1));
                         affected++;
                     }
                 }
