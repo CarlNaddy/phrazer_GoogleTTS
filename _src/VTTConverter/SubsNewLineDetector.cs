@@ -4,17 +4,17 @@ namespace Phrazer
     class SubsNewLineDetector
     {
 
-        bool phrazeMode = false;
+        bool harvesterMode = false;
 
-        public SubsNewLineDetector(bool phrazeModeParam)
+        public SubsNewLineDetector(bool harvesterModeParam)
         {
-            phrazeMode = phrazeModeParam;
+            harvesterMode = harvesterModeParam;
         }
 
 
         public int GetMaxBufferSize()
         {
-            if(phrazeMode) return 180;
+            if(harvesterMode) return 180;
             return 80;
         }
         
@@ -42,75 +42,24 @@ namespace Phrazer
             // THE REALLY STRICT MODE
             
             if(
-                phrazeMode &&
+                harvesterMode &&
                 (  textBuffer.EndsWith(".") || textBuffer.EndsWith("?") || textBuffer.EndsWith("!")  )
             ) return true;
             
-
             if(
-                phrazeMode &&
-                (  textBuffer.StartsWith("Wow,")
-                || textBuffer.StartsWith("wow,")
-                || textBuffer.StartsWith("Whoa,")
-
-                || textBuffer.StartsWith("Ah,")
-                || textBuffer.StartsWith("ah,")
-                || textBuffer.StartsWith("Oh,")
-                || textBuffer.StartsWith("oh,")
-                || textBuffer.StartsWith("Uh,")
-                || textBuffer.StartsWith("uh,")
-
-                || textBuffer.StartsWith("Okay,")
-                || textBuffer.StartsWith("okay,")
-
-                || textBuffer.StartsWith("Well,")
-                || textBuffer.StartsWith("well,")
-
-                || textBuffer.StartsWith("So,")
-                || textBuffer.StartsWith("so,")
-
-                || textBuffer.StartsWith("Yeah,")
-                || textBuffer.StartsWith("yeah,")
-
-                || textBuffer.StartsWith("Yes,")
-                || textBuffer.StartsWith("yes,")
-                || textBuffer.StartsWith("No,")
-                || textBuffer.StartsWith("no,")
-
-                || textBuffer.StartsWith("Now,")
-                || textBuffer.StartsWith("now,")
-
-                || textBuffer.StartsWith("Look,")
-
-                || textBuffer.StartsWith("And,")
-                || textBuffer.StartsWith("and,")
-                                
-                || textBuffer.StartsWith("But,")
-                || textBuffer.StartsWith("but,")
-
-                || textBuffer.StartsWith("Trust me,")
+                harvesterMode &&
+                (  textBuffer.StartsWith("Trust me,")
                 || textBuffer.StartsWith("trust me,")
-
-                || textBuffer.StartsWith("Listen,")
-                || textBuffer.StartsWith("Frankie,")
-
-                || textBuffer.StartsWith("Darling,")
-                || textBuffer.StartsWith("Sweetheart,")
-
-                || textBuffer.StartsWith("Alan,")
-                || textBuffer.StartsWith("Charlie,")
-                || textBuffer.StartsWith("Judith,")
-                || textBuffer.StartsWith("Rose,")
-                || textBuffer.StartsWith("Jake,")
-                || textBuffer.StartsWith("Berta,")
-                || textBuffer.StartsWith("Lyndsey,")
-                || textBuffer.StartsWith("Mom,")
+                || textBuffer.StartsWith("By the way,")
+                || textBuffer.StartsWith("by the way,")
+                || textBuffer.StartsWith("I'm sorry,")
+                || textBuffer.StartsWith("I don't know,")
+                || textBuffer.StartsWith("You know,")
                 )
             ) return true;
 
-
             if(
-                !phrazeMode &&
+                !harvesterMode &&
                 (  textBuffer.Length > 30 && textBuffer.EndsWith(",") && !word.EndsWith(".") && !word.EndsWith("?") && !word.EndsWith("!")
                 || textBuffer.Length > 30 && textBuffer.EndsWith("-")
                 || textBuffer.Length > 60 && word.Trim() == "to"
@@ -141,6 +90,7 @@ namespace Phrazer
                 || textBuffer.EndsWith("--")
                 || textBuffer.EndsWith("♪")
                 || textBuffer.Contains("NETFLIX")
+                
                 /* StartingWordDetected */
                 || word.Trim() == "Why"
                 || word.Trim() == "What"

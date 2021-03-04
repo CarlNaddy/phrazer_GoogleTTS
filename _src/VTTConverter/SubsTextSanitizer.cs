@@ -18,6 +18,7 @@ namespace Phrazer
             text = text.Trim();
             text = text.Replace("&lt;i>", "");
             text = text.Replace("&lt;/i>", "");
+            text = text.Replace("&lt;br/>", " ");
             text = text.Replace("\t", "");
             text = text.Replace("\"", "");
             text = text.Replace("<i>", "");
@@ -65,10 +66,11 @@ namespace Phrazer
                 "So.", "So,", "so,", "So---", "so---",
                 
                 // DELETE MAYBE
+                "Gee,", "Boy,",
                 "Yes,", "yes,",
                 "No,", "no,",
                 "Now,", "now,",
-                "And,", "and,",
+                "And,", "and,", "And ",
                 "But,", "but,",
                 "Trust me,", "trust me,",
                 "Listen.", "Listen,",
@@ -94,13 +96,8 @@ namespace Phrazer
                 if(text.Length == 0) return text;
 
                 // Dont forget to fix case after cutoff
-                if(fixCase && affected == 0) {
-                    text = text.First().ToString().ToUpper() + text.Substring(1);
-                    break;
-                }
-            }
-            if(text == "I don't think so.") {
-                bool ok = true;
+                if(fixCase) text = text.First().ToString().ToUpper() + text.Substring(1);
+                if(affected == 0) break;
             }
             return text;
         }

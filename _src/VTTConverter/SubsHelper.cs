@@ -56,10 +56,19 @@ namespace Phrazer
             if(text.Length < 2) return true;
             string filteredText = Regex.Replace(text, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled).Trim();
             if(text.Contains("♪")) return true;
-            if(text.StartsWith("&lt;")) return true;
+            if(text.Contains("&lt;")) return true;
             if(text.StartsWith("==")) return true;
 
-            //if(GetWordsCount(filteredText) < 2) return true;
+            // CUT IT MORE HARD
+            if(text.Contains("--") && text.Length < 15) return true;
+            if(GetWordsCount(text) > 15) return true;
+
+            // CUT IT LIKE A BIG HARVESTER
+            if(text.Contains("--")) return true;
+            if(GetWordsCount(text) > 8) return true;
+
+
+            if(GetWordsCount(filteredText) < 2) return true;
             return false;
         }
 

@@ -12,11 +12,10 @@ namespace Phrazer
     {
         // Configuration params
 
-        bool phrazeMode = true;
+        bool harvesterMode = true;
         bool translateWithGoogle = false;
         bool allowRepeat = true;
         bool transformTextToLowercase = false;
-        bool capitalizeFirstSign = false;
 
         List<string> tsvRows = new List<string>();
         HashSet<string> dieKontrollliste = new HashSet<string>();
@@ -65,7 +64,7 @@ namespace Phrazer
                 return;
             }
 
-            SubsNewLineDetector newLineDetector = new SubsNewLineDetector(phrazeMode);
+            SubsNewLineDetector newLineDetector = new SubsNewLineDetector(harvesterMode);
 
             string[] rows = File.ReadAllLines(currentFileName);
             
@@ -101,7 +100,7 @@ namespace Phrazer
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
 
-                    if(textBuffer.Length > 1 && (phrazeMode || capitalizeFirstSign)) {
+                    if(textBuffer.Length > 1 && (harvesterMode)) {
                         textBuffer = textBuffer.First().ToString().ToUpper() + textBuffer.Substring(1);
                     }
 
