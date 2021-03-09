@@ -8,7 +8,7 @@ namespace Phrazer
 {
     class SubsConfig
     {
-        static public bool translateWithGoogle = false;
+        static public bool translateWithGoogle = true;
         static public bool allowRepeat = true;
         static public bool transformTextToLowercase = false;
         static public bool generateHarvesterFiles = true;

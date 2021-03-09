@@ -45,7 +45,7 @@ namespace Phrazer
 
         public static string GetTextSlow(string text)
         {
-            return text.Replace(" ", GetBreakSsmlTag("400ms"));
+            return text.Replace(" ", GetBreakSsmlTag("300ms"));
         }
 
         public static string GetBreakSsmlTag(string time)

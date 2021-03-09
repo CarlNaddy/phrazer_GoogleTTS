@@ -12,11 +12,11 @@ namespace Phrazer
             
             //VTTConverter.createDownloadSubtitlesHTML(); return;
 
-            VTTConverter.convertToTSV(); return;
+            //VTTConverter.convertToTSV(); return;
 
             //VTTCollector.convertToTSV(); return;
             
-            //PhrazeGenerator.ProceedAllInputPhrazerFiles();
+            PhrazeGenerator.ProceedAllInputPhrazerFiles();
 
         }
     }
