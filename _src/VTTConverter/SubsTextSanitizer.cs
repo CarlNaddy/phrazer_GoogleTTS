@@ -51,40 +51,44 @@ namespace Phrazer
             text = text.Trim();
             if(text.Length == 0) return text;
 
+            string[] suffixSigns = {
+                "...", ".", ","
+            };
+
             string[] strings = {
                 // DELETE ANYWAY
-                "Wow.", "Wow,", "wow,", "Whoa,", "Mmm.", "Nah.", "Aw.",
-                "Mm.", "Mm,", "mm,",
-                "Hmm.", "Hmm,", "hmm,",
-                "Blah.", "Blah,", "blah,",
-                "Ah.", "Ah,", "ah,", "Ah...", "ah...",
-                "Oh.", "Oh,", "oh,", "Oh...", "oh...",
-                "Uh.", "Uh,", "uh,", "Uh...", "uh...",
-                "Um.", "Um,", "um,", "Um...", "um...",
-
-                "Ooh.", "Ooh,", "ooh,",
-                "Hey.", "Hey,", "hey,",
-                "Yeah.", "Yeah,", "yeah,",
-                "Okay.", "Okay,", "okay,",
-                "Well.", "Well,", "well,", "Well...", "well...",
-                "So.", "So,", "so,", "So...", "so...",
+                "Wow", "wow",
+                "Whoa", "Mmm", "Nah", "Aw",
+                "Mm", "mm",
+                "Hmm", "hmm",
+                "Blah", "blah",
+                "Ah", "ah",
+                "Oh", "oh",
+                "Uh", "uh",
+                "Um", "um",
+                "Ooh", "ooh",
+                "Hey", "hey",
+                "Hi", "hi",
+                "Yeah", "yeah",
+                "Okay", "okay",
+                "Well", "well",
+                "So", "so",
                 
                 // DELETE MAYBE
-                "Gee,", "Boy,",
-                "Yes,", "yes,",
-                "No,", "no,",
-                "Now,", "now,",
-                "And,", "and,", "And ",
-                "But,", "but,",
-                "Trust me,", "trust me,",
-                "Listen.", "Listen,",
-                "Look.", "Look,",
-                "Darling,", "Sweetheart,",
+                "Yes", "yes",
+                "No", "no",
+                "Now", "now",
+                "And", "and",
+                "But", "but",
+                "Listen", "listen",
+                "Look", "look",
+                "Gee", "Boy",
+                "Darling", "Sweetheart",
 
                 // DELETE NAMES
-                "Alan.", "Alan,",
-                "Charlie.", "Charlie,",
-                "Judith,", "Rose,", "Jake,", "Berta,", "Lyndsey,", "Frankie,", "Mom,", "Naomi,"
+                "Alan", "Alan",
+                "Charlie", "Charlie",
+                "Judith", "Rose", "Jake", "Berta", "Lyndsey", "Frankie", "Mom", "Naomi"
             };
 
             int affected = 0;
@@ -92,10 +96,13 @@ namespace Phrazer
             for(int t = 0; t < 10; t++) {
                 affected = 0;
                 for(int i = 0; i < strings.Length; i++) {
-                    if(text.StartsWith(strings[i])) {
-                        text = text.Substring(strings[i].Length).Trim();
-                        fixCase = true;
-                        affected++;
+                    for(int s = 0; s < suffixSigns.Length; s++) {
+                        string pattern = strings[i] + suffixSigns[s] + " ";
+                        if(text.StartsWith(pattern)) {
+                            text = text.Substring(pattern.Length).Trim();
+                            fixCase = true;
+                            affected++;
+                        }
                     }
                 }
                 if(text.Length == 0) return text;

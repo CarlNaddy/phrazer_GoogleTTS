@@ -13,13 +13,13 @@ namespace Phrazer
             return Appdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "inputVTT" + Path.DirectorySeparatorChar;
         }
 
-        public static string GetOutputAbsoluteFilename(string currentFileName)
+        public static string GetOutputAbsoluteFilename(string currentFileName, string suffix)
         {
             string path = Appdata.GetAppdataPath() + "_extern" + Path.DirectorySeparatorChar + "outputTSV" + Path.DirectorySeparatorChar;
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }
-            return path + Path.GetFileNameWithoutExtension(currentFileName) + ".tsv";
+            return path + Path.GetFileNameWithoutExtension(currentFileName) + suffix + ".tsv";
         }
 
 

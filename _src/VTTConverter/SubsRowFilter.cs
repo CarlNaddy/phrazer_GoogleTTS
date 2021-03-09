@@ -15,21 +15,22 @@ namespace Phrazer
             //string filteredText = Regex.Replace(text, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled).Trim();
             if(text.Contains("♪")) return true;
             if(text.Contains("&lt;")) return true;
-            if(text.StartsWith("==")) return true;
+            if(text.Contains("==")) return true;
+            if(text.Contains("NETFLIX")) return true;
+            if(text.Contains("Subtitles")) return true;
 
-            // SORT OUT VALUES
-            if(text.StartsWith("Subtitles")) return true;
+            // CHECK: CUT IT MORE HARD
+            if(SubsHelper.GetWordsCount(text) < 2) return true;
+            if(text.Contains("...") && text.Length < 8) return true;
+            if(text.Contains("--") && text.Length < 6) return true;
 
-            // CUT IT MORE HARD
-            if(text.Contains("...") && text.Length < 15) return true;
-            //if(SubsHelper.GetWordsCount(text) > 15) return true;
 
             // CUT IT LIKE A BIG HARVESTER
             if(harvesterMode) {
                 if(text.Contains("--")) return true;
                 if(text.Contains("...")) return true;
                 if(SubsHelper.GetWordsCount(text) < 2) return true;
-                if(SubsHelper.GetWordsCount(text) > 10) return true;
+                if(SubsHelper.GetWordsCount(text) > 8) return true;
             }
             
             return false;
