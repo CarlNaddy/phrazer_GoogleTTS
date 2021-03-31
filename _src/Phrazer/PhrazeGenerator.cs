@@ -3,6 +3,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
+using System.Threading;
 
 
 namespace Phrazer
@@ -73,7 +74,7 @@ namespace Phrazer
             + " (" + oTranslation + ")" 
             + ".wav");
 
-            Console.WriteLine(oFileName.Length + ": " + oFileName);
+            //Console.WriteLine(oFileName.Length + ": " + oFileName);
             
             return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
         }
@@ -142,6 +143,17 @@ namespace Phrazer
 
         public void ProcessTplFile()
         {
+            if (FromText.Length > MaxTextLength) return;
+            if (ToText.Length > MaxTextLength) return;
+            
+            string fileName = GetOutputFilename();
+            if (File.Exists(fileName)) {
+                Console.WriteLine("! ALREADY EXISTS: " + fileName); return;
+            }
+            
+            Console.WriteLine(">> GENERATE FILE: " + fileName);
+            Console.WriteLine("----------- SSML:");
+
             Generator = new GTTSGenerator();
 
             string[] rows = File.ReadAllLines(Appdata.GetTplPath(GetTemplateName()));
@@ -151,15 +163,49 @@ namespace Phrazer
                 RowNumberTpl++;
                 ProcessTplRow(row);
             }
-
-            string fileName = GetOutputFilename();
-            if (File.Exists(fileName)) {
-                Console.WriteLine("! ALREADY EXISTS: " + fileName); return;
-            }
-            Console.WriteLine(">> GENERATE FILE: " + fileName);
             Generator.ConcatAndSaveWavContents(fileName);
             CreateHistoryRow();
         }
+
+
+
+        public void ProcessTplRow(string text)
+        {
+            // add some SOUNDS
+            FromText = addHeadingSoundAndCut(FromText);
+
+            // replace TEXTS
+            text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
+            text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
+            text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
+            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
+
+            // Wartezeit berechnen (spaeter extrahieren)
+            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(ToText, true).ToString());
+            text = text.Replace("__WAITTIMETO__", GetWaitTime(ToText, false).ToString());
+
+            // add some BREAKS
+            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(150));
+            text = text.Replace(";", GTTSHelper.GetBreakSsmlTag(200));
+            text = text.Replace("...", GTTSHelper.GetBreakSsmlTag(250));
+            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag(300));
+
+            Console.WriteLine(text);
+
+            // Than SPLIT
+            string[] csvEntries = text.Split(':');
+            if (csvEntries.Length < 2) return;
+
+            CurrentVoice = csvEntries[0].Trim();
+            CurrentSsml = csvEntries[1].Trim();
+
+            Generator.SynthesizeSpeechAndAddToBuffer(CurrentVoice, CurrentSsml);
+            Thread.Sleep(500);
+        }
+
+
+
+
 
         public void CreateHistoryRow()
         {
@@ -196,9 +242,9 @@ namespace Phrazer
             double thinkingTime = 0;
 
             // TEXT LENGTH BASED
-            double repeatingTime = text.Length * 0.02 + 2.25;
+            double repeatingTime = text.Length * 0.08 + 1.3;
             if(includingThingingTime)
-                thinkingTime = text.Length * 0.005 + 0.2;
+                thinkingTime = text.Length * 0.005 + 1;
 
             // WORDS COUNT BASED
             // double repeatingTime = text.Split(" ").Length * 0.15 + 2;
@@ -207,42 +253,6 @@ namespace Phrazer
                 
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
-
-        public void ProcessTplRow(string text)
-        {
-            // Please check if exists before going to the G-TTS
-            if (ToText.Length > MaxTextLength) return;
-            if (File.Exists(GetOutputFilename())) return;
-
-            // add some SOUNDS
-            FromText = addHeadingSoundAndCut(FromText);
-
-            // replace TEXTS
-            text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
-            text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
-            text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
-            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
-
-            // Wartezeit berechnen (spaeter extrahieren)
-            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(ToText, true).ToString());
-            text = text.Replace("__WAITTIMETO__", GetWaitTime(ToText, false).ToString());
-
-            // add some BREAKS
-            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag("150ms"));
-            text = text.Replace(";", GTTSHelper.GetBreakSsmlTag("200ms"));
-            text = text.Replace("...", GTTSHelper.GetBreakSsmlTag("250ms"));
-            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag("300ms"));
-
-            // Than SPLIT
-            string[] csvEntries = text.Split(':');
-            if (csvEntries.Length < 2) return;
-
-            CurrentVoice = csvEntries[0].Trim();
-            CurrentSsml = csvEntries[1].Trim();
-
-            Generator.SynthesizeSSML(CurrentVoice, CurrentSsml);
-        }
-
 
 
         public string GetTemplateName()

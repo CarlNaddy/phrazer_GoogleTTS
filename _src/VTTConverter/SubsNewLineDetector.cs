@@ -12,7 +12,7 @@ namespace Phrazer
         }
 
 
-        public int GetMaxBufferSize()
+        public static int GetMaxBufferSize()
         {
             return 180;
         }

@@ -25,7 +25,7 @@ namespace Phrazer
         
         public List<byte[]> AudioContents = new List<byte[]>();
 
-        public void SynthesizeSSML(string voice, string ssml)
+        public void SynthesizeSpeechAndAddToBuffer(string voice, string ssml)
         {
             var client = TextToSpeechClient.Create();
             var response = client.SynthesizeSpeech(new SynthesizeSpeechRequest

@@ -102,7 +102,7 @@ namespace Phrazer
 
                 foreach(string word in rowText.Split(" "))
                 {
-                    if(textBuffer.Length > newLineDetector.GetMaxBufferSize() || newLineDetector.ShouldCreateNewRow(textBuffer, word))
+                    if(textBuffer.Length > SubsNewLineDetector.GetMaxBufferSize() || newLineDetector.ShouldCreateNewRow(textBuffer, word))
                     {
                         SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                     }
@@ -110,7 +110,7 @@ namespace Phrazer
                     if(SubsConfig.transformTextToLowercase) textBuffer = textBuffer.ToLower();
                 }
 
-                if(textBuffer.Length > newLineDetector.GetMaxBufferSize()) {
+                if(textBuffer.Length > SubsNewLineDetector.GetMaxBufferSize()) {
                     SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                 }
             }
@@ -124,7 +124,7 @@ namespace Phrazer
                 if(textBufferList[i] == null) break;
                 tsvRows.Add(translatedTextList[i] + "\t" + textBufferList[i] + "\t" + wordCountList[i] + "\t" + rowNumberList[i] + "\t" + timeCodeList[i] + "\t" + "1");
             }
-            string suffix = (harvesterMode) ? "_HARVESTER" : "";
+            string suffix = (harvesterMode) ? " - HARVESTER" : "";
             File.WriteAllLines(SubsHelper.GetOutputAbsoluteFilename(currentFileName, suffix), tsvRows, Encoding.UTF8);
             
             if(SubsConfig.generateAllInputsStatisticsFile)
@@ -169,14 +169,23 @@ namespace Phrazer
             }
 
             string[] textParts = new string[20];
-            if(SubsHelper.GetWordsCount(textBuffer) > 10) {
+            
+            // So now we have got a real story mode ;)
+            if(textBuffer.Length > 50) {
+                string partsBuffer = "";
                 textParts = textBuffer.Split(",");
                 for(int i = 0; i < textParts.Length; i++) {
+                    partsBuffer = partsBuffer + textParts[i];
                     if( !textParts[i].EndsWith(".")
                         && !textParts[i].EndsWith("?")
                         && !textParts[i].EndsWith("!")
-                    ) textParts[i] = textParts[i] + ",";
-                    SaveTextPartToList(textParts[i], ref rowNumber, ref time);
+                    ) {
+                        partsBuffer = partsBuffer + ", ";
+                        // wenn string zu kurz - einfach weitergehen.
+                        if(partsBuffer.Length < 15 || SubsHelper.GetWordsCount(partsBuffer) < 3) continue;
+                    }
+                    SaveTextPartToList(partsBuffer, ref rowNumber, ref time);
+                    partsBuffer = "";
                 }
             } else {
                 SaveTextPartToList(textBuffer, ref rowNumber, ref time);
