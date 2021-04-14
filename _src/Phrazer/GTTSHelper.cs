@@ -47,7 +47,7 @@ namespace Phrazer
         {
             string[] parts = text.Split(" ");
             for(int i = 0; i < parts.Length; i ++) {
-                parts[i] = parts[i] + GetBreakSsmlTag(parts[i].Length * 40 + 510);
+                parts[i] = parts[i] + GetBreakSsmlTag(1000);
             }
             return string.Join("", parts);
         }
@@ -56,6 +56,45 @@ namespace Phrazer
         {
             return " <break time=\"" + milliseconds + "ms\"/> ";
         }
+
+
+        public static int GetWaitTime(string text, bool includingThingingTime)
+        {
+            double thinkingTime = 0;
+
+            // TEXT LENGTH BASED
+            double repeatingTime = text.Length * 0.05 + 2;
+            
+            if(includingThingingTime)
+                thinkingTime = text.Length * 0.005 + 1;
+
+            if(text.Length > 75) {
+                if(includingThingingTime) thinkingTime = -1;
+                repeatingTime = 4; // Wartezeiten limitieren bei langen Sätzen
+            }
+                
+            return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
+        }
+
+        public static string GetTemplateName(string FromText, string ToText)
+        {
+            // Repeat 2 times on longer phrase
+            if(ToText.Length > 75) {
+                return "phrase_2.tpl";
+            }
+
+            // if no TEXT_FROM, then make just text
+            if(FromText.Length == 0) {
+                return "text_2.tpl";
+            }
+
+            // else just a usual audioflashcard
+            return "phrase_3.tpl";
+        }
+
+
+
+
 
 
         public static string GetFolderSuffix(int rowNumber)
@@ -77,6 +116,12 @@ namespace Phrazer
             if(text.Length >= length) return text.Substring(start, length);
             return text;
         }
+
+        
+
+
+
+        
         
     }
 }

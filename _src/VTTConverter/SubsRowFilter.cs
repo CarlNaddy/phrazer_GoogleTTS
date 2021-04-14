@@ -20,7 +20,7 @@ namespace Phrazer
             if(text.Contains("Subtitles")) return true;
 
             // CHECK: CUT IT MORE HARD
-            if(SubsHelper.GetWordsCount(text) < 2) return true;
+            if(SubsHelper.GetWordsCount(text) < 1) return true;
             if(text.Contains("...") && text.Length < 8) return true;
             if(text.Contains("--") && text.Length < 6) return true;
 

@@ -39,6 +39,7 @@ namespace Phrazer
             }
 
             text = text.Replace(":", ".");
+            text = text.Replace(";", ",");
 
             text = SanitizePrefix(text);
             text = SanitizeMiddle(text);
@@ -171,6 +172,26 @@ namespace Phrazer
 
             int diff = lastBracket - firstBracket + 1;
             return text.Remove(firstBracket, diff);
+        }
+
+
+        public static string SanitizeVocabulary(string text)
+        {
+            
+            text = text.Replace("!", "");
+            text = text.Replace("?", "");
+            text = text.Replace(",", "");
+            text = text.Replace(".", "");
+            text = text.Replace("--", "");
+
+            text = text.Trim();
+
+            if(System.Text.RegularExpressions.Regex.IsMatch(text, @"[^a-zA-Z,\s'-]+", System.Text.RegularExpressions.RegexOptions.IgnoreCase))
+            return "";
+
+            if(text == "I" || text == "I'm" || text == "I've" || text == "I'd" || text == "I'll") return text;
+
+            return text.ToLower();
         }
         
     }

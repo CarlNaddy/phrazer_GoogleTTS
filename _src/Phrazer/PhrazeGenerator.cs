@@ -31,7 +31,7 @@ namespace Phrazer
         {
             FromLang = "";
             ToLang = "";
-            MaxTextLength = 120;
+            MaxTextLength = 140;
             RowNumber = 0;
             TimeCode = "";
             TimeCodeList = "";
@@ -143,8 +143,12 @@ namespace Phrazer
 
         public void ProcessTplFile()
         {
-            if (FromText.Length > MaxTextLength) return;
-            if (ToText.Length > MaxTextLength) return;
+            // LOgging for oversized rows
+            if (FromText.Length > MaxTextLength || ToText.Length > MaxTextLength)
+            {
+                File.AppendAllText(Appdata.GetHistoryPath() + "_skipped.csv", FromText + "\t" + ToText + "\n");
+                return;
+            }
             
             string fileName = GetOutputFilename();
             if (File.Exists(fileName)) {
@@ -156,7 +160,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GetTemplateName()));
+            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GTTSHelper.GetTemplateName(FromText, ToText)));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -180,9 +184,9 @@ namespace Phrazer
             text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
 
-            // Wartezeit berechnen (spaeter extrahieren)
-            text = text.Replace("__WAITTIMEFROM__", GetWaitTime(ToText, true).ToString());
-            text = text.Replace("__WAITTIMETO__", GetWaitTime(ToText, false).ToString());
+            // Wartezeit berechnen
+            text = text.Replace("__WAITTIMEFROM__", GTTSHelper.GetWaitTime(ToText, true).ToString());
+            text = text.Replace("__WAITTIMETO__", GTTSHelper.GetWaitTime(ToText, false).ToString());
 
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(150));
@@ -210,8 +214,7 @@ namespace Phrazer
         public void CreateHistoryRow()
         {
             if(TimeCode.Length > 0) return;
-            string fileName = "history.csv";
-            File.AppendAllText(Appdata.GetHistoryPath() + fileName, FromText + "\t" + ToText + "\n");
+            File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", FromText + "\t" + ToText + "\n");
         }
 
         public string addHeadingSoundAndCut(string FromText)
@@ -235,39 +238,6 @@ namespace Phrazer
 
             
             return FromText;
-        }
-
-        public int GetWaitTime(string text, bool includingThingingTime)
-        {
-            double thinkingTime = 0;
-
-            // TEXT LENGTH BASED
-            double repeatingTime = text.Length * 0.08 + 1.3;
-            if(includingThingingTime)
-                thinkingTime = text.Length * 0.005 + 1;
-
-            // WORDS COUNT BASED
-            // double repeatingTime = text.Split(" ").Length * 0.15 + 2;
-            // if(includingThingingTime)
-            //     thinkingTime = text.Split(" ").Length * 0.1;
-                
-            return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
-        }
-
-
-        public string GetTemplateName()
-        {
-            if(FromLang == "DE" && ToLang == "DE") {
-                return "de_de.tpl";
-            }
-
-            // if no TEXT_FROM, then make just text
-            if(FromText.Length == 0) {
-                return "text_2.tpl";
-            }
-
-            // else just a usual audioflashcard
-            return "phrase_3.tpl";
         }
 
 
