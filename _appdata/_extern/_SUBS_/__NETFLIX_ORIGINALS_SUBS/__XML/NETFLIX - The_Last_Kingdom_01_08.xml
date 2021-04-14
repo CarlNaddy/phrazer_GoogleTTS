@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="white" tts:fontWeight="normal" tts:textAlign="center" xml:id="basic"/>
+<style tts:backgroundColor="transparent" tts:color="white" tts:fontStyle="italic" tts:fontWeight="normal" tts:textAlign="center" xml:id="basic_1"/>
+</styling>
+<layout>
+<region tts:backgroundColor="transparent" tts:extent="80.00% 5.33%" tts:origin="10.00% 10.00%" xml:id="pop1"/>
+<region tts:backgroundColor="transparent" tts:extent="80.00% 5.33%" tts:origin="10.00% 79.33%" xml:id="pop14"/>
+<region tts:backgroundColor="transparent" tts:extent="80.00% 5.33%" tts:origin="10.00% 84.67%" xml:id="pop15"/>
+<region tts:backgroundColor="transparent" tts:extent="80.00% 5.33%" tts:origin="10.00% 15.33%" xml:id="pop2"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="60000000t" end="88400000t" region="pop15" style="basic" xml:id="subtitle0"><span style="basic_1">I am Uhtred, son of Uhtred.</span></p>
+<p begin="89200000t" end="124400000t" region="pop14" style="basic" xml:id="subtitle1"><span style="basic_1">I was born a Saxon Lord,</span></p>
+<p begin="89200000t" end="124400000t" region="pop15" style="basic" xml:id="subtitle2"><span style="basic_1">but raised as a Dane</span></p>
+<p begin="125200000t" end="146400000t" region="pop14" style="basic" xml:id="subtitle3"><span style="basic_1">until the eve</span></p>
+<p begin="125200000t" end="146400000t" region="pop15" style="basic" xml:id="subtitle4"><span style="basic_1">of my sisters wedding,</span></p>
+<p begin="147200000t" end="172000000t" region="pop15" style="basic" xml:id="subtitle5"><span style="basic_1">when my family were murdered.</span></p>
+<p begin="172800000t" end="200400000t" region="pop14" style="basic" xml:id="subtitle6"><span style="basic_1">I am a warrior,</span></p>
+<p begin="172800000t" end="200400000t" region="pop15" style="basic" xml:id="subtitle7"><span style="basic_1">but when the Danes attacked</span></p>
+<p begin="201200000t" end="228000000t" region="pop14" style="basic" xml:id="subtitle8"><span style="basic_1">Alfred's stronghold</span></p>
+<p begin="201200000t" end="228000000t" region="pop15" style="basic" xml:id="subtitle9"><span style="basic_1">of Winchester,</span></p>
+<p begin="228800000t" end="248000000t" region="pop15" style="basic" xml:id="subtitle10"><span style="basic_1">all a man could do was run.</span></p>
+<p begin="248800000t" end="266400000t" region="pop15" style="basic" xml:id="subtitle11"><span style="basic_1">Some faster than others,</span></p>
+<p begin="267200000t" end="294400000t" region="pop15" style="basic" xml:id="subtitle12"><span style="basic_1">including my enemy, Young Odda.</span></p>
+<p begin="295200000t" end="319200000t" region="pop15" style="basic" xml:id="subtitle13"><span style="basic_1">And so Guthrum took Winchester.</span></p>
+<p begin="320000000t" end="353600000t" region="pop14" style="basic" xml:id="subtitle14"><span style="basic_1">Aethelwold pledged his</span></p>
+<p begin="320000000t" end="353600000t" region="pop15" style="basic" xml:id="subtitle15"><span style="basic_1">allegiance to the Danes.</span></p>
+<p begin="354400000t" end="381600000t" region="pop14" style="basic" xml:id="subtitle16"><span style="basic_1">Though Guthrum</span></p>
+<p begin="354400000t" end="381600000t" region="pop15" style="basic" xml:id="subtitle17"><span style="basic_1">still feared Alfred's God.</span></p>
+<p begin="382400000t" end="432000000t" region="pop14" style="basic" xml:id="subtitle18"><span style="basic_1">I could only hope that my now distant</span></p>
+<p begin="382400000t" end="432000000t" region="pop15" style="basic" xml:id="subtitle19"><span style="basic_1">wife and child would be safe.</span></p>
+<p begin="432800000t" end="476800000t" region="pop14" style="basic" xml:id="subtitle20"><span style="basic_1">We had no choice but to hide</span></p>
+<p begin="432800000t" end="476800000t" region="pop15" style="basic" xml:id="subtitle21"><span style="basic_1">and pray for a miracle.</span></p>
+<p begin="477600000t" end="516400000t" region="pop14" style="basic" xml:id="subtitle22"><span style="basic_1">Iseult, my virgin queen,</span></p>
+<p begin="477600000t" end="516400000t" region="pop15" style="basic" xml:id="subtitle23"><span style="basic_1">saved the King's son.</span></p>
+<p begin="517200000t" end="546000000t" region="pop14" style="basic" xml:id="subtitle24"><span style="basic_1">But at a cost</span></p>
+<p begin="517200000t" end="546000000t" region="pop15" style="basic" xml:id="subtitle25"><span style="basic_1">only she could see.</span></p>
+<p begin="546800000t" end="574800000t" region="pop15" style="basic" xml:id="subtitle26"><span style="basic_1">She gave Alfred strength.</span></p>
+<p begin="575600000t" end="602800000t" region="pop15" style="basic" xml:id="subtitle27"><span style="basic_1">With the King alive and well,</span></p>
+<p begin="603600000t" end="623600000t" region="pop15" style="basic" xml:id="subtitle28"><span style="basic_1">there is hope for Wessex.</span></p>
+<p begin="628000000t" end="651200000t" region="pop15" style="basic" xml:id="subtitle29"><span style="basic_1">Destiny is all.</span></p>
+<p begin="1063200000t" end="1083200000t" region="pop1" style="basic" xml:id="subtitle30">Agreed, we have fired</p>
+<p begin="1063200000t" end="1083200000t" region="pop2" style="basic" xml:id="subtitle31">a good number of ships.</p>
+<p begin="1084000000t" end="1102400000t" region="pop14" style="basic" xml:id="subtitle32">-A fleet.</p>
+<p begin="1084000000t" end="1102400000t" region="pop15" style="basic" xml:id="subtitle33">-A fleet.</p>
+<p begin="1103200000t" end="1129600000t" region="pop14" style="basic" xml:id="subtitle34">But in the meantime,</p>
+<p begin="1103200000t" end="1129600000t" region="pop15" style="basic" xml:id="subtitle35">we have left hundreds of Danes</p>
+<p begin="1130400000t" end="1154400000t" region="pop14" style="basic" xml:id="subtitle36">stranded in Wessex,</p>
+<p begin="1130400000t" end="1154400000t" region="pop15" style="basic" xml:id="subtitle37">with no means of leaving--</p>
+<p begin="1155200000t" end="1184800000t" region="pop14" style="basic" xml:id="subtitle38">Wulfhere I do not believe their</p>
+<p begin="1155200000t" end="1184800000t" region="pop15" style="basic" xml:id="subtitle39">intention was to ever leave.</p>
+<p begin="1185600000t" end="1216000000t" region="pop14" style="basic" xml:id="subtitle40">And in a few months there</p>
+<p begin="1185600000t" end="1216000000t" region="pop15" style="basic" xml:id="subtitle41">will be more ships, more men.</p>
+<p begin="1216800000t" end="1231600000t" region="pop15" style="basic" xml:id="subtitle42">Now is the time to fight.</p>
+<p begin="1232400000t" end="1252000000t" region="pop14" style="basic" xml:id="subtitle43">To fight with what?</p>
+<p begin="1232400000t" end="1252000000t" region="pop15" style="basic" xml:id="subtitle44">We are without an army;</p>
+<p begin="1252800000t" end="1268400000t" region="pop14" style="basic" xml:id="subtitle45">and the Danes will</p>
+<p begin="1252800000t" end="1268400000t" region="pop15" style="basic" xml:id="subtitle46">number thousands.</p>
+<p begin="1269200000t" end="1291200000t" region="pop14" style="basic" xml:id="subtitle47">The men are out there,</p>
+<p begin="1269200000t" end="1291200000t" region="pop15" style="basic" xml:id="subtitle48">Wulfhere, and they are waiting.</p>
+<p begin="1292000000t" end="1309200000t" region="pop15" style="basic" xml:id="subtitle49">What they need is the call.</p>
+<p begin="1310000000t" end="1355200000t" region="pop15" style="basic" xml:id="subtitle50">Indeed but... Lord...</p>
+<p begin="1364400000t" end="1399600000t" region="pop14" style="basic" xml:id="subtitle51">What if I was to suggest</p>
+<p begin="1364400000t" end="1399600000t" region="pop15" style="basic" xml:id="subtitle52">we escort you to Frankia--</p>
+<p begin="1400400000t" end="1427600000t" region="pop14" style="basic" xml:id="subtitle53">That will not happen,</p>
+<p begin="1400400000t" end="1427600000t" region="pop15" style="basic" xml:id="subtitle54">I will not hide.</p>
+<p begin="1432400000t" end="1448400000t" region="pop15" style="basic" xml:id="subtitle55">Not here nor in Frankia.</p>
+<p begin="1449200000t" end="1489600000t" region="pop14" style="basic" xml:id="subtitle56">-[Wulfhere] But my--</p>
+<p begin="1449200000t" end="1489600000t" region="pop15" style="basic" xml:id="subtitle57">-I have prayed daily for guidance.</p>
+<p begin="1494400000t" end="1538000000t" region="pop14" style="basic" xml:id="subtitle58">The only way I see to save</p>
+<p begin="1494400000t" end="1538000000t" region="pop15" style="basic" xml:id="subtitle59">Wessex is with what we have begun;</p>
+<p begin="1538800000t" end="1565600000t" region="pop15" style="basic" xml:id="subtitle60">one defining battle.</p>
+<p begin="1574000000t" end="1599600000t" region="pop15" style="basic" xml:id="subtitle61">We shall be leaving the marshes.</p>
+<p begin="1622800000t" end="1650400000t" region="pop15" style="basic" xml:id="subtitle62">Courage and faith.</p>
+<p begin="1656400000t" end="1674800000t" region="pop14" style="basic" xml:id="subtitle63">-Amen.</p>
+<p begin="1656400000t" end="1674800000t" region="pop15" style="basic" xml:id="subtitle64">-Amen.</p>
+<p begin="1680000000t" end="1693600000t" region="pop15" style="basic" xml:id="subtitle65">Amen.</p>
+<p begin="1694400000t" end="1725200000t" region="pop14" style="basic" xml:id="subtitle66">-Shh...</p>
+<p begin="1694400000t" end="1725200000t" region="pop15" style="basic" xml:id="subtitle67">-[baby cries softly]</p>
+<p begin="1751200000t" end="1799200000t" region="pop14" style="basic" xml:id="subtitle68">It will not be recorded that King</p>
+<p begin="1751200000t" end="1799200000t" region="pop15" style="basic" xml:id="subtitle69">Alfred was a weak, frail man;</p>
+<p begin="1800000000t" end="1848000000t" region="pop14" style="basic" xml:id="subtitle70">in mind, body and soul,</p>
+<p begin="1800000000t" end="1848000000t" region="pop15" style="basic" xml:id="subtitle71">unfit to be called king.</p>
+<p begin="1848800000t" end="1871600000t" region="pop15" style="basic" xml:id="subtitle72">Nothing of what you say is true.</p>
+<p begin="1872400000t" end="1894000000t" region="pop15" style="basic" xml:id="subtitle73">But it would become true.</p>
+<p begin="1897600000t" end="1912000000t" region="pop15" style="basic" xml:id="subtitle74">Never.</p>
+<p begin="1930400000t" end="1964400000t" region="pop14" style="basic" xml:id="subtitle75">Now you, my love,</p>
+<p begin="1930400000t" end="1964400000t" region="pop15" style="basic" xml:id="subtitle76">will remain here.</p>
+<p begin="1975200000t" end="2011200000t" region="pop14" style="basic" xml:id="subtitle77">If I fail,</p>
+<p begin="1975200000t" end="2011200000t" region="pop15" style="basic" xml:id="subtitle78">you must go to Frankia.</p>
+<p begin="2012000000t" end="2023600000t" region="pop15" style="basic" xml:id="subtitle79">Not without you.</p>
+<p begin="2024400000t" end="2057200000t" region="pop14" style="basic" xml:id="subtitle80">You must save</p>
+<p begin="2024400000t" end="2057200000t" region="pop15" style="basic" xml:id="subtitle81">and protect our children.</p>
+<p begin="2086400000t" end="2146800000t" region="pop14" style="basic" xml:id="subtitle82">For me, there can be</p>
+<p begin="2086400000t" end="2146800000t" region="pop15" style="basic" xml:id="subtitle83">no other country but England,</p>
+<p begin="2156400000t" end="2186800000t" region="pop15" style="basic" xml:id="subtitle84">no other wife but Aelswith.</p>
+<p begin="2223600000t" end="2237600000t" region="pop15" style="basic" xml:id="subtitle85">Father Beocca.</p>
+<p begin="2250000000t" end="2310400000t" region="pop14" style="basic" xml:id="subtitle86">Father... I am not saying</p>
+<p begin="2250000000t" end="2310400000t" region="pop15" style="basic" xml:id="subtitle87">I know everything,</p>
+<p begin="2311200000t" end="2342400000t" region="pop14" style="basic" xml:id="subtitle88">but the king</p>
+<p begin="2311200000t" end="2342400000t" region="pop15" style="basic" xml:id="subtitle89">must continue to trust me.</p>
+<p begin="2343200000t" end="2365600000t" region="pop14" style="basic" xml:id="subtitle90">The arrival of Asser</p>
+<p begin="2343200000t" end="2365600000t" region="pop15" style="basic" xml:id="subtitle91">may change him.</p>
+<p begin="2366400000t" end="2386000000t" region="pop14" style="basic" xml:id="subtitle92">The arrival of Brother Asser</p>
+<p begin="2366400000t" end="2386000000t" region="pop15" style="basic" xml:id="subtitle93">has given him strength.</p>
+<p begin="2386800000t" end="2424400000t" region="pop14" style="basic" xml:id="subtitle94">The Brother is not a warrior.</p>
+<p begin="2386800000t" end="2424400000t" region="pop15" style="basic" xml:id="subtitle95">Now is a time for warriors.</p>
+<p begin="2432800000t" end="2455200000t" region="pop14" style="basic" xml:id="subtitle96">And though I never thought I would</p>
+<p begin="2432800000t" end="2455200000t" region="pop15" style="basic" xml:id="subtitle97">say it, we need Odda the Younger.</p>
+<p begin="2456000000t" end="2477200000t" region="pop15" style="basic" xml:id="subtitle98">He commands the largest fyrd.</p>
+<p begin="2478000000t" end="2534400000t" region="pop14" style="basic" xml:id="subtitle99">He is the beginning of our army,</p>
+<p begin="2478000000t" end="2534400000t" region="pop15" style="basic" xml:id="subtitle100">that is where we are headed.</p>
+<p begin="2535200000t" end="2566000000t" region="pop14" style="basic" xml:id="subtitle101">Uhtred I will do everything</p>
+<p begin="2535200000t" end="2566000000t" region="pop15" style="basic" xml:id="subtitle102">I can to help.</p>
+<p begin="2572800000t" end="2590400000t" region="pop15" style="basic" xml:id="subtitle103">I will be at your side.</p>
+<p begin="2591200000t" end="2616800000t" region="pop14" style="basic" xml:id="subtitle104">I will be a flea</p>
+<p begin="2591200000t" end="2616800000t" region="pop15" style="basic" xml:id="subtitle105">in Alfred's ear.</p>
+<p begin="2617600000t" end="2630400000t" region="pop15" style="basic" xml:id="subtitle106">Thank you.</p>
+<p begin="2631200000t" end="2684800000t" region="pop14" style="basic" xml:id="subtitle107">Your father would be</p>
+<p begin="2631200000t" end="2684800000t" region="pop15" style="basic" xml:id="subtitle108">a proud man... as am I.</p>
+<p begin="2780800000t" end="2818800000t" region="pop14" style="basic" xml:id="subtitle109">I shall ready my men and by</p>
+<p begin="2780800000t" end="2818800000t" region="pop15" style="basic" xml:id="subtitle110">tomorrow I'll have horses waiting.</p>
+<p begin="2820800000t" end="2838400000t" region="pop15" style="basic" xml:id="subtitle111">Uhtred...</p>
+<p begin="2868000000t" end="2894000000t" region="pop14" style="basic" xml:id="subtitle112">You believe</p>
+<p begin="2868000000t" end="2894000000t" region="pop15" style="basic" xml:id="subtitle113">the Danes can be defeated?</p>
+<p begin="2922000000t" end="2950400000t" region="pop14" style="basic" xml:id="subtitle114">I will see you across the water,</p>
+<p begin="2922000000t" end="2950400000t" region="pop15" style="basic" xml:id="subtitle115">Aelderman Wulfhere.</p>
+<p begin="2999200000t" end="3021200000t" region="pop14" style="basic" xml:id="subtitle116">[sighs]</p>
+<p begin="2999200000t" end="3021200000t" region="pop15" style="basic" xml:id="subtitle117">You will.</p>
+<p begin="3028800000t" end="3050000000t" region="pop1" style="basic" xml:id="subtitle118">[indistinct chatter]</p>
+<p begin="3156000000t" end="3185200000t" region="pop14" style="basic" xml:id="subtitle119">Aethelcod,</p>
+<p begin="3156000000t" end="3185200000t" region="pop15" style="basic" xml:id="subtitle120">Aethelcod, my friend,</p>
+<p begin="3186000000t" end="3231600000t" region="pop14" style="basic" xml:id="subtitle121">a man who would be</p>
+<p begin="3186000000t" end="3231600000t" region="pop15" style="basic" xml:id="subtitle122">King of Wessex, thank you.</p>
+<p begin="3232400000t" end="3250400000t" region="pop15" style="basic" xml:id="subtitle123">Thank you for coming to see me.</p>
+<p begin="3251200000t" end="3260400000t" region="pop14" style="basic" xml:id="subtitle124">Certainly...</p>
+<p begin="3251200000t" end="3260400000t" region="pop15" style="basic" xml:id="subtitle125">It is Aethelwold.</p>
+<p begin="3261200000t" end="3286000000t" region="pop14" style="basic" xml:id="subtitle126">Yes, please.</p>
+<p begin="3261200000t" end="3286000000t" region="pop15" style="basic" xml:id="subtitle127">Sit down. Sit down.</p>
+<p begin="3291200000t" end="3333200000t" region="pop15" style="basic" xml:id="subtitle128">So... I want you to tell me</p>
+<p begin="3334000000t" end="3364000000t" region="pop14" style="basic" xml:id="subtitle129">everything you know</p>
+<p begin="3334000000t" end="3364000000t" region="pop15" style="basic" xml:id="subtitle130">about Alfred.</p>
+<p begin="3364800000t" end="3382000000t" region="pop14" style="basic" xml:id="subtitle131">I have told you Lord,</p>
+<p begin="3364800000t" end="3382000000t" region="pop15" style="basic" xml:id="subtitle132">he thinks with his dick.</p>
+<p begin="3382800000t" end="3395200000t" region="pop15" style="basic" xml:id="subtitle133">[chuckles]</p>
+<p begin="3396000000t" end="3422400000t" region="pop14" style="basic" xml:id="subtitle134">He can barely keep</p>
+<p begin="3396000000t" end="3422400000t" region="pop15" style="basic" xml:id="subtitle135">his breeches on.</p>
+<p begin="3423200000t" end="3443200000t" region="pop15" style="basic" xml:id="subtitle136">Hear the question, boy.</p>
+<p begin="3444000000t" end="3466400000t" region="pop15" style="basic" xml:id="subtitle137">Not everybody enjoys a fool.</p>
+<p begin="3490000000t" end="3526800000t" region="pop14" style="basic" xml:id="subtitle138">Alfred... though he may be</p>
+<p begin="3490000000t" end="3526800000t" region="pop15" style="basic" xml:id="subtitle139">afflicted by pain,</p>
+<p begin="3527600000t" end="3553200000t" region="pop14" style="basic" xml:id="subtitle140">he is as strong a man</p>
+<p begin="3527600000t" end="3553200000t" region="pop15" style="basic" xml:id="subtitle141">as you will find.</p>
+<p begin="3561200000t" end="3586000000t" region="pop14" style="basic" xml:id="subtitle142">He is also as clever a man</p>
+<p begin="3561200000t" end="3586000000t" region="pop15" style="basic" xml:id="subtitle143">as you will find.</p>
+<p begin="3586800000t" end="3627600000t" region="pop14" style="basic" xml:id="subtitle144">I was ready to have him as my advisor,</p>
+<p begin="3586800000t" end="3627600000t" region="pop15" style="basic" xml:id="subtitle145">until he stole my crown.</p>
+<p begin="3638800000t" end="3683200000t" region="pop14" style="basic" xml:id="subtitle146">His strength, Lord, I believe,</p>
+<p begin="3638800000t" end="3683200000t" region="pop15" style="basic" xml:id="subtitle147">comes from his faith--</p>
+<p begin="3684000000t" end="3708400000t" region="pop14" style="basic" xml:id="subtitle148">-[scoffs]</p>
+<p begin="3684000000t" end="3708400000t" region="pop15" style="basic" xml:id="subtitle149">-[chuckles]</p>
+<p begin="3709200000t" end="3727200000t" region="pop15" style="basic" xml:id="subtitle150">From God.</p>
+<p begin="3819600000t" end="3872000000t" region="pop15" style="basic" xml:id="subtitle151">Do you believe in this God?</p>
+<p begin="3898000000t" end="3919200000t" region="pop15" style="basic" xml:id="subtitle152">I believe in myself.</p>
+<p begin="3920000000t" end="3952400000t" region="pop15" style="basic" xml:id="subtitle153">Why did Alfred steal the crown?</p>
+<p begin="3953200000t" end="3982000000t" region="pop14" style="basic" xml:id="subtitle154">For silver, or to be</p>
+<p begin="3953200000t" end="3982000000t" region="pop15" style="basic" xml:id="subtitle155">a stronger king to the people?</p>
+<p begin="3982800000t" end="4024000000t" region="pop15" style="basic" xml:id="subtitle156">No! Um... Yes, in part.</p>
+<p begin="4024800000t" end="4046800000t" region="pop15" style="basic" xml:id="subtitle157">Which is it?</p>
+<p begin="4047600000t" end="4100800000t" region="pop14" style="basic" xml:id="subtitle158">Unfairly, I was not seen</p>
+<p begin="4047600000t" end="4100800000t" region="pop15" style="basic" xml:id="subtitle159">as a man to follow... by some.</p>
+<p begin="4118800000t" end="4144800000t" region="pop14" style="basic" xml:id="subtitle160">I was not a man to fight Danes,</p>
+<p begin="4118800000t" end="4144800000t" region="pop15" style="basic" xml:id="subtitle161">it was said,</p>
+<p begin="4145600000t" end="4167600000t" region="pop14" style="basic" xml:id="subtitle162">and which is true because</p>
+<p begin="4145600000t" end="4167600000t" region="pop15" style="basic" xml:id="subtitle163">I know the Danes will win.</p>
+<p begin="4168400000t" end="4183200000t" region="pop14" style="basic" xml:id="subtitle164">[chuckles]</p>
+<p begin="4168400000t" end="4183200000t" region="pop15" style="basic" xml:id="subtitle165">Yes...</p>
+<p begin="4184000000t" end="4192800000t" region="pop15" style="basic" xml:id="subtitle166">Where as... where as, Alfred...</p>
+<p begin="4193600000t" end="4221600000t" region="pop15" style="basic" xml:id="subtitle167">Alfred believes that he can win.</p>
+<p begin="4222400000t" end="4243600000t" region="pop14" style="basic" xml:id="subtitle168">-Even now?</p>
+<p begin="4222400000t" end="4243600000t" region="pop15" style="basic" xml:id="subtitle169">-Yes!</p>
+<p begin="4244400000t" end="4289200000t" region="pop14" style="basic" xml:id="subtitle170">Yeah, he is wrong,</p>
+<p begin="4244400000t" end="4289200000t" region="pop15" style="basic" xml:id="subtitle171">of course, but... but his faith,</p>
+<p begin="4290000000t" end="4322800000t" region="pop15" style="basic" xml:id="subtitle172">that God will not desert him,</p>
+<p begin="4323600000t" end="4362400000t" region="pop14" style="basic" xml:id="subtitle173">will make him believe</p>
+<p begin="4323600000t" end="4362400000t" region="pop15" style="basic" xml:id="subtitle174">that he will win.</p>
+<p begin="4522800000t" end="4544800000t" region="pop15" style="basic" xml:id="subtitle175">Then you have to kill him.</p>
+<p begin="4558400000t" end="4570400000t" region="pop15" style="basic" xml:id="subtitle176">I must kill him?</p>
+<p begin="4571200000t" end="4618000000t" region="pop15" style="basic" xml:id="subtitle177">Who else... but King Aethelcod</p>
+<p begin="4618800000t" end="4650800000t" region="pop15" style="basic" xml:id="subtitle178">can walk into Alfred's camp...</p>
+<p begin="4657200000t" end="4699200000t" region="pop15" style="basic" xml:id="subtitle179">...and be welcomed as a friend?</p>
+<p begin="5171600000t" end="5197600000t" region="pop15" style="basic" xml:id="subtitle180">[birds chirping]</p>
+<p begin="5279200000t" end="5301200000t" region="pop15" style="basic" xml:id="subtitle181">Wulfhere and his men.</p>
+<p begin="5354000000t" end="5374800000t" region="pop14" style="basic" xml:id="subtitle182">[gasps]</p>
+<p begin="5354000000t" end="5374800000t" region="pop15" style="basic" xml:id="subtitle183">[mumbles]</p>
+<p begin="5375600000t" end="5394800000t" region="pop15" style="basic" xml:id="subtitle184">Stay away! I have skills!</p>
+<p begin="5395600000t" end="5422400000t" region="pop14" style="basic" xml:id="subtitle185">Put that piece of tin</p>
+<p begin="5395600000t" end="5422400000t" region="pop15" style="basic" xml:id="subtitle186">away, boy.</p>
+<p begin="5423200000t" end="5440000000t" region="pop14" style="basic" xml:id="subtitle187">Oh, thank Christ</p>
+<p begin="5423200000t" end="5440000000t" region="pop15" style="basic" xml:id="subtitle188">you are English.</p>
+<p begin="5440800000t" end="5484800000t" region="pop14" style="basic" xml:id="subtitle189">I thought you were one of them,</p>
+<p begin="5440800000t" end="5484800000t" region="pop15" style="basic" xml:id="subtitle190">what with the hair.</p>
+<p begin="5496400000t" end="5521600000t" region="pop15" style="basic" xml:id="subtitle191">Where is the Aelderman Wulfhere?</p>
+<p begin="5536800000t" end="5556000000t" region="pop15" style="basic" xml:id="subtitle192">Gone, Lord.</p>
+<p begin="5567600000t" end="5588800000t" region="pop14" style="basic" xml:id="subtitle193">I am Halig.</p>
+<p begin="5567600000t" end="5588800000t" region="pop15" style="basic" xml:id="subtitle194">I take care of the horses.</p>
+<p begin="5590400000t" end="5607200000t" region="pop15" style="basic" xml:id="subtitle195">Gone where?</p>
+<p begin="5614800000t" end="5636800000t" region="pop14" style="basic" xml:id="subtitle196">Now I'm thinking on it, Lord,</p>
+<p begin="5614800000t" end="5636800000t" region="pop15" style="basic" xml:id="subtitle197">he did not say.</p>
+<p begin="5637600000t" end="5667200000t" region="pop14" style="basic" xml:id="subtitle198">-I thought you would know.</p>
+<p begin="5637600000t" end="5667200000t" region="pop15" style="basic" xml:id="subtitle199">-Wulfhere, where is he?</p>
+<p begin="5668000000t" end="5705200000t" region="pop14" style="basic" xml:id="subtitle200">-He has gone, Lord.</p>
+<p begin="5668000000t" end="5705200000t" region="pop15" style="basic" xml:id="subtitle201">-Lord.</p>
+<p begin="5706000000t" end="5738800000t" region="pop14" style="basic" xml:id="subtitle202">-He has gone where?</p>
+<p begin="5706000000t" end="5738800000t" region="pop15" style="basic" xml:id="subtitle203">-He didn't say.</p>
+<p begin="5755600000t" end="5780800000t" region="pop14" style="basic" xml:id="subtitle204">-He has left you horses, Lord.</p>
+<p begin="5755600000t" end="5780800000t" region="pop15" style="basic" xml:id="subtitle205">-We keep moving.</p>
+<p begin="5781600000t" end="5797600000t" region="pop15" style="basic" xml:id="subtitle206">Without Wulfhere?</p>
+<p begin="5798400000t" end="5811600000t" region="pop15" style="basic" xml:id="subtitle207">Our plan doesn't change.</p>
+<p begin="5812400000t" end="5842800000t" region="pop14" style="basic" xml:id="subtitle208">We make our way</p>
+<p begin="5812400000t" end="5842800000t" region="pop15" style="basic" xml:id="subtitle209">to Odda's estate.</p>
+<p begin="5938800000t" end="5964800000t" region="pop15" style="basic" xml:id="subtitle210">We cannot use the Roman roads.</p>
+<p begin="5970400000t" end="6004400000t" region="pop14" style="basic" xml:id="subtitle211">We can make our way to my</p>
+<p begin="5970400000t" end="6004400000t" region="pop15" style="basic" xml:id="subtitle212">farmstead and from there across</p>
+<p begin="6005200000t" end="6034000000t" region="pop14" style="basic" xml:id="subtitle213">-covered ground to Odda's.</p>
+<p begin="6005200000t" end="6034000000t" region="pop15" style="basic" xml:id="subtitle214">-And that is the safest path, Leofric?</p>
+<p begin="6034800000t" end="6055200000t" region="pop15" style="basic" xml:id="subtitle215">It is, Lord.</p>
+<p begin="6056000000t" end="6079600000t" region="pop15" style="basic" xml:id="subtitle216">Let's return to the others.</p>
+<p begin="6219200000t" end="6250000000t" region="pop14" style="basic" xml:id="subtitle217">There is pain here</p>
+<p begin="6219200000t" end="6250000000t" region="pop15" style="basic" xml:id="subtitle218">for you, my love.</p>
+<p begin="6483600000t" end="6518400000t" region="pop14" style="basic" xml:id="subtitle219">-Do you know them?</p>
+<p begin="6483600000t" end="6518400000t" region="pop15" style="basic" xml:id="subtitle220">-Tenants.</p>
+<p begin="6640800000t" end="6665200000t" region="pop15" style="basic" xml:id="subtitle221">[chickens clucking]</p>
+<p begin="6992000000t" end="7005200000t" region="pop15" style="basic" xml:id="subtitle222">No...</p>
+<p begin="7126400000t" end="7151600000t" region="pop15" style="basic" xml:id="subtitle223">[shuddering]</p>
+<p begin="7251600000t" end="7272000000t" region="pop15" style="basic" xml:id="subtitle224">[sobs]</p>
+<p begin="7554000000t" end="7587200000t" region="pop14" style="basic" xml:id="subtitle225">[dialogue muted</p>
+<p begin="7554000000t" end="7587200000t" region="pop15" style="basic" xml:id="subtitle226">over soundtrack music]</p>
+<p begin="7601600000t" end="7639200000t" region="pop14" style="basic" xml:id="subtitle227">[sobbing]</p>
+<p begin="7601600000t" end="7639200000t" region="pop15" style="basic" xml:id="subtitle228">No... No...</p>
+<p begin="7769600000t" end="7817200000t" region="pop14" style="basic" xml:id="subtitle229">We shall bury the dead...</p>
+<p begin="7769600000t" end="7817200000t" region="pop15" style="basic" xml:id="subtitle230">and pray for their souls.</p>
+<p begin="7818000000t" end="7861600000t" region="pop14" style="basic" xml:id="subtitle231">When you are ready...</p>
+<p begin="7818000000t" end="7861600000t" region="pop15" style="basic" xml:id="subtitle232">I would like to say a prayer,</p>
+<p begin="7862400000t" end="7889200000t" region="pop15" style="basic" xml:id="subtitle233">for Uhtred, son of Uhtred.</p>
+<p begin="8014000000t" end="8035600000t" region="pop15" style="basic" xml:id="subtitle234">I must search for Mildrith,</p>
+<p begin="8036400000t" end="8068400000t" region="pop15" style="basic" xml:id="subtitle235">she may be dead and unburied.</p>
+<p begin="8072400000t" end="8098000000t" region="pop15" style="basic" xml:id="subtitle236">Uhtred no, no...</p>
+<p begin="8110400000t" end="8139600000t" region="pop14" style="basic" xml:id="subtitle237">She has buried</p>
+<p begin="8110400000t" end="8139600000t" region="pop15" style="basic" xml:id="subtitle238">your son with care,</p>
+<p begin="8140400000t" end="8169200000t" region="pop15" style="basic" xml:id="subtitle239">and she has left this place.</p>
+<p begin="8187200000t" end="8220400000t" region="pop14" style="basic" xml:id="subtitle240">It was no longer</p>
+<p begin="8187200000t" end="8220400000t" region="pop15" style="basic" xml:id="subtitle241">home for her anymore.</p>
+<p begin="8230400000t" end="8251200000t" region="pop15" style="basic" xml:id="subtitle242">Believe me.</p>
+<p begin="8289200000t" end="8328000000t" region="pop14" style="basic" xml:id="subtitle243">Your tears on the Earth will</p>
+<p begin="8289200000t" end="8328000000t" region="pop15" style="basic" xml:id="subtitle244">show him that you loved him.</p>
+<p begin="8337200000t" end="8370800000t" region="pop15" style="basic" xml:id="subtitle245">[sobbing]</p>
+<p begin="8481200000t" end="8507200000t" region="pop14" style="basic" xml:id="subtitle246">Lord, may I ask</p>
+<p begin="8481200000t" end="8507200000t" region="pop15" style="basic" xml:id="subtitle247">what you are writing?</p>
+<p begin="8508000000t" end="8551200000t" region="pop14" style="basic" xml:id="subtitle248">The first of many letters,</p>
+<p begin="8508000000t" end="8551200000t" region="pop15" style="basic" xml:id="subtitle249">each will say the same:</p>
+<p begin="8558000000t" end="8590400000t" region="pop14" style="basic" xml:id="subtitle250">"The men of Wessex and beyond</p>
+<p begin="8558000000t" end="8590400000t" region="pop15" style="basic" xml:id="subtitle251">shall gather at Egbert's Stone,</p>
+<p begin="8591200000t" end="8618400000t" region="pop15" style="basic" xml:id="subtitle252">and together we will fight."</p>
+<p begin="8619200000t" end="8636400000t" region="pop14" style="basic" xml:id="subtitle253">[Beocca] When you send out</p>
+<p begin="8619200000t" end="8636400000t" region="pop15" style="basic" xml:id="subtitle254">your messengers Lord,</p>
+<p begin="8637200000t" end="8674000000t" region="pop14" style="basic" xml:id="subtitle255">might I suggest you hand</p>
+<p begin="8637200000t" end="8674000000t" region="pop15" style="basic" xml:id="subtitle256">them the letters personally,</p>
+<p begin="8674800000t" end="8705200000t" region="pop14" style="basic" xml:id="subtitle257">perhaps place your hand</p>
+<p begin="8674800000t" end="8705200000t" region="pop15" style="basic" xml:id="subtitle258">on their shoulder.</p>
+<p begin="8706000000t" end="8732000000t" region="pop14" style="basic" xml:id="subtitle259">It will embolden them,</p>
+<p begin="8706000000t" end="8732000000t" region="pop15" style="basic" xml:id="subtitle260">I'm sure.</p>
+<p begin="8744400000t" end="8786400000t" region="pop14" style="basic" xml:id="subtitle261">Thank you, Beocca,</p>
+<p begin="8744400000t" end="8786400000t" region="pop15" style="basic" xml:id="subtitle262">I will do that.</p>
+<p begin="8964400000t" end="9003600000t" region="pop14" style="basic" xml:id="subtitle263">You know I did this to you;</p>
+<p begin="8964400000t" end="9003600000t" region="pop15" style="basic" xml:id="subtitle264">when I saved the king's son.</p>
+<p begin="9004400000t" end="9023200000t" region="pop15" style="basic" xml:id="subtitle265">You did not.</p>
+<p begin="9024000000t" end="9052000000t" region="pop14" style="basic" xml:id="subtitle266">[crying]</p>
+<p begin="9024000000t" end="9052000000t" region="pop15" style="basic" xml:id="subtitle267">I knew, an innocent would die...</p>
+<p begin="9064000000t" end="9085600000t" region="pop15" style="basic" xml:id="subtitle268">I'm tired of being like this.</p>
+<p begin="9108000000t" end="9130000000t" region="pop15" style="basic" xml:id="subtitle269">I have seen too much.</p>
+<p begin="9130800000t" end="9156800000t" region="pop15" style="basic" xml:id="subtitle270">I know too much.</p>
+<p begin="9180800000t" end="9210000000t" region="pop15" style="basic" xml:id="subtitle271">I want to see no more.</p>
+<p begin="9886000000t" end="9903200000t" region="pop14" style="basic" xml:id="subtitle272">[Odda the Elder]</p>
+<p begin="9886000000t" end="9903200000t" region="pop15" style="basic" xml:id="subtitle273">Mildrith?!</p>
+<p begin="9936000000t" end="9958000000t" region="pop1" style="basic" xml:id="subtitle274">Mildrith?!</p>
+<p begin="10008800000t" end="10026400000t" region="pop15" style="basic" xml:id="subtitle275">Mildrith?!</p>
+<p begin="10057600000t" end="10090000000t" region="pop14" style="basic" xml:id="subtitle276">Lord, you should be resting,</p>
+<p begin="10057600000t" end="10090000000t" region="pop15" style="basic" xml:id="subtitle277">we should all be resting.</p>
+<p begin="10090800000t" end="10127600000t" region="pop14" style="basic" xml:id="subtitle278">I am tired of resting, I spend</p>
+<p begin="10090800000t" end="10127600000t" region="pop15" style="basic" xml:id="subtitle279">too many days doing nothing.</p>
+<p begin="10128400000t" end="10147600000t" region="pop14" style="basic" xml:id="subtitle280">Then at least sit,</p>
+<p begin="10128400000t" end="10147600000t" region="pop15" style="basic" xml:id="subtitle281">before you become unsteady.</p>
+<p begin="10148400000t" end="10171600000t" region="pop14" style="basic" xml:id="subtitle282">-Where is my wife?</p>
+<p begin="10148400000t" end="10171600000t" region="pop15" style="basic" xml:id="subtitle283">-She is resting, Lord.</p>
+<p begin="10177600000t" end="10206000000t" region="pop14" style="basic" xml:id="subtitle284">-My son?</p>
+<p begin="10177600000t" end="10206000000t" region="pop15" style="basic" xml:id="subtitle285">-He is away, Lord.</p>
+<p begin="10206800000t" end="10222400000t" region="pop15" style="basic" xml:id="subtitle286">Still?</p>
+<p begin="10239600000t" end="10275600000t" region="pop15" style="basic" xml:id="subtitle287">Important business demands time.</p>
+<p begin="10335600000t" end="10360000000t" region="pop15" style="basic" xml:id="subtitle288">It is not a betrayal...</p>
+<p begin="10366400000t" end="10391200000t" region="pop15" style="basic" xml:id="subtitle289">No, it is not, Lord.</p>
+<p begin="10475600000t" end="10498000000t" region="pop14" style="basic" xml:id="subtitle290">Look what I have</p>
+<p begin="10475600000t" end="10498000000t" region="pop15" style="basic" xml:id="subtitle291">done to you, child.</p>
+<p begin="10498800000t" end="10551200000t" region="pop14" style="basic" xml:id="subtitle292">-I am content enough, Lord.</p>
+<p begin="10498800000t" end="10551200000t" region="pop15" style="basic" xml:id="subtitle293">-Look what God has done to you.</p>
+<p begin="10565600000t" end="10624000000t" region="pop14" style="basic" xml:id="subtitle294">You deserve so much more</p>
+<p begin="10565600000t" end="10624000000t" region="pop15" style="basic" xml:id="subtitle295">than the clothes of a nun.</p>
+<p begin="10652400000t" end="10676000000t" region="pop15" style="basic" xml:id="subtitle296">I have purpose, Lord.</p>
+<p begin="10676800000t" end="10732400000t" region="pop14" style="basic" xml:id="subtitle297">My child is with God,</p>
+<p begin="10676800000t" end="10732400000t" region="pop15" style="basic" xml:id="subtitle298">and I am close to God.</p>
+<p begin="10733200000t" end="10762400000t" region="pop14" style="basic" xml:id="subtitle299">There is joy in my days,</p>
+<p begin="10733200000t" end="10762400000t" region="pop15" style="basic" xml:id="subtitle300">at times.</p>
+<p begin="10795600000t" end="10817600000t" region="pop15" style="basic" xml:id="subtitle301">Do not fear the Danes.</p>
+<p begin="10833600000t" end="10853600000t" region="pop15" style="basic" xml:id="subtitle302">you will be protected.</p>
+<p begin="10854400000t" end="10890400000t" region="pop15" style="basic" xml:id="subtitle303">My son will ensure that.</p>
+<p begin="11106800000t" end="11131200000t" region="pop15" style="basic" xml:id="subtitle304">You are Earl Skorpa?</p>
+<p begin="11146800000t" end="11190000000t" region="pop14" style="basic" xml:id="subtitle305">You are here to surrender</p>
+<p begin="11146800000t" end="11190000000t" region="pop15" style="basic" xml:id="subtitle306">and not waste my time?</p>
+<p begin="11190800000t" end="11204400000t" region="pop15" style="basic" xml:id="subtitle307">I am here to negotiate.</p>
+<p begin="11205200000t" end="11231200000t" region="pop14" style="basic" xml:id="subtitle308">[Skorpa]</p>
+<p begin="11205200000t" end="11231200000t" region="pop15" style="basic" xml:id="subtitle309">Surrender and you will live,</p>
+<p begin="11232000000t" end="11253200000t" region="pop14" style="basic" xml:id="subtitle310">talk too much</p>
+<p begin="11232000000t" end="11253200000t" region="pop15" style="basic" xml:id="subtitle311">and I will kill you.</p>
+<p begin="11254000000t" end="11273600000t" region="pop15" style="basic" xml:id="subtitle312">Of all the Aeldermen of Wessex,</p>
+<p begin="11274400000t" end="11313600000t" region="pop14" style="basic" xml:id="subtitle313">I am the man who can assemble</p>
+<p begin="11274400000t" end="11313600000t" region="pop15" style="basic" xml:id="subtitle314">the greatest fyrd,</p>
+<p begin="11314400000t" end="11330400000t" region="pop15" style="basic" xml:id="subtitle315">the greatest army.</p>
+<p begin="11331200000t" end="11354400000t" region="pop14" style="basic" xml:id="subtitle316">I now have</p>
+<p begin="11331200000t" end="11354400000t" region="pop15" style="basic" xml:id="subtitle317">to make a choice.</p>
+<p begin="11355200000t" end="11387600000t" region="pop14" style="basic" xml:id="subtitle318">Whether to side with Guthrum,</p>
+<p begin="11355200000t" end="11387600000t" region="pop15" style="basic" xml:id="subtitle319">or with Skorpa.</p>
+<p begin="11398000000t" end="11419600000t" region="pop14" style="basic" xml:id="subtitle320">One Dane looks much like</p>
+<p begin="11398000000t" end="11419600000t" region="pop15" style="basic" xml:id="subtitle321">the other to me.</p>
+<p begin="11420400000t" end="11440000000t" region="pop15" style="basic" xml:id="subtitle322">I am occupying your land;</p>
+<p begin="11440800000t" end="11471600000t" region="pop14" style="basic" xml:id="subtitle323">why should I not</p>
+<p begin="11440800000t" end="11471600000t" region="pop15" style="basic" xml:id="subtitle324">simply crush you?</p>
+<p begin="11480000000t" end="11513600000t" region="pop15" style="basic" xml:id="subtitle325">Accept my invitation.</p>
+<p begin="11514400000t" end="11544800000t" region="pop14" style="basic" xml:id="subtitle326">Eat with myself</p>
+<p begin="11514400000t" end="11544800000t" region="pop15" style="basic" xml:id="subtitle327">and with my father,</p>
+<p begin="11545600000t" end="11564800000t" region="pop14" style="basic" xml:id="subtitle328">and I will tell you</p>
+<p begin="11545600000t" end="11564800000t" region="pop15" style="basic" xml:id="subtitle329">all about my land;</p>
+<p begin="11565600000t" end="11598000000t" region="pop15" style="basic" xml:id="subtitle330">the range of my influence.</p>
+<p begin="11598800000t" end="11631600000t" region="pop14" style="basic" xml:id="subtitle331">I am sure an agreement</p>
+<p begin="11598800000t" end="11631600000t" region="pop15" style="basic" xml:id="subtitle332">can be reached,</p>
+<p begin="11632400000t" end="11680000000t" region="pop14" style="basic" xml:id="subtitle333">neither of us need lose any men,</p>
+<p begin="11632400000t" end="11680000000t" region="pop15" style="basic" xml:id="subtitle334">neither of us need be weakened.</p>
+<p begin="11680800000t" end="11728000000t" region="pop14" style="basic" xml:id="subtitle335">-Eat?</p>
+<p begin="11680800000t" end="11728000000t" region="pop15" style="basic" xml:id="subtitle336">-And drink, at my hall.</p>
+<p begin="11738800000t" end="11766400000t" region="pop15" style="basic" xml:id="subtitle337">I assure you this is no trap.</p>
+<p begin="11853600000t" end="11901600000t" region="pop14" style="basic" xml:id="subtitle338">I will arrive at your hall</p>
+<p begin="11853600000t" end="11901600000t" region="pop15" style="basic" xml:id="subtitle339">after the new moon.</p>
+<p begin="11902400000t" end="11922800000t" region="pop15" style="basic" xml:id="subtitle340">I shall expect you.</p>
+<p begin="11943600000t" end="11968400000t" region="pop14" style="basic" xml:id="subtitle341">Then we have peace,</p>
+<p begin="11943600000t" end="11968400000t" region="pop15" style="basic" xml:id="subtitle342">at least for a time?</p>
+<p begin="11969200000t" end="11991600000t" region="pop15" style="basic" xml:id="subtitle343">Oh, we do.</p>
+<p begin="12055600000t" end="12080000000t" region="pop15" style="basic" xml:id="subtitle344">You have lost much:</p>
+<p begin="12093200000t" end="12115600000t" region="pop15" style="basic" xml:id="subtitle345">fathers, mothers...</p>
+<p begin="12123200000t" end="12169200000t" region="pop15" style="basic" xml:id="subtitle346">...a son... lovers...</p>
+<p begin="12248000000t" end="12271600000t" region="pop15" style="basic" xml:id="subtitle347">I have you...</p>
+<p begin="12302800000t" end="12324800000t" region="pop15" style="basic" xml:id="subtitle348">I have a brother...</p>
+<p begin="12332000000t" end="12361200000t" region="pop14" style="basic" xml:id="subtitle349">-Ragnar.</p>
+<p begin="12332000000t" end="12361200000t" region="pop15" style="basic" xml:id="subtitle350">-Yes.</p>
+<p begin="12424800000t" end="12458400000t" region="pop15" style="basic" xml:id="subtitle351">Your sister, Thyra...</p>
+<p begin="12468800000t" end="12486000000t" region="pop15" style="basic" xml:id="subtitle352">Yes?</p>
+<p begin="12526800000t" end="12551200000t" region="pop15" style="basic" xml:id="subtitle353">She is alive?</p>
+<p begin="12563200000t" end="12574400000t" region="pop15" style="basic" xml:id="subtitle354">[sighs softly]</p>
+<p begin="12575200000t" end="12617600000t" region="pop15" style="basic" xml:id="subtitle355">No she's dead in the fire.</p>
+<p begin="12629600000t" end="12678800000t" region="pop14" style="basic" xml:id="subtitle356">Uhtred she lives</p>
+<p begin="12629600000t" end="12678800000t" region="pop15" style="basic" xml:id="subtitle357">and is being held in the north.</p>
+<p begin="12700000000t" end="12723200000t" region="pop15" style="basic" xml:id="subtitle358">It is the truth.</p>
+<p begin="12738000000t" end="12766000000t" region="pop15" style="basic" xml:id="subtitle359">Skorpa told me.</p>
+<p begin="12766800000t" end="12798000000t" region="pop14" style="basic" xml:id="subtitle360">I thought at first it could be</p>
+<p begin="12766800000t" end="12798000000t" region="pop15" style="basic" xml:id="subtitle361">a lie to torment you.</p>
+<p begin="12798800000t" end="12834000000t" region="pop14" style="basic" xml:id="subtitle362">Hearing it from me</p>
+<p begin="12798800000t" end="12834000000t" region="pop15" style="basic" xml:id="subtitle363">would have made it true,</p>
+<p begin="12846000000t" end="12895600000t" region="pop14" style="basic" xml:id="subtitle364">but now I know</p>
+<p begin="12846000000t" end="12895600000t" region="pop15" style="basic" xml:id="subtitle365">that it is true. She lives.</p>
+<p begin="12911600000t" end="12936800000t" region="pop15" style="basic" xml:id="subtitle366">You've seen it?</p>
+<p begin="12949200000t" end="12984400000t" region="pop15" style="basic" xml:id="subtitle367">Yes. I've seen her...</p>
+<p begin="12985200000t" end="13021200000t" region="pop14" style="basic" xml:id="subtitle368">...but I will see her no more,</p>
+<p begin="12985200000t" end="13021200000t" region="pop15" style="basic" xml:id="subtitle369">the gift is fading.</p>
+<p begin="13034000000t" end="13076400000t" region="pop14" style="basic" xml:id="subtitle370">When this battle is done,</p>
+<p begin="13034000000t" end="13076400000t" region="pop15" style="basic" xml:id="subtitle371">Uhtred, your path leads north.</p>
+<p begin="13095200000t" end="13126400000t" region="pop14" style="basic" xml:id="subtitle372">It will be time</p>
+<p begin="13095200000t" end="13126400000t" region="pop15" style="basic" xml:id="subtitle373">to face your past.</p>
+<p begin="13141600000t" end="13165600000t" region="pop15" style="basic" xml:id="subtitle374">And you'll be with me?</p>
+<p begin="13285600000t" end="13304000000t" region="pop15" style="basic" xml:id="subtitle375">Always.</p>
+<p begin="13330800000t" end="13370400000t" region="pop14" style="basic" xml:id="subtitle376">Lord... If God's help</p>
+<p begin="13330800000t" end="13370400000t" region="pop15" style="basic" xml:id="subtitle377">is required,</p>
+<p begin="13371200000t" end="13419600000t" region="pop14" style="basic" xml:id="subtitle378">how could he look favorably</p>
+<p begin="13371200000t" end="13419600000t" region="pop15" style="basic" xml:id="subtitle379">upon Uhtred, a non-believer.</p>
+<p begin="13441200000t" end="13459600000t" region="pop15" style="basic" xml:id="subtitle380">God is good.</p>
+<p begin="13460400000t" end="13483600000t" region="pop14" style="basic" xml:id="subtitle381">Yes, Lord, but in</p>
+<p begin="13460400000t" end="13483600000t" region="pop15" style="basic" xml:id="subtitle382">following the heathen,</p>
+<p begin="13484400000t" end="13503200000t" region="pop14" style="basic" xml:id="subtitle383">what does that</p>
+<p begin="13484400000t" end="13503200000t" region="pop15" style="basic" xml:id="subtitle384">say of our beliefs?</p>
+<p begin="13504000000t" end="13530000000t" region="pop14" style="basic" xml:id="subtitle385">Death could be waiting over</p>
+<p begin="13504000000t" end="13530000000t" region="pop15" style="basic" xml:id="subtitle386">the very next hill</p>
+<p begin="13530800000t" end="13555600000t" region="pop14" style="basic" xml:id="subtitle387">and it will be Uhtred</p>
+<p begin="13530800000t" end="13555600000t" region="pop15" style="basic" xml:id="subtitle388">who stands in its way.</p>
+<p begin="13556400000t" end="13582800000t" region="pop14" style="basic" xml:id="subtitle389">I have no doubt, a Dane will</p>
+<p begin="13556400000t" end="13582800000t" region="pop15" style="basic" xml:id="subtitle390">always protect his plunder.</p>
+<p begin="13583600000t" end="13601600000t" region="pop15" style="basic" xml:id="subtitle391">The king is of value.</p>
+<p begin="13602400000t" end="13616800000t" region="pop15" style="basic" xml:id="subtitle392">He is here to protect the king.</p>
+<p begin="13617600000t" end="13630800000t" region="pop14" style="basic" xml:id="subtitle393">Something neither</p>
+<p begin="13617600000t" end="13630800000t" region="pop15" style="basic" xml:id="subtitle394">you nor I could do.</p>
+<p begin="13631600000t" end="13649600000t" region="pop15" style="basic" xml:id="subtitle395">He is a man without a soul.</p>
+<p begin="13650400000t" end="13676400000t" region="pop14" style="basic" xml:id="subtitle396">Then I shall be his soul, Lord.</p>
+<p begin="13650400000t" end="13676400000t" region="pop15" style="basic" xml:id="subtitle397">I shall pray for him.</p>
+<p begin="13677200000t" end="13702400000t" region="pop14" style="basic" xml:id="subtitle398">I will ride beside him,</p>
+<p begin="13677200000t" end="13702400000t" region="pop15" style="basic" xml:id="subtitle399">always and into battle.</p>
+<p begin="13703200000t" end="13727200000t" region="pop15" style="basic" xml:id="subtitle400">I will be his conduit to God.</p>
+<p begin="13728000000t" end="13740400000t" region="pop15" style="basic" xml:id="subtitle401">And if you fall, in battle?</p>
+<p begin="13741200000t" end="13763200000t" region="pop14" style="basic" xml:id="subtitle402">With the help</p>
+<p begin="13741200000t" end="13763200000t" region="pop15" style="basic" xml:id="subtitle403">of your prayers, brother,</p>
+<p begin="13764000000t" end="13791200000t" region="pop14" style="basic" xml:id="subtitle404">I shall become</p>
+<p begin="13764000000t" end="13791200000t" region="pop15" style="basic" xml:id="subtitle405">invincible I'm sure.</p>
+<p begin="13847200000t" end="13861600000t" region="pop15" style="basic" xml:id="subtitle406">Brother Asser....</p>
+<p begin="13882800000t" end="13932800000t" region="pop14" style="basic" xml:id="subtitle407">I should like you to be</p>
+<p begin="13882800000t" end="13932800000t" region="pop15" style="basic" xml:id="subtitle408">the first of my messengers.</p>
+<p begin="14052000000t" end="14074000000t" region="pop15" style="basic" xml:id="subtitle409">[horse whinnies]</p>
+<p begin="14074800000t" end="14088800000t" region="pop15" style="basic" xml:id="subtitle410">Morning.</p>
+<p begin="14093600000t" end="14110400000t" region="pop15" style="basic" xml:id="subtitle411">Sleep well?</p>
+<p begin="14114400000t" end="14137200000t" region="pop15" style="basic" xml:id="subtitle412">He means did you hump well?</p>
+<p begin="14138000000t" end="14177200000t" region="pop14" style="basic" xml:id="subtitle413">-I know what he means.</p>
+<p begin="14138000000t" end="14177200000t" region="pop15" style="basic" xml:id="subtitle414">-Sleep well lady?</p>
+<p begin="14178000000t" end="14214400000t" region="pop14" style="basic" xml:id="subtitle415">[Alfred]</p>
+<p begin="14178000000t" end="14214400000t" region="pop15" style="basic" xml:id="subtitle416">If I may speak... to you all.</p>
+<p begin="14323600000t" end="14346000000t" region="pop14" style="basic" xml:id="subtitle417">Though we are yet to complete</p>
+<p begin="14323600000t" end="14346000000t" region="pop15" style="basic" xml:id="subtitle418">the first segment of our journey</p>
+<p begin="14346800000t" end="14376800000t" region="pop14" style="basic" xml:id="subtitle419">to Odda's estate, it is</p>
+<p begin="14346800000t" end="14376800000t" region="pop15" style="basic" xml:id="subtitle420">important we begin the second.</p>
+<p begin="14377600000t" end="14406800000t" region="pop14" style="basic" xml:id="subtitle421">Word of our army's gathering</p>
+<p begin="14377600000t" end="14406800000t" region="pop15" style="basic" xml:id="subtitle422">point must be despatched</p>
+<p begin="14407600000t" end="14426800000t" region="pop14" style="basic" xml:id="subtitle423">to the further reaches</p>
+<p begin="14407600000t" end="14426800000t" region="pop15" style="basic" xml:id="subtitle424">of our land.</p>
+<p begin="14427600000t" end="14462800000t" region="pop14" style="basic" xml:id="subtitle425">Brother Asser here</p>
+<p begin="14427600000t" end="14462800000t" region="pop15" style="basic" xml:id="subtitle426">will be my first messenger.</p>
+<p begin="14477200000t" end="14494400000t" region="pop15" style="basic" xml:id="subtitle427">Halig.</p>
+<p begin="14496400000t" end="14514400000t" region="pop15" style="basic" xml:id="subtitle428">Yes, Lord.</p>
+<p begin="14518000000t" end="14560400000t" region="pop15" style="basic" xml:id="subtitle429">You will also be my voice.</p>
+<p begin="14561200000t" end="14580000000t" region="pop15" style="basic" xml:id="subtitle430">I will, Lord.</p>
+<p begin="14589200000t" end="14610000000t" region="pop15" style="basic" xml:id="subtitle431">And me, Lord.</p>
+<p begin="14612000000t" end="14632400000t" region="pop15" style="basic" xml:id="subtitle432">Hild?</p>
+<p begin="14633200000t" end="14660400000t" region="pop15" style="basic" xml:id="subtitle433">Lord, she is a woman.</p>
+<p begin="14661200000t" end="14683600000t" region="pop14" style="basic" xml:id="subtitle434">I am as good a horseman</p>
+<p begin="14661200000t" end="14683600000t" region="pop15" style="basic" xml:id="subtitle435">as anyone here.</p>
+<p begin="14684400000t" end="14722000000t" region="pop14" style="basic" xml:id="subtitle436">If it means more Danes</p>
+<p begin="14684400000t" end="14722000000t" region="pop15" style="basic" xml:id="subtitle437">will die then I'll do it.</p>
+<p begin="14728400000t" end="14775200000t" region="pop15" style="basic" xml:id="subtitle438">Yes, Hild... you will.</p>
+<p begin="15021200000t" end="15049200000t" region="pop15" style="basic" xml:id="subtitle439">Your horses... belong to whom?</p>
+<p begin="15050000000t" end="15068000000t" region="pop15" style="basic" xml:id="subtitle440">The Lord Odda.</p>
+<p begin="15081200000t" end="15103200000t" region="pop14" style="basic" xml:id="subtitle441">-You will let us pass?</p>
+<p begin="15081200000t" end="15103200000t" region="pop15" style="basic" xml:id="subtitle442">-Are you selling or buying?</p>
+<p begin="15104000000t" end="15154400000t" region="pop14" style="basic" xml:id="subtitle443">Selling to the Danes.</p>
+<p begin="15104000000t" end="15154400000t" region="pop15" style="basic" xml:id="subtitle444">There is a peace.</p>
+<p begin="15164400000t" end="15176000000t" region="pop15" style="basic" xml:id="subtitle445">Did you not know?</p>
+<p begin="15176800000t" end="15227200000t" region="pop14" style="basic" xml:id="subtitle446">That Odda has made a peace,</p>
+<p begin="15176800000t" end="15227200000t" region="pop15" style="basic" xml:id="subtitle447">no, I did not.</p>
+<p begin="15402400000t" end="15451600000t" region="pop14" style="basic" xml:id="subtitle448">Odda is loyal. We shall see</p>
+<p begin="15402400000t" end="15451600000t" region="pop15" style="basic" xml:id="subtitle449">for ourselves what is true.</p>
+<p begin="15482400000t" end="15504800000t" region="pop15" style="basic" xml:id="subtitle450">[snickers]</p>
+<p begin="15550400000t" end="15579200000t" region="pop14" style="basic" xml:id="subtitle451">Lord, you should remain</p>
+<p begin="15550400000t" end="15579200000t" region="pop15" style="basic" xml:id="subtitle452">out of sight</p>
+<p begin="15580000000t" end="15600000000t" region="pop14" style="basic" xml:id="subtitle453">until we can be sure</p>
+<p begin="15580000000t" end="15600000000t" region="pop15" style="basic" xml:id="subtitle454">of your safety.</p>
+<p begin="15604400000t" end="15626400000t" region="pop15" style="basic" xml:id="subtitle455">Odda is not a danger.</p>
+<p begin="15635600000t" end="15654000000t" region="pop15" style="basic" xml:id="subtitle456">But who sits with Odda?</p>
+<p begin="15659200000t" end="15674400000t" region="pop15" style="basic" xml:id="subtitle457">I will not hide.</p>
+<p begin="15675200000t" end="15702400000t" region="pop14" style="basic" xml:id="subtitle458">[Beocca]</p>
+<p begin="15675200000t" end="15702400000t" region="pop15" style="basic" xml:id="subtitle459">Lord, please, hear the advice.</p>
+<p begin="15703200000t" end="15731600000t" region="pop14" style="basic" xml:id="subtitle460">You are a symbol of Wessex,</p>
+<p begin="15703200000t" end="15731600000t" region="pop15" style="basic" xml:id="subtitle461">you are the standard around</p>
+<p begin="15732400000t" end="15776000000t" region="pop14" style="basic" xml:id="subtitle462">which our army will gather.</p>
+<p begin="15732400000t" end="15776000000t" region="pop15" style="basic" xml:id="subtitle463">You cannot be put at risk.</p>
+<p begin="15799600000t" end="15818400000t" region="pop15" style="basic" xml:id="subtitle464">Very well.</p>
+<p begin="16014400000t" end="16029200000t" region="pop14" style="basic" xml:id="subtitle465">I must see this</p>
+<p begin="16014400000t" end="16029200000t" region="pop15" style="basic" xml:id="subtitle466">with my own eyes.</p>
+<p begin="16030000000t" end="16054800000t" region="pop14" style="basic" xml:id="subtitle467">-Lord, that is not advisable.</p>
+<p begin="16030000000t" end="16054800000t" region="pop15" style="basic" xml:id="subtitle468">-I have made up my mind!</p>
+<p begin="16055600000t" end="16089600000t" region="pop14" style="basic" xml:id="subtitle469">If there is treachery,</p>
+<p begin="16055600000t" end="16089600000t" region="pop15" style="basic" xml:id="subtitle470">it is something I must witness.</p>
+<p begin="16090400000t" end="16116800000t" region="pop14" style="basic" xml:id="subtitle471">-Then I will go with you.</p>
+<p begin="16090400000t" end="16116800000t" region="pop15" style="basic" xml:id="subtitle472">-I do not require a nursemaid!</p>
+<p begin="16117600000t" end="16142400000t" region="pop14" style="basic" xml:id="subtitle473">-I am a priest.</p>
+<p begin="16117600000t" end="16142400000t" region="pop15" style="basic" xml:id="subtitle474">-And I a King!</p>
+<p begin="16149600000t" end="16175600000t" region="pop15" style="basic" xml:id="subtitle475">You will wait here with Iseult.</p>
+<p begin="16176400000t" end="16212800000t" region="pop14" style="basic" xml:id="subtitle476">I am aware of the care</p>
+<p begin="16176400000t" end="16212800000t" region="pop15" style="basic" xml:id="subtitle477">I need to take.</p>
+<p begin="16292000000t" end="16320400000t" region="pop15" style="basic" xml:id="subtitle478">[indistinct chatter]</p>
+<p begin="16448400000t" end="16496000000t" region="pop14" style="basic" xml:id="subtitle479">Nuns should not be so pretty nor</p>
+<p begin="16448400000t" end="16496000000t" region="pop15" style="basic" xml:id="subtitle480">have lips that demand to be kissed.</p>
+<p begin="16510800000t" end="16525600000t" region="pop15" style="basic" xml:id="subtitle481">I see you agree.</p>
+<p begin="16526400000t" end="16566800000t" region="pop14" style="basic" xml:id="subtitle482">-When is it you are leaving?</p>
+<p begin="16526400000t" end="16566800000t" region="pop15" style="basic" xml:id="subtitle483">-When I am rested, Lord.</p>
+<p begin="16621600000t" end="16642000000t" region="pop15" style="basic" xml:id="subtitle484">Lord...</p>
+<p begin="16642800000t" end="16668400000t" region="pop15" style="basic" xml:id="subtitle485">[whispers indistinct]</p>
+<p begin="16669200000t" end="16707600000t" region="pop14" style="basic" xml:id="subtitle486">[Odda the Elder] What is it?</p>
+<p begin="16669200000t" end="16707600000t" region="pop15" style="basic" xml:id="subtitle487">Have the Danes arrived?</p>
+<p begin="16722000000t" end="16750400000t" region="pop15" style="basic" xml:id="subtitle488">Leofric, he is outside.</p>
+<p begin="16751200000t" end="16778000000t" region="pop14" style="basic" xml:id="subtitle489">Then bring him inside,</p>
+<p begin="16751200000t" end="16778000000t" region="pop15" style="basic" xml:id="subtitle490">he is our man.</p>
+<p begin="16786400000t" end="16802400000t" region="pop15" style="basic" xml:id="subtitle491">He is with Uhtred.</p>
+<p begin="16839600000t" end="16860800000t" region="pop15" style="basic" xml:id="subtitle492">Bring them both to me.</p>
+<p begin="16962400000t" end="16979200000t" region="pop15" style="basic" xml:id="subtitle493">[indistinct chatter]</p>
+<p begin="16980000000t" end="17017200000t" region="pop14" style="basic" xml:id="subtitle494">Leofric, Uhtred!</p>
+<p begin="16980000000t" end="17017200000t" region="pop15" style="basic" xml:id="subtitle495">My prayers have been answered!</p>
+<p begin="17023600000t" end="17042800000t" region="pop15" style="basic" xml:id="subtitle496">God is good.</p>
+<p begin="17070400000t" end="17090400000t" region="pop15" style="basic" xml:id="subtitle497">Lords...</p>
+<p begin="17091200000t" end="17118000000t" region="pop14" style="basic" xml:id="subtitle498">It is good to see you</p>
+<p begin="17091200000t" end="17118000000t" region="pop15" style="basic" xml:id="subtitle499">both safe and well.</p>
+<p begin="17118800000t" end="17145200000t" region="pop15" style="basic" xml:id="subtitle500">Leofric, you are home.</p>
+<p begin="17146000000t" end="17163200000t" region="pop14" style="basic" xml:id="subtitle501">Where in God's name</p>
+<p begin="17146000000t" end="17163200000t" region="pop15" style="basic" xml:id="subtitle502">have you been?</p>
+<p begin="17164000000t" end="17190800000t" region="pop14" style="basic" xml:id="subtitle503">Hiding, Lord,</p>
+<p begin="17164000000t" end="17190800000t" region="pop15" style="basic" xml:id="subtitle504">and killing Danes.</p>
+<p begin="17191600000t" end="17207200000t" region="pop15" style="basic" xml:id="subtitle505">Hopefully, not on my land.</p>
+<p begin="17208000000t" end="17225600000t" region="pop14" style="basic" xml:id="subtitle506">[Uhtred]</p>
+<p begin="17208000000t" end="17225600000t" region="pop15" style="basic" xml:id="subtitle507">We have been sent by the king.</p>
+<p begin="17226400000t" end="17241200000t" region="pop15" style="basic" xml:id="subtitle508">We bring orders from the king.</p>
+<p begin="17242000000t" end="17261200000t" region="pop14" style="basic" xml:id="subtitle509">-What king is that?</p>
+<p begin="17242000000t" end="17261200000t" region="pop15" style="basic" xml:id="subtitle510">-King Alfred?</p>
+<p begin="17262000000t" end="17278400000t" region="pop15" style="basic" xml:id="subtitle511">Who else, Lord?</p>
+<p begin="17279200000t" end="17308400000t" region="pop14" style="basic" xml:id="subtitle512">[Odda the Younger] Wessex,</p>
+<p begin="17279200000t" end="17308400000t" region="pop15" style="basic" xml:id="subtitle513">it seems, is full of kings.</p>
+<p begin="17309200000t" end="17336400000t" region="pop14" style="basic" xml:id="subtitle514">There is Guthrum, who is</p>
+<p begin="17309200000t" end="17336400000t" region="pop15" style="basic" xml:id="subtitle515">the King of East Anglia,</p>
+<p begin="17337200000t" end="17354000000t" region="pop15" style="basic" xml:id="subtitle516">who now sits in Winchester.</p>
+<p begin="17354800000t" end="17370800000t" region="pop15" style="basic" xml:id="subtitle517">There is Aethelwold here,</p>
+<p begin="17371600000t" end="17396800000t" region="pop14" style="basic" xml:id="subtitle518">who will tell anyone who cares</p>
+<p begin="17371600000t" end="17396800000t" region="pop15" style="basic" xml:id="subtitle519">to listen that he is king,</p>
+<p begin="17397600000t" end="17413200000t" region="pop15" style="basic" xml:id="subtitle520">where will it end?</p>
+<p begin="17414000000t" end="17439200000t" region="pop14" style="basic" xml:id="subtitle521">-I have Alfred's written order.</p>
+<p begin="17414000000t" end="17439200000t" region="pop15" style="basic" xml:id="subtitle522">-It means nothing.</p>
+<p begin="17440000000t" end="17487600000t" region="pop14" style="basic" xml:id="subtitle523">-You are to raise the fyrd.</p>
+<p begin="17440000000t" end="17487600000t" region="pop15" style="basic" xml:id="subtitle524">-It is over for Alfred!</p>
+<p begin="17500400000t" end="17522000000t" region="pop15" style="basic" xml:id="subtitle525">Alfred gave up on Wessex.</p>
+<p begin="17522800000t" end="17559200000t" region="pop15" style="basic" xml:id="subtitle526">He decided to save himself!</p>
+<p begin="17560000000t" end="17608000000t" region="pop14" style="basic" xml:id="subtitle527">No man has been more loyal</p>
+<p begin="17560000000t" end="17608000000t" region="pop15" style="basic" xml:id="subtitle528">to Alfred than my father and I,</p>
+<p begin="17608800000t" end="17634000000t" region="pop15" style="basic" xml:id="subtitle529">but he has failed us.</p>
+<p begin="17634800000t" end="17668400000t" region="pop14" style="basic" xml:id="subtitle530">Danes surround us</p>
+<p begin="17634800000t" end="17668400000t" region="pop15" style="basic" xml:id="subtitle531">and he is hiding!</p>
+<p begin="17669200000t" end="17730400000t" region="pop14" style="basic" xml:id="subtitle532">Alfred, is king of the eels,</p>
+<p begin="17669200000t" end="17730400000t" region="pop15" style="basic" xml:id="subtitle533">slippery and elusive.</p>
+<p begin="17731200000t" end="17750400000t" region="pop15" style="basic" xml:id="subtitle534">I see it's true...</p>
+<p begin="17764800000t" end="17790000000t" region="pop14" style="basic" xml:id="subtitle535">...you have</p>
+<p begin="17764800000t" end="17790000000t" region="pop15" style="basic" xml:id="subtitle536">sided with the Danes.</p>
+<p begin="17811200000t" end="17878000000t" region="pop14" style="basic" xml:id="subtitle537">What has Skorpa promised you?</p>
+<p begin="17811200000t" end="17878000000t" region="pop15" style="basic" xml:id="subtitle538">Are you to be king, Odda?</p>
+<p begin="17878800000t" end="17903200000t" region="pop14" style="basic" xml:id="subtitle539">-Leofric, are you are still my man?</p>
+<p begin="17878800000t" end="17903200000t" region="pop15" style="basic" xml:id="subtitle540">-Am I right?</p>
+<p begin="17904000000t" end="17927200000t" region="pop15" style="basic" xml:id="subtitle541">I asked you a question, Leofric?</p>
+<p begin="17928000000t" end="17953600000t" region="pop15" style="basic" xml:id="subtitle542">I am still your man, Lord.</p>
+<p begin="17980400000t" end="18024800000t" region="pop14" style="basic" xml:id="subtitle543">Then you will finish the business you</p>
+<p begin="17980400000t" end="18024800000t" region="pop15" style="basic" xml:id="subtitle544">have with this Dane and kill him.</p>
+<p begin="18057200000t" end="18084800000t" region="pop15" style="basic" xml:id="subtitle545">You have my order. Kill him.</p>
+<p begin="18085600000t" end="18100400000t" region="pop15" style="basic" xml:id="subtitle546">Lord, I cannot do that.</p>
+<p begin="18101200000t" end="18118400000t" region="pop14" style="basic" xml:id="subtitle547">I stand here</p>
+<p begin="18101200000t" end="18118400000t" region="pop15" style="basic" xml:id="subtitle548">as Alfred's messenger.</p>
+<p begin="18119200000t" end="18137600000t" region="pop14" style="basic" xml:id="subtitle549">[Odda the Younger] I will not</p>
+<p begin="18119200000t" end="18137600000t" region="pop15" style="basic" xml:id="subtitle550">tell you again, Leofric.</p>
+<p begin="18138400000t" end="18151200000t" region="pop14" style="basic" xml:id="subtitle551">[Uhtred]</p>
+<p begin="18138400000t" end="18151200000t" region="pop15" style="basic" xml:id="subtitle552">Should any man try to kill me,</p>
+<p begin="18152000000t" end="18168000000t" region="pop14" style="basic" xml:id="subtitle553">then that man</p>
+<p begin="18152000000t" end="18168000000t" region="pop15" style="basic" xml:id="subtitle554">is a traitor to the king.</p>
+<p begin="18168800000t" end="18200800000t" region="pop14" style="basic" xml:id="subtitle555">Leofric, you will kill him!</p>
+<p begin="18168800000t" end="18200800000t" region="pop15" style="basic" xml:id="subtitle556">Alfred is no longer my king!</p>
+<p begin="18201600000t" end="18217600000t" region="pop14" style="basic" xml:id="subtitle557">[Leofric]</p>
+<p begin="18201600000t" end="18217600000t" region="pop15" style="basic" xml:id="subtitle558">I will not do it, Lord!</p>
+<p begin="18218400000t" end="18245200000t" region="pop14" style="basic" xml:id="subtitle559">-My son--</p>
+<p begin="18218400000t" end="18245200000t" region="pop15" style="basic" xml:id="subtitle560">-Father, you will not interfere.</p>
+<p begin="18248800000t" end="18265200000t" region="pop15" style="basic" xml:id="subtitle561">[gasps]</p>
+<p begin="18403600000t" end="18426400000t" region="pop15" style="basic" xml:id="subtitle562">May your mother forgive me.</p>
+<p begin="18427200000t" end="18466800000t" region="pop14" style="basic" xml:id="subtitle563">And may you be</p>
+<p begin="18427200000t" end="18466800000t" region="pop15" style="basic" xml:id="subtitle564">forgiven for your treason.</p>
+<p begin="18538800000t" end="18564400000t" region="pop15" style="basic" xml:id="subtitle565">[all murmuring]</p>
+<p begin="18667200000t" end="18706000000t" region="pop15" style="basic" xml:id="subtitle566">Lord, forgive him,</p>
+<p begin="18716400000t" end="18744800000t" region="pop15" style="basic" xml:id="subtitle567">let him die a noble.</p>
+<p begin="18745600000t" end="18763200000t" region="pop15" style="basic" xml:id="subtitle568">Forgive him...</p>
+<p begin="18764000000t" end="18802800000t" region="pop15" style="basic" xml:id="subtitle569">I ask you this as your servant.</p>
+<p begin="18822400000t" end="18882800000t" region="pop14" style="basic" xml:id="subtitle570">Odda...</p>
+<p begin="18822400000t" end="18882800000t" region="pop15" style="basic" xml:id="subtitle571">you will do as I command;</p>
+<p begin="18892000000t" end="18927200000t" region="pop14" style="basic" xml:id="subtitle572">you will raise</p>
+<p begin="18892000000t" end="18927200000t" region="pop15" style="basic" xml:id="subtitle573">the Somerset fyrd.</p>
+<p begin="18940800000t" end="18994800000t" region="pop15" style="basic" xml:id="subtitle574">Lord, forgive my son, please!</p>
+<p begin="18995600000t" end="19045600000t" region="pop14" style="basic" xml:id="subtitle575">I will not forgive</p>
+<p begin="18995600000t" end="19045600000t" region="pop15" style="basic" xml:id="subtitle576">what I have seen.</p>
+<p begin="19064800000t" end="19092800000t" region="pop15" style="basic" xml:id="subtitle577">You will raise the fyrd!</p>
+<p begin="19120000000t" end="19145200000t" region="pop14" style="basic" xml:id="subtitle578">[sighs]</p>
+<p begin="19120000000t" end="19145200000t" region="pop15" style="basic" xml:id="subtitle579">Yes, Lord.</p>
+<p begin="19354800000t" end="19417600000t" region="pop14" style="basic" xml:id="subtitle580">I will need 20 horsemen...</p>
+<p begin="19354800000t" end="19417600000t" region="pop15" style="basic" xml:id="subtitle581">to take word</p>
+<p begin="19418400000t" end="19472000000t" region="pop14" style="basic" xml:id="subtitle582">to all men able to carry sword,</p>
+<p begin="19418400000t" end="19472000000t" region="pop15" style="basic" xml:id="subtitle583">hook or spear.</p>
+<p begin="19487200000t" end="19532800000t" region="pop14" style="basic" xml:id="subtitle584">The word is that</p>
+<p begin="19487200000t" end="19532800000t" region="pop15" style="basic" xml:id="subtitle585">Alfred is king...</p>
+<p begin="19533600000t" end="19565200000t" region="pop15" style="basic" xml:id="subtitle586">[all yelling]</p>
+<p begin="19566000000t" end="19589200000t" region="pop15" style="basic" xml:id="subtitle587">...and will fight alongside</p>
+<p begin="19590000000t" end="19638400000t" region="pop14" style="basic" xml:id="subtitle588">the swords of Wessex</p>
+<p begin="19590000000t" end="19638400000t" region="pop15" style="basic" xml:id="subtitle589">to his dying breath!</p>
+<p begin="19639200000t" end="19673600000t" region="pop14" style="basic" xml:id="subtitle590">-Come on!</p>
+<p begin="19639200000t" end="19673600000t" region="pop15" style="basic" xml:id="subtitle591">-[all cheering]</p>
+<p begin="19674400000t" end="19726000000t" region="pop15" style="basic" xml:id="subtitle592">Come on! Come on!</p>
+<p begin="19889200000t" end="19908400000t" region="pop15" style="basic" xml:id="subtitle593">May we speak?</p>
+<p begin="19937200000t" end="19954000000t" region="pop15" style="basic" xml:id="subtitle594">About our son.</p>
+<p begin="19975600000t" end="19993200000t" region="pop15" style="basic" xml:id="subtitle595">You know?</p>
+<p begin="20004400000t" end="20034800000t" region="pop14" style="basic" xml:id="subtitle596">Then there is</p>
+<p begin="20004400000t" end="20034800000t" region="pop15" style="basic" xml:id="subtitle597">nothing left to say.</p>
+<p begin="20062000000t" end="20074000000t" region="pop15" style="basic" xml:id="subtitle598">I am sorry that his death</p>
+<p begin="20074800000t" end="20095600000t" region="pop14" style="basic" xml:id="subtitle599">was something that</p>
+<p begin="20074800000t" end="20095600000t" region="pop15" style="basic" xml:id="subtitle600">you had to face alone.</p>
+<p begin="20096400000t" end="20109600000t" region="pop15" style="basic" xml:id="subtitle601">[scoffs]</p>
+<p begin="20110400000t" end="20131200000t" region="pop15" style="basic" xml:id="subtitle602">I was not alone.</p>
+<p begin="20132000000t" end="20170800000t" region="pop14" style="basic" xml:id="subtitle603">Being without a husband</p>
+<p begin="20132000000t" end="20170800000t" region="pop15" style="basic" xml:id="subtitle604">does not mean I am alone.</p>
+<p begin="20171600000t" end="20198800000t" region="pop14" style="basic" xml:id="subtitle605">Then I am sorry for the life</p>
+<p begin="20171600000t" end="20198800000t" region="pop15" style="basic" xml:id="subtitle606">that I have given you.</p>
+<p begin="20199600000t" end="20244800000t" region="pop14" style="basic" xml:id="subtitle607">I have found peace,</p>
+<p begin="20199600000t" end="20244800000t" region="pop15" style="basic" xml:id="subtitle608">I hope you can do the same.</p>
+<p begin="20273600000t" end="20292000000t" region="pop15" style="basic" xml:id="subtitle609">Was there sickness?</p>
+<p begin="20299200000t" end="20332800000t" region="pop14" style="basic" xml:id="subtitle610">-I would like to understand.</p>
+<p begin="20299200000t" end="20332800000t" region="pop15" style="basic" xml:id="subtitle611">-Children are frail.</p>
+<p begin="20336400000t" end="20401200000t" region="pop14" style="basic" xml:id="subtitle612">And you will have other sons,</p>
+<p begin="20336400000t" end="20401200000t" region="pop15" style="basic" xml:id="subtitle613">I'm sure, with your queen.</p>
+<p begin="20409200000t" end="20428800000t" region="pop15" style="basic" xml:id="subtitle614">Is she here?</p>
+<p begin="20450000000t" end="20462400000t" region="pop15" style="basic" xml:id="subtitle615">Yes.</p>
+<p begin="20470000000t" end="20495600000t" region="pop14" style="basic" xml:id="subtitle616">I would like you</p>
+<p begin="20470000000t" end="20495600000t" region="pop15" style="basic" xml:id="subtitle617">to leave me alone,</p>
+<p begin="20496400000t" end="20516800000t" region="pop15" style="basic" xml:id="subtitle618">never speak to me again.</p>
+<p begin="20517600000t" end="20551600000t" region="pop14" style="basic" xml:id="subtitle619">We have nothing</p>
+<p begin="20517600000t" end="20551600000t" region="pop15" style="basic" xml:id="subtitle620">that binds us, nothing.</p>
+<p begin="20552400000t" end="20583200000t" region="pop15" style="basic" xml:id="subtitle621">Avoid me, please.</p>
+<p begin="20798800000t" end="20844000000t" region="pop14" style="basic" xml:id="subtitle622">Uhtred Ragnarson,</p>
+<p begin="20798800000t" end="20844000000t" region="pop15" style="basic" xml:id="subtitle623">should I be pleased to see you?</p>
+<p begin="20844800000t" end="20865600000t" region="pop15" style="basic" xml:id="subtitle624">Skorpa of the White Horse.</p>
+<p begin="20866400000t" end="20897200000t" region="pop14" style="basic" xml:id="subtitle625">I am expected,</p>
+<p begin="20866400000t" end="20897200000t" region="pop15" style="basic" xml:id="subtitle626">by the Lord Odda.</p>
+<p begin="20898000000t" end="20936000000t" region="pop14" style="basic" xml:id="subtitle627">The Lord Odda is in the ground,</p>
+<p begin="20898000000t" end="20936000000t" region="pop15" style="basic" xml:id="subtitle628">buried as a traitor.</p>
+<p begin="20957600000t" end="21009200000t" region="pop14" style="basic" xml:id="subtitle629">So what now,</p>
+<p begin="20957600000t" end="21009200000t" region="pop15" style="basic" xml:id="subtitle630">do I speak with you;</p>
+<p begin="21014000000t" end="21031200000t" region="pop15" style="basic" xml:id="subtitle631">does the truce stand?</p>
+<p begin="21032000000t" end="21070400000t" region="pop14" style="basic" xml:id="subtitle632">For today it stands,</p>
+<p begin="21032000000t" end="21070400000t" region="pop15" style="basic" xml:id="subtitle633">tomorrow we will kill you.</p>
+<p begin="21071200000t" end="21123200000t" region="pop15" style="basic" xml:id="subtitle634">You will kill me... with what?</p>
+<p begin="21124000000t" end="21154400000t" region="pop14" style="basic" xml:id="subtitle635">I have almost</p>
+<p begin="21124000000t" end="21154400000t" region="pop15" style="basic" xml:id="subtitle636">1,000 men to call upon.</p>
+<p begin="21155200000t" end="21199600000t" region="pop14" style="basic" xml:id="subtitle637">Your ships have been burned,</p>
+<p begin="21155200000t" end="21199600000t" region="pop15" style="basic" xml:id="subtitle638">Skorpa, by Alfred.</p>
+<p begin="21200400000t" end="21223200000t" region="pop14" style="basic" xml:id="subtitle639">He is gathering</p>
+<p begin="21200400000t" end="21223200000t" region="pop15" style="basic" xml:id="subtitle640">a great Saxon army.</p>
+<p begin="21224000000t" end="21274800000t" region="pop14" style="basic" xml:id="subtitle641">I am aware my ships are gone,</p>
+<p begin="21224000000t" end="21274800000t" region="pop15" style="basic" xml:id="subtitle642">and I will have my revenge.</p>
+<p begin="21275600000t" end="21316000000t" region="pop14" style="basic" xml:id="subtitle643">You should return to Guthrum</p>
+<p begin="21275600000t" end="21316000000t" region="pop15" style="basic" xml:id="subtitle644">and prepare to die!</p>
+<p begin="21325200000t" end="21368400000t" region="pop14" style="basic" xml:id="subtitle645">Did your queen tell you</p>
+<p begin="21325200000t" end="21368400000t" region="pop15" style="basic" xml:id="subtitle646">that your sister</p>
+<p begin="21369200000t" end="21432000000t" region="pop14" style="basic" xml:id="subtitle647">is being humped in the arse each</p>
+<p begin="21369200000t" end="21432000000t" region="pop15" style="basic" xml:id="subtitle648">and every night by one-eyed Sven?</p>
+<p begin="21432800000t" end="21475600000t" region="pop14" style="basic" xml:id="subtitle649">Did your mother tell you that she</p>
+<p begin="21432800000t" end="21475600000t" region="pop15" style="basic" xml:id="subtitle650">should have kept her legs closed?</p>
+<p begin="21476400000t" end="21518000000t" region="pop14" style="basic" xml:id="subtitle651">I will look for you</p>
+<p begin="21476400000t" end="21518000000t" region="pop15" style="basic" xml:id="subtitle652">first across the battle field.</p>
+<p begin="21518800000t" end="21563600000t" region="pop14" style="basic" xml:id="subtitle653">I will be there, and I will</p>
+<p begin="21518800000t" end="21563600000t" region="pop15" style="basic" xml:id="subtitle654">not be difficult to find.</p>
+<p begin="21671200000t" end="21694800000t" region="pop14" style="basic" xml:id="subtitle655">[Alfred]</p>
+<p begin="21671200000t" end="21694800000t" region="pop15" style="basic" xml:id="subtitle656">He will go to Guthrum?</p>
+<p begin="21695600000t" end="21719200000t" region="pop15" style="basic" xml:id="subtitle657">I believe he will, Lord.</p>
+<p begin="21730400000t" end="21762000000t" region="pop14" style="basic" xml:id="subtitle658">Then the battle</p>
+<p begin="21730400000t" end="21762000000t" region="pop15" style="basic" xml:id="subtitle659">is one step nearer.</p>
+<p begin="21770400000t" end="21811600000t" region="pop14" style="basic" xml:id="subtitle660">Beocca,</p>
+<p begin="21770400000t" end="21811600000t" region="pop15" style="basic" xml:id="subtitle661">you should wash out your mouth.</p>
+<p begin="21812400000t" end="21863600000t" region="pop15" style="basic" xml:id="subtitle662">Yes, Lord, I will... with ale.</p>
+<p begin="22099600000t" end="22117200000t" region="pop15" style="basic" xml:id="subtitle663">How many men?</p>
+<p begin="22118000000t" end="22142800000t" region="pop15" style="basic" xml:id="subtitle664">Four hundred. No more.</p>
+<p begin="22143600000t" end="22182000000t" region="pop14" style="basic" xml:id="subtitle665">And this is</p>
+<p begin="22143600000t" end="22182000000t" region="pop15" style="basic" xml:id="subtitle666">the great Saxon army?</p>
+<p begin="22182800000t" end="22238400000t" region="pop14" style="basic" xml:id="subtitle667">Their numbers will grow.</p>
+<p begin="22182800000t" end="22238400000t" region="pop15" style="basic" xml:id="subtitle668">We need to march.</p>
+<p begin="22247200000t" end="22267200000t" region="pop14" style="basic" xml:id="subtitle669">There needs to be a</p>
+<p begin="22247200000t" end="22267200000t" region="pop15" style="basic" xml:id="subtitle670">story of a slaughter.</p>
+<p begin="22268000000t" end="22294000000t" region="pop14" style="basic" xml:id="subtitle671">Only days ago Ragnar</p>
+<p begin="22268000000t" end="22294000000t" region="pop15" style="basic" xml:id="subtitle672">was asking if the war was over?</p>
+<p begin="22294800000t" end="22330400000t" region="pop14" style="basic" xml:id="subtitle673">Skorpa is right,</p>
+<p begin="22294800000t" end="22330400000t" region="pop15" style="basic" xml:id="subtitle674">there must be a slaughter.</p>
+<p begin="22331200000t" end="22369200000t" region="pop14" style="basic" xml:id="subtitle675">We must take the fight</p>
+<p begin="22331200000t" end="22369200000t" region="pop15" style="basic" xml:id="subtitle676">to Alfred and his God.</p>
+<p begin="22370000000t" end="22418000000t" region="pop14" style="basic" xml:id="subtitle677">And you are ready</p>
+<p begin="22370000000t" end="22418000000t" region="pop15" style="basic" xml:id="subtitle678">to kill your brother?</p>
+<p begin="22446400000t" end="22482400000t" region="pop15" style="basic" xml:id="subtitle679">If it comes to that, yes.</p>
+<p begin="22538400000t" end="22573600000t" region="pop14" style="basic" xml:id="subtitle680">Then we shall face</p>
+<p begin="22538400000t" end="22573600000t" region="pop15" style="basic" xml:id="subtitle681">one great army with another.</p>
+<p begin="22574400000t" end="22604000000t" region="pop14" style="basic" xml:id="subtitle682">[Alfred]</p>
+<p begin="22574400000t" end="22604000000t" region="pop15" style="basic" xml:id="subtitle683">Once the armies are assembled,</p>
+<p begin="22604800000t" end="22627200000t" region="pop15" style="basic" xml:id="subtitle684">I shall speak to them, as one.</p>
+<p begin="22634800000t" end="22664000000t" region="pop15" style="basic" xml:id="subtitle685">Each man should know...</p>
+<p begin="22664800000t" end="22700800000t" region="pop14" style="basic" xml:id="subtitle686">...this war</p>
+<p begin="22664800000t" end="22700800000t" region="pop15" style="basic" xml:id="subtitle687">is not only about land....</p>
+<p begin="22701600000t" end="22751600000t" region="pop14" style="basic" xml:id="subtitle688">Should the heathens win,</p>
+<p begin="22701600000t" end="22751600000t" region="pop15" style="basic" xml:id="subtitle689">then Christ is defeated.</p>
+<p begin="22772400000t" end="22820400000t" region="pop14" style="basic" xml:id="subtitle690">[Uhtred] When you speak to the men,</p>
+<p begin="22772400000t" end="22820400000t" region="pop15" style="basic" xml:id="subtitle691">Lord, you cannot make it a sermon.</p>
+<p begin="22828000000t" end="22850400000t" region="pop15" style="basic" xml:id="subtitle692">Then what do you suggest I say?</p>
+<p begin="22861200000t" end="22891600000t" region="pop14" style="basic" xml:id="subtitle693">Tell them that you will</p>
+<p begin="22861200000t" end="22891600000t" region="pop15" style="basic" xml:id="subtitle694">die for them, that's good.</p>
+<p begin="22903200000t" end="22930800000t" region="pop14" style="basic" xml:id="subtitle695">Tell them that we will make</p>
+<p begin="22903200000t" end="22930800000t" region="pop15" style="basic" xml:id="subtitle696">the Danes pay in blood,</p>
+<p begin="22931600000t" end="22950800000t" region="pop14" style="basic" xml:id="subtitle697">and that they will be</p>
+<p begin="22931600000t" end="22950800000t" region="pop15" style="basic" xml:id="subtitle698">rewarded in plunder.</p>
+<p begin="22960400000t" end="22984000000t" region="pop14" style="basic" xml:id="subtitle699">I am to talk of revenge</p>
+<p begin="22960400000t" end="22984000000t" region="pop15" style="basic" xml:id="subtitle700">and greed?</p>
+<p begin="22984800000t" end="23012400000t" region="pop14" style="basic" xml:id="subtitle701">They are men, Lord,</p>
+<p begin="22984800000t" end="23012400000t" region="pop15" style="basic" xml:id="subtitle702">not angels.</p>
+<p begin="23050400000t" end="23071200000t" region="pop15" style="basic" xml:id="subtitle703">We shall stop for a moment.</p>
+<p begin="23072000000t" end="23110800000t" region="pop15" style="basic" xml:id="subtitle704">Halt... We halt!</p>
+<p begin="23190800000t" end="23206000000t" region="pop15" style="basic" xml:id="subtitle705">Lord?</p>
+<p begin="23210800000t" end="23236000000t" region="pop15" style="basic" xml:id="subtitle706">It is Egbert's Stone.</p>
+<p begin="23248000000t" end="23268800000t" region="pop15" style="basic" xml:id="subtitle707">Within these next few yards,</p>
+<p begin="23269600000t" end="23292800000t" region="pop14" style="basic" xml:id="subtitle708">we will know if</p>
+<p begin="23269600000t" end="23292800000t" region="pop15" style="basic" xml:id="subtitle709">we have an army,</p>
+<p begin="23304000000t" end="23328800000t" region="pop15" style="basic" xml:id="subtitle710">of angels or otherwise.</p>
+<p begin="23344800000t" end="23365200000t" region="pop15" style="basic" xml:id="subtitle711">I will go alone.</p>
+<p begin="23434000000t" end="23461200000t" region="pop15" style="basic" xml:id="subtitle712">If no one is there, what then?</p>
+<p begin="23497600000t" end="23514400000t" region="pop15" style="basic" xml:id="subtitle713">I see...</p>
+<p begin="23651600000t" end="23674400000t" region="pop15" style="basic" xml:id="subtitle714">Not a single one.</p>
+<p begin="23690400000t" end="23741200000t" region="pop14" style="basic" xml:id="subtitle715">Not a single man</p>
+<p begin="23690400000t" end="23741200000t" region="pop15" style="basic" xml:id="subtitle716">has answered my call.</p>
+<p begin="23767600000t" end="23820800000t" region="pop14" style="basic" xml:id="subtitle717">Then we wait.</p>
+<p begin="23767600000t" end="23820800000t" region="pop15" style="basic" xml:id="subtitle718">We must wait, Lord.</p>
+<p begin="24000000000t" end="24017200000t" region="pop15" style="basic" xml:id="subtitle719">A fine knife...</p>
+<p begin="24034400000t" end="24054800000t" region="pop15" style="basic" xml:id="subtitle720">A Dane's knife.</p>
+<p begin="24064400000t" end="24077600000t" region="pop15" style="basic" xml:id="subtitle721">This thing?</p>
+<p begin="24084800000t" end="24099600000t" region="pop15" style="basic" xml:id="subtitle722">Yes, I took it from a Dane,</p>
+<p begin="24100400000t" end="24112800000t" region="pop15" style="basic" xml:id="subtitle723">a Dane I killed.</p>
+<p begin="24113600000t" end="24141600000t" region="pop14" style="basic" xml:id="subtitle724">-Where?</p>
+<p begin="24113600000t" end="24141600000t" region="pop15" style="basic" xml:id="subtitle725">-Winchester.</p>
+<p begin="24142400000t" end="24165600000t" region="pop14" style="basic" xml:id="subtitle726">This was before you groveled</p>
+<p begin="24142400000t" end="24165600000t" region="pop15" style="basic" xml:id="subtitle727">on your arse to Guthrum?</p>
+<p begin="24166400000t" end="24204400000t" region="pop14" style="basic" xml:id="subtitle728">Before I presented</p>
+<p begin="24166400000t" end="24204400000t" region="pop15" style="basic" xml:id="subtitle729">myself to him, yes.</p>
+<p begin="24205200000t" end="24238400000t" region="pop14" style="basic" xml:id="subtitle730">I was not, however,</p>
+<p begin="24205200000t" end="24238400000t" region="pop15" style="basic" xml:id="subtitle731">treated in a kingly manner</p>
+<p begin="24239200000t" end="24252400000t" region="pop15" style="basic" xml:id="subtitle732">and decided to escape.</p>
+<p begin="24253200000t" end="24276000000t" region="pop14" style="basic" xml:id="subtitle733">A king under the Danes</p>
+<p begin="24253200000t" end="24276000000t" region="pop15" style="basic" xml:id="subtitle734">is no king.</p>
+<p begin="24276800000t" end="24324400000t" region="pop14" style="basic" xml:id="subtitle735">Uhtred, I do like you, but I rather tire</p>
+<p begin="24276800000t" end="24324400000t" region="pop15" style="basic" xml:id="subtitle736">of your preaching.</p>
+<p begin="24325200000t" end="24345200000t" region="pop14" style="basic" xml:id="subtitle737">Have you ever thought of</p>
+<p begin="24325200000t" end="24345200000t" region="pop15" style="basic" xml:id="subtitle738">becoming a priest?</p>
+<p begin="24346000000t" end="24371200000t" region="pop14" style="basic" xml:id="subtitle739">-Ever since I was a boy.</p>
+<p begin="24346000000t" end="24371200000t" region="pop15" style="basic" xml:id="subtitle740">-That is a lie.</p>
+<p begin="24372000000t" end="24406400000t" region="pop14" style="basic" xml:id="subtitle741">I baptized him twice,</p>
+<p begin="24372000000t" end="24406400000t" region="pop15" style="basic" xml:id="subtitle742">he's still not a Christian.</p>
+<p begin="24407200000t" end="24425600000t" region="pop15" style="basic" xml:id="subtitle743">[knife cuts]</p>
+<p begin="24430000000t" end="24445200000t" region="pop15" style="basic" xml:id="subtitle744">For luck.</p>
+<p begin="24470800000t" end="24496400000t" region="pop14" style="basic" xml:id="subtitle745">Then I will need</p>
+<p begin="24470800000t" end="24496400000t" region="pop15" style="basic" xml:id="subtitle746">a lock from you.</p>
+<p begin="24508800000t" end="24520000000t" region="pop15" style="basic" xml:id="subtitle747">Where is Alfred?</p>
+<p begin="24520800000t" end="24576000000t" region="pop14" style="basic" xml:id="subtitle748">Watching...</p>
+<p begin="24520800000t" end="24576000000t" region="pop15" style="basic" xml:id="subtitle749">waiting for his army.</p>
+<p begin="24609200000t" end="24634400000t" region="pop14" style="basic" xml:id="subtitle750">I think I shall go</p>
+<p begin="24609200000t" end="24634400000t" region="pop15" style="basic" xml:id="subtitle751">and sit with him a while.</p>
+<p begin="24669200000t" end="24690000000t" region="pop15" style="basic" xml:id="subtitle752">You are fond of him now?</p>
+<p begin="24824400000t" end="24845600000t" region="pop15" style="basic" xml:id="subtitle753">For luck.</p>
+<p begin="25180000000t" end="25203600000t" region="pop15" style="basic" xml:id="subtitle754">[breathing heavily]</p>
+<p begin="25449200000t" end="25461600000t" region="pop15" style="basic" xml:id="subtitle755">Lord...</p>
+<p begin="25526000000t" end="25549200000t" region="pop14" style="basic" xml:id="subtitle756">I thought</p>
+<p begin="25526000000t" end="25549200000t" region="pop15" style="basic" xml:id="subtitle757">you would like company.</p>
+<p begin="25670000000t" end="25698000000t" region="pop14" style="basic" xml:id="subtitle758">What do you see?</p>
+<p begin="25670000000t" end="25698000000t" region="pop15" style="basic" xml:id="subtitle759">What do you hear?</p>
+<p begin="25698800000t" end="25729200000t" region="pop14" style="basic" xml:id="subtitle760">-I hear nothing, Lord.</p>
+<p begin="25698800000t" end="25729200000t" region="pop15" style="basic" xml:id="subtitle761">-No... No...</p>
+<p begin="25743200000t" end="25787200000t" region="pop14" style="basic" xml:id="subtitle762">There is a change</p>
+<p begin="25743200000t" end="25787200000t" region="pop15" style="basic" xml:id="subtitle763">in the shadows, in the air.</p>
+<p begin="25788000000t" end="25799200000t" region="pop15" style="basic" xml:id="subtitle764">They are out there.</p>
+<p begin="25800000000t" end="25826400000t" region="pop15" style="basic" xml:id="subtitle765">I see nothing but grass, Lord.</p>
+<p begin="25827200000t" end="25863600000t" region="pop14" style="basic" xml:id="subtitle766">-Beyond the grass, trees.</p>
+<p begin="25827200000t" end="25863600000t" region="pop15" style="basic" xml:id="subtitle767">-There! There!</p>
+<p begin="25881600000t" end="25902800000t" region="pop15" style="basic" xml:id="subtitle768">It's men.</p>
+<p begin="25920000000t" end="25943600000t" region="pop15" style="basic" xml:id="subtitle769">And more... more men there.</p>
+<p begin="25958800000t" end="25984000000t" region="pop15" style="basic" xml:id="subtitle770">They have answered the call.</p>
+<p begin="25990400000t" end="26001200000t" region="pop15" style="basic" xml:id="subtitle771">They have answered the call.</p>
+<p begin="26002000000t" end="26022800000t" region="pop14" style="basic" xml:id="subtitle772">The swords of England,</p>
+<p begin="26002000000t" end="26022800000t" region="pop15" style="basic" xml:id="subtitle773">they're coming.</p>
+<p begin="26023600000t" end="26063200000t" region="pop15" style="basic" xml:id="subtitle774">[chuckles]</p>
+<p begin="26083600000t" end="26106400000t" region="pop15" style="basic" xml:id="subtitle775">It's the swords of Wessex!</p>
+<p begin="26155600000t" end="26179200000t" region="pop15" style="basic" xml:id="subtitle776">Swords of England!</p>
+<p begin="26221200000t" end="26266000000t" region="pop15" style="basic" xml:id="subtitle777">Today, is a day for warriors.</p>
+<p begin="26275200000t" end="26310400000t" region="pop15" style="basic" xml:id="subtitle778">A day to kill your enemies.</p>
+<p begin="26311200000t" end="26370400000t" region="pop14" style="basic" xml:id="subtitle779">A day we make the Pagans wish</p>
+<p begin="26311200000t" end="26370400000t" region="pop15" style="basic" xml:id="subtitle780">they had never heard of Wessex!</p>
+<p begin="26371200000t" end="26411200000t" region="pop15" style="basic" xml:id="subtitle781">Today, we fight for Wessex!</p>
+<p begin="26412000000t" end="26444000000t" region="pop15" style="basic" xml:id="subtitle782">[all cheering]</p>
+<p begin="26481200000t" end="26511600000t" region="pop14" style="basic" xml:id="subtitle783">[Alfred]</p>
+<p begin="26481200000t" end="26511600000t" region="pop15" style="basic" xml:id="subtitle784">And not only for Wessex.</p>
+<p begin="26512400000t" end="26539600000t" region="pop14" style="basic" xml:id="subtitle785">We have men here from</p>
+<p begin="26512400000t" end="26539600000t" region="pop15" style="basic" xml:id="subtitle786">Northumbria,</p>
+<p begin="26540400000t" end="26575200000t" region="pop15" style="basic" xml:id="subtitle787">from Mercia, from East Anglia.</p>
+<p begin="26583200000t" end="26616800000t" region="pop15" style="basic" xml:id="subtitle788">And why are the Pagan's here?</p>
+<p begin="26617600000t" end="26649600000t" region="pop14" style="basic" xml:id="subtitle789">They want your wives</p>
+<p begin="26617600000t" end="26649600000t" region="pop15" style="basic" xml:id="subtitle790">for their pleasure.</p>
+<p begin="26650400000t" end="26678400000t" region="pop14" style="basic" xml:id="subtitle791">They want your children</p>
+<p begin="26650400000t" end="26678400000t" region="pop15" style="basic" xml:id="subtitle792">as their slaves.</p>
+<p begin="26679200000t" end="26704000000t" region="pop14" style="basic" xml:id="subtitle793">They want your homes</p>
+<p begin="26679200000t" end="26704000000t" region="pop15" style="basic" xml:id="subtitle794">as their own!</p>
+<p begin="26704800000t" end="26735600000t" region="pop14" style="basic" xml:id="subtitle795">But they do... not...</p>
+<p begin="26704800000t" end="26735600000t" region="pop15" style="basic" xml:id="subtitle796">know us!</p>
+<p begin="26736400000t" end="26762400000t" region="pop15" style="basic" xml:id="subtitle797">[all cheering]</p>
+<p begin="26813600000t" end="26846000000t" region="pop15" style="basic" xml:id="subtitle798">They do not know our swords,</p>
+<p begin="26846800000t" end="26884400000t" region="pop14" style="basic" xml:id="subtitle799">they do not know our axes,</p>
+<p begin="26846800000t" end="26884400000t" region="pop15" style="basic" xml:id="subtitle800">our spears,</p>
+<p begin="26885200000t" end="26919200000t" region="pop15" style="basic" xml:id="subtitle801">they do not know our courage!</p>
+<p begin="26920000000t" end="26957200000t" region="pop15" style="basic" xml:id="subtitle802">And today... We kill them!</p>
+<p begin="26958000000t" end="26987600000t" region="pop15" style="basic" xml:id="subtitle803">[all cheering]</p>
+<p begin="26988400000t" end="27027200000t" region="pop14" style="basic" xml:id="subtitle804">We shall make the ground</p>
+<p begin="26988400000t" end="27027200000t" region="pop15" style="basic" xml:id="subtitle805">red with their blood!</p>
+<p begin="27028000000t" end="27058400000t" region="pop14" style="basic" xml:id="subtitle806">We shall strip them</p>
+<p begin="27028000000t" end="27058400000t" region="pop15" style="basic" xml:id="subtitle807">of what they have plundered,</p>
+<p begin="27059200000t" end="27091600000t" region="pop14" style="basic" xml:id="subtitle808">we shall make them</p>
+<p begin="27059200000t" end="27091600000t" region="pop15" style="basic" xml:id="subtitle809">cry out for mercy,</p>
+<p begin="27092400000t" end="27124800000t" region="pop15" style="basic" xml:id="subtitle810">and there will be none!</p>
+<p begin="27125600000t" end="27138400000t" region="pop15" style="basic" xml:id="subtitle811">No mercy!</p>
+<p begin="27139200000t" end="27185600000t" region="pop14" style="basic" xml:id="subtitle812">[all chanting]</p>
+<p begin="27139200000t" end="27185600000t" region="pop15" style="basic" xml:id="subtitle813">No mercy! No mercy! No mercy!</p>
+<p begin="27186400000t" end="27217200000t" region="pop15" style="basic" xml:id="subtitle814">[chanting continues]</p>
+<p begin="27274800000t" end="27287600000t" region="pop15" style="basic" xml:id="subtitle815">Should I fall,</p>
+<p begin="27288400000t" end="27315200000t" region="pop14" style="basic" xml:id="subtitle816">you and Hild are to take my</p>
+<p begin="27288400000t" end="27315200000t" region="pop15" style="basic" xml:id="subtitle817">horse and ride clear of here.</p>
+<p begin="27316000000t" end="27330400000t" region="pop14" style="basic" xml:id="subtitle818">You will not fall,</p>
+<p begin="27316000000t" end="27330400000t" region="pop15" style="basic" xml:id="subtitle819">I forbid it.</p>
+<p begin="27331200000t" end="27369200000t" region="pop14" style="basic" xml:id="subtitle820">Everything I have is packed</p>
+<p begin="27331200000t" end="27369200000t" region="pop15" style="basic" xml:id="subtitle821">in my bags, it's yours.</p>
+<p begin="27385200000t" end="27412400000t" region="pop15" style="basic" xml:id="subtitle822">You will not fail.</p>
+<p begin="27448800000t" end="27476800000t" region="pop15" style="basic" xml:id="subtitle823">I fight for you.</p>
+<p begin="27488000000t" end="27536400000t" region="pop15" style="basic" xml:id="subtitle824">[chanting continues]</p>
+<p begin="27538000000t" end="27560000000t" region="pop15" style="basic" xml:id="subtitle825">Kill them all!</p>
+<p begin="27664000000t" end="27697600000t" region="pop15" style="basic" xml:id="subtitle826">Then no mercy it must be.</p>
+<p begin="27712400000t" end="27745200000t" region="pop14" style="basic" xml:id="subtitle827">Should you meet Uhtred</p>
+<p begin="27712400000t" end="27745200000t" region="pop15" style="basic" xml:id="subtitle828">in battle there can be no doubt.</p>
+<p begin="27761200000t" end="27781600000t" region="pop15" style="basic" xml:id="subtitle829">No mercy.</p>
+<p begin="27786400000t" end="27803200000t" region="pop15" style="basic" xml:id="subtitle830">None.</p>
+<p begin="27870400000t" end="27894000000t" region="pop14" style="basic" xml:id="subtitle831">We should not be</p>
+<p begin="27870400000t" end="27894000000t" region="pop15" style="basic" xml:id="subtitle832">holding back, Lord.</p>
+<p begin="27897200000t" end="27913200000t" region="pop14" style="basic" xml:id="subtitle833">We should attack</p>
+<p begin="27897200000t" end="27913200000t" region="pop15" style="basic" xml:id="subtitle834">with every man.</p>
+<p begin="27914000000t" end="27949200000t" region="pop14" style="basic" xml:id="subtitle835">I will decide how we fight.</p>
+<p begin="27914000000t" end="27949200000t" region="pop15" style="basic" xml:id="subtitle836">You will follow my orders.</p>
+<p begin="27950000000t" end="27968000000t" region="pop15" style="basic" xml:id="subtitle837">Yes, Lord.</p>
+<p begin="28041200000t" end="28063600000t" region="pop15" style="basic" xml:id="subtitle838">No mercy.</p>
+<p begin="28078400000t" end="28098800000t" region="pop15" style="basic" xml:id="subtitle839">Form our lines.</p>
+<p begin="28100400000t" end="28125200000t" region="pop15" style="basic" xml:id="subtitle840">Form our lines!</p>
+<p begin="28126000000t" end="28149200000t" region="pop15" style="basic" xml:id="subtitle841">Shields up!</p>
+<p begin="28174400000t" end="28212800000t" region="pop14" style="basic" xml:id="subtitle842">-Advance!</p>
+<p begin="28174400000t" end="28212800000t" region="pop15" style="basic" xml:id="subtitle843">-[Leofric] Come on!</p>
+<p begin="28214800000t" end="28235600000t" region="pop15" style="basic" xml:id="subtitle844">Forward.</p>
+<p begin="28304400000t" end="28358000000t" region="pop14" style="basic" xml:id="subtitle845">Hold the line, we work as one.</p>
+<p begin="28304400000t" end="28358000000t" region="pop15" style="basic" xml:id="subtitle846">We do not break.</p>
+<p begin="28358800000t" end="28378000000t" region="pop15" style="basic" xml:id="subtitle847">Shields, lock.</p>
+<p begin="28416000000t" end="28436400000t" region="pop15" style="basic" xml:id="subtitle848">Hold the line.</p>
+<p begin="28539600000t" end="28569600000t" region="pop14" style="basic" xml:id="subtitle849">-Halt!</p>
+<p begin="28539600000t" end="28569600000t" region="pop15" style="basic" xml:id="subtitle850">-Halt!</p>
+<p begin="28594800000t" end="28637200000t" region="pop14" style="basic" xml:id="subtitle851">Wulfhere, I will have your guts</p>
+<p begin="28594800000t" end="28637200000t" region="pop15" style="basic" xml:id="subtitle852">you traitorous bastard!</p>
+<p begin="28638000000t" end="28655600000t" region="pop15" style="basic" xml:id="subtitle853">This is our land!</p>
+<p begin="28656400000t" end="28688800000t" region="pop15" style="basic" xml:id="subtitle854">[all cheering]</p>
+<p begin="28735200000t" end="28775600000t" region="pop15" style="basic" xml:id="subtitle855">[commanding orders indistinct]</p>
+<p begin="28866000000t" end="28905600000t" region="pop15" style="basic" xml:id="subtitle856">First in line, as you wished.</p>
+<p begin="28959600000t" end="28992800000t" region="pop15" style="basic" xml:id="subtitle857">[all yelling]</p>
+<p begin="29011600000t" end="29030800000t" region="pop15" style="basic" xml:id="subtitle858">Here they come!</p>
+<p begin="29063200000t" end="29080400000t" region="pop15" style="basic" xml:id="subtitle859">Hold!</p>
+<p begin="29114400000t" end="29130000000t" region="pop15" style="basic" xml:id="subtitle860">Hold!</p>
+<p begin="29220800000t" end="29250000000t" region="pop15" style="basic" xml:id="subtitle861">[all grunting]</p>
+<p begin="29262400000t" end="29279200000t" region="pop15" style="basic" xml:id="subtitle862">[screaming in pain]</p>
+<p begin="29280000000t" end="29304800000t" region="pop15" style="basic" xml:id="subtitle863">Keep the wall tight!</p>
+<p begin="29348400000t" end="29374800000t" region="pop14" style="basic" xml:id="subtitle864">[Leofric]</p>
+<p begin="29348400000t" end="29374800000t" region="pop15" style="basic" xml:id="subtitle865">Have that Wulfhere, you bastard!</p>
+<p begin="29375600000t" end="29397600000t" region="pop15" style="basic" xml:id="subtitle866">Hold!</p>
+<p begin="29493600000t" end="29529200000t" region="pop14" style="basic" xml:id="subtitle867">Leofric!</p>
+<p begin="29493600000t" end="29529200000t" region="pop15" style="basic" xml:id="subtitle868">[speaks indistinct]</p>
+<p begin="29530000000t" end="29546000000t" region="pop15" style="basic" xml:id="subtitle869">Leofric!</p>
+<p begin="29546800000t" end="29586800000t" region="pop14" style="basic" xml:id="subtitle870">Leave him! Leave him!</p>
+<p begin="29546800000t" end="29586800000t" region="pop15" style="basic" xml:id="subtitle871">Close the gaps!</p>
+<p begin="29587600000t" end="29614800000t" region="pop15" style="basic" xml:id="subtitle872">Keep the wall tight!</p>
+<p begin="29615600000t" end="29630000000t" region="pop15" style="basic" xml:id="subtitle873">Advance!</p>
+<p begin="29630800000t" end="29649200000t" region="pop15" style="basic" xml:id="subtitle874">Three, two, one...</p>
+<p begin="29650000000t" end="29675600000t" region="pop15" style="basic" xml:id="subtitle875">[all grunting in unison]</p>
+<p begin="29736800000t" end="29764800000t" region="pop15" style="basic" xml:id="subtitle876">No mercy!</p>
+<p begin="29765600000t" end="29791200000t" region="pop15" style="basic" xml:id="subtitle877">[yells]</p>
+<p begin="29871200000t" end="29902800000t" region="pop15" style="basic" xml:id="subtitle878">No more ground shall be lost!</p>
+<p begin="29957600000t" end="29976800000t" region="pop15" style="basic" xml:id="subtitle879">Follow me!</p>
+<p begin="30006000000t" end="30024000000t" region="pop15" style="basic" xml:id="subtitle880">[screaming]</p>
+<p begin="30024800000t" end="30042800000t" region="pop15" style="basic" xml:id="subtitle881">God have mercy!</p>
+<p begin="30130800000t" end="30159600000t" region="pop14" style="basic" xml:id="subtitle882">[horse whinnying]</p>
+<p begin="30130800000t" end="30159600000t" region="pop15" style="basic" xml:id="subtitle883">[people screaming]</p>
+<p begin="30407200000t" end="30439200000t" region="pop15" style="basic" xml:id="subtitle884">We fall back! As one!</p>
+<p begin="30442400000t" end="30459200000t" region="pop15" style="basic" xml:id="subtitle885">We ease!</p>
+<p begin="30460000000t" end="30485600000t" region="pop15" style="basic" xml:id="subtitle886">[all chanting in unison]</p>
+<p begin="30486400000t" end="30531600000t" region="pop14" style="basic" xml:id="subtitle887">Hold! We hold here!</p>
+<p begin="30486400000t" end="30531600000t" region="pop15" style="basic" xml:id="subtitle888">We go no further!</p>
+<p begin="30550400000t" end="30584800000t" region="pop14" style="basic" xml:id="subtitle889">Edge backwards with me</p>
+<p begin="30550400000t" end="30584800000t" region="pop15" style="basic" xml:id="subtitle890">at my level!</p>
+<p begin="30585600000t" end="30613200000t" region="pop14" style="basic" xml:id="subtitle891">[screaming]</p>
+<p begin="30585600000t" end="30613200000t" region="pop15" style="basic" xml:id="subtitle892">[all grunting in unison]</p>
+<p begin="30793600000t" end="30831600000t" region="pop14" style="basic" xml:id="subtitle893">Uhtred Ragnarson!</p>
+<p begin="30793600000t" end="30831600000t" region="pop15" style="basic" xml:id="subtitle894">Can you hear me?</p>
+<p begin="30832400000t" end="30850400000t" region="pop15" style="basic" xml:id="subtitle895">I hear you, Skorpa.</p>
+<p begin="30851200000t" end="30874400000t" region="pop15" style="basic" xml:id="subtitle896">Do you wish to surrender?</p>
+<p begin="30875200000t" end="30921600000t" region="pop14" style="basic" xml:id="subtitle897">I have a gift for you!</p>
+<p begin="30875200000t" end="30921600000t" region="pop15" style="basic" xml:id="subtitle898">Your queen!</p>
+<p begin="30990400000t" end="31017200000t" region="pop14" style="basic" xml:id="subtitle899">-No mercy!</p>
+<p begin="30990400000t" end="31017200000t" region="pop15" style="basic" xml:id="subtitle900">-[all yelling]</p>
+<p begin="31018000000t" end="31052400000t" region="pop14" style="basic" xml:id="subtitle901">You will be struck down</p>
+<p begin="31018000000t" end="31052400000t" region="pop15" style="basic" xml:id="subtitle902">with my spear!</p>
+<p begin="31053200000t" end="31083200000t" region="pop15" style="basic" xml:id="subtitle903">[screaming]</p>
+<p begin="31084000000t" end="31126000000t" region="pop14" style="basic" xml:id="subtitle904">And you will spend eternity</p>
+<p begin="31084000000t" end="31126000000t" region="pop15" style="basic" xml:id="subtitle905">in the fires of hell!</p>
+<p begin="31270800000t" end="31288800000t" region="pop15" style="basic" xml:id="subtitle906">Uhtred!</p>
+<p begin="31313600000t" end="31333200000t" region="pop15" style="basic" xml:id="subtitle907">[grunts]</p>
+<p begin="31389600000t" end="31407200000t" region="pop15" style="basic" xml:id="subtitle908">Take the horse.</p>
+<p begin="31502000000t" end="31526800000t" region="pop15" style="basic" xml:id="subtitle909">[groans in pain]</p>
+<p begin="31600800000t" end="31641600000t" region="pop14" style="basic" xml:id="subtitle910">Lord, what are your orders?</p>
+<p begin="31600800000t" end="31641600000t" region="pop15" style="basic" xml:id="subtitle911">Lord?</p>
+<p begin="31642400000t" end="31664400000t" region="pop15" style="basic" xml:id="subtitle912">Did you see that?</p>
+<p begin="31677600000t" end="31698000000t" region="pop15" style="basic" xml:id="subtitle913">It came as the priest said.</p>
+<p begin="31703600000t" end="31715600000t" region="pop15" style="basic" xml:id="subtitle914">What, Lord?</p>
+<p begin="31716400000t" end="31742400000t" region="pop15" style="basic" xml:id="subtitle915">Their God is with them.</p>
+<p begin="31748800000t" end="31768800000t" region="pop15" style="basic" xml:id="subtitle916">So what are your orders?</p>
+<p begin="31812400000t" end="31832800000t" region="pop15" style="basic" xml:id="subtitle917">[mumbles indistinct]</p>
+<p begin="32222400000t" end="32240400000t" region="pop15" style="basic" xml:id="subtitle918">[yells indistinct]</p>
+<p begin="32388800000t" end="32414400000t" region="pop15" style="basic" xml:id="subtitle919">No mercy!</p>
+<p begin="32452400000t" end="32478400000t" region="pop15" style="basic" xml:id="subtitle920">No mercy!</p>
+<p begin="32826400000t" end="32865600000t" region="pop14" style="basic" xml:id="subtitle921">His grave is to be marked</p>
+<p begin="32826400000t" end="32865600000t" region="pop15" style="basic" xml:id="subtitle922">like that of an Aelderman.</p>
+<p begin="32870800000t" end="32894000000t" region="pop15" style="basic" xml:id="subtitle923">I shall see to it.</p>
+<p begin="32927200000t" end="32946400000t" region="pop14" style="basic" xml:id="subtitle924">[Beocca]</p>
+<p begin="32927200000t" end="32946400000t" region="pop15" style="basic" xml:id="subtitle925">Uhtred...</p>
+<p begin="32963600000t" end="32986800000t" region="pop15" style="basic" xml:id="subtitle926">Iseult is whole.</p>
+<p begin="32987600000t" end="33017600000t" region="pop14" style="basic" xml:id="subtitle927">She has been wrapped</p>
+<p begin="32987600000t" end="33017600000t" region="pop15" style="basic" xml:id="subtitle928">and made ready for burial.</p>
+<p begin="33052800000t" end="33070400000t" region="pop15" style="basic" xml:id="subtitle929">[Uhtred sighs deeply]</p>
+<p begin="33071200000t" end="33100000000t" region="pop15" style="basic" xml:id="subtitle930">I want her to have a pyre.</p>
+<p begin="33107200000t" end="33128000000t" region="pop15" style="basic" xml:id="subtitle931">Then she shall have it.</p>
+<p begin="33154400000t" end="33204000000t" region="pop14" style="basic" xml:id="subtitle932">Uhtred...</p>
+<p begin="33154400000t" end="33204000000t" region="pop15" style="basic" xml:id="subtitle933">for all that you have done...</p>
+<p begin="33212400000t" end="33258800000t" region="pop14" style="basic" xml:id="subtitle934">...all that you have shown me,</p>
+<p begin="33212400000t" end="33258800000t" region="pop15" style="basic" xml:id="subtitle935">thank you.</p>
+<p begin="33274400000t" end="33300400000t" region="pop15" style="basic" xml:id="subtitle936">You have given everything.</p>
+<p begin="33314000000t" end="33349600000t" region="pop14" style="basic" xml:id="subtitle937">You are the man</p>
+<p begin="33314000000t" end="33349600000t" region="pop15" style="basic" xml:id="subtitle938">I always hoped you would become.</p>
+<p begin="33369200000t" end="33390400000t" region="pop15" style="basic" xml:id="subtitle939">[exhales]</p>
+<p begin="33986400000t" end="34028800000t" region="pop14" style="basic" xml:id="subtitle940"><span style="basic_1">[Uhtred]</span></p>
+<p begin="33986400000t" end="34028800000t" region="pop15" style="basic" xml:id="subtitle941"><span style="basic_1">In the year 878, at Ethandun,</span></p>
+<p begin="34029600000t" end="34064000000t" region="pop14" style="basic" xml:id="subtitle942"><span style="basic_1">King Alfred</span></p>
+<p begin="34029600000t" end="34064000000t" region="pop15" style="basic" xml:id="subtitle943"><span style="basic_1">defeated Guthrum of the Danes</span></p>
+<p begin="34064800000t" end="34084800000t" region="pop15" style="basic" xml:id="subtitle944"><span style="basic_1">and drove them from Wessex.</span></p>
+<p begin="34085600000t" end="34132000000t" region="pop14" style="basic" xml:id="subtitle945">I am indebted,</p>
+<p begin="34085600000t" end="34132000000t" region="pop15" style="basic" xml:id="subtitle946">Uhtred of Bebbanburg.</p>
+<p begin="34137200000t" end="34161600000t" region="pop15" style="basic" xml:id="subtitle947">Wessex is indebted.</p>
+<p begin="34200400000t" end="34252400000t" region="pop14" style="basic" xml:id="subtitle948">There can be no negotiation,</p>
+<p begin="34200400000t" end="34252400000t" region="pop15" style="basic" xml:id="subtitle949">Lord, only surrender.</p>
+<p begin="34253200000t" end="34291600000t" region="pop14" style="basic" xml:id="subtitle950">-That is your advice?</p>
+<p begin="34253200000t" end="34291600000t" region="pop15" style="basic" xml:id="subtitle951">-It is.</p>
+<p begin="34308000000t" end="34324800000t" region="pop15" style="basic" xml:id="subtitle952">I hear you.</p>
+<p begin="34339600000t" end="34357200000t" region="pop15" style="basic" xml:id="subtitle953">Lord.</p>
+<p begin="34416800000t" end="34444400000t" region="pop14" style="basic" xml:id="subtitle954"><span style="basic_1">[Uhtred] Peace was secured</span></p>
+<p begin="34416800000t" end="34444400000t" region="pop15" style="basic" xml:id="subtitle955"><span style="basic_1">with hostages,</span></p>
+<p begin="34445200000t" end="34514000000t" region="pop14" style="basic" xml:id="subtitle956"><span style="basic_1">including my friend Brida...</span></p>
+<p begin="34445200000t" end="34514000000t" region="pop15" style="basic" xml:id="subtitle957"><span style="basic_1">and my brother Young Ragnar.</span></p>
+<p begin="34578800000t" end="34616400000t" region="pop14" style="basic" xml:id="subtitle958"><span style="basic_1">Peace was further secured</span></p>
+<p begin="34578800000t" end="34616400000t" region="pop15" style="basic" xml:id="subtitle959"><span style="basic_1">by Earl Guthrum's baptism</span></p>
+<p begin="34617200000t" end="34638800000t" region="pop14" style="basic" xml:id="subtitle960"><span style="basic_1">and acceptance</span></p>
+<p begin="34617200000t" end="34638800000t" region="pop15" style="basic" xml:id="subtitle961"><span style="basic_1">of the Christian God.</span></p>
+<p begin="34639600000t" end="34665600000t" region="pop14" style="basic" xml:id="subtitle962">Do you renounce the Devil</p>
+<p begin="34639600000t" end="34665600000t" region="pop15" style="basic" xml:id="subtitle963">and all his work?</p>
+<p begin="34666400000t" end="34694400000t" region="pop14" style="basic" xml:id="subtitle964">-I do.</p>
+<p begin="34666400000t" end="34694400000t" region="pop15" style="basic" xml:id="subtitle965">-Let this water cleanse you</p>
+<p begin="34695200000t" end="34735600000t" region="pop14" style="basic" xml:id="subtitle966">and make you worthy</p>
+<p begin="34695200000t" end="34735600000t" region="pop15" style="basic" xml:id="subtitle967">of God's blessing.</p>
+<p begin="34736400000t" end="34760800000t" region="pop14" style="basic" xml:id="subtitle968">Guthrum, you are now</p>
+<p begin="34736400000t" end="34760800000t" region="pop15" style="basic" xml:id="subtitle969">a child of God.</p>
+<p begin="34761600000t" end="34784400000t" region="pop14" style="basic" xml:id="subtitle970">[all]</p>
+<p begin="34761600000t" end="34784400000t" region="pop15" style="basic" xml:id="subtitle971">Amen.</p>
+<p begin="34807600000t" end="34838400000t" region="pop14" style="basic" xml:id="subtitle972"><span style="basic_1">[Uhtred]</span></p>
+<p begin="34807600000t" end="34838400000t" region="pop15" style="basic" xml:id="subtitle973"><span style="basic_1">As for Uhtred the Godless...</span></p>
+<p begin="34857200000t" end="34890400000t" region="pop15" style="basic" xml:id="subtitle974"><span style="basic_1">...my journey continues.</span></p>
+<p begin="34915200000t" end="34983600000t" region="pop14" style="basic" xml:id="subtitle975"><span style="basic_1">My path leads north,</span></p>
+<p begin="34915200000t" end="34983600000t" region="pop15" style="basic" xml:id="subtitle976"><span style="basic_1">to blood feuds, to revenge.</span></p>
+<p begin="35001200000t" end="35023600000t" region="pop15" style="basic" xml:id="subtitle977"><span style="basic_1">And to Bebbanburg.</span></p>
+<p begin="35028800000t" end="35064400000t" region="pop15" style="basic" xml:id="subtitle978"><span style="basic_1">Destiny is all.</span></p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="style_1"/>
+<style tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="style_2"/>
+<style tts:backgroundColor="transparent" tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="style_3"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="region_1"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="150400000t" end="170400000t" region="region_1" xml:id="subtitle0"><span style="style_2">[brass band plays in distance]</span></p>
+<p begin="236400000t" end="256400000t" region="region_1" xml:id="subtitle1"><span style="style_2">[door opens]</span></p>
+<p begin="292400000t" end="320000000t" region="region_1" xml:id="subtitle2"><span style="style_2">-[knocking at door]</span><br/><span style="style_2">-Yes.</span></p>
+<p begin="373200000t" end="412000000t" region="region_1" xml:id="subtitle3"><span style="style_2">Ah, there you are. Come in.</span></p>
+<p begin="412800000t" end="465600000t" region="region_1" xml:id="subtitle4"><span style="style_2">I'm practicing for the big day tomorrow</span><br/><span style="style_2">and I need an Archbishop.</span></p>
+<p begin="541600000t" end="578400000t" region="region_1" xml:id="subtitle5"><span style="style_2">Will you do me the honour? From here.</span></p>
+<p begin="630400000t" end="659200000t" region="region_1" xml:id="subtitle6"><span style="style_2">"Is Your Majesty willing</span><br/><span style="style_2">to take the oath?"</span></p>
+<p begin="672400000t" end="682400000t" region="region_1" xml:id="subtitle7"><span style="style_2">I am...</span></p>
+<p begin="706400000t" end="716400000t" region="region_1" xml:id="subtitle8"><span style="style_2">willing.</span></p>
+<p begin="728000000t" end="757200000t" region="region_1" xml:id="subtitle9"><span style="style_2">"Will you maintain and preserve in...</span></p>
+<p begin="770000000t" end="780800000t" region="region_1" xml:id="subtitle10"><span style="style_2">invi..."</span></p>
+<p begin="834400000t" end="859200000t" region="region_1" xml:id="subtitle11"><span style="style_2">Ah. Inviolably.</span></p>
+<p begin="860000000t" end="919200000t" region="region_1" xml:id="subtitle12"><span style="style_2">It means... to make a promise</span><br/><span style="style_2">you can... you can never break.</span></p>
+<p begin="928400000t" end="960400000t" region="region_1" xml:id="subtitle13"><span style="style_2">A very sacred promise indeed.</span></p>
+<p begin="972400000t" end="990000000t" region="region_1" xml:id="subtitle14"><span style="style_2">-[knocking at door]</span><br/><span style="style_2">-Yes!</span></p>
+<p begin="1010400000t" end="1045600000t" region="region_1" xml:id="subtitle15"><span style="style_2">-We're ready for you, sir.</span><br/><span style="style_2">-Oh, not yet, Tommy.</span></p>
+<p begin="1056800000t" end="1091200000t" region="region_1" xml:id="subtitle16"><span style="style_2">We haven't even reached the anointing.</span></p>
+<p begin="1092000000t" end="1134400000t" region="region_1" xml:id="subtitle17"><span style="style_2">You have to anoint me,</span><br/><span style="style_2">otherwise, I can't...</span></p>
+<p begin="1160400000t" end="1170400000t" region="region_1" xml:id="subtitle18"><span style="style_2">be King.</span></p>
+<p begin="1192000000t" end="1204400000t" region="region_1" xml:id="subtitle19"><span style="style_2">Do you understand?</span></p>
+<p begin="1223200000t" end="1248400000t" region="region_1" xml:id="subtitle20"><span style="style_2">When the holy oil touches me,</span></p>
+<p begin="1264000000t" end="1305200000t" region="region_1" xml:id="subtitle21"><span style="style_2">I am tr... I am transformed.</span></p>
+<p begin="1324800000t" end="1379200000t" region="region_1" xml:id="subtitle22"><span style="style_2">Brought into direct contact</span><br/><span style="style_2">with the divine.</span></p>
+<p begin="1404400000t" end="1428000000t" region="region_1" xml:id="subtitle23"><span style="style_2">For... forever changed.</span></p>
+<p begin="1454000000t" end="1466400000t" region="region_1" xml:id="subtitle24"><span style="style_2">Bound to God.</span></p>
+<p begin="1485600000t" end="1534400000t" region="region_1" xml:id="subtitle25"><span style="style_2">It is the most important part</span><br/><span style="style_2">of the entire ceremony.</span></p>
+<p begin="1547200000t" end="1584000000t" region="region_1" xml:id="subtitle26"><span style="style_2">So we had better practice,</span><br/><span style="style_2">hadn't we, archbishop?</span></p>
+<p begin="1623600000t" end="1662400000t" region="region_1" xml:id="subtitle27"><span style="style_2">"Be thy hands, anointed, with holy oil.</span></p>
+<p begin="1723600000t" end="1762400000t" region="region_1" xml:id="subtitle28"><span style="style_2">Be thy breast, anointed, with holy oil.</span></p>
+<p begin="1882000000t" end="1924400000t" region="region_1" xml:id="subtitle29"><span style="style_2">Be thy head, anointed, with holy oil.</span></p>
+<p begin="1942800000t" end="1987600000t" region="region_1" xml:id="subtitle30"><span style="style_2">As kings, priests and prophets</span><br/><span style="style_2">were anointed."</span></p>
+<p begin="2091600000t" end="2136400000t" region="region_1" xml:id="subtitle31"><span style="style_2">-Goodness. That's very heavy indeed.</span><br/><span style="style_2">-Five pounds, sir.</span></p>
+<p begin="2147200000t" end="2192000000t" region="region_1" xml:id="subtitle32"><span style="style_2">Not to mention the, uh,</span><br/><span style="style_2">symbolic weight, hm?</span></p>
+<p begin="2317600000t" end="2346800000t" region="region_1" xml:id="subtitle33"><span style="style_2">There's a sight I hoped I'd never see.</span></p>
+<p begin="2760000000t" end="2781200000t" region="region_1" xml:id="subtitle34"><span style="style_2">It's not as easy as it looks.</span></p>
+<p begin="2799600000t" end="2820400000t" region="region_1" xml:id="subtitle35"><span style="style_2">That's exactly what the King said.</span></p>
+<p begin="2843200000t" end="2853200000t" region="region_1" xml:id="subtitle36"><span style="style_2">I remember.</span></p>
+<p begin="2886000000t" end="2924800000t" region="region_1" xml:id="subtitle37"><span style="style_2">Do you suppose I could borrow it</span><br/><span style="style_2">for a couple of days?</span></p>
+<p begin="2925600000t" end="2938000000t" region="region_1" xml:id="subtitle38"><span style="style_2">Just to practice.</span></p>
+<p begin="2948800000t" end="2977200000t" region="region_1" xml:id="subtitle39"><span style="style_2">Borrow it, ma'am? From whom?</span></p>
+<p begin="2988000000t" end="3021600000t" region="region_1" xml:id="subtitle40"><span style="style_2">If it's not yours, whose is it?</span></p>
+<p begin="3916000000t" end="3926400000t" region="region_1" xml:id="subtitle41"><span style="style_2">[Charles] Be quiet, Anne.</span></p>
+<p begin="3938400000t" end="3948400000t" region="region_1" xml:id="subtitle42"><span style="style_2">[whispers] Ready?</span></p>
+<p begin="4019200000t" end="4050400000t" region="region_1" xml:id="subtitle43"><span style="style_2">Close your eyes,</span><br/><span style="style_2">and don't open them until I say so.</span></p>
+<p begin="4129600000t" end="4164400000t" region="region_1" xml:id="subtitle44"><span style="style_2">-Oh, any idea where the Duke is?</span><br/><span style="style_2">-His Royal Highness went flying, ma'am.</span></p>
+<p begin="4165200000t" end="4180800000t" region="region_1" xml:id="subtitle45"><span style="style_2">[Anne] Daddy?</span></p>
+<p begin="4181600000t" end="4191600000t" region="region_1" xml:id="subtitle46"><span style="style_2">Again?</span></p>
+<p begin="4248000000t" end="4263600000t" region="region_1" xml:id="subtitle47"><span style="style_2">So when's the big day?</span></p>
+<p begin="4278400000t" end="4300400000t" region="region_1" xml:id="subtitle48"><span style="style_2">Pilot's exam? Two weeks.</span></p>
+<p begin="4310000000t" end="4341600000t" region="region_1" xml:id="subtitle49"><span style="style_2">-Are you still on track for the record?</span><br/><span style="style_2">-I am. Just.</span></p>
+<p begin="4342400000t" end="4384800000t" region="region_1" xml:id="subtitle50"><span style="style_2">-If I do nothing else.</span><br/><span style="style_2">-Oh, then you'll hate me.</span></p>
+<p begin="4385600000t" end="4397200000t" region="region_1" xml:id="subtitle51"><span style="style_2">Why?</span></p>
+<p begin="4398000000t" end="4419200000t" region="region_1" xml:id="subtitle52"><span style="style_2">There was something</span><br/><span style="style_2">I wanted you to help me with.</span></p>
+<p begin="4420000000t" end="4439200000t" region="region_1" xml:id="subtitle53"><span style="style_2">It would've to be jolly important</span><br/><span style="style_2">to distract me</span></p>
+<p begin="4440000000t" end="4468400000t" region="region_1" xml:id="subtitle54"><span style="style_2">from getting my wings faster than anyone</span><br/><span style="style_2">in British aviation history.</span></p>
+<p begin="4469200000t" end="4507600000t" region="region_1" xml:id="subtitle55"><span style="style_2">It is. I'd like you to come aboard</span><br/><span style="style_2">my Coronation Committee.</span></p>
+<p begin="4535600000t" end="4572800000t" region="region_1" xml:id="subtitle56"><span style="style_2">-In which capacity?</span><br/><span style="style_2">-As Chairman.</span></p>
+<p begin="4573600000t" end="4608000000t" region="region_1" xml:id="subtitle57"><span style="style_2">But you already have one. Bernard.</span></p>
+<p begin="4608800000t" end="4640800000t" region="region_1" xml:id="subtitle58"><span style="style_2">I'd ask the Duke of Norfolk</span><br/><span style="style_2">to make room for you.</span></p>
+<p begin="4641600000t" end="4670400000t" region="region_1" xml:id="subtitle59"><span style="style_2">I want to make a public declaration</span><br/><span style="style_2">of my trust in you.</span></p>
+<p begin="4671200000t" end="4698000000t" region="region_1" xml:id="subtitle60"><span style="style_2">-There's no need to matronize me.</span><br/><span style="style_2">-I'm not matronizing you.</span></p>
+<p begin="4698800000t" end="4717600000t" region="region_1" xml:id="subtitle61"><span style="style_2">Yes, you are. You're taking pity on me</span></p>
+<p begin="4718400000t" end="4740800000t" region="region_1" xml:id="subtitle62"><span style="style_2">and giving me a job,</span><br/><span style="style_2">for appearance's sake.</span></p>
+<p begin="4741600000t" end="4756800000t" region="region_1" xml:id="subtitle63"><span style="style_2">No, it's not that.</span></p>
+<p begin="4757600000t" end="4782400000t" region="region_1" xml:id="subtitle64"><span style="style_2">I was just thinking how I'd like us</span><br/><span style="style_2">to spend more time together.</span></p>
+<p begin="4783200000t" end="4806800000t" region="region_1" xml:id="subtitle65"><span style="style_2">What are you talking about?</span><br/><span style="style_2">We spend all our time together.</span></p>
+<p begin="4807600000t" end="4847200000t" region="region_1" xml:id="subtitle66"><span style="style_2">No, we don't. You're always off flying,</span><br/><span style="style_2">or lunching with strange men.</span></p>
+<p begin="4848000000t" end="4878000000t" region="region_1" xml:id="subtitle67"><span style="style_2">A few hours a week, darling.</span><br/><span style="style_2">Anyway, what else am I supposed to do?</span></p>
+<p begin="4878800000t" end="4901200000t" region="region_1" xml:id="subtitle68"><span style="style_2">Sit around and wait for you</span><br/><span style="style_2">while you're Queening?</span></p>
+<p begin="4902000000t" end="4930000000t" region="region_1" xml:id="subtitle69"><span style="style_2">-Queening?</span><br/><span style="style_2">-Yes. Queening.</span></p>
+<p begin="4930800000t" end="4948000000t" region="region_1" xml:id="subtitle70"><span style="style_2">Maybe I'd like your help</span><br/><span style="style_2">with the Queening.</span></p>
+<p begin="4948800000t" end="4978000000t" region="region_1" xml:id="subtitle71"><span style="style_2">Oh, in the same flattering way</span><br/><span style="style_2">you asked me to redecorate Clarence House?</span></p>
+<p begin="4978800000t" end="5010800000t" region="region_1" xml:id="subtitle72"><span style="style_2">-Well, you did that jolly well.</span><br/><span style="style_2">-I felt like a sissy.</span></p>
+<p begin="5011600000t" end="5034000000t" region="region_1" xml:id="subtitle73"><span style="style_2">Fussing about curtain fabrics</span><br/><span style="style_2">and paint charts.</span></p>
+<p begin="5034800000t" end="5057200000t" region="region_1" xml:id="subtitle74"><span style="style_2">Honestly,</span><br/><span style="style_2">it's just queening of another sort.</span></p>
+<p begin="5078400000t" end="5088400000t" region="region_1" xml:id="subtitle75"><span style="style_2">[chuckling]</span></p>
+<p begin="5155200000t" end="5170800000t" region="region_1" xml:id="subtitle76"><span style="style_2">What would it entail?</span></p>
+<p begin="5182000000t" end="5213200000t" region="region_1" xml:id="subtitle77"><span style="style_2">Well,</span><br/><span style="style_2">the Duke of Norfolk will run the show</span></p>
+<p begin="5214000000t" end="5248000000t" region="region_1" xml:id="subtitle78"><span style="style_2">from an organizational perspective,</span><br/><span style="style_2">look after the seating,</span></p>
+<p begin="5248800000t" end="5275600000t" region="region_1" xml:id="subtitle79"><span style="style_2">the root of the procession,</span><br/><span style="style_2">but as Chairman of the Committee,</span></p>
+<p begin="5276400000t" end="5320800000t" region="region_1" xml:id="subtitle80"><span style="style_2">you would have an input on ideas,</span><br/><span style="style_2">inspire everyone, lead them.</span></p>
+<p begin="5321600000t" end="5345600000t" region="region_1" xml:id="subtitle81"><span style="style_2">They won't listen to me.</span><br/><span style="style_2">The grey, old men?</span></p>
+<p begin="5346400000t" end="5361600000t" region="region_1" xml:id="subtitle82"><span style="style_2">The men with moustaches? They hate me.</span></p>
+<p begin="5362400000t" end="5382400000t" region="region_1" xml:id="subtitle83"><span style="style_2">[cheering]</span></p>
+<p begin="5413200000t" end="5436400000t" region="region_1" xml:id="subtitle84"><span style="style_2">-They do not hate you.</span><br/><span style="style_2">-They do.</span></p>
+<p begin="5446000000t" end="5462400000t" region="region_1" xml:id="subtitle85"><span style="style_2">They treat me as an outsider.</span></p>
+<p begin="5474400000t" end="5505200000t" region="region_1" xml:id="subtitle86"><span style="style_2">An irrelevance. Everyone does.</span></p>
+<p begin="5560400000t" end="5581600000t" region="region_1" xml:id="subtitle87"><span style="style_2">["Dance of the Sugar Plum Fairy" plays]</span></p>
+<p begin="5582400000t" end="5597600000t" region="region_1" xml:id="subtitle88"><span style="style_2">[laughter]</span></p>
+<p begin="5598400000t" end="5618400000t" region="region_1" xml:id="subtitle89"><span style="style_2">[man sings to himself]</span></p>
+<p begin="5662800000t" end="5711600000t" region="region_1" xml:id="subtitle90"><span style="style_2">Total control or nothing at all.</span><br/><span style="style_2">Those are my terms.</span></p>
+<p begin="5768400000t" end="5780400000t" region="region_1" xml:id="subtitle91"><span style="style_2">All right.</span></p>
+<p begin="5792400000t" end="5825600000t" region="region_1" xml:id="subtitle92"><span style="style_2">-[laughs]</span><br/><span style="style_2">-But don't go mad.</span></p>
+<p begin="5826400000t" end="5858000000t" region="region_1" xml:id="subtitle93"><span style="style_2">-What does that mean?</span><br/><span style="style_2">-It means just don't go mad.</span></p>
+<p begin="5882000000t" end="5899600000t" region="region_1" xml:id="subtitle94"><span style="style_2">It's the Coronation.</span></p>
+<p begin="5900400000t" end="5924400000t" region="region_1" xml:id="subtitle95"><span style="style_2">A service which goes back</span><br/><span style="style_2">a thousand years.</span></p>
+<p begin="5939600000t" end="5975600000t" region="region_1" xml:id="subtitle96"><span style="style_2">-Some things can't be changed.</span><br/><span style="style_2">-Yes, yes, yes, alright.</span></p>
+<p begin="6119200000t" end="6134000000t" region="region_1" xml:id="subtitle97"><span style="style_2">[journalist]</span><span style="style_3"> When did you move in?</span></p>
+<p begin="6134800000t" end="6166000000t" region="region_1" xml:id="subtitle98"><span style="style_2">[David]</span><span style="style_3"> The City of Paris</span><br/><span style="style_3">owns the property, you know,</span></p>
+<p begin="6166800000t" end="6202800000t" region="region_1" xml:id="subtitle99"><span style="style_3">and happily the city</span><br/><span style="style_3">very kindly let us take the house</span></p>
+<p begin="6203600000t" end="6226000000t" region="region_1" xml:id="subtitle100"><span style="style_3">for a small amount of rent.</span></p>
+<p begin="6226800000t" end="6248000000t" region="region_1" xml:id="subtitle101"><span style="style_3">So we moved in by summer's end.</span></p>
+<p begin="6248800000t" end="6258800000t" region="region_1" xml:id="subtitle102"><span style="style_2">Miss...?</span></p>
+<p begin="6259600000t" end="6282800000t" region="region_1" xml:id="subtitle103"><span style="style_2">[journalist] You must have been thrilled,</span><br/><span style="style_2">Your Highness.</span></p>
+<p begin="6283600000t" end="6306400000t" region="region_1" xml:id="subtitle104"><span style="style_2">-Not Your Highness.</span><br/><span style="style_2">-Oh.</span></p>
+<p begin="6307200000t" end="6337600000t" region="region_1" xml:id="subtitle105"><span style="style_2">-Sore point.</span><br/><span style="style_2">-Just a Duchess.</span></p>
+<p begin="6338400000t" end="6366400000t" region="region_1" xml:id="subtitle106"><span style="style_2">Not H.R.H. So, "Ma'am."</span></p>
+<p begin="6382400000t" end="6415600000t" region="region_1" xml:id="subtitle107"><span style="style_2">-Ma'am?</span><br/><span style="style_2">-Or, "Your Grace".</span></p>
+<p begin="6442400000t" end="6464000000t" region="region_1" xml:id="subtitle108"><span style="style_2">What made you choose</span><br/><span style="style_2">this particular house?</span></p>
+<p begin="6464800000t" end="6487600000t" region="region_1" xml:id="subtitle109"><span style="style_2">It has a two-acre park,</span><br/><span style="style_2">which gives us privacy.</span></p>
+<p begin="6494400000t" end="6524000000t" region="region_1" xml:id="subtitle110"><span style="style_2">And its size means the Duke and I</span><br/><span style="style_2">can finally entertain properly</span></p>
+<p begin="6524800000t" end="6544800000t" region="region_1" xml:id="subtitle111"><span style="style_2">and we very much enjoy entertaining.</span></p>
+<p begin="6545600000t" end="6570400000t" region="region_1" xml:id="subtitle112"><span style="style_2">The Duchess is so very good at it.</span></p>
+<p begin="6571200000t" end="6593600000t" region="region_1" xml:id="subtitle113"><span style="style_2">I believe our editor agreed</span><br/><span style="style_2">as part of the deal</span></p>
+<p begin="6594400000t" end="6624400000t" region="region_1" xml:id="subtitle114"><span style="style_2">that you would give our readers</span><br/><span style="style_2">some tips for entertaining?</span></p>
+<p begin="6632800000t" end="6669600000t" region="region_1" xml:id="subtitle115"><span style="style_2">-Did we agree that?</span><br/><span style="style_2">-We did, darling, yes. They paid extra.</span></p>
+<p begin="6678800000t" end="6687200000t" region="region_1" xml:id="subtitle116"><span style="style_2">Hmm.</span></p>
+<p begin="6688000000t" end="6708400000t" region="region_1" xml:id="subtitle117"><span style="style_2">Okay. Big smiles.</span></p>
+<p begin="6724000000t" end="6734000000t" region="region_1" xml:id="subtitle118"><span style="style_2">Perfect.</span></p>
+<p begin="6745600000t" end="6772000000t" region="region_1" xml:id="subtitle119"><span style="style_2">[David] But having had a naval background,</span></p>
+<p begin="6772800000t" end="6804400000t" region="region_1" xml:id="subtitle120"><span style="style_2">I don't much care</span><br/><span style="style_2">for fussy things or smells,</span></p>
+<p begin="6805200000t" end="6842800000t" region="region_1" xml:id="subtitle121"><span style="style_2">but I do like a good, well-milled soap.</span></p>
+<p begin="6882400000t" end="6916000000t" region="region_1" xml:id="subtitle122"><span style="style_2">What sartorial tips</span><br/><span style="style_2">would you give the young men of today?</span></p>
+<p begin="6916800000t" end="6960400000t" region="region_1" xml:id="subtitle123"><span style="style_2">No matter what the fashion,</span><br/><span style="style_2">a well-cut suit in a beautiful fabric</span></p>
+<p begin="6961200000t" end="6978000000t" region="region_1" xml:id="subtitle124"><span style="style_2">will take you anywhere.</span></p>
+<p begin="7002000000t" end="7020400000t" region="region_1" xml:id="subtitle125"><span style="style_2">Is that the sort of thing</span><br/><span style="style_2">you're looking for?</span></p>
+<p begin="7070000000t" end="7088800000t" region="region_1" xml:id="subtitle126"><span style="style_2">You're very fortunate.</span></p>
+<p begin="7089600000t" end="7135200000t" region="region_1" xml:id="subtitle127"><span style="style_2">He lets no one in here,</span><br/><span style="style_2">it's his private room. Full of secrets.</span></p>
+<p begin="7136000000t" end="7170400000t" region="region_1" xml:id="subtitle128"><span style="style_2">Not secrets, darling.</span><br/><span style="style_2">Memories, precious memories.</span></p>
+<p begin="7202000000t" end="7232000000t" region="region_1" xml:id="subtitle129"><span style="style_2">I come in here</span><br/><span style="style_2">for a few moments every day</span></p>
+<p begin="7232800000t" end="7280800000t" region="region_1" xml:id="subtitle130"><span style="style_2">to meditate and remember.</span></p>
+<p begin="7281600000t" end="7333600000t" region="region_1" xml:id="subtitle131"><span style="style_2">-Goodness. Bagpipes, too?</span><br/><span style="style_2">-Yes, I play.</span></p>
+<p begin="7334400000t" end="7350400000t" region="region_1" xml:id="subtitle132"><span style="style_2">When he gets homesick.</span></p>
+<p begin="7369200000t" end="7401600000t" region="region_1" xml:id="subtitle133"><span style="style_2">My favourite armchair.</span></p>
+<p begin="7402400000t" end="7426400000t" region="region_1" xml:id="subtitle134"><span style="style_2">-And the briefcase?</span><br/><span style="style_2">-Box.</span></p>
+<p begin="7442800000t" end="7498400000t" region="region_1" xml:id="subtitle135"><span style="style_2">As Monarch, one receives a daily red box</span><br/><span style="style_2">from the government.</span></p>
+<p begin="7508000000t" end="7564800000t" region="region_1" xml:id="subtitle136"><span style="style_2">State papers, business of the day.</span><br/><span style="style_2">Matters requiring royal assent.</span></p>
+<p begin="7565600000t" end="7633200000t" region="region_1" xml:id="subtitle137"><span style="style_2">That was the final box I received as King.</span><br/><span style="style_2">It contained my abdication papers.</span></p>
+<p begin="7649200000t" end="7692400000t" region="region_1" xml:id="subtitle138"><span style="style_2">And all these photographs of you as King,</span><br/><span style="style_2">there are none with the crown.</span></p>
+<p begin="7693200000t" end="7726400000t" region="region_1" xml:id="subtitle139"><span style="style_2">-Why is that?</span><br/><span style="style_2">-Well, I never made it that far.</span></p>
+<p begin="7787600000t" end="7811200000t" region="region_1" xml:id="subtitle140"><span style="style_2">I never had a coronation.</span></p>
+<p begin="7871200000t" end="7922400000t" region="region_1" xml:id="subtitle141"><span style="style_2">I forgot to mention,</span><br/><span style="style_2">I had a call today from Sir John Weir.</span></p>
+<p begin="7931200000t" end="7962400000t" region="region_1" xml:id="subtitle142"><span style="style_2">-[Wallis] Who?</span><br/><span style="style_2">-My mother's doctor.</span></p>
+<p begin="7976400000t" end="8026800000t" region="region_1" xml:id="subtitle143"><span style="style_2">Telling me that, in his opinion,</span><br/><span style="style_2">she was in her final days now,</span></p>
+<p begin="8039600000t" end="8060800000t" region="region_1" xml:id="subtitle144"><span style="style_2">and my sister and I</span><br/><span style="style_2">should make our way over.</span></p>
+<p begin="8074800000t" end="8086000000t" region="region_1" xml:id="subtitle145"><span style="style_2">With me?</span></p>
+<p begin="8122400000t" end="8132800000t" region="region_1" xml:id="subtitle146"><span style="style_2">Probably best without.</span></p>
+<p begin="8190800000t" end="8206400000t" region="region_1" xml:id="subtitle147"><span style="style_2">Even if she dies?</span></p>
+<p begin="8227600000t" end="8242400000t" region="region_1" xml:id="subtitle148"><span style="style_2">Let's hope she does.</span></p>
+<p begin="8263600000t" end="8280400000t" region="region_1" xml:id="subtitle149"><span style="style_2">Couldn't bear to go over twice.</span></p>
+<p begin="8294400000t" end="8316400000t" region="region_1" xml:id="subtitle150"><span style="style_2">I shall have to be brave.</span></p>
+<p begin="8341600000t" end="8359200000t" region="region_1" xml:id="subtitle151"><span style="style_2">My darling one.</span></p>
+<p begin="8419200000t" end="8429600000t" region="region_1" xml:id="subtitle152"><span style="style_2">And go without you.</span></p>
+<p begin="8445200000t" end="8462400000t" region="region_1" xml:id="subtitle153"><span style="style_2">To cold London.</span></p>
+<p begin="8484800000t" end="8498400000t" region="region_1" xml:id="subtitle154"><span style="style_2">Brutal London.</span></p>
+<p begin="8518000000t" end="8538000000t" region="region_1" xml:id="subtitle155"><span style="style_2">Hellish London.</span></p>
+<p begin="8664800000t" end="8679600000t" region="region_1" xml:id="subtitle156"><span style="style_2">Shall we fuck?</span></p>
+<p begin="8733200000t" end="8753200000t" region="region_1" xml:id="subtitle157"><span style="style_2">[both laugh softly]</span></p>
+<p begin="8844000000t" end="8869600000t" region="region_1" xml:id="subtitle158"><span style="style_2">[Equerry] </span><span style="style_1">The Lord Great Chamberlain,</span><br/><span style="style_1">the Lord Chamberlain,</span></p>
+<p begin="8870400000t" end="8910400000t" region="region_1" xml:id="subtitle159"><span style="style_1">the Marshall of the Diplomatic Corp</span><br/><span style="style_1">and the Comptroller, Your Majesty.</span></p>
+<p begin="8920800000t" end="8948000000t" region="region_1" xml:id="subtitle160"><span style="style_2">I have asked you to join me</span><br/><span style="style_2">because I have made a decision</span></p>
+<p begin="8948800000t" end="8966400000t" region="region_1" xml:id="subtitle161"><span style="style_2">regarding the Coronation Committee,</span></p>
+<p begin="8974000000t" end="9012800000t" region="region_1" xml:id="subtitle162"><span style="style_2">which is that I would like my husband</span><br/><span style="style_2">to be the Chairman of that Committee.</span></p>
+<p begin="9062800000t" end="9112400000t" region="region_1" xml:id="subtitle163"><span style="style_2">That's impossible, ma'am.</span><br/><span style="style_2">There can only be one Chairman.</span></p>
+<p begin="9113200000t" end="9145600000t" region="region_1" xml:id="subtitle164"><span style="style_2">As far as I'm aware,</span><br/><span style="style_2">I only have one husband.</span></p>
+<p begin="9146400000t" end="9175200000t" region="region_1" xml:id="subtitle165"><span style="style_2">And the Duke of Norfolk</span><br/><span style="style_2">will be expecting it to be him.</span></p>
+<p begin="9176000000t" end="9202400000t" region="region_1" xml:id="subtitle166"><span style="style_2">-He is the Earl Marshall.</span><br/><span style="style_2">-That may be.</span></p>
+<p begin="9203200000t" end="9222400000t" region="region_1" xml:id="subtitle167"><span style="style_2">And the Chief Butler of England,</span></p>
+<p begin="9223200000t" end="9258400000t" region="region_1" xml:id="subtitle168"><span style="style_2">he would be the 16th Duke of Norfolk</span><br/><span style="style_2">to do it.</span></p>
+<p begin="9259200000t" end="9313600000t" region="region_1" xml:id="subtitle169"><span style="style_2">He ran your father's coronation,</span><br/><span style="style_2">his father ran your grandfather's.</span></p>
+<p begin="9314400000t" end="9352800000t" region="region_1" xml:id="subtitle170"><span style="style_2">And running the coronation,</span><br/><span style="style_2">it's what the Norfolks do.</span></p>
+<p begin="9379600000t" end="9416800000t" region="region_1" xml:id="subtitle171"><span style="style_2">-Couldn't you give Philip some other job?</span><br/><span style="style_2">-Like what?</span></p>
+<p begin="9448000000t" end="9464400000t" region="region_1" xml:id="subtitle172"><span style="style_2">Arrange the photographer?</span></p>
+<p begin="9508800000t" end="9555200000t" region="region_1" xml:id="subtitle173"><span style="style_2">The chairmanship is what he wants.</span><br/><span style="style_2">With full autonomy.</span></p>
+<p begin="9556000000t" end="9571200000t" region="region_1" xml:id="subtitle174"><span style="style_2">Therefore, it is what I want.</span></p>
+<p begin="9587200000t" end="9626400000t" region="region_1" xml:id="subtitle175"><span style="style_2">-Norfolk can be vice-chair.</span><br/><span style="style_2">-Why don't you think about it?</span></p>
+<p begin="9627200000t" end="9665600000t" region="region_1" xml:id="subtitle176"><span style="style_2">I have, and my decision stands.</span></p>
+<p begin="9666400000t" end="9676400000t" region="region_1" xml:id="subtitle177"><span style="style_2">Thank you.</span></p>
+<p begin="9736400000t" end="9762800000t" region="region_1" xml:id="subtitle178"><span style="style_2">[Lascelles] Of course,</span><br/><span style="style_2">the Duke of Norfolk will be furious.</span></p>
+<p begin="9763600000t" end="9803600000t" region="region_1" xml:id="subtitle179"><span style="style_2">[Queen Mother] Yes,</span><br/><span style="style_2">and Bernard does fury so well.</span></p>
+<p begin="9804400000t" end="9828400000t" region="region_1" xml:id="subtitle180"><span style="style_2">What would Your Majesty suggest?</span></p>
+<p begin="9838000000t" end="9883200000t" region="region_1" xml:id="subtitle181"><span style="style_2">I will throw my hat in with Bernard</span><br/><span style="style_2">and sanity will prevail.</span></p>
+<p begin="9884000000t" end="9896400000t" region="region_1" xml:id="subtitle182"><span style="style_2">The Queen is young.</span></p>
+<p begin="9909600000t" end="9940400000t" region="region_1" xml:id="subtitle183"><span style="style_2">And has to learn</span><br/><span style="style_2">what any young general has to learn.</span></p>
+<p begin="9941200000t" end="9951200000t" region="region_1" xml:id="subtitle184"><span style="style_2">Namely?</span></p>
+<p begin="9962400000t" end="9990400000t" region="region_1" xml:id="subtitle185"><span style="style_2">Which battles to fight and which to leave.</span></p>
+<p begin="10007600000t" end="10048400000t" region="region_1" xml:id="subtitle186"><span style="style_2">-Let me know what you want me to do.</span><br/><span style="style_2">-The same as always, Tommy.</span></p>
+<p begin="10063200000t" end="10078400000t" region="region_1" xml:id="subtitle187"><span style="style_2">Exactly as I tell you.</span></p>
+<p begin="10097200000t" end="10132800000t" region="region_1" xml:id="subtitle188"><span style="style_2">Now, I've spoken</span><br/><span style="style_2">to the Archbishop of Canterbury</span></p>
+<p begin="10133600000t" end="10176000000t" region="region_1" xml:id="subtitle189"><span style="style_2">who's agreed to help us</span><br/><span style="style_2">with our other delicate matter.</span></p>
+<p begin="10176800000t" end="10191600000t" region="region_1" xml:id="subtitle190"><span style="style_2">The Duke of Windsor.</span></p>
+<p begin="10205200000t" end="10226400000t" region="region_1" xml:id="subtitle191"><span style="style_2">-When does he arrive?</span><br/><span style="style_2">-This afternoon, I believe.</span></p>
+<p begin="10227200000t" end="10238400000t" region="region_1" xml:id="subtitle192"><span style="style_2">God help us.</span></p>
+<p begin="10250000000t" end="10286400000t" region="region_1" xml:id="subtitle193"><span style="style_2">-And when will you meet him?</span><br/><span style="style_2">-We thought tomorrow, ma'am.</span></p>
+<p begin="10301600000t" end="10323599999t" region="region_1" xml:id="subtitle194"><span style="style_2">Good. Sooner the better.</span></p>
+<p begin="10334800000t" end="10364800000t" region="region_1" xml:id="subtitle195"><span style="style_2">-Be sure to be firm, Tommy.</span><br/><span style="style_2">-Yes, ma'am.</span></p>
+<p begin="10365600000t" end="10398800000t" region="region_1" xml:id="subtitle196"><span style="style_2">That one's like mercury.</span><br/><span style="style_2">He'll slip through the tiniest crack.</span></p>
+<p begin="10432000000t" end="10452000000t" region="region_1" xml:id="subtitle197"><span style="style_2">[reporters clamour]</span></p>
+<p begin="10463200000t" end="10483200000t" region="region_1" xml:id="subtitle198"><span style="style_2">[David] </span><span style="style_1">Good afternoon.</span></p>
+<p begin="10484000000t" end="10538000000t" region="region_1" xml:id="subtitle199"><span style="style_1">I have returned to London</span><br/><span style="style_1">to visit my mother, Queen Mary,</span></p>
+<p begin="10538800001t" end="10594800000t" region="region_1" xml:id="subtitle200"><span style="style_2">who I'm delighted to say has made</span><br/><span style="style_2">such good improvement in recent days.</span></p>
+<p begin="10600400000t" end="10612000000t" region="region_1" xml:id="subtitle201"><span style="style_2">Thank you very much.</span></p>
+<p begin="10794000000t" end="10811600000t" region="region_1" xml:id="subtitle202"><span style="style_2">[David]</span><span style="style_3"> My dearest, darling one...</span></p>
+<p begin="10822800000t" end="10853600000t" region="region_1" xml:id="subtitle203"><span style="style_3">London is as awful and hellish</span></p>
+<p begin="10854400000t" end="10892400000t" region="region_1" xml:id="subtitle204"><span style="style_3">and as full of my smug,</span><br/><span style="style_3">stinking relations as ever.</span></p>
+<p begin="10904800000t" end="10937200000t" region="region_1" xml:id="subtitle205"><span style="style_3">Each day I call on Mama in the afternoon,</span></p>
+<p begin="10938000000t" end="10979200000t" region="region_1" xml:id="subtitle206"><span style="style_3">and although she doesn't look quite</span><br/><span style="style_3">as bad as the doctors warned me,</span></p>
+<p begin="10980000000t" end="11008800000t" region="region_1" xml:id="subtitle207"><span style="style_3">she'll never again</span><br/><span style="style_3">be able to leave her rooms,</span></p>
+<p begin="11009600000t" end="11027600000t" region="region_1" xml:id="subtitle208"><span style="style_3">far less go out in public.</span></p>
+<p begin="11043600000t" end="11059600000t" region="region_1" xml:id="subtitle209"><span style="style_2">[Queen Mary muttering]</span></p>
+<p begin="11205200000t" end="11215200000t" region="region_1" xml:id="subtitle210"><span style="style_2">What?</span></p>
+<p begin="11244000000t" end="11257600000t" region="region_1" xml:id="subtitle211"><span style="style_2">Don't go.</span></p>
+<p begin="11291200000t" end="11309200000t" region="region_1" xml:id="subtitle212"><span style="style_2">Not going anywhere, Mummy.</span></p>
+<p begin="11344400000t" end="11354400000t" region="region_1" xml:id="subtitle213"><span style="style_2">Good.</span></p>
+<p begin="11355200000t" end="11383600000t" region="region_1" xml:id="subtitle214"><span style="style_2">[David]</span><span style="style_3"> It's one of the hardest things</span><br/><span style="style_3">I've ever had to endure.</span></p>
+<p begin="11390800000t" end="11426400000t" region="region_1" xml:id="subtitle215"><span style="style_3">Spending so much time with a woman</span><br/><span style="style_3">who has been so vicious</span></p>
+<p begin="11427200000t" end="11465600000t" region="region_1" xml:id="subtitle216"><span style="style_3">and inhumane to you, my beloved,</span><br/><span style="style_3">is wearing me down.</span></p>
+<p begin="11466400000t" end="11488400000t" region="region_1" xml:id="subtitle217"><span style="style_2">-[knocking on door]</span><br/><span style="style_2">-Come in.</span></p>
+<p begin="11543200000t" end="11579200000t" region="region_1" xml:id="subtitle218"><span style="style_2">-Sorry to disturb, Your Royal Highness.</span><br/><span style="style_2">-What is it?</span></p>
+<p begin="11580000000t" end="11610400000t" region="region_1" xml:id="subtitle219"><span style="style_2">The Archbishop of Canterbury's</span><br/><span style="style_2">private secretary called, sir.</span></p>
+<p begin="11611200000t" end="11638400000t" region="region_1" xml:id="subtitle220"><span style="style_2">Requesting a meeting</span><br/><span style="style_2">between you and His Grace.</span></p>
+<p begin="11639200000t" end="11655200000t" region="region_1" xml:id="subtitle221"><span style="style_2">Oh? What about?</span></p>
+<p begin="11656000000t" end="11690000000t" region="region_1" xml:id="subtitle222"><span style="style_2">Didn't say, sir.</span><br/><span style="style_2">He hoped you could make tomorrow.</span></p>
+<p begin="11702800000t" end="11751200000t" region="region_1" xml:id="subtitle223"><span style="style_2">Fine, I have a few errands planned,</span><br/><span style="style_2">but the Archbishop can come to lunch.</span></p>
+<p begin="11752000000t" end="11785200000t" region="region_1" xml:id="subtitle224"><span style="style_2">As a matter of fact,</span><br/><span style="style_2">they suggested 4 p.m.</span></p>
+<p begin="11786000000t" end="11832400000t" region="region_1" xml:id="subtitle225"><span style="style_2">-Well, alright. We'll give him tea.</span><br/><span style="style_2">-At Lambeth Palace.</span></p>
+<p begin="11861600000t" end="11872400000t" region="region_1" xml:id="subtitle226"><span style="style_2">Of course.</span></p>
+<p begin="11890800000t" end="11927600000t" region="region_1" xml:id="subtitle227"><span style="style_2">Now I'm no longer King, I go to them.</span></p>
+<p begin="11962400000t" end="11996400000t" region="region_1" xml:id="subtitle228"><span style="style_2">-Thank you.</span><br/><span style="style_2">-Good night, Your Royal Highness.</span></p>
+<p begin="12116400000t" end="12136400000t" region="region_1" xml:id="subtitle229"><span style="style_2">[choirboys shout playfully]</span></p>
+<p begin="12340000000t" end="12369200000t" region="region_1" xml:id="subtitle230"><span style="style_2">His Royal Highness,</span><br/><span style="style_2">the Duke of Windsor, Your Grace.</span></p>
+<p begin="12386400000t" end="12400800000t" region="region_1" xml:id="subtitle231"><span style="style_2">[David] Goodness. What is this?</span></p>
+<p begin="12410400000t" end="12433600000t" region="region_1" xml:id="subtitle232"><span style="style_2">-An ambush?</span><br/><span style="style_2">-[Archbishop] Not at all, sir.</span></p>
+<p begin="12434400000t" end="12468400000t" region="region_1" xml:id="subtitle233"><span style="style_2">No, just a gathering of old friends</span><br/><span style="style_2">who have come together</span></p>
+<p begin="12469200000t" end="12504000000t" region="region_1" xml:id="subtitle234"><span style="style_2">to appeal to you in person,</span></p>
+<p begin="12504800000t" end="12564400000t" region="region_1" xml:id="subtitle235"><span style="style_2">in the hope that you will do</span><br/><span style="style_2">what we all think... would be...</span></p>
+<p begin="12584400000t" end="12594400000t" region="region_1" xml:id="subtitle236"><span style="style_2">The right thing.</span></p>
+<p begin="12620000000t" end="12651200000t" region="region_1" xml:id="subtitle237"><span style="style_2">-Regarding what?</span><br/><span style="style_2">-The coronation.</span></p>
+<p begin="12683200000t" end="12697600000t" region="region_1" xml:id="subtitle238"><span style="style_2">What about the coronation?</span></p>
+<p begin="12740000000t" end="12752400000t" region="region_1" xml:id="subtitle239"><span style="style_2">We acknowledge...</span></p>
+<p begin="12765200000t" end="12775200000t" region="region_1" xml:id="subtitle240"><span style="style_2">as a...</span></p>
+<p begin="12787600000t" end="12843600000t" region="region_1" xml:id="subtitle241"><span style="style_2">as a member of the Queen's close family,</span><br/><span style="style_2">you are entitled to attend,</span></p>
+<p begin="12844400000t" end="12913600000t" region="region_1" xml:id="subtitle242"><span style="style_2">but also feel that the attendance</span><br/><span style="style_2">at this sacred ceremony</span></p>
+<p begin="12914400000t" end="12944400000t" region="region_1" xml:id="subtitle243"><span style="style_2">by one who, however good his reasons,</span></p>
+<p begin="12945200000t" end="13006400000t" region="region_1" xml:id="subtitle244"><span style="style_2">did not feel... capable of undertaking</span></p>
+<p begin="13007200000t" end="13030400000t" region="region_1" xml:id="subtitle245"><span style="style_2">the obligations himself...</span></p>
+<p begin="13050000000t" end="13108400000t" region="region_1" xml:id="subtitle246"><span style="style_2">It could strike a wrong note</span><br/><span style="style_2">and would be deeply upsetting.</span></p>
+<p begin="13109200000t" end="13122400000t" region="region_1" xml:id="subtitle247"><span style="style_2">To whom?</span></p>
+<p begin="13123200000t" end="13151600000t" region="region_1" xml:id="subtitle248"><span style="style_2">-[Lascelles] To everyone concerned.</span><br/><span style="style_2">-I didn't ask you, Tommy.</span></p>
+<p begin="13163200000t" end="13207200000t" region="region_1" xml:id="subtitle249"><span style="style_2">This is Cookie's work, isn't it?</span><br/><span style="style_2">The Queen Mother's?</span></p>
+<p begin="13208000000t" end="13234000000t" region="region_1" xml:id="subtitle250"><span style="style_2">It's got her pudgy little fingers</span><br/><span style="style_2">all over it.</span></p>
+<p begin="13234800000t" end="13285600000t" region="region_1" xml:id="subtitle251"><span style="style_2">She asked you to do her dirty work for her</span><br/><span style="style_2">and you agreed, Archbishop, shame on you.</span></p>
+<p begin="13286400000t" end="13327600000t" region="region_1" xml:id="subtitle252"><span style="style_2">I will attend if I want.</span><br/><span style="style_2">And I do want and so does my wife.</span></p>
+<p begin="13328400000t" end="13351200000t" region="region_1" xml:id="subtitle253"><span style="style_2">Alas, no, sir.</span></p>
+<p begin="13358000000t" end="13397200000t" region="region_1" xml:id="subtitle254"><span style="style_2">Of course the Royal Family is obliged</span><br/><span style="style_2">to extend an invitation to you,</span></p>
+<p begin="13398000000t" end="13408400000t" region="region_1" xml:id="subtitle255"><span style="style_2">as a Royal Duke.</span></p>
+<p begin="13409200000t" end="13448000000t" region="region_1" xml:id="subtitle256"><span style="style_2">But that obligation does not extend</span><br/><span style="style_2">to the Duchess of Windsor.</span></p>
+<p begin="13448800000t" end="13486000000t" region="region_1" xml:id="subtitle257"><span style="style_2">And it is my duty to inform you</span><br/><span style="style_2">on behalf of the Royal Family</span></p>
+<p begin="13486800000t" end="13525600000t" region="region_1" xml:id="subtitle258"><span style="style_2">and the government, with whom</span><br/><span style="style_2">we have worked in close consultation,</span></p>
+<p begin="13526400000t" end="13566000000t" region="region_1" xml:id="subtitle259"><span style="style_2">that she will not be offered</span><br/><span style="style_2">an invitation.</span></p>
+<p begin="13566800000t" end="13581200000t" region="region_1" xml:id="subtitle260"><span style="style_2">Oh, that's madness.</span></p>
+<p begin="13604000000t" end="13660000000t" region="region_1" xml:id="subtitle261"><span style="style_2">The pusillanimity and vindictiveness</span><br/><span style="style_2">knows no limits.</span></p>
+<p begin="13660800000t" end="13701600000t" region="region_1" xml:id="subtitle262"><span style="style_2">Seventeen years have elapsed</span><br/><span style="style_2">since the abdication.</span></p>
+<p begin="13726400001t" end="13744000000t" region="region_1" xml:id="subtitle263"><span style="style_2">Shouldn't bygones be bygones?</span></p>
+<p begin="13744800000t" end="13766000000t" region="region_1" xml:id="subtitle264"><span style="style_2">[Lascelles]</span><br/><span style="style_2">Some things can never be forgotten.</span></p>
+<p begin="13771200000t" end="13794800000t" region="region_1" xml:id="subtitle265"><span style="style_2">Which of us, for example,</span><br/><span style="style_2">has forgotten the Somme?</span></p>
+<p begin="13795600000t" end="13844800000t" region="region_1" xml:id="subtitle266"><span style="style_2">You would compare the love</span><br/><span style="style_2">and public commitment I made to my wife</span></p>
+<p begin="13845600000t" end="13870400000t" region="region_1" xml:id="subtitle267"><span style="style_2">to slaughter in a world war?</span></p>
+<p begin="14052400000t" end="14113200000t" region="region_1" xml:id="subtitle268"><span style="style_2">Why not use a celebration such as this,</span></p>
+<p begin="14114000000t" end="14150400000t" region="region_1" xml:id="subtitle269"><span style="style_2">the investiture of a new sovereign,</span><br/><span style="style_2">a beautiful young child,</span></p>
+<p begin="14151200000t" end="14199200000t" region="region_1" xml:id="subtitle270"><span style="style_2">symbol of modernity, change and progress,</span><br/><span style="style_2">to turn a page?</span></p>
+<p begin="14220400000t" end="14243200000t" region="region_1" xml:id="subtitle271"><span style="style_2">Surely the sophistication of a society</span></p>
+<p begin="14244000000t" end="14278400000t" region="region_1" xml:id="subtitle272"><span style="style_2">can be measured by its tolerance</span><br/><span style="style_2">and ability to forgive.</span></p>
+<p begin="14279200000t" end="14329200000t" region="region_1" xml:id="subtitle273"><span style="style_2">Its weakness, too.</span><br/><span style="style_2">Sometimes lines just need to be drawn.</span></p>
+<p begin="14330000000t" end="14366400000t" region="region_1" xml:id="subtitle274"><span style="style_2">You know, Tommy, you're an embarrassment</span><br/><span style="style_2">to the institution you serve,</span></p>
+<p begin="14367200000t" end="14400000000t" region="region_1" xml:id="subtitle275"><span style="style_2">and to the country</span><br/><span style="style_2">that institution serves in turn.</span></p>
+<p begin="14400800000t" end="14439600000t" region="region_1" xml:id="subtitle276"><span style="style_2">And I will take a lecture on national</span><br/><span style="style_2">embarrassment from many people, sir,</span></p>
+<p begin="14440400000t" end="14458400000t" region="region_1" xml:id="subtitle277"><span style="style_2">but not from you.</span></p>
+<p begin="14468800000t" end="14501600000t" region="region_1" xml:id="subtitle278"><span style="style_2">Let's face it,</span><br/><span style="style_2">this whole thing is a charade.</span></p>
+<p begin="14502400000t" end="14533200000t" region="region_1" xml:id="subtitle279"><span style="style_2">You knew already the answer to the choice</span><br/><span style="style_2">you have given me.</span></p>
+<p begin="14534000000t" end="14559200000t" region="region_1" xml:id="subtitle280"><span style="style_2">It is simply the same as the choice</span><br/><span style="style_2">that caused all this offense</span></p>
+<p begin="14560000000t" end="14570800000t" region="region_1" xml:id="subtitle281"><span style="style_2">in the first place.</span></p>
+<p begin="14571600000t" end="14624000000t" region="region_1" xml:id="subtitle282"><span style="style_2">Namely, would I do anything that excludes</span><br/><span style="style_2">or disrespects the woman I love?</span></p>
+<p begin="14624800000t" end="14663600000t" region="region_1" xml:id="subtitle283"><span style="style_2">No, never. I will therefore </span><br/><span style="style_2">not be attending the coronation</span></p>
+<p begin="14664400000t" end="14686800000t" region="region_1" xml:id="subtitle284"><span style="style_2"> of my own niece.</span></p>
+<p begin="14687600000t" end="14710000000t" region="region_1" xml:id="subtitle285"><span style="style_2">Whose favourite uncle I have always been.</span></p>
+<p begin="14710800000t" end="14740800000t" region="region_1" xml:id="subtitle286"><span style="style_2">Hers, you should know,</span><br/><span style="style_2">was one of the strongest voices involved.</span></p>
+<p begin="14741600000t" end="14756400000t" region="region_1" xml:id="subtitle287"><span style="style_2">Oh, was it indeed?</span></p>
+<p begin="14757200000t" end="14784400000t" region="region_1" xml:id="subtitle288"><span style="style_2">Well, we know from where</span><br/><span style="style_2">she gets that ice in her veins.</span></p>
+<p begin="14785200000t" end="14810000000t" region="region_1" xml:id="subtitle289"><span style="style_2">And it wasn't from my own dear,</span><br/><span style="style_2">weak brother.</span></p>
+<p begin="14810800000t" end="14838800001t" region="region_1" xml:id="subtitle290"><span style="style_2">[Lascelles] Nothing weak</span><br/><span style="style_2">about the late King, sir.</span></p>
+<p begin="14846000000t" end="14876000000t" region="region_1" xml:id="subtitle291"><span style="style_2">I'm sure I speak for everyone present</span><br/><span style="style_2">when I call him a hero.</span></p>
+<p begin="14876800000t" end="14888800000t" region="region_1" xml:id="subtitle292"><span style="style_2">Hear, hear.</span></p>
+<p begin="14920400000t" end="14946400000t" region="region_1" xml:id="subtitle293"><span style="style_2">"My Lord, Archbishop,</span></p>
+<p begin="14947200000t" end="14974000000t" region="region_1" xml:id="subtitle294"><span style="style_2">what a scold you are.</span></p>
+<p begin="14974800000t" end="15008000000t" region="region_1" xml:id="subtitle295"><span style="style_2">And when your man is down,</span><br/><span style="style_2">how very bold you are.</span></p>
+<p begin="15008800001t" end="15078800001t" region="region_1" xml:id="subtitle296"><span style="style_2">Of Christian charity, how very scant</span><br/><span style="style_2">you are, you Auld Lang Swine,</span></p>
+<p begin="15086400000t" end="15114800000t" region="region_1" xml:id="subtitle297"><span style="style_2">-how full of cant you are."</span><br/><span style="style_2">-[protests]</span></p>
+<p begin="15115600000t" end="15180000000t" region="region_1" xml:id="subtitle298"><span style="style_2">A rhyme composed for your perfidious</span><br/><span style="style_2">predecessor at the time of my abdication.</span></p>
+<p begin="15180800000t" end="15218800000t" region="region_1" xml:id="subtitle299"><span style="style_2">I find the sentiment</span><br/><span style="style_2">oddly applicable to you, too.</span></p>
+<p begin="15366400000t" end="15422000000t" region="region_1" xml:id="subtitle300"><span style="style_2">If I were to release a statement,</span><br/><span style="style_2">could you have a look over it?</span></p>
+<p begin="15422800000t" end="15433200000t" region="region_1" xml:id="subtitle301"><span style="style_2">Of course, sir.</span></p>
+<p begin="15468000000t" end="15497200000t" region="region_1" xml:id="subtitle302"><span style="style_2">I'm aware that it's normal</span><br/><span style="style_2">for no reigning monarchs</span></p>
+<p begin="15498000000t" end="15536800000t" region="region_1" xml:id="subtitle303"><span style="style_2">to be present at a coronation.</span></p>
+<p begin="15537600000t" end="15584800000t" region="region_1" xml:id="subtitle304"><span style="style_2">Perhaps we could extend that</span><br/><span style="style_2">to include former kings too.</span></p>
+<p begin="15585600000t" end="15603600000t" region="region_1" xml:id="subtitle305"><span style="style_2">To spare my blushes.</span></p>
+<p begin="15604400000t" end="15635600000t" region="region_1" xml:id="subtitle306"><span style="style_2">Might just throw</span><br/><span style="style_2">some of the vultures off the scent.</span></p>
+<p begin="15678400000t" end="15700400000t" region="region_1" xml:id="subtitle307"><span style="style_2">It's an elegant solution, sir.</span></p>
+<p begin="15701200000t" end="15738400000t" region="region_1" xml:id="subtitle308"><span style="style_2">And I'm quite sure Cabinet</span><br/><span style="style_2">will support it. Tommy?</span></p>
+<p begin="15754800000t" end="15774400000t" region="region_1" xml:id="subtitle309"><span style="style_2">I'll speak to Their Majesties</span><br/><span style="style_2">and get back to you.</span></p>
+<p begin="15868000000t" end="15889200000t" region="region_1" xml:id="subtitle310"><span style="style_2">We've just had a call</span><br/><span style="style_2">from Marlborough House.</span></p>
+<p begin="15898800000t" end="15926800000t" region="region_1" xml:id="subtitle311"><span style="style_2">Regarding her Majesty, Queen Mary.</span></p>
+<p begin="15991600000t" end="16012400000t" region="region_1" xml:id="subtitle312"><span style="style_2">[David]</span><span style="style_3"> My own darling sweetheart.</span></p>
+<p begin="16025600000t" end="16043200000t" region="region_1" xml:id="subtitle313"><span style="style_3">Well, at last it's all over.</span></p>
+<p begin="16057200000t" end="16078400000t" region="region_1" xml:id="subtitle314"><span style="style_3">Mama took ill in the afternoon,</span></p>
+<p begin="16079200000t" end="16103600000t" region="region_1" xml:id="subtitle315"><span style="style_3">then began haemorrhaging</span><br/><span style="style_3">in the early hours.</span></p>
+<p begin="16113600000t" end="16145200000t" region="region_1" xml:id="subtitle316"><span style="style_3">Doctors plied her</span><br/><span style="style_3">with tranquilizers and morphine</span></p>
+<p begin="16146000000t" end="16172400000t" region="region_1" xml:id="subtitle317"><span style="style_3">to ensure there was no suffering.</span></p>
+<p begin="16173200000t" end="16195600000t" region="region_1" xml:id="subtitle318"><span style="style_3">In the end, she passed in her sleep.</span></p>
+<p begin="16210000000t" end="16221600000t" region="region_1" xml:id="subtitle319"><span style="style_3">I was sad, of course,</span></p>
+<p begin="16222400000t" end="16266400000t" region="region_1" xml:id="subtitle320"><span style="style_3">but let's not forget</span><br/><span style="style_3">how she clung to such hatred for me,</span></p>
+<p begin="16267200000t" end="16291200000t" region="region_1" xml:id="subtitle321"><span style="style_3">her eldest, till the last.</span></p>
+<p begin="16305600000t" end="16346000000t" region="region_1" xml:id="subtitle322"><span style="style_3">I'm afraid her blood ran as icy cold</span><br/><span style="style_3">when she was alive</span></p>
+<p begin="16346800000t" end="16368000000t" region="region_1" xml:id="subtitle323"><span style="style_3">as it does now she's dead.</span></p>
+<p begin="16390000000t" end="16420400000t" region="region_1" xml:id="subtitle324"><span style="style_3">Later in the day,</span><br/><span style="style_3">all the members of the family assembled</span></p>
+<p begin="16421200000t" end="16456400000t" region="region_1" xml:id="subtitle325"><span style="style_3">to identify which of her personal</span><br/><span style="style_3">possessions they would most like.</span></p>
+<p begin="16457200000t" end="16470400000t" region="region_1" xml:id="subtitle326"><span style="style_2">Not entirely.</span></p>
+<p begin="16471200000t" end="16508800000t" region="region_1" xml:id="subtitle327"><span style="style_3">I told Shirley Temple</span><br/><span style="style_3">what I had my eye on.</span></p>
+<p begin="16509600000t" end="16534800000t" region="region_1" xml:id="subtitle328"><span style="style_3">Because I shan't be there</span><br/><span style="style_3">when the jackals descend</span></p>
+<p begin="16535600000t" end="16555600000t" region="region_1" xml:id="subtitle329"><span style="style_3">I don't suppose it will do much good.</span></p>
+<p begin="16568000000t" end="16611200000t" region="region_1" xml:id="subtitle330"><span style="style_3">What a vile, tawdry rabble</span><br/><span style="style_3">my relatives are</span></p>
+<p begin="16612000000t" end="16658800000t" region="region_1" xml:id="subtitle331"><span style="style_3">and what a sad, desiccated bunch of</span><br/><span style="style_3">hyenas most of them have become.</span></p>
+<p begin="16690000000t" end="16711200000t" region="region_1" xml:id="subtitle332"><span style="style_3">But I'm tired of talking about it.</span></p>
+<p begin="16722400000t" end="16756000000t" region="region_1" xml:id="subtitle333"><span style="style_3">I yearn for our perfect life together,</span></p>
+<p begin="16756800000t" end="16787200000t" region="region_1" xml:id="subtitle334"><span style="style_3">away from the snarling</span><br/><span style="style_3">and the sniping of the Court.</span></p>
+<p begin="16799600000t" end="16825200000t" region="region_1" xml:id="subtitle335"><span style="style_3">I adore you, my sweetheart,</span></p>
+<p begin="16826000000t" end="16858400000t" region="region_1" xml:id="subtitle336"><span style="style_3">more deeply than you will ever realize,</span></p>
+<p begin="16859200000t" end="16885200000t" region="region_1" xml:id="subtitle337"><span style="style_3">and I am furiously mad</span><br/><span style="style_3">that you aren't here with me</span></p>
+<p begin="16886000000t" end="16909200000t" region="region_1" xml:id="subtitle338"><span style="style_3">as you ought by right to be.</span></p>
+<p begin="16959200000t" end="16976400000t" region="region_1" xml:id="subtitle339"><span style="style_2">[Archbishop] While Queen Mary lived,</span></p>
+<p begin="16977200000t" end="17033600000t" region="region_1" xml:id="subtitle340"><span style="style_2">something of the great reigns</span><br/><span style="style_2">of Queen Victoria and George V</span></p>
+<p begin="17034400000t" end="17069600000t" region="region_1" xml:id="subtitle341"><span style="style_2">seemed to live on with her.</span></p>
+<p begin="17070400000t" end="17129600000t" region="region_1" xml:id="subtitle342"><span style="style_2">Proving that character is,</span><br/><span style="style_2">as it will remain,</span></p>
+<p begin="17130400000t" end="17157200000t" region="region_1" xml:id="subtitle343"><span style="style_2">the essential strength</span><br/><span style="style_2">of British Monarchy.</span></p>
+<p begin="17172000000t" end="17212800000t" region="region_1" xml:id="subtitle344"><span style="style_2">Wherever she went,</span><br/><span style="style_2">she was assured of an applause</span></p>
+<p begin="17213600000t" end="17272800000t" region="region_1" xml:id="subtitle345"><span style="style_2">which sprang from some</span><br/><span style="style_2">deep-seated affection and respect.</span></p>
+<p begin="17273600000t" end="17312000000t" region="region_1" xml:id="subtitle346"><span style="style_2">Have you noticed?</span><br/><span style="style_2">Identical to the funeral of your father.</span></p>
+<p begin="17312800000t" end="17337600000t" region="region_1" xml:id="subtitle347"><span style="style_2">Nothing different. Not one detail.</span></p>
+<p begin="17338400000t" end="17350400000t" region="region_1" xml:id="subtitle348"><span style="style_2">Not one guest.</span></p>
+<p begin="17374400000t" end="17405600000t" region="region_1" xml:id="subtitle349"><span style="style_2">And she always regarded herself</span></p>
+<p begin="17406400000t" end="17466400000t" region="region_1" xml:id="subtitle350"><span style="style_2">as a servant of our country,</span><br/><span style="style_2">which she served to the end.</span></p>
+<p begin="17473600000t" end="17505600000t" region="region_1" xml:id="subtitle351"><span style="style_2">No sooner does someone in the family</span><br/><span style="style_2">pop their clogs, they ask themselves:</span></p>
+<p begin="17506400000t" end="17519600000t" region="region_1" xml:id="subtitle352"><span style="style_2">"Right. How was it done last time?</span></p>
+<p begin="17520400000t" end="17544800000t" region="region_1" xml:id="subtitle353"><span style="style_2">Then let's do it</span><br/><span style="style_2">exactly the same way again." I mean...</span></p>
+<p begin="17563600000t" end="17614400000t" region="region_1" xml:id="subtitle354"><span style="style_2">Meanwhile, the people who have come</span><br/><span style="style_2">to share in it are locked outside.</span></p>
+<p begin="17627200000t" end="17646800000t" region="region_1" xml:id="subtitle355"><span style="style_2">I'm not going to let your coronation</span><br/><span style="style_2">be like this.</span></p>
+<p begin="17647600000t" end="17676400000t" region="region_1" xml:id="subtitle356"><span style="style_2">You're a young woman. Symbol of a new era.</span></p>
+<p begin="17677200000t" end="17722000000t" region="region_1" xml:id="subtitle357"><span style="style_2">In a fast-changing, modern world.</span></p>
+<p begin="17753600000t" end="17779600000t" region="region_1" xml:id="subtitle358"><span style="style_2">And I think your coronation</span><br/><span style="style_2">should reflect that.</span></p>
+<p begin="17797600000t" end="17821600000t" region="region_1" xml:id="subtitle359"><span style="style_2">-[whispers] Sorry.</span><br/><span style="style_2">-...Almighty God of his great mercy.</span></p>
+<p begin="17822400000t" end="17833200000t" region="region_1" xml:id="subtitle360"><span style="style_2">Sorry, darling.</span></p>
+<p begin="17938000000t" end="18001200000t" region="region_1" xml:id="subtitle361"><span style="style_2">[Archbishop] Earth to earth,</span><br/><span style="style_2">ashes to ashes, dust to dust.</span></p>
+<p begin="18008800000t" end="18062400000t" region="region_1" xml:id="subtitle362"><span style="style_2">In sure and certain hope</span><br/><span style="style_2">of the resurrection to eternal life</span></p>
+<p begin="18063200000t" end="18114000000t" region="region_1" xml:id="subtitle363"><span style="style_2">through our Lord Jesus Christ,</span><br/><span style="style_2">who changed our vile body</span></p>
+<p begin="18114800000t" end="18146800000t" region="region_1" xml:id="subtitle364"><span style="style_2">that it may be like</span><br/><span style="style_2">unto his glorious body...</span></p>
+<p begin="18226000000t" end="18238800000t" region="region_1" xml:id="subtitle365"><span style="style_2">Ladies and gentlemen...</span></p>
+<p begin="18250400000t" end="18270400000t" region="region_1" xml:id="subtitle366"><span style="style_2">[muttering]</span></p>
+<p begin="18423200000t" end="18433600000t" region="region_1" xml:id="subtitle367"><span style="style_2">[knocking on door]</span></p>
+<p begin="18476000000t" end="18486400000t" region="region_1" xml:id="subtitle368"><span style="style_2">We should go.</span></p>
+<p begin="18640400000t" end="18651200000t" region="region_1" xml:id="subtitle369"><span style="style_2">Good morning.</span></p>
+<p begin="18684000000t" end="18694000000t" region="region_1" xml:id="subtitle370"><span style="style_2">Head's up.</span></p>
+<p begin="18709200000t" end="18754400000t" region="region_1" xml:id="subtitle371"><span style="style_2">What is the collective noun</span><br/><span style="style_2">for a group of stuffy old Etonians?</span></p>
+<p begin="18778000000t" end="18802400000t" region="region_1" xml:id="subtitle372"><span style="style_2">A herd? A pack?</span></p>
+<p begin="18817600000t" end="18828000000t" region="region_1" xml:id="subtitle373"><span style="style_2">A school? [chuckles]</span></p>
+<p begin="19027600000t" end="19037600000t" region="region_1" xml:id="subtitle374"><span style="style_2">Thank you.</span></p>
+<p begin="19087600000t" end="19102800000t" region="region_1" xml:id="subtitle375"><span style="style_2">Gentlemen,</span></p>
+<p begin="19113200000t" end="19138400000t" region="region_1" xml:id="subtitle376"><span style="style_2">I'd like to start by saying</span><br/><span style="style_2">how very honoured I feel</span></p>
+<p begin="19139200000t" end="19183600000t" region="region_1" xml:id="subtitle377"><span style="style_2">to be working with all the great minds</span><br/><span style="style_2">and talents here in this room today</span></p>
+<p begin="19184400000t" end="19233600000t" region="region_1" xml:id="subtitle378"><span style="style_2">as we come together to organize</span><br/><span style="style_2">the very best coronation for my wife,</span></p>
+<p begin="19234400000t" end="19244400000t" region="region_1" xml:id="subtitle379"><span style="style_2">the Queen.</span></p>
+<p begin="19266400000t" end="19293600000t" region="region_1" xml:id="subtitle380"><span style="style_2">We all know the scale of the challenge</span><br/><span style="style_2">that faces us.</span></p>
+<p begin="19301600000t" end="19331600000t" region="region_1" xml:id="subtitle381"><span style="style_2">The eyes of the world will be on us,</span><br/><span style="style_2">Britain will be on show</span></p>
+<p begin="19332400000t" end="19368400000t" region="region_1" xml:id="subtitle382"><span style="style_2">and we must put our best foot forward.</span></p>
+<p begin="19387200000t" end="19420400000t" region="region_1" xml:id="subtitle383"><span style="style_2">In such circumstances, the temptation</span></p>
+<p begin="19421200000t" end="19448000000t" region="region_1" xml:id="subtitle384"><span style="style_2">is to roll out the red carpet</span><br/><span style="style_2">and follow the precedents</span></p>
+<p begin="19448800000t" end="19499600000t" region="region_1" xml:id="subtitle385"><span style="style_2">set by the grand</span><br/><span style="style_2">and successful coronations of the past.</span></p>
+<p begin="19500400000t" end="19536000000t" region="region_1" xml:id="subtitle386"><span style="style_2">But looking to the past</span><br/><span style="style_2">for our inspiration</span></p>
+<p begin="19536800000t" end="19556000000t" region="region_1" xml:id="subtitle387"><span style="style_2">would be a mistake in my view.</span></p>
+<p begin="19570800000t" end="19600000000t" region="region_1" xml:id="subtitle388"><span style="style_2">Britain today</span><br/><span style="style_2">is not the Britain of past coronations.</span></p>
+<p begin="19600800000t" end="19631200000t" region="region_1" xml:id="subtitle389"><span style="style_2">Assumptions made at the time</span><br/><span style="style_2">of my father-in-law's coronation</span></p>
+<p begin="19632000000t" end="19664400000t" region="region_1" xml:id="subtitle390"><span style="style_2">17 years ago cannot be made anymore.</span></p>
+<p begin="19680000000t" end="19714000000t" region="region_1" xml:id="subtitle391"><span style="style_2">That is why I think</span><br/><span style="style_2">we should adapt this ceremony.</span></p>
+<p begin="19735600000t" end="19772000000t" region="region_1" xml:id="subtitle392"><span style="style_2">Make it less ostentatious.</span><br/><span style="style_2">More egalitarian.</span></p>
+<p begin="19772800000t" end="19804000000t" region="region_1" xml:id="subtitle393"><span style="style_2">Show more respect</span><br/><span style="style_2">and sensitivity to the real world.</span></p>
+<p begin="19804800000t" end="19839200000t" region="region_1" xml:id="subtitle394"><span style="style_2">We have a new sovereign,</span><br/><span style="style_2">young and a woman.</span></p>
+<p begin="19840000000t" end="19885600000t" region="region_1" xml:id="subtitle395"><span style="style_2">Let us give her</span><br/><span style="style_2">a coronation that is befitting</span></p>
+<p begin="19886400000t" end="19911200000t" region="region_1" xml:id="subtitle396"><span style="style_2">of the wind of change that she represents,</span></p>
+<p begin="19912000000t" end="19948800000t" region="region_1" xml:id="subtitle397"><span style="style_2">modern and forward-looking</span><br/><span style="style_2">at a moment in time</span></p>
+<p begin="19949600000t" end="19970400000t" region="region_1" xml:id="subtitle398"><span style="style_2">where exciting technological developments</span></p>
+<p begin="19971200000t" end="19998800000t" region="region_1" xml:id="subtitle399"><span style="style_2">are making things possible</span><br/><span style="style_2">we never dreamt of.</span></p>
+<p begin="19999600000t" end="20020000000t" region="region_1" xml:id="subtitle400"><span style="style_2">Which brings me to my next point...</span></p>
+<p begin="20145200000t" end="20181200000t" region="region_1" xml:id="subtitle401"><span style="style_2">It's an unconscionable vulgarization.</span></p>
+<p begin="20228000000t" end="20264000000t" region="region_1" xml:id="subtitle402"><span style="style_2">How close are you proposing</span><br/><span style="style_2">that these cameras get?</span></p>
+<p begin="20264800000t" end="20290000000t" region="region_1" xml:id="subtitle403"><span style="style_2">They will be kept</span><br/><span style="style_2">at a very discreet distance.</span></p>
+<p begin="20290800000t" end="20310400000t" region="region_1" xml:id="subtitle404"><span style="style_2">No, no close-ups, sir?</span></p>
+<p begin="20336800000t" end="20352400000t" region="region_1" xml:id="subtitle405"><span style="style_2">Zoom lenses.</span></p>
+<p begin="20353200000t" end="20385200000t" region="region_1" xml:id="subtitle406"><span style="style_2">Oh, no, it will all be done</span><br/><span style="style_2">with the greatest sensitivity</span></p>
+<p begin="20386000000t" end="20415200000t" region="region_1" xml:id="subtitle407"><span style="style_2">and respect for the occasion.</span></p>
+<p begin="20500800000t" end="20553600000t" region="region_1" xml:id="subtitle408"><span style="style_2">But I have had one or two broader thoughts</span><br/><span style="style_2">about the service itself.</span></p>
+<p begin="20598800000t" end="20607200000t" region="region_1" xml:id="subtitle409"><span style="style_2">What?</span></p>
+<p begin="20755200000t" end="20773200000t" region="region_1" xml:id="subtitle410"><span style="style_2">We can both see what's going on here.</span></p>
+<p begin="20774000000t" end="20793200000t" region="region_1" xml:id="subtitle411"><span style="style_2">A young couple are playing marital games</span></p>
+<p begin="20794000000t" end="20827600000t" region="region_1" xml:id="subtitle412"><span style="style_2">with the most cherished parts</span><br/><span style="style_2">of our history and pageantry.</span></p>
+<p begin="20841599999t" end="20881999999t" region="region_1" xml:id="subtitle413"><span style="style_2">Our Queen wouldn't agree with a single one</span><br/><span style="style_2">of these radical proposals,</span></p>
+<p begin="20882800001t" end="20905600000t" region="region_1" xml:id="subtitle414"><span style="style_2">television being just the tip</span><br/><span style="style_2">of the iceberg.</span></p>
+<p begin="20941599999t" end="20974000000t" region="region_1" xml:id="subtitle415"><span style="style_2">She's simply trying to keep peace</span><br/><span style="style_2">in her own bed chamber</span></p>
+<p begin="20974800000t" end="21005200000t" region="region_1" xml:id="subtitle416"><span style="style_2">by promoting her husband</span><br/><span style="style_2">and keeping him happy and occupied</span></p>
+<p begin="21006000000t" end="21020800000t" region="region_1" xml:id="subtitle417"><span style="style_2">and virile.</span></p>
+<p begin="21048800000t" end="21099600000t" region="region_1" xml:id="subtitle418"><span style="style_2">-That's what's going on here, Winston.</span><br/><span style="style_2">-Why? What else has he proposed?</span></p>
+<p begin="21147600000t" end="21168000000t" region="region_1" xml:id="subtitle419"><span style="style_2">-Prime Minister.</span><br/><span style="style_2">-Your Majesty.</span></p>
+<p begin="21352400000t" end="21374400000t" region="region_1" xml:id="subtitle420"><span style="style_2">Please tell me this has nothing to do</span><br/><span style="style_2">with my husband.</span></p>
+<p begin="21392800000t" end="21408000000t" region="region_1" xml:id="subtitle421"><span style="style_2">I told him not to go mad.</span></p>
+<p begin="21434000000t" end="21469600000t" region="region_1" xml:id="subtitle422"><span style="style_2">No one is questioning</span><br/><span style="style_2">the Duke of Edinburgh's motives</span></p>
+<p begin="21470400000t" end="21495600000t" region="region_1" xml:id="subtitle423"><span style="style_2">or the sincerity of his beliefs.</span></p>
+<p begin="21496400000t" end="21520800000t" region="region_1" xml:id="subtitle424"><span style="style_2">I see. He went mad.</span></p>
+<p begin="21533200000t" end="21584800000t" region="region_1" xml:id="subtitle425"><span style="style_2">The changes he is proposing</span><br/><span style="style_2">to an ancient, sacred,</span></p>
+<p begin="21585600000t" end="21620800000t" region="region_1" xml:id="subtitle426"><span style="style_2">never previously changed</span><br/><span style="style_2">liturgy and text...</span></p>
+<p begin="21648000000t" end="21670400000t" region="region_1" xml:id="subtitle427"><span style="style_2">It went from top to toe.</span></p>
+<p begin="21682000000t" end="21714800000t" region="region_1" xml:id="subtitle428"><span style="style_2">And if it were just a business,</span><br/><span style="style_2">it would be applauded.</span></p>
+<p begin="21715600000t" end="21743600000t" region="region_1" xml:id="subtitle429"><span style="style_2">But this isn't a business. It's the Crown.</span></p>
+<p begin="21772400000t" end="21790400000t" region="region_1" xml:id="subtitle430"><span style="style_2">And one has to ask oneself...</span></p>
+<p begin="21791200000t" end="21852000000t" region="region_1" xml:id="subtitle431"><span style="style_2">What is the purpose of the Crown?</span><br/><span style="style_2">What is the purpose of the monarchy?</span></p>
+<p begin="21852800000t" end="21870800000t" region="region_1" xml:id="subtitle432"><span style="style_2">Does the Crown bend</span><br/><span style="style_2">to the will of the people</span></p>
+<p begin="21871600000t" end="21901200000t" region="region_1" xml:id="subtitle433"><span style="style_2">to be audited and accountable?</span></p>
+<p begin="21902000000t" end="21947200000t" region="region_1" xml:id="subtitle434"><span style="style_2">Or should it remain</span><br/><span style="style_2">above temporal matters?</span></p>
+<p begin="21991200000t" end="22006000000t" region="region_1" xml:id="subtitle435"><span style="style_2">What say you?</span></p>
+<p begin="22042800000t" end="22093600000t" region="region_1" xml:id="subtitle436"><span style="style_2">No, ma'am. What say you?</span></p>
+<p begin="22094400000t" end="22118400000t" region="region_1" xml:id="subtitle437"><span style="style_2">The decision is yours to make.</span></p>
+<p begin="22130400000t" end="22166000000t" region="region_1" xml:id="subtitle438"><span style="style_2">We will take our lead from you.</span></p>
+<p begin="22574400000t" end="22610400000t" region="region_1" xml:id="subtitle439"><span style="style_2">We just wondered if you might be available</span><br/><span style="style_2">for a brief moment in the vestry.</span></p>
+<p begin="22637200000t" end="22647200000t" region="region_1" xml:id="subtitle440"><span style="style_2">Alright.</span></p>
+<p begin="22748800000t" end="22778400000t" region="region_1" xml:id="subtitle441"><span style="style_2">-What is this? Hide and seek?</span><br/><span style="style_2">-I told you not to overstep the mark.</span></p>
+<p begin="22779200000t" end="22799200000t" region="region_1" xml:id="subtitle442"><span style="style_2">I made it clear,</span><br/><span style="style_2">carte blanche or nothing at all.</span></p>
+<p begin="22800000000t" end="22828400000t" region="region_1" xml:id="subtitle443"><span style="style_2">Trade Unionists and businessmen?</span><br/><span style="style_2">In the Abbey?</span></p>
+<p begin="22829200000t" end="22868000000t" region="region_1" xml:id="subtitle444"><span style="style_2">-If you want to stay on the throne, yes.</span><br/><span style="style_2">-In a trimmed-down televised coronation?</span></p>
+<p begin="22868800000t" end="22896800000t" region="region_1" xml:id="subtitle445"><span style="style_2">If you want to avoid a revolution, yes.</span><br/><span style="style_2">You forget.</span></p>
+<p begin="22897600000t" end="22930400000t" region="region_1" xml:id="subtitle446"><span style="style_2">I have seen first-hand what it is like</span><br/><span style="style_2">for a royal family to be overthrown</span></p>
+<p begin="22931200000t" end="22949200000t" region="region_1" xml:id="subtitle447"><span style="style_2">because they were out of step</span><br/><span style="style_2">with the people.</span></p>
+<p begin="22950000000t" end="22981600000t" region="region_1" xml:id="subtitle448"><span style="style_2">I left Greece in an orange crate.</span><br/><span style="style_2">My father would have been killed.</span></p>
+<p begin="22982400000t" end="23012400000t" region="region_1" xml:id="subtitle449"><span style="style_2">My grandfather was.</span><br/><span style="style_2">I'm just trying to protect you.</span></p>
+<p begin="23013200000t" end="23034000000t" region="region_1" xml:id="subtitle450"><span style="style_2">From whom? The British people?</span></p>
+<p begin="23034800000t" end="23056000000t" region="region_1" xml:id="subtitle451"><span style="style_2">You have no idea who they are</span><br/><span style="style_2">or what they want.</span></p>
+<p begin="23056800000t" end="23102000000t" region="region_1" xml:id="subtitle452"><span style="style_2">Oh, oh, I'm just Johnny Foreigner, again,</span><br/><span style="style_2">who doesn't understand. Fine, fine.</span></p>
+<p begin="23102800000t" end="23125200000t" region="region_1" xml:id="subtitle453"><span style="style_2">You want a big overblown ceremony</span><br/><span style="style_2">costing a fortune</span></p>
+<p begin="23126000000t" end="23154000000t" region="region_1" xml:id="subtitle454"><span style="style_2">while the rest of the country</span><br/><span style="style_2">is on rations, have it.</span></p>
+<p begin="23154800000t" end="23173600000t" region="region_1" xml:id="subtitle455"><span style="style_2">But don't come bleating to me</span></p>
+<p begin="23174400000t" end="23205200000t" region="region_1" xml:id="subtitle456"><span style="style_2">when your head and the heads</span><br/><span style="style_2">of our children are on spikes.</span></p>
+<p begin="23206000000t" end="23236400000t" region="region_1" xml:id="subtitle457"><span style="style_2">If the people are hungry,</span><br/><span style="style_2">they want something that lifts them up.</span></p>
+<p begin="23237200000t" end="23279600000t" region="region_1" xml:id="subtitle458"><span style="style_2">And how do you propose lifting them</span><br/><span style="style_2">if they cannot see it?</span></p>
+<p begin="23280400000t" end="23308400000t" region="region_1" xml:id="subtitle459"><span style="style_2">The people look to a monarchy</span><br/><span style="style_2">for something bigger than themselves.</span></p>
+<p begin="23309200000t" end="23328800000t" region="region_1" xml:id="subtitle460"><span style="style_2">An inspiration. A higher ideal.</span></p>
+<p begin="23329600000t" end="23346800000t" region="region_1" xml:id="subtitle461"><span style="style_2">If you put it in their homes,</span></p>
+<p begin="23347600000t" end="23369600000t" region="region_1" xml:id="subtitle462"><span style="style_2">allow them to watch it</span><br/><span style="style_2">with their dinner on their laps.</span></p>
+<p begin="23370400000t" end="23406000000t" region="region_1" xml:id="subtitle463"><span style="style_2">It will democratize it, make them feel</span><br/><span style="style_2">that they share in it. Understand it.</span></p>
+<p begin="23406800000t" end="23418800000t" region="region_1" xml:id="subtitle464"><span style="style_2">Alright!</span></p>
+<p begin="23435600000t" end="23462000000t" region="region_1" xml:id="subtitle465"><span style="style_2">Alright.</span><br/><span style="style_2">I'll support you in the televising.</span></p>
+<p begin="23501200000t" end="23514800000t" region="region_1" xml:id="subtitle466"><span style="style_2">You won't regret it.</span></p>
+<p begin="23527200000t" end="23537600000t" region="region_1" xml:id="subtitle467"><span style="style_2">On one condition.</span></p>
+<p begin="23570000000t" end="23586800000t" region="region_1" xml:id="subtitle468"><span style="style_2">That you kneel.</span></p>
+<p begin="23706000000t" end="23740400000t" region="region_1" xml:id="subtitle469"><span style="style_2">-Who told you?</span><br/><span style="style_2">-My Prime Minister.</span></p>
+<p begin="23755200000t" end="23780000000t" region="region_1" xml:id="subtitle470"><span style="style_2">-He said you intended to refuse.</span><br/><span style="style_2">-I merely asked the question.</span></p>
+<p begin="23780800000t" end="23808000000t" region="region_1" xml:id="subtitle471"><span style="style_2">Whether it was right in this day and age</span><br/><span style="style_2">that the Queen's consort,</span></p>
+<p begin="23808800000t" end="23854400000t" region="region_1" xml:id="subtitle472"><span style="style_2">her husband, should kneel to her</span><br/><span style="style_2">rather than stand beside her.</span></p>
+<p begin="23855200000t" end="23876800000t" region="region_1" xml:id="subtitle473"><span style="style_2">You won't be kneeling to me.</span></p>
+<p begin="23877600000t" end="23899600000t" region="region_1" xml:id="subtitle474"><span style="style_2">That's not how it will look.</span><br/><span style="style_2">That's not how it will feel.</span></p>
+<p begin="23900400000t" end="23928400000t" region="region_1" xml:id="subtitle475"><span style="style_2">It will feel like a eunuch,</span><br/><span style="style_2">an amoeba, is kneeling before his wife.</span></p>
+<p begin="23929200000t" end="23957600000t" region="region_1" xml:id="subtitle476"><span style="style_2">You'll be kneeling before God</span><br/><span style="style_2">and the Crown as we all do.</span></p>
+<p begin="23958400000t" end="23974000000t" region="region_1" xml:id="subtitle477"><span style="style_2">I don't see you kneeling before anyone.</span></p>
+<p begin="23974800000t" end="23999600000t" region="region_1" xml:id="subtitle478"><span style="style_2">Because I'm already flattened</span><br/><span style="style_2">under the weight of this thing.</span></p>
+<p begin="24000400000t" end="24027200000t" region="region_1" xml:id="subtitle479"><span style="style_2">Oh, spare me the false humility.</span><br/><span style="style_2">Doesn't look like that to me.</span></p>
+<p begin="24028000000t" end="24052800000t" region="region_1" xml:id="subtitle480"><span style="style_2">-How does it look to you?</span><br/><span style="style_2">-Looks to me like you're enjoying it.</span></p>
+<p begin="24053600000t" end="24082800000t" region="region_1" xml:id="subtitle481"><span style="style_2">It's released an unattractive sense</span><br/><span style="style_2">of authority and entitlement</span></p>
+<p begin="24083600000t" end="24096800000t" region="region_1" xml:id="subtitle482"><span style="style_2">that I have never seen before.</span></p>
+<p begin="24097600000t" end="24126800000t" region="region_1" xml:id="subtitle483"><span style="style_2">In you, it's released a weakness</span><br/><span style="style_2">and insecurity I've never seen before.</span></p>
+<p begin="24127600000t" end="24154000000t" region="region_1" xml:id="subtitle484"><span style="style_2">-Are you my wife or my Queen?</span><br/><span style="style_2">-I'm both.</span></p>
+<p begin="24154800000t" end="24176000000t" region="region_1" xml:id="subtitle485"><span style="style_2">I want to be married to my wife.</span></p>
+<p begin="24176800000t" end="24202000000t" region="region_1" xml:id="subtitle486"><span style="style_2">I am both and a strong man</span><br/><span style="style_2">would be able to kneel to both.</span></p>
+<p begin="24202800000t" end="24228000000t" region="region_1" xml:id="subtitle487"><span style="style_2">-I will not kneel before my wife.</span><br/><span style="style_2">-Your wife is not asking you to.</span></p>
+<p begin="24228800000t" end="24242400000t" region="region_1" xml:id="subtitle488"><span style="style_2">-But my Queen commands me?</span><br/><span style="style_2">-Yes.</span></p>
+<p begin="24243200000t" end="24263200000t" region="region_1" xml:id="subtitle489"><span style="style_2">I beg you make an exception for me.</span></p>
+<p begin="24313600000t" end="24328800000t" region="region_1" xml:id="subtitle490"><span style="style_2">No.</span></p>
+<p begin="24804800000t" end="24831200000t" region="region_1" xml:id="subtitle491"><span style="style_2">Come on, they'll be here soon!</span></p>
+<p begin="24868000000t" end="24909200000t" region="region_1" xml:id="subtitle492"><span style="style_2">[Wallis] David, you're our host, darling.</span></p>
+<p begin="24928800000t" end="24940000000t" region="region_1" xml:id="subtitle493"><span style="style_2">Be right there.</span></p>
+<p begin="24969600000t" end="24999600000t" region="region_1" xml:id="subtitle494"><span style="style_2">[in French]</span><span style="style_3"> For the sixth time</span><br/><span style="style_3">in the history of England,</span></p>
+<p begin="25000400000t" end="25045600000t" region="region_1" xml:id="subtitle495"><span style="style_3">a Queen receives the crown.</span><br/><span style="style_3">A big day for the British public</span></p>
+<p begin="25046400000t" end="25071200000t" region="region_1" xml:id="subtitle496"><span style="style_3">who are living these beautiful hours</span><br/><span style="style_3">after the end of the war.</span></p>
+<p begin="25072000000t" end="25114400000t" region="region_1" xml:id="subtitle497"><span style="style_3">Leaving Buckingham Palace, the historical</span><br/><span style="style_3">carousel carrying the Queen and the Duke,</span></p>
+<p begin="25115200000t" end="25139200000t" region="region_1" xml:id="subtitle498"><span style="style_3">is travelling towards</span><br/><span style="style_3">Westminster Abbey...</span></p>
+<p begin="25140000000t" end="25210000000t" region="region_1" xml:id="subtitle499"><span style="style_2">[David] Alright, everyone. She's arriving.</span><br/><span style="style_2">In the dreaded Gold State Coach.</span></p>
+<p begin="25210800000t" end="25265600000t" region="region_1" xml:id="subtitle500"><span style="style_2">Made in the 1760s and the most</span><br/><span style="style_2">uncomfortable ride known to man.</span></p>
+<p begin="25266400000t" end="25286400000t" region="region_1" xml:id="subtitle501"><span style="style_2">[laughter]</span></p>
+<p begin="25325200000t" end="25344000000t" region="region_1" xml:id="subtitle502"><span style="style_2">[producer] Final checks, please,</span><br/><span style="style_2">gentlemen.</span></p>
+<p begin="25344800000t" end="25374400000t" region="region_1" xml:id="subtitle503"><span style="style_2">-West door.</span><br/><span style="style_2">-West door, sir.</span></p>
+<p begin="25375200000t" end="25402000000t" region="region_1" xml:id="subtitle504"><span style="style_2">-Triforium.</span><br/><span style="style_2">-Triforium standing by, sir.</span></p>
+<p begin="25402800000t" end="25432800000t" region="region_1" xml:id="subtitle505"><span style="style_2">-South transept.</span><br/><span style="style_2">-South transept standing by, sir.</span></p>
+<p begin="25433600000t" end="25456800000t" region="region_1" xml:id="subtitle506"><span style="style_2">-Organ screen.</span><br/><span style="style_2">-Organ screen standing by, sir.</span></p>
+<p begin="25457600000t" end="25496000000t" region="region_1" xml:id="subtitle507"><span style="style_2">-Triforium 2.</span><br/><span style="style_2">-Triforium 2 standing by, sir.</span></p>
+<p begin="25496800000t" end="25552000000t" region="region_1" xml:id="subtitle508"><span style="style_2">Gentleman, three, two, one. Thank you.</span></p>
+<p begin="25582400000t" end="25602400000t" region="region_1" xml:id="subtitle509"><span style="style_2">[organ plays]</span></p>
+<p begin="25661200000t" end="25693600000t" region="region_1" xml:id="subtitle510"><span style="style_2">[in French]</span><span style="style_3"> She is now walking under</span><br/><span style="style_3">the vault of Westminster</span></p>
+<p begin="25694400000t" end="25717600000t" region="region_1" xml:id="subtitle511"><span style="style_3">in the shadow of sleeping Kings,</span></p>
+<p begin="25718400000t" end="25774800000t" region="region_1" xml:id="subtitle512"><span style="style_3">soldiers and poets who for centuries</span><br/><span style="style_3">saw the grandness of England.</span></p>
+<p begin="25775600000t" end="25806400000t" region="region_1" xml:id="subtitle513"><span style="style_2">-Who's that?</span><br/><span style="style_2">-What? Oh, uh...</span></p>
+<p begin="25836000000t" end="25874800000t" region="region_1" xml:id="subtitle514"><span style="style_2">Oh, it's Lord Mountbatten.</span><br/><span style="style_2">The Duke of Edinburgh's uncle.</span></p>
+<p begin="25875600000t" end="25918400000t" region="region_1" xml:id="subtitle515"><span style="style_2">The man that gave away India,</span><br/><span style="style_2">and his own wife.</span></p>
+<p begin="25919200000t" end="25954800000t" region="region_1" xml:id="subtitle516"><span style="style_2">-[laughter]</span><br/><span style="style_2">-Cuckolded by Nehru, if you please.</span></p>
+<p begin="25997600000t" end="26047600000t" region="region_1" xml:id="subtitle517"><span style="style_2">[congregation]</span><span style="style_3"> ♪ All people</span><br/><span style="style_3">that on earth do dwell ♪</span></p>
+<p begin="26048400000t" end="26073200000t" region="region_1" xml:id="subtitle518"><span style="style_2">[producer]</span><span style="style_3"> Triforium 2, turn left please.</span></p>
+<p begin="26086800000t" end="26142000000t" region="region_1" xml:id="subtitle519"><span style="style_3">-Left. Left.</span><br/><span style="style_2">-[congregation] </span><span style="style_3">♪ Sing to the Lord ♪</span></p>
+<p begin="26142800000t" end="26198000000t" region="region_1" xml:id="subtitle520"><span style="style_3">♪ With cheerful voice ♪</span></p>
+<p begin="26198800000t" end="26240000000t" region="region_1" xml:id="subtitle521"><span style="style_3">♪ Him serve with fear ♪</span></p>
+<p begin="26240800000t" end="26295200000t" region="region_1" xml:id="subtitle522"><span style="style_3">-♪ His praise forth tell ♪</span><br/><span style="style_3">-♪...praise forth tell ♪</span></p>
+<p begin="26296000000t" end="26355200000t" region="region_1" xml:id="subtitle523"><span style="style_3">-♪Come ye before him and rejoice ♪</span><br/><span style="style_3">-♪Come ye before him and rejoice ♪</span></p>
+<p begin="26462400000t" end="26493200000t" region="region_1" xml:id="subtitle524"><span style="style_2">[commentary]</span><span style="style_3"> Moving forwards now,</span><br/><span style="style_3">four Knights of the Garter.</span></p>
+<p begin="26494000000t" end="26512800000t" region="region_1" xml:id="subtitle525"><span style="style_3">The Dukes of Wellington and Portland,</span></p>
+<p begin="26513600000t" end="26538000000t" region="region_1" xml:id="subtitle526"><span style="style_3">the Earl Fortescue</span><br/><span style="style_3">and the Viscount Allendale.</span></p>
+<p begin="26538800000t" end="26583200000t" region="region_1" xml:id="subtitle527"><span style="style_3">Bringing with them a golden canopy</span><br/><span style="style_3">to shield Her Majesty from view,</span></p>
+<p begin="26584000000t" end="26624400000t" region="region_1" xml:id="subtitle528"><span style="style_3">during the most sacred</span><br/><span style="style_3">of the coronation rituals, the anointing.</span></p>
+<p begin="26625200000t" end="26659200000t" region="region_1" xml:id="subtitle529"><span style="style_2">In three, two, one...</span></p>
+<p begin="26734000000t" end="26746400000t" region="region_1" xml:id="subtitle530"><span style="style_2">Where'd she go?</span></p>
+<p begin="26767600000t" end="26785600000t" region="region_1" xml:id="subtitle531"><span style="style_2">Now we come to the anointing.</span></p>
+<p begin="26812400000t" end="26850800000t" region="region_1" xml:id="subtitle532"><span style="style_2">The single most holy, most solemn,</span></p>
+<p begin="26851600000t" end="26904400000t" region="region_1" xml:id="subtitle533"><span style="style_2">most sacred moment of the entire service.</span></p>
+<p begin="26926800000t" end="26946400000t" region="region_1" xml:id="subtitle534"><span style="style_2">So how come we don't get to see it?</span></p>
+<p begin="26965200000t" end="26984000000t" region="region_1" xml:id="subtitle535"><span style="style_2">Because we are mortals.</span></p>
+<p begin="27208400000t" end="27234400000t" region="region_1" xml:id="subtitle536"><span style="style_2">[footsteps]</span></p>
+<p begin="27271600000t" end="27299200000t" region="region_1" xml:id="subtitle537"><span style="style_2">[Archbishop] Is Your Majesty</span><br/><span style="style_2">willing to take the oath?</span></p>
+<p begin="27321600000t" end="27332800000t" region="region_1" xml:id="subtitle538"><span style="style_2">I am willing.</span></p>
+<p begin="27365200000t" end="27416400000t" region="region_1" xml:id="subtitle539"><span style="style_2">Will you maintain and preserve...</span></p>
+<p begin="27487200000t" end="27498000000t" region="region_1" xml:id="subtitle540"><span style="style_2">Inviolably?</span></p>
+<p begin="27538400000t" end="27549600000t" region="region_1" xml:id="subtitle541"><span style="style_2">I will.</span></p>
+<p begin="27787200000t" end="27830400000t" region="region_1" xml:id="subtitle542"><span style="style_2">Be thy hands, anointed, with holy oil.</span></p>
+<p begin="28013600000t" end="28058000000t" region="region_1" xml:id="subtitle543"><span style="style_2">Be thy breast, anointed, with holy oil.</span></p>
+<p begin="28128400000t" end="28160800000t" region="region_1" xml:id="subtitle544"><span style="style_2">Be thy head, anointed, with holy oil.</span></p>
+<p begin="28249200000t" end="28284800000t" region="region_1" xml:id="subtitle545"><span style="style_2">As Kings,</span></p>
+<p begin="28285600000t" end="28325200000t" region="region_1" xml:id="subtitle546"><span style="style_2">priests and prophets were anointed.</span></p>
+<p begin="28344800000t" end="28392800000t" region="region_1" xml:id="subtitle547"><span style="style_2">And as Solomon</span></p>
+<p begin="28393600000t" end="28442400000t" region="region_1" xml:id="subtitle548"><span style="style_2">was anointed... King</span></p>
+<p begin="28443200000t" end="28482400000t" region="region_1" xml:id="subtitle549"><span style="style_2">by Zadok the priest</span><br/><span style="style_2">and Nathan the prophet,</span></p>
+<p begin="28493200000t" end="28550400000t" region="region_1" xml:id="subtitle550"><span style="style_2">so be thou anointed, blessed,</span></p>
+<p begin="28551200000t" end="28590800000t" region="region_1" xml:id="subtitle551"><span style="style_2">and consecrated Queen over the peoples,</span></p>
+<p begin="28591600000t" end="28624800000t" region="region_1" xml:id="subtitle552"><span style="style_2">whom the Lord thy God</span></p>
+<p begin="28625600000t" end="28691200000t" region="region_1" xml:id="subtitle553"><span style="style_2">hath given thee to rule and govern,</span></p>
+<p begin="28692000000t" end="28762000000t" region="region_1" xml:id="subtitle554"><span style="style_2">in the name of the Father, and of the Son,</span><br/><span style="style_2">and of the Holy Ghost.</span></p>
+<p begin="28792800000t" end="28805600000t" region="region_1" xml:id="subtitle555"><span style="style_2">Amen.</span></p>
+<p begin="28819600000t" end="28831600000t" region="region_1" xml:id="subtitle556"><span style="style_2">Amen.</span></p>
+<p begin="28944800000t" end="28993200000t" region="region_1" xml:id="subtitle557"><span style="style_2">[David]</span><span style="style_3"> Oils and oaths. Orbs and sceptres.</span></p>
+<p begin="28994000000t" end="29030000000t" region="region_1" xml:id="subtitle558"><span style="style_3">Symbol upon symbol.</span></p>
+<p begin="29030800000t" end="29088000000t" region="region_1" xml:id="subtitle559"><span style="style_2">An unfathomable web</span><br/><span style="style_2">of arcane mystery and liturgy.</span></p>
+<p begin="29088800000t" end="29106400000t" region="region_1" xml:id="subtitle560"><span style="style_2">Blurring so many lines</span></p>
+<p begin="29107200000t" end="29162800000t" region="region_1" xml:id="subtitle561"><span style="style_2">no clergyman or historian or lawyer</span></p>
+<p begin="29163600000t" end="29185200000t" region="region_1" xml:id="subtitle562"><span style="style_2">could ever untangle any of it.</span></p>
+<p begin="29186000000t" end="29229200000t" region="region_1" xml:id="subtitle563"><span style="style_2">-It's crazy.</span><br/><span style="style_2">-On the contrary. It's perfectly sane.</span></p>
+<p begin="29230000000t" end="29274800000t" region="region_1" xml:id="subtitle564"><span style="style_2">Who wants transparency</span><br/><span style="style_2">when you can have magic?</span></p>
+<p begin="29289200000t" end="29324400000t" region="region_1" xml:id="subtitle565"><span style="style_3">Who wants prose</span><br/><span style="style_3">when you can have poetry?</span></p>
+<p begin="29336800000t" end="29385600000t" region="region_1" xml:id="subtitle566"><span style="style_2">Pull away the veil</span><br/><span style="style_2">and what are you left with?</span></p>
+<p begin="29386400000t" end="29453200000t" region="region_1" xml:id="subtitle567"><span style="style_2">An ordinary young woman</span><br/><span style="style_2">of modest ability and little imagination.</span></p>
+<p begin="29465600000t" end="29498800000t" region="region_1" xml:id="subtitle568"><span style="style_2">But wrap her up like this,</span><br/><span style="style_2">anoint her with oil,</span></p>
+<p begin="29499600000t" end="29540800000t" region="region_1" xml:id="subtitle569"><span style="style_1">and hey, presto, what do you have?</span></p>
+<p begin="29567600000t" end="29581200000t" region="region_1" xml:id="subtitle570"><span style="style_2">A goddess.</span></p>
+<p begin="29608400000t" end="29638400000t" region="region_1" xml:id="subtitle571"><span style="style_2">[choir sings "Zadok the Priest"]</span></p>
+<p begin="29904400000t" end="29951600000t" region="region_1" xml:id="subtitle572"><span style="style_2">[congregation] God save the Queen!</span><br/><span style="style_2">God save the Queen!</span></p>
+<p begin="29952400000t" end="29972800000t" region="region_1" xml:id="subtitle573"><span style="style_2">God save the Queen!</span></p>
+<p begin="30001600000t" end="30044000000t" region="region_1" xml:id="subtitle574"><span style="style_2">[television]</span><span style="style_3"> God save the Queen!</span><br/><span style="style_3">God save the Queen!</span></p>
+<p begin="30044800000t" end="30068400000t" region="region_1" xml:id="subtitle575"><span style="style_3">God save the Queen!</span></p>
+<p begin="30120000000t" end="30179600000t" region="region_1" xml:id="subtitle576"><span style="style_2">[man] And to think you turned all that</span><br/><span style="style_2">down. The chance to be a god.</span></p>
+<p begin="30222800000t" end="30254000000t" region="region_1" xml:id="subtitle577"><span style="style_2">I turned it down</span><br/><span style="style_2">for something greater still.</span></p>
+<p begin="30347200000t" end="30360000000t" region="region_1" xml:id="subtitle578"><span style="style_2">For love.</span></p>
+<p begin="30872800000t" end="30912800000t" region="region_1" xml:id="subtitle579"><span style="style_2">I, Philip, Duke of Edinburgh,</span></p>
+<p begin="30913600000t" end="30951200000t" region="region_1" xml:id="subtitle580"><span style="style_2">do become your liege man of life and limb,</span><br/><span style="style_2">and of earthly worship.</span></p>
+<p begin="30952000000t" end="30980400000t" region="region_1" xml:id="subtitle581"><span style="style_2">And faith and truth I will bear unto you,</span></p>
+<p begin="30981200000t" end="31012800000t" region="region_1" xml:id="subtitle582"><span style="style_2">to live and die,</span><br/><span style="style_2">against all manner of folks.</span></p>
+<p begin="31013600000t" end="31033600000t" region="region_1" xml:id="subtitle583"><span style="style_2">So help me God.</span></p>
+<p begin="31388400000t" end="31408400000t" region="region_1" xml:id="subtitle584"><span style="style_2">[crowd cheering in distance]</span></p>
+<p begin="31710400000t" end="31729200000t" region="region_1" xml:id="subtitle585"><span style="style_2">[bagpipes play]</span></p>
+</div>
+</body>
+</tt>

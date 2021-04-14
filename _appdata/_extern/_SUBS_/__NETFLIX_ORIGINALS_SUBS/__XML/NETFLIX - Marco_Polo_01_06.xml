@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="s1"/>
+<style tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="s1_1"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="bottomCenter"/>
+<region tts:displayAlign="before" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="topCenter"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="110109999t" end="136386250t" region="bottomCenter" style="s1" xml:id="subtitle0">-[men screaming]<br/>-[horses neighing]</p>
+<p begin="177257080t" end="204374170t" region="bottomCenter" style="s1" xml:id="subtitle1">[horses galloping]</p>
+<p begin="257337079t" end="284454170t" region="bottomCenter" style="s1" xml:id="subtitle2">[swords clashing]</p>
+<p begin="337417080t" end="360360000t" region="bottomCenter" style="s1" xml:id="subtitle3">[men yelling]</p>
+<p begin="407907500t" end="443773329t" region="bottomCenter" style="s1" xml:id="subtitle4">My Lady, they are upon us.</p>
+<p begin="444614169t" end="477977499t" region="bottomCenter" style="s1" xml:id="subtitle5">The Khan has come.<br/>Run for the desert.</p>
+<p begin="726976250t" end="742411670t" region="bottomCenter" style="s1" xml:id="subtitle6">Lady Kokachin.</p>
+<p begin="832912080t" end="860439579t" region="bottomCenter" style="s1" xml:id="subtitle7">You're protected by your blood.<br/>They will not harm you.</p>
+<p begin="861280419t" end="892561669t" region="bottomCenter" style="s1" xml:id="subtitle8">Harm me? No.</p>
+<p begin="893392499t" end="928007079t" region="bottomCenter" style="s1" xml:id="subtitle9">Take me into Kublai's harem? Yes.</p>
+<p begin="963462499t" end="980559579t" region="bottomCenter" style="s1" xml:id="subtitle10">Is it not better than death?</p>
+<p begin="981400419t" end="995994999t" region="bottomCenter" style="s1" xml:id="subtitle11">No, Nergüi...</p>
+<p begin="1020599579t" end="1065234169t" region="bottomCenter" style="s1" xml:id="subtitle12">to live under the yoke of a Khan<br/>is not better than the Eternal Blue.</p>
+<p begin="1066064999t" end="1076495420t" region="bottomCenter" style="s1" xml:id="subtitle13">[gasps]</p>
+<p begin="1077326250t" end="1090259170t" region="bottomCenter" style="s1" xml:id="subtitle14">[gasps]</p>
+<p begin="1117786670t" end="1132801670t" region="bottomCenter" style="s1" xml:id="subtitle15">Lady Kokachin!</p>
+<p begin="1133632500t" end="1145724580t" region="bottomCenter" style="s1" xml:id="subtitle16">[sobbing]</p>
+<p begin="1311310000t" end="1331330000t" region="bottomCenter" style="s1" xml:id="subtitle17">[theme music playing]</p>
+<p begin="2259757500t" end="2281859580t" region="bottomCenter" style="s1" xml:id="subtitle18">Do we have to attend?</p>
+<p begin="2282700420t" end="2303971670t" region="bottomCenter" style="s1" xml:id="subtitle19">Your absence would be noted.</p>
+<p begin="2316894580t" end="2331909580t" region="bottomCenter" style="s1" xml:id="subtitle20">Khutulun...</p>
+<p begin="2332750420t" end="2351098750t" region="bottomCenter" style="s1" xml:id="subtitle21">that wrestling whore from the west.</p>
+<p begin="2351929580t" end="2414081670t" region="bottomCenter" style="s1" xml:id="subtitle22">Please expel any of your contempt within<br/>the confines of these walls, Princess.</p>
+<p begin="2414912500t" end="2427004580t" region="bottomCenter" style="s1" xml:id="subtitle23">Why is she coming here?</p>
+<p begin="2427845420t" end="2449947500t" region="bottomCenter" style="s1" xml:id="subtitle24">I do not know<br/>and it does not matter.</p>
+<p begin="2450778330t" end="2479146670t" region="bottomCenter" style="s1" xml:id="subtitle25">You will conduct yourself<br/>as you always do...</p>
+<p begin="2479977500t" end="2504582080t" region="bottomCenter" style="s1" xml:id="subtitle26">with graciousness.</p>
+<p begin="2521689170t" end="2552550000t" region="bottomCenter" style="s1" xml:id="subtitle27">You may have more in common<br/>than you imagine.</p>
+<p begin="2561729170t" end="2577575000t" region="bottomCenter" style="s1" xml:id="subtitle28">That's doubtful.</p>
+<p begin="2578405830t" end="2590507920t" region="bottomCenter" style="s1" xml:id="subtitle29">[clicks tongue]</p>
+<p begin="2591338750t" end="2619286670t" region="bottomCenter" style="s1" xml:id="subtitle30">You lost another trinket.</p>
+<p begin="2638055420t" end="2657234580t" region="bottomCenter" style="s1" xml:id="subtitle31">A bracelet.</p>
+<p begin="2658075420t" end="2677675000t" region="bottomCenter" style="s1" xml:id="subtitle32">It slipped off my wrist as I rode.</p>
+<p begin="2695192500t" end="2716463750t" region="bottomCenter" style="s1" xml:id="subtitle33">A poor decision<br/>to wear it on my whip hand.</p>
+<p begin="2717294580t" end="2746073330t" region="bottomCenter" style="s1" xml:id="subtitle34">Yes, a poor decision.</p>
+<p begin="2760257500t" end="2805302500t" region="bottomCenter" style="s1" xml:id="subtitle35">You take great risk to avoid<br/>a greater danger, I understand.</p>
+<p begin="2811138330t" end="2836583750t" region="bottomCenter" style="s1" xml:id="subtitle36">In celebration<br/>of this New Year...</p>
+<p begin="2837414580t" end="2872039170t" region="bottomCenter" style="s1" xml:id="subtitle37">perhaps you would allow me<br/>to eliminate this danger...</p>
+<p begin="2886213330t" end="2913330420t" region="bottomCenter" style="s1" xml:id="subtitle38">with my sword.</p>
+<p begin="2914161250t" end="2930007080t" region="bottomCenter" style="s1" xml:id="subtitle39">I do not.</p>
+<p begin="3145642500t" end="3158985830t" region="bottomCenter" style="s1" xml:id="subtitle40">Father.</p>
+<p begin="3190687500t" end="3247824580t" region="bottomCenter" style="s1" xml:id="subtitle41">An auspicious day for departure.<br/><span style="s1_1">Tsagaan Sar.</span></p>
+<p begin="3304551250t" end="3330407080t" region="bottomCenter" style="s1" xml:id="subtitle42">What you did saved our lives.</p>
+<p begin="3331247920t" end="3361688330t" region="bottomCenter" style="s1" xml:id="subtitle43">I know this.</p>
+<p begin="3362529169t" end="3377123749t" region="bottomCenter" style="s1" xml:id="subtitle44">Your uncle knows, too...</p>
+<p begin="3390056669t" end="3413409999t" region="bottomCenter" style="s1" xml:id="subtitle45">but will not confess it.</p>
+<p begin="3432178749t" end="3448024579t" region="bottomCenter" style="s1" xml:id="subtitle46">I fear...</p>
+<p begin="3448865419t" end="3484310829t" region="bottomCenter" style="s1" xml:id="subtitle47">I will require another New Year<br/>to repay the debt I owe.</p>
+<p begin="3485151669t" end="3513509999t" region="bottomCenter" style="s1" xml:id="subtitle48">The Khan will never allow you<br/>back into the Imperial City.</p>
+<p begin="3533950419t" end="3567734169t" region="bottomCenter" style="s1" xml:id="subtitle49">We will meet again.</p>
+<p begin="3602769169t" end="3616532919t" region="bottomCenter" style="s1" xml:id="subtitle50">[grunts]</p>
+<p begin="3631958329t" end="3669495829t" region="bottomCenter" style="s1" xml:id="subtitle51">Rot here, nephew...<br/>with your devils.</p>
+<p begin="3670336669t" end="3698274579t" region="bottomCenter" style="s1" xml:id="subtitle52">We go to the Silk Road to die.</p>
+<p begin="3764180419t" end="3792538749t" region="bottomCenter" style="s1" xml:id="subtitle53">[Byamba] The brothers Polo<br/>have lost their golden tablet.</p>
+<p begin="3793369579t" end="3807133329t" region="bottomCenter" style="s1" xml:id="subtitle54">Yes.</p>
+<p begin="3807974169t" end="3828404579t" region="bottomCenter" style="s1" xml:id="subtitle55">Imperial pass rescinded.</p>
+<p begin="3829245419t" end="3845922079t" region="bottomCenter" style="s1" xml:id="subtitle56">I know.</p>
+<p begin="3846762919t" end="3878454579t" region="bottomCenter" style="s1" xml:id="subtitle57">No lodging, no fresh horses,<br/>no vittles.</p>
+<p begin="3879295419t" end="3910576669t" region="bottomCenter" style="s1" xml:id="subtitle58">-They are vulnerable now to bandits.<br/>-Byamba, I know.</p>
+<p begin="3911407499t" end="3935181249t" region="bottomCenter" style="s1" xml:id="subtitle59">It's nothing they do not deserve.</p>
+<p begin="3955621669t" end="3968964999t" region="bottomCenter" style="s1" xml:id="subtitle60">[Byamba]<br/>We should go.</p>
+<p begin="3969795829t" end="4003169169t" region="bottomCenter" style="s1" xml:id="subtitle61">The Great Khan will be expecting<br/>an answer before the White Moon.</p>
+<p begin="4003999999t" end="4035281249t" region="bottomCenter" style="s1" xml:id="subtitle62">-We must offer him a head.<br/>-We must offer him the right head.</p>
+<p begin="4106602499t" end="4120366249t" region="bottomCenter" style="s1" xml:id="subtitle63">[Khutulun] Polo!</p>
+<p begin="4164580419t" end="4206702499t" region="bottomCenter" style="s1" xml:id="subtitle64">Did you come to greet me?<br/>I'm touched.</p>
+<p begin="4207533329t" end="4221717499t" region="bottomCenter" style="s1" xml:id="subtitle65">Did you miss Khutulun?</p>
+<p begin="4222548329t" end="4250075829t" region="bottomCenter" style="s1" xml:id="subtitle66">The sun felt warmer<br/>on my face this morning.</p>
+<p begin="4250916669t" end="4264259999t" region="bottomCenter" style="s1" xml:id="subtitle67">Now I know why.</p>
+<p begin="4283028749t" end="4308053750t" region="bottomCenter" style="s1" xml:id="subtitle68">I'm to present myself<br/>to the Great Khan.</p>
+<p begin="4308884580t" end="4321817500t" region="bottomCenter" style="s1" xml:id="subtitle69">Come, witness the pomp.</p>
+<p begin="4322648330t" end="4341417080t" region="bottomCenter" style="s1" xml:id="subtitle70">We are called to duty, Lady.</p>
+<p begin="4342257920t" end="4352267920t" region="bottomCenter" style="s1" xml:id="subtitle71">Come.</p>
+<p begin="4353098750t" end="4388554170t" region="bottomCenter" style="s1" xml:id="subtitle72">Escort me or I will<br/>tell the Khan of your disrespect.</p>
+<p begin="4617532920t" end="4644219580t" region="bottomCenter" style="s1" xml:id="subtitle73">Plans been finalized<br/>for the festival?</p>
+<p begin="4645060420t" end="4669665000t" region="bottomCenter" style="s1" xml:id="subtitle74">They have.<br/>The games will commence.</p>
+<p begin="4670495830t" end="4683428750t" region="bottomCenter" style="s1" xml:id="subtitle75">Good.</p>
+<p begin="4731807080t" end="4746411670t" region="bottomCenter" style="s1" xml:id="subtitle76">Hmm?</p>
+<p begin="4747242500t" end="4768934170t" region="bottomCenter" style="s1" xml:id="subtitle77">The Latin's mission to Kochkor...</p>
+<p begin="4769765000t" end="4795210420t" region="bottomCenter" style="s1" xml:id="subtitle78">I sent him.<br/>I would like a report.</p>
+<p begin="4802717920t" end="4830655830t" region="bottomCenter" style="s1" xml:id="subtitle79">Did he return<br/>with a discovery?</p>
+<p begin="4831496670t" end="4855270420t" region="bottomCenter" style="s1" xml:id="subtitle80">He and your brother<br/>learned as much on their trek</p>
+<p begin="4856101250t" end="4896141250t" region="bottomCenter" style="s1" xml:id="subtitle81">as Yusuf did flaying the skin<br/>off the assassin's bones.</p>
+<p begin="4896972080t" end="4924089170t" region="bottomCenter" style="s1" xml:id="subtitle82">-And that is all?<br/>-That is all.</p>
+<p begin="4939514580t" end="4958283330t" region="bottomCenter" style="s1" xml:id="subtitle83">Khutulun awaits your audience.</p>
+<p begin="4959124170t" end="4994159170t" region="bottomCenter" style="s1" xml:id="subtitle84">Hmm. She dressed as<br/>a warrior or a lady?</p>
+<p begin="4994990000t" end="5007082080t" region="bottomCenter" style="s1" xml:id="subtitle85">The former.</p>
+<p begin="5007922920t" end="5020845830t" region="bottomCenter" style="s1" xml:id="subtitle86">[Kublai laughs]</p>
+<p begin="5021686670t" end="5035450420t" region="bottomCenter" style="s1" xml:id="subtitle87">I love that girl.</p>
+<p begin="5036281250t" end="5065480420t" region="bottomCenter" style="s1" xml:id="subtitle88">[grunts]<br/>No, no, no, no.</p>
+<p begin="5123868750t" end="5161406250t" region="bottomCenter" style="s1" xml:id="subtitle89">-Are you aggrieved, Jingim?<br/>-I am fine, Mother.</p>
+<p begin="5162237080t" end="5181846670t" region="bottomCenter" style="s1" xml:id="subtitle90">Then be fine.</p>
+<p begin="5203948750t" end="5236481250t" region="bottomCenter" style="s1" xml:id="subtitle91">Spirits high for our Khan<br/>and our kingdom.</p>
+<p begin="5237312080t" end="5269844580t" region="bottomCenter" style="s1" xml:id="subtitle92">Let us find resolution<br/>before the White Moon.</p>
+<p begin="5315730420t" end="5334499170t" region="bottomCenter" style="s1" xml:id="subtitle93">I come here, Khagan...</p>
+<p begin="5335330000t" end="5371616250t" region="bottomCenter" style="s1" xml:id="subtitle94">as emissary for my father,<br/>Kaidu of Karakorum.</p>
+<p begin="5372447080t" end="5398723330t" region="bottomCenter" style="s1" xml:id="subtitle95">You are welcome,<br/>Khutulun. Rise.</p>
+<p begin="5430845420t" end="5456280830t" region="bottomCenter" style="s1" xml:id="subtitle96">Sire... we were pained to hear</p>
+<p begin="5457121670t" end="5485900420t" region="bottomCenter" style="s1" xml:id="subtitle97">of the cowardly assault<br/>on the Great Khan's person.</p>
+<p begin="5486731250t" end="5524689170t" region="bottomCenter" style="s1" xml:id="subtitle98">It is my father's request<br/>and my wish...</p>
+<p begin="5525520000t" end="5546370830t" region="bottomCenter" style="s1" xml:id="subtitle99">that I remain with my horsemen<br/>in Cambulac</p>
+<p begin="5547211670t" end="5568482920t" region="bottomCenter" style="s1" xml:id="subtitle100">as protector of the Great Khan.</p>
+<p begin="5588082500t" end="5625199580t" region="bottomCenter" style="s1" xml:id="subtitle101">Kaidu seeks to ensure your safety.</p>
+<p begin="5626040420t" end="5652316670t" region="bottomCenter" style="s1" xml:id="subtitle102">I'm your servant.</p>
+<p begin="5653147500t" end="5677341670t" region="bottomCenter" style="s1" xml:id="subtitle103">[Kublai] I have ample protection.</p>
+<p begin="5678172500t" end="5699023330t" region="bottomCenter" style="s1" xml:id="subtitle104">But I welcome your presence.</p>
+<p begin="5699864170t" end="5745319580t" region="bottomCenter" style="s1" xml:id="subtitle105">I accept your horse,<br/>your sword, your spirit.</p>
+<p begin="5746160420t" end="5757421670t" region="bottomCenter" style="s1" xml:id="subtitle106">You are home.</p>
+<p begin="5758252500t" end="5791205420t" region="bottomCenter" style="s1" xml:id="subtitle107">We're deeply honored, my child.</p>
+<p begin="5792036250t" end="5806220420t" region="bottomCenter" style="s1" xml:id="subtitle108">I invite you to rest...</p>
+<p begin="5807051250t" end="5828742920t" region="bottomCenter" style="s1" xml:id="subtitle109">then join me<br/>and the ladies of the court.</p>
+<p begin="5829573750t" end="5858352500t" region="bottomCenter" style="s1" xml:id="subtitle110">I require no rest, Lady Chabi.</p>
+<p begin="5859183330t" end="5877952080t" region="bottomCenter" style="s1" xml:id="subtitle111">Lead and I will follow.</p>
+<p begin="5890464580t" end="5907571670t" region="bottomCenter" style="s1" xml:id="subtitle112">[both laughing]</p>
+<p begin="5917581670t" end="5929673750t" region="bottomCenter" style="s1" xml:id="subtitle113">We tour Cambulac</p>
+<p begin="5930504580t" end="5961785830t" region="bottomCenter" style="s1" xml:id="subtitle114">in preparation for<br/>the Festival of the White Moon.</p>
+<p begin="5987231250t" end="6013927920t" region="bottomCenter" style="s1" xml:id="subtitle115">You will accompany us.</p>
+<p begin="6014758750t" end="6049793750t" region="bottomCenter" style="s1" xml:id="subtitle116">I am...<br/>deeply honored.</p>
+<p begin="6233307080t" end="6255829580t" region="bottomCenter" style="s1" xml:id="subtitle117">A word with you,<br/>Blue Princess.</p>
+<p begin="6320894580t" end="6342165830t" region="bottomCenter" style="s1" xml:id="subtitle118">Why did you not listen to me?</p>
+<p begin="6343006670t" end="6365939580t" region="bottomCenter" style="s1" xml:id="subtitle119">Why did you not<br/>run from this place?</p>
+<p begin="6366780420t" end="6402225830t" region="bottomCenter" style="s1" xml:id="subtitle120">I want to know why you<br/>ride the grasslands alone at night.</p>
+<p begin="6403066670t" end="6436009580t" region="bottomCenter" style="s1" xml:id="subtitle121">I want to know who you<br/>leave the stones for and why.</p>
+<p begin="6436850420t" end="6455198750t" region="bottomCenter" style="s1" xml:id="subtitle122">That is none of your concern.</p>
+<p begin="6477721250t" end="6502746250t" region="bottomCenter" style="s1" xml:id="subtitle123">I cannot protect you<br/>if you do not talk to me.</p>
+<p begin="6517340830t" end="6535699170t" region="bottomCenter" style="s1" xml:id="subtitle124">[sighs]</p>
+<p begin="6536530000t" end="6560303750t" region="bottomCenter" style="s1" xml:id="subtitle125">Marco... I planted the serpent.</p>
+<p begin="6578652080t" end="6599092500t" region="bottomCenter" style="s1" xml:id="subtitle126">I did not know it was you.</p>
+<p begin="6619112500t" end="6644557920t" region="bottomCenter" style="s1" xml:id="subtitle127">I fear discovery.</p>
+<p begin="6645388750t" end="6656229580t" region="bottomCenter" style="s1" xml:id="subtitle128">Of what?</p>
+<p begin="6657070420t" end="6691264580t" region="bottomCenter" style="s1" xml:id="subtitle129">Tulga...<br/>the man you confronted.</p>
+<p begin="6692105420t" end="6708371670t" region="bottomCenter" style="s1" xml:id="subtitle130">He is a survivor of the Bayaut.</p>
+<p begin="6727140419t" end="6749662919t" region="bottomCenter" style="s1" xml:id="subtitle131">-He's your subject?<br/>-Was.</p>
+<p begin="6750493749t" end="6781354579t" region="bottomCenter" style="s1" xml:id="subtitle132">-Does Za Bing know?<br/>-That is why he allows my rides.</p>
+<p begin="6782195419t" end="6798872079t" region="bottomCenter" style="s1" xml:id="subtitle133">And abdicates his duty.</p>
+<p begin="6799712919t" end="6823486669t" region="bottomCenter" style="s1" xml:id="subtitle134">I forbid him from handling the gems.</p>
+<p begin="6824317499t" end="6851844999t" region="bottomCenter" style="s1" xml:id="subtitle135">I will not compromise my friend.</p>
+<p begin="6873536669t" end="6900223329t" region="bottomCenter" style="s1" xml:id="subtitle136">I will carry the gems<br/>from now on.</p>
+<p begin="6901064169t" end="6938601669t" region="bottomCenter" style="s1" xml:id="subtitle137">You wish not to<br/>compromise your friend?</p>
+<p begin="6939432499t" end="6974467499t" region="bottomCenter" style="s1" xml:id="subtitle138">Imagine what would happen to him<br/>should you go missing now.</p>
+<p begin="7351924579t" end="7375698329t" region="bottomCenter" style="s1" xml:id="subtitle139">[Jingim] Good New Year to you, brother.</p>
+<p begin="7376539169t" end="7409902499t" region="bottomCenter" style="s1" xml:id="subtitle140">[Byamba] I worry when you call me<br/>"brother" instead of "bastard."</p>
+<p begin="7410733329t" end="7440763329t" region="bottomCenter" style="s1" xml:id="subtitle141">-It precedes a request.<br/>-[Jingim chuckles]</p>
+<p begin="7441604169t" end="7459121669t" region="bottomCenter" style="s1" xml:id="subtitle142">I need not request.</p>
+<p begin="7459952499t" end="7470793329t" region="bottomCenter" style="s1" xml:id="subtitle143">I order.</p>
+<p begin="7474967499t" end="7500412919t" region="bottomCenter" style="s1" xml:id="subtitle144">I await your command,<br/>Jingim Khan.</p>
+<p begin="7524186669t" end="7542955419t" region="bottomCenter" style="s1" xml:id="subtitle145">What news from<br/>Eagle's Teaching?</p>
+<p begin="7543786249t" end="7571734169t" region="bottomCenter" style="s1" xml:id="subtitle146">-[sighs] None to speak of.<br/>-None...</p>
+<p begin="7572564999t" end="7588410829t" region="bottomCenter" style="s1" xml:id="subtitle147">or none you will speak of?</p>
+<p begin="7598841249t" end="7608851249t" region="bottomCenter" style="s1" xml:id="subtitle148">None.</p>
+<p begin="7609682079t" end="7640132499t" region="bottomCenter" style="s1" xml:id="subtitle149">We're talking about my father.</p>
+<p begin="7640963329t" end="7659321669t" region="bottomCenter" style="s1" xml:id="subtitle150">I will know what danger he faces.</p>
+<p begin="7660152499t" end="7679341669t" region="bottomCenter" style="s1" xml:id="subtitle151">[Byamba] Our father.</p>
+<p begin="7680172499t" end="7708530829t" region="bottomCenter" style="s1" xml:id="subtitle152">I share news of danger<br/>with him alone.</p>
+<p begin="7709371669t" end="7720632919t" region="bottomCenter" style="s1" xml:id="subtitle153">I disclose to the Khan.</p>
+<p begin="7721463749t" end="7740652919t" region="bottomCenter" style="s1" xml:id="subtitle154">It is for the Khan<br/>to report to the Prince.</p>
+<p begin="7741483749t" end="7763175419t" region="bottomCenter" style="s1" xml:id="subtitle155">That is the order of things.</p>
+<p begin="7764006249t" end="7792784999t" region="bottomCenter" style="s1" xml:id="subtitle156">You want to know about Eagle's Teaching,<br/>ask Father, brother.</p>
+<p begin="7793615829t" end="7827399579t" region="bottomCenter" style="s1" xml:id="subtitle157">If you know something...<br/>the burden is on you to defend him.</p>
+<p begin="7828240419t" end="7851173329t" region="bottomCenter" style="s1" xml:id="subtitle158">And I will... with my life.</p>
+<p begin="7852014169t" end="7896218329t" region="bottomCenter" style="s1" xml:id="subtitle159">And if something happens to our father...<br/>I will be the one to take it.</p>
+<p begin="7973385419t" end="7991313329t" region="bottomCenter" style="s1" xml:id="subtitle160">What did Jingim want of you?</p>
+<p begin="7992154169t" end="8024686669t" region="bottomCenter" style="s1" xml:id="subtitle161">Amends made<br/>before the White Moon.</p>
+<p begin="8236978749t" end="8268259999t" region="bottomCenter" style="s1" xml:id="subtitle162">There are no answers here,<br/>Byamba, only pain.</p>
+<p begin="8269090829t" end="8296207919t" region="bottomCenter" style="s1" xml:id="subtitle163">The most important answer may lie within.</p>
+<p begin="8297038749t" end="8334155829t" region="bottomCenter" style="s1" xml:id="subtitle164">We must confirm it<br/>to understand our next steps.</p>
+<p begin="8334996669t" end="8363354999t" region="bottomCenter" style="s1" xml:id="subtitle165">[Marco]<br/>Sanga's family has lost everything.</p>
+<p begin="8364185829t" end="8385457079t" region="bottomCenter" style="s1" xml:id="subtitle166">Get-- Get--</p>
+<p begin="8386297919t" end="8423835419t" region="bottomCenter" style="s1" xml:id="subtitle167">[Goland speaking Mandarin]</p>
+<p begin="8508920419t" end="8527268749t" region="bottomCenter" style="s1" xml:id="subtitle168">Stay if you wish.</p>
+<p begin="8560221669t" end="8584826249t" region="bottomCenter" style="s1" xml:id="subtitle169">[boy speaking Mandarin]</p>
+<p begin="8585657079t" end="8601923330t" region="bottomCenter" style="s1" xml:id="subtitle170">[knocking on door]</p>
+<p begin="8636958330t" end="8651142500t" region="bottomCenter" style="s1" xml:id="subtitle171">[boy greeting in Mandarin]<br/>[Marco speaking Mandarin]</p>
+<p begin="8663655000t" end="8681172500t" region="bottomCenter" style="s1" xml:id="subtitle172">[speaking English]<br/>Can I see your mother?</p>
+<p begin="8760421670t" end="8770842080t" region="bottomCenter" style="s1" xml:id="subtitle173">[spits]</p>
+<p begin="8771682920t" end="8792113330t" region="bottomCenter" style="s1" xml:id="subtitle174">[Goland speaking English]<br/>White devil.</p>
+<p begin="8792954170t" end="8825486670t" region="bottomCenter" style="s1" xml:id="subtitle175">Urla, come!<br/>Take the children.</p>
+<p begin="8889300420t" end="8908900000t" region="bottomCenter" style="s1" xml:id="subtitle176">[boy speaking Mandarin]</p>
+<p begin="8920161250t" end="8933925000t" region="bottomCenter" style="s1" xml:id="subtitle177">My condolences.</p>
+<p begin="8934755830t" end="8950191250t" region="bottomCenter" style="s1" xml:id="subtitle178">[Goland] Forty days, Latin.</p>
+<p begin="8951022080t" end="8973134170t" region="bottomCenter" style="s1" xml:id="subtitle179">Forty days is<br/>the mourning period.</p>
+<p begin="8973965000t" end="8991482500t" region="bottomCenter" style="s1" xml:id="subtitle180">Too late.</p>
+<p begin="8992313330t" end="9016507500t" region="bottomCenter" style="s1" xml:id="subtitle181">I was away at war.</p>
+<p begin="9017338330t" end="9038199170t" region="bottomCenter" style="s1" xml:id="subtitle182">That was some time ago,<br/>Master Polo.</p>
+<p begin="9039030000t" end="9058629580t" region="bottomCenter" style="s1" xml:id="subtitle183">Find a better reason<br/>for your absence.</p>
+<p begin="9068639580t" end="9087828750t" region="bottomCenter" style="s1" xml:id="subtitle184">[Marco] I have none.</p>
+<p begin="9105766670t" end="9145806670t" region="bottomCenter" style="s1" xml:id="subtitle185">Goland, I'm sorry for<br/>what happened to Sanga.</p>
+<p begin="9146637500t" end="9187097920t" region="bottomCenter" style="s1" xml:id="subtitle186">More sorry for<br/>what I'm about to ask.</p>
+<p begin="9187928750t" end="9217538330t" region="bottomCenter" style="s1" xml:id="subtitle187">Did Sanga ever travel to Kochkor?</p>
+<p begin="9218379170t" end="9249240000t" region="bottomCenter" style="s1" xml:id="subtitle188">[Goland] Do you suspect a dead man<br/>of another crime?</p>
+<p begin="9250070830t" end="9267588330t" region="bottomCenter" style="s1" xml:id="subtitle189">You wish to resurrect him, Christian?</p>
+<p begin="9268429170t" end="9281352080t" region="bottomCenter" style="s1" xml:id="subtitle190">Crucify him once more?</p>
+<p begin="9282192920t" end="9304715420t" region="bottomCenter" style="s1" xml:id="subtitle191">[Marco] He stole<br/>and he was punished for it.</p>
+<p begin="9305546250t" end="9331822500t" region="topCenter" style="s1" xml:id="subtitle192">I did not sentence him...</p>
+<p begin="9332653330t" end="9350591250t" region="bottomCenter" style="s1" xml:id="subtitle193">and I did not kill him, Goland.</p>
+<p begin="9351422080t" end="9386046670t" region="bottomCenter" style="s1" xml:id="subtitle194">And my husband did not<br/>send himself to Kochkor.</p>
+<p begin="9398138750t" end="9416907500t" region="bottomCenter" style="s1" xml:id="subtitle195">But he did go?</p>
+<p begin="9432753330t" end="9458198750t" region="bottomCenter" style="s1" xml:id="subtitle196">[Goland] He collected taxes.</p>
+<p begin="9459029580t" end="9494064580t" region="bottomCenter" style="s1" xml:id="subtitle197">Every second fortnight, he rode.</p>
+<p begin="9494905420t" end="9520761250t" region="bottomCenter" style="s1" xml:id="subtitle198">My husband was<br/>an honorable man.</p>
+<p begin="9521592080t" end="9546206670t" region="bottomCenter" style="s1" xml:id="subtitle199">Question the man<br/>who sent Sanga to Kochkor</p>
+<p begin="9547037500t" end="9567057500t" region="bottomCenter" style="s1" xml:id="subtitle200">before you question that.</p>
+<p begin="9653393750t" end="9675495830t" region="bottomCenter" style="s1" xml:id="subtitle201">Leave us...</p>
+<p begin="9676336670t" end="9694264580t" region="bottomCenter" style="s1" xml:id="subtitle202">please.</p>
+<p begin="9819810000t" end="9863183330t" region="bottomCenter" style="s1" xml:id="subtitle203">[Chabi] We distribute 100,000<br/>loaves of bread every month...</p>
+<p begin="9864024170t" end="9904064170t" region="bottomCenter" style="s1" xml:id="subtitle204">goat milk and yak meat when<br/>the Great Khan's herds are fat.</p>
+<p begin="9904895000t" end="9942432500t" region="bottomCenter" style="s1" xml:id="subtitle205">[Khutulun] The people are fortunate<br/>for your grace, My Lady.</p>
+<p begin="9943263330t" end="9968288330t" region="bottomCenter" style="s1" xml:id="subtitle206">[Chabi]<br/>We take care of our wards...</p>
+<p begin="9969129170t" end="10002912920t" region="bottomCenter" style="s1" xml:id="subtitle207">and they revere the Khan<br/>as their father.</p>
+<p begin="10003743750t" end="10071311250t" region="bottomCenter" style="s1" xml:id="subtitle208">Today, they honor us by working tirelessly<br/>to prepare for the White Moon festivities.</p>
+<p begin="10133453330t" end="10154724580t" region="bottomCenter" style="s1" xml:id="subtitle209">Something wrong,<br/>Blue Princess?</p>
+<p begin="10165155000t" end="10190600420t" region="bottomCenter" style="s1" xml:id="subtitle210">I was merely observing<br/>the peasants' devotion,</p>
+<p begin="10191431250t" end="10216456250t" region="bottomCenter" style="s1" xml:id="subtitle211">their love for their<br/>royal benefactress.</p>
+<p begin="10217287080t" end="10250660420t" region="bottomCenter" style="s1" xml:id="subtitle212">Do you question<br/>their devotion and their love?</p>
+<p begin="10251491250t" end="10277347080t" region="bottomCenter" style="s1" xml:id="subtitle213">I do not.</p>
+<p begin="10278187920t" end="10301120830t" region="bottomCenter" style="s1" xml:id="subtitle214">Stop.</p>
+<p begin="10333653330t" end="10375785420t" region="bottomCenter" style="s1" xml:id="subtitle215">Does Lady Kokachin wish to speak<br/>on the topic of the common people?</p>
+<p begin="10376616250t" end="10407477080t" region="bottomCenter" style="s1" xml:id="subtitle216">I apologize, Empress,<br/>for speaking when not bid to do so.</p>
+<p begin="10408317920t" end="10437927500t" region="bottomCenter" style="s1" xml:id="subtitle217">Do so... now.</p>
+<p begin="10475465000t" end="10507997500t" region="bottomCenter" style="s1" xml:id="subtitle218">Has Her Lady walked the villages<br/>of Cambulac without her guard?</p>
+<p begin="10508828330t" end="10524263750t" region="bottomCenter" style="s1" xml:id="subtitle219">I have not.</p>
+<p begin="10560129580t" end="10597256670t" region="bottomCenter" style="s1" xml:id="subtitle220">The Empress' perception<br/>of the city is tempered.</p>
+<p begin="10598087500t" end="10644383750t" region="bottomCenter" style="s1" xml:id="subtitle221">The people love the Khan because<br/>he eases their pains, fills their wants...</p>
+<p begin="10645214580t" end="10690680000t" region="bottomCenter" style="s1" xml:id="subtitle222">but the cause of those pains and wants<br/>is never permanently stamped out.</p>
+<p begin="10691510830t" end="10710700000t" region="bottomCenter" style="s1" xml:id="subtitle223">That can breed resentment.</p>
+<p begin="10711530830t" end="10758667920t" region="bottomCenter" style="s1" xml:id="subtitle224">Did you resolve such matters differently<br/>when your family held power...</p>
+<p begin="10759498750t" end="10783272500t" region="bottomCenter" style="s1" xml:id="subtitle225">Blue Princess of Bayaut?</p>
+<p begin="10784103330t" end="10807046250t" region="bottomCenter" style="s1" xml:id="subtitle226">[breathes deeply]</p>
+<p begin="10807877080t" end="10861680830t" region="bottomCenter" style="s1" xml:id="subtitle227">My relations with our people, Lady Chabi,<br/>were somewhat more direct.</p>
+<p begin="10862521670t" end="10881290420t" region="bottomCenter" style="s1" xml:id="subtitle228">Is that so?</p>
+<p begin="10907566670t" end="10926335420t" region="bottomCenter" style="s1" xml:id="subtitle229">I mean no offense...</p>
+<p begin="10927166250t" end="10948857920t" region="bottomCenter" style="s1" xml:id="subtitle230">but the Great Khan should<br/>know the minds of his people</p>
+<p begin="10949688750t" end="10979298330t" region="bottomCenter" style="s1" xml:id="subtitle231">before he walks<br/>among them tomorrow.</p>
+<p begin="10980139170t" end="11008077080t" region="bottomCenter" style="s1" xml:id="subtitle232">The Khagan has<br/>my sword and my shield.</p>
+<p begin="11008917920t" end="11041030000t" region="bottomCenter" style="s1" xml:id="subtitle233">I will meet minds<br/>with metal, My Lady.</p>
+<p begin="11041860830t" end="11069808750t" region="bottomCenter" style="s1" xml:id="subtitle234">The Great Khan is secure.</p>
+<p begin="11232050830t" end="11258327080t" region="bottomCenter" style="s1" xml:id="subtitle235">Is the pain bad today, child?</p>
+<p begin="11295033750t" end="11321730420t" region="bottomCenter" style="s1" xml:id="subtitle236">The child suffers, Chancellor.</p>
+<p begin="11340909580t" end="11353011670t" region="bottomCenter" style="s1" xml:id="subtitle237">As do we all...</p>
+<p begin="11353842500t" end="11388046670t" region="bottomCenter" style="s1" xml:id="subtitle238">but seeming cruelty<br/>can bring beauty.</p>
+<p begin="11388877500t" end="11418076670t" region="bottomCenter" style="s1" xml:id="subtitle239">Pain purifies<br/>and leads to peace.</p>
+<p begin="11418907500t" end="11445604170t" region="bottomCenter" style="s1" xml:id="subtitle240">These are lessons my sister<br/>taught me when I was a boy.</p>
+<p begin="11446435000t" end="11466034580t" region="bottomCenter" style="s1" xml:id="subtitle241">The girl is too old for binding.</p>
+<p begin="11466875420t" end="11515253750t" region="bottomCenter" style="s1" xml:id="subtitle242">We would have started at an earlier age<br/>were that her father's want.</p>
+<p begin="11516084580t" end="11539447920t" region="bottomCenter" style="s1" xml:id="subtitle243">The Emperor's gone.</p>
+<p begin="11540278750t" end="11569477920t" region="bottomCenter" style="s1" xml:id="subtitle244">I am her uncle.</p>
+<p begin="11570308750t" end="11584492920t" region="bottomCenter" style="s1" xml:id="subtitle245">It is my want.</p>
+<p begin="11604923330t" end="11639958330t" region="bottomCenter" style="s1" xml:id="subtitle246">'Tis a powerful man<br/>who injures little children.</p>
+<p begin="11685003330t" end="11715874170t" region="bottomCenter" style="s1" xml:id="subtitle247">I miss my mother.</p>
+<p begin="11740478750t" end="11766334580t" region="bottomCenter" style="s1" xml:id="subtitle248">We all do, Sunflower...</p>
+<p begin="11767175420t" end="11795533750t" region="bottomCenter" style="s1" xml:id="subtitle249">but I've arranged<br/>to speed her journey.</p>
+<p begin="11796364580t" end="11820558750t" region="bottomCenter" style="s1" xml:id="subtitle250">Now... look away, child.</p>
+<p begin="11838907080t" end="11866434580t" region="bottomCenter" style="s1" xml:id="subtitle251">-[Ling Ling whimpering]<br/>-[tightening bandages]</p>
+<p begin="11978216250t" end="12004492500t" region="bottomCenter" style="s1" xml:id="subtitle252">Are you mad?</p>
+<p begin="12005323330t" end="12038696670t" region="bottomCenter" style="s1" xml:id="subtitle253">Never contact me.<br/>You will get us both killed.</p>
+<p begin="12074982920t" end="12098756670t" region="bottomCenter" style="s1" xml:id="subtitle254">Out. Now.</p>
+<p begin="12121279170t" end="12144632500t" region="bottomCenter" style="s1" xml:id="subtitle255">Why are you here?</p>
+<p begin="12158816670t" end="12199267080t" region="bottomCenter" style="s1" xml:id="subtitle256">Jia Sidao took me into the palace...<br/>after you left.</p>
+<p begin="12200107920t" end="12212200000t" region="bottomCenter" style="s1" xml:id="subtitle257">He sent me.</p>
+<p begin="12238896670t" end="12260998750t" region="bottomCenter" style="s1" xml:id="subtitle258">He has new orders, Mei Lin.</p>
+<p begin="12359427080t" end="12390297920t" region="bottomCenter" style="s1" xml:id="subtitle259">I am to stay until<br/>this mission is complete.</p>
+<p begin="12399467080t" end="12422830420t" region="bottomCenter" style="s1" xml:id="subtitle260">Sidao offers this.</p>
+<p begin="12423661250t" end="12438255830t" region="bottomCenter" style="s1" xml:id="subtitle261">Tiger root.</p>
+<p begin="12439096670t" end="12473290830t" region="bottomCenter" style="s1" xml:id="subtitle262">Safe to the touch, but if ingested,<br/>it's enough to fell a horse.</p>
+<p begin="12492900420t" end="12514171670t" region="bottomCenter" style="s1" xml:id="subtitle263">This message says nothing of my daughter.</p>
+<p begin="12570477920t" end="12586744170t" region="bottomCenter" style="s1" xml:id="subtitle264">Speak.</p>
+<p begin="12605092500t" end="12620527920t" region="bottomCenter" style="s1" xml:id="subtitle265">He bound her.</p>
+<p begin="12711448750t" end="12738555830t" region="bottomCenter" style="s1" xml:id="subtitle266">He will do worse if you fail.</p>
+<p begin="12739396670t" end="12753570830t" region="bottomCenter" style="s1" xml:id="subtitle267">An assassination?</p>
+<p begin="12769426670t" end="12799456670t" region="bottomCenter" style="s1" xml:id="subtitle268">What he asks of me<br/>is impossible.</p>
+<p begin="12938345420t" end="12960027080t" region="bottomCenter" style="s1" xml:id="subtitle269">[Ahmad] What else did you find<br/>in Eagle's Teaching...</p>
+<p begin="12960867920t" end="12979636670t" region="bottomCenter" style="s1" xml:id="subtitle270">besides impure gold?</p>
+<p begin="12980467500t" end="13010497500t" region="bottomCenter" style="s1" xml:id="subtitle271">We found evidence that<br/>Sanga hired the Hashshashin.</p>
+<p begin="13011328330t" end="13033440420t" region="bottomCenter" style="s1" xml:id="subtitle272">He didn't choose to go.<br/>He was sent.</p>
+<p begin="13043450420t" end="13070977920t" region="bottomCenter" style="s1" xml:id="subtitle273">[Marco] We thought you might<br/>offer guidance.</p>
+<p begin="13071808750t" end="13095582500t" region="bottomCenter" style="s1" xml:id="subtitle274">Because he worked for me?</p>
+<p begin="13096413330t" end="13117684580t" region="bottomCenter" style="s1" xml:id="subtitle275">Sanga worked for many.</p>
+<p begin="13118525420t" end="13142709580t" region="bottomCenter" style="s1" xml:id="subtitle276">From Cambulac to...</p>
+<p begin="13143550420t" end="13166903750t" region="bottomCenter" style="s1" xml:id="subtitle277">yes, Kochkor.</p>
+<p begin="13167734580t" end="13190677500t" region="bottomCenter" style="s1" xml:id="subtitle278">The Hashshashin<br/>deal in more than death...</p>
+<p begin="13191508330t" end="13238645420t" region="bottomCenter" style="s1" xml:id="subtitle279">black market trade,<br/>silk, coin, salt...</p>
+<p begin="13239476250t" end="13264921670t" region="bottomCenter" style="s1" xml:id="subtitle280">and currencies<br/>I do not countenance.</p>
+<p begin="13265752500t" end="13283690420t" region="bottomCenter" style="s1" xml:id="subtitle281">Opium, hashish.</p>
+<p begin="13284521250t" end="13307043750t" region="bottomCenter" style="s1" xml:id="subtitle282">You suspected<br/>and did nothing?</p>
+<p begin="13307874580t" end="13339996670t" region="bottomCenter" style="s1" xml:id="subtitle283">I cannot eliminate corruption...<br/>and I will not condemn without proof.</p>
+<p begin="13340827500t" end="13383790420t" region="bottomCenter" style="s1" xml:id="subtitle284">If Sanga were running black market goods<br/>throughout the realm, he'd need agents...</p>
+<p begin="13384621250t" end="13416322920t" region="bottomCenter" style="s1" xml:id="subtitle285">soldiers, horsemen...<br/>imperial guard.</p>
+<p begin="13417153750t" end="13440096670t" region="bottomCenter" style="s1" xml:id="subtitle286">You have seen my soldiers.</p>
+<p begin="13440927500t" end="13459275829t" region="bottomCenter" style="s1" xml:id="subtitle287">They toil before the abacus.</p>
+<p begin="13460116669t" end="13484721249t" region="bottomCenter" style="s1" xml:id="subtitle288">I certainly do not command<br/>the imperial guard.</p>
+<p begin="13493900419t" end="13522258749t" region="bottomCenter" style="s1" xml:id="subtitle289">That's Vice Regent Yusuf's domain.</p>
+<p begin="13574390829t" end="13590657079t" region="bottomCenter" style="s1" xml:id="subtitle290">I simply state fact.</p>
+<p begin="13591497919t" end="13611517919t" region="bottomCenter" style="s1" xml:id="subtitle291">Thank you, Ahmad.</p>
+<p begin="13628194579t" end="13651137499t" region="bottomCenter" style="s1" xml:id="subtitle292">Why did you finally report Sanga?</p>
+<p begin="13651968329t" end="13677413749t" region="bottomCenter" style="s1" xml:id="subtitle293">You reported<br/>his transgressions to me.</p>
+<p begin="13678244579t" end="13712028329t" region="bottomCenter" style="s1" xml:id="subtitle294">Had I not, it would have been<br/>you or I unjustly trampled in the dirt.</p>
+<p begin="13801287499t" end="13829645829t" region="bottomCenter" style="s1" xml:id="subtitle295">[Jia Sidao] How do preparations<br/>for the boy's coronation fare?</p>
+<p begin="13830486669t" end="13855511669t" region="bottomCenter" style="s1" xml:id="subtitle296">I trust seating arrangements<br/>are managed?</p>
+<p begin="13856342499t" end="13877193329t" region="bottomCenter" style="s1" xml:id="subtitle297">No awkward pairings?</p>
+<p begin="13883039169t" end="13915151249t" region="bottomCenter" style="s1" xml:id="subtitle298">Lord Li cannot tolerate<br/>Prelate Chan.</p>
+<p begin="13968124169t" end="13988974999t" region="bottomCenter" style="s1" xml:id="subtitle299">[Empress Dowager]<br/>Leave us, please...</p>
+<p begin="13989805829t" end="14002738749t" region="bottomCenter" style="s1" xml:id="subtitle300">everyone.</p>
+<p begin="14133699579t" end="14165821669t" region="bottomCenter" style="s1" xml:id="subtitle301">The Dynastic Council<br/>has chosen to dismiss you, Sidao.</p>
+<p begin="14175411249t" end="14198764579t" region="bottomCenter" style="s1" xml:id="subtitle302">We appreciate your service<br/>to the Emperor...</p>
+<p begin="14199605419t" end="14225040829t" region="bottomCenter" style="s1" xml:id="subtitle303">but it is time for you to step down.</p>
+<p begin="14271757499t" end="14291357079t" region="bottomCenter" style="s1" xml:id="subtitle304">Have you anything to say?</p>
+<p begin="14292197919t" end="14323889579t" region="bottomCenter" style="s1" xml:id="subtitle305">You have no authority.</p>
+<p begin="14324730419t" end="14362267919t" region="bottomCenter" style="s1" xml:id="subtitle306">You are an old woman<br/>with a dead husband and no power.</p>
+<p begin="14363098749t" end="14385621249t" region="bottomCenter" style="s1" xml:id="subtitle307">You have nothing.</p>
+<p begin="14399805419t" end="14414399999t" region="bottomCenter" style="s1" xml:id="subtitle308">[Empress Dowager]<br/>I have a champion.</p>
+<p begin="14444850419t" end="14473208749t" region="bottomCenter" style="s1" xml:id="subtitle309">Do you know Fang Zhen<br/>of the Red Lotus Society?</p>
+<p begin="14474039579t" end="14492397919t" region="bottomCenter" style="s1" xml:id="subtitle310">By reputation.</p>
+<p begin="14493228749t" end="14505741249t" region="bottomCenter" style="s1" xml:id="subtitle311">A peasant farmer.</p>
+<p begin="14506572079t" end="14537022499t" region="bottomCenter" style="s1" xml:id="subtitle312">A scholar-warrior<br/>of the highest order...</p>
+<p begin="14537853329t" end="14573729169t" region="bottomCenter" style="s1" xml:id="subtitle313">a Song dynasty loyalist...<br/>a hero, Sidao.</p>
+<p begin="14574559999t" end="14595410829t" region="bottomCenter" style="s1" xml:id="subtitle314">Because he was poor...</p>
+<p begin="14596251669t" end="14614179579t" region="bottomCenter" style="s1" xml:id="subtitle315">a man of the people.</p>
+<p begin="14627112499t" end="14649214579t" region="bottomCenter" style="s1" xml:id="subtitle316">He is not me.</p>
+<p begin="14664229579t" end="14711366669t" region="bottomCenter" style="s1" xml:id="subtitle317">I shepherded this city, this empire<br/>through a time of tumult...</p>
+<p begin="14712197499t" end="14737222499t" region="bottomCenter" style="s1" xml:id="subtitle318">and that time has not passed.</p>
+<p begin="14738053329t" end="14750155419t" region="bottomCenter" style="s1" xml:id="subtitle319">The Mongols will return.</p>
+<p begin="14750986249t" end="14783939169t" region="bottomCenter" style="s1" xml:id="subtitle320">If they return,<br/>they will settle terms of peace...</p>
+<p begin="14784769999t" end="14808123329t" region="bottomCenter" style="s1" xml:id="subtitle321">and negotiate<br/>those terms with him.</p>
+<p begin="14912397499t" end="14958273329t" region="bottomCenter" style="s1" xml:id="subtitle322">Welcome... to the fortress...<br/>Fang Zhen.</p>
+<p begin="14967452499t" end="14986221249t" region="bottomCenter" style="s1" xml:id="subtitle323">Chancellor.</p>
+<p begin="15009994999t" end="15029184169t" region="bottomCenter" style="s1" xml:id="subtitle324">Empress...</p>
+<p begin="15030014999t" end="15054209169t" region="bottomCenter" style="s1" xml:id="subtitle325">I have been too long away.</p>
+<p begin="15108012919t" end="15135119999t" region="bottomCenter" style="s1" xml:id="subtitle326">Take your pets<br/>and your porcelain, Sidao...</p>
+<p begin="15135950829t" end="15160565419t" region="bottomCenter" style="s1" xml:id="subtitle327">and return to the rice paddies.</p>
+<p begin="15317382079t" end="15353257919t" region="bottomCenter" style="s1" xml:id="subtitle328">[praying in Arabic]</p>
+<p begin="15368272919t" end="15381616249t" region="bottomCenter" style="s1" xml:id="subtitle329">[knocking on door]</p>
+<p begin="15394128749t" end="15426240829t" region="bottomCenter" style="s1" xml:id="subtitle330">[speaking English] It is poor form<br/>to disturb a man at prayer.</p>
+<p begin="15427081669t" end="15474208749t" region="bottomCenter" style="s1" xml:id="subtitle331">[Byamba] We are here on the orders of<br/>the Khan, Vice Regent... not your God.</p>
+<p begin="15487972499t" end="15513417919t" region="bottomCenter" style="s1" xml:id="subtitle332">A serious matter.</p>
+<p begin="15535519999t" end="15580144579t" region="bottomCenter" style="s1" xml:id="subtitle333">We apologize for the disturbance...<br/>but the Khan has entrusted us.</p>
+<p begin="15598082499t" end="15624779169t" region="bottomCenter" style="s1" xml:id="subtitle334">Do you remember Sanga,<br/>the collector of taxes?</p>
+<p begin="15631866249t" end="15660644999t" region="bottomCenter" style="s1" xml:id="subtitle335">He was executed<br/>on your orders.</p>
+<p begin="15661475829t" end="15692346669t" region="bottomCenter" style="s1" xml:id="subtitle336">My father and uncle<br/>committed a similar crime.</p>
+<p begin="15693177499t" end="15705689999t" region="bottomCenter" style="s1" xml:id="subtitle337">They were branded.</p>
+<p begin="15730294579t" end="15756160419t" region="bottomCenter" style="s1" xml:id="subtitle338">My Khan favors you, Marco...</p>
+<p begin="15756991249t" end="15786190419t" region="bottomCenter" style="s1" xml:id="subtitle339">thus spared your father and uncle.</p>
+<p begin="15787021249t" end="15806620829t" region="bottomCenter" style="s1" xml:id="subtitle340">That was his choice, not mine.</p>
+<p begin="15807461669t" end="15834568749t" region="bottomCenter" style="s1" xml:id="subtitle341">But the Khan had no hand<br/>in Sanga's end.</p>
+<p begin="15835399579t" end="15860424579t" region="bottomCenter" style="s1" xml:id="subtitle342">Respectfully,<br/>death was your decree.</p>
+<p begin="15861265419t" end="15895459579t" region="bottomCenter" style="s1" xml:id="subtitle343">You could have branded his palm,<br/>severed his hand, taken an eye.</p>
+<p begin="15896300419t" end="15915899999t" region="bottomCenter" style="s1" xml:id="subtitle344">I could do these things to you</p>
+<p begin="15916730829t" end="15939253329t" region="bottomCenter" style="s1" xml:id="subtitle345">for challenging the dictates<br/>of the Vice Regent.</p>
+<p begin="15952186249t" end="15967621669t" region="bottomCenter" style="s1" xml:id="subtitle346">We think--</p>
+<p begin="15980544579t" end="16011825829t" region="bottomCenter" style="s1" xml:id="subtitle347">We think Sanga was sent<br/>to Eagle's Teaching...</p>
+<p begin="16012666669t" end="16036440419t" region="bottomCenter" style="s1" xml:id="subtitle348">a proxy for a greater power...</p>
+<p begin="16037271249t" end="16083987919t" region="bottomCenter" style="s1" xml:id="subtitle349">the agent who delivered instructions<br/>for the murder of the Khan.</p>
+<p begin="16084818749t" end="16121104999t" region="bottomCenter" style="s1" xml:id="subtitle350">And you suspect<br/>Sanga was my proxy?</p>
+<p begin="16121935829t" end="16157811669t" region="bottomCenter" style="s1" xml:id="subtitle351">In the absence of the Khan,<br/>the Vice Regent would control Cambulac.</p>
+<p begin="16158642499t" end="16200764579t" region="bottomCenter" style="s1" xml:id="subtitle352">This is true until the Kurultai<br/>elected the next Khan of Khans.</p>
+<p begin="16213697499t" end="16226630419t" region="bottomCenter" style="s1" xml:id="subtitle353">What motive have I, then?</p>
+<p begin="16227461249t" end="16270834579t" region="bottomCenter" style="s1" xml:id="subtitle354">Vice Regent, we do not accuse.<br/>We seek advice.</p>
+<p begin="16271675419t" end="16286690419t" region="bottomCenter" style="s1" xml:id="subtitle355">The Great Lord trusts you.</p>
+<p begin="16287521249t" end="16312125829t" region="bottomCenter" style="s1" xml:id="subtitle356">He does, Master Marco.</p>
+<p begin="16312966669t" end="16337991669t" region="bottomCenter" style="s1" xml:id="subtitle357">I am trusted...</p>
+<p begin="16338822499t" end="16355509169t" region="bottomCenter" style="s1" xml:id="subtitle358">because I lack ambition.</p>
+<p begin="16356339999t" end="16405969579t" region="bottomCenter" style="s1" xml:id="subtitle359">I desire no... riches...<br/>so I'm incorruptible.</p>
+<p begin="16418902499t" end="16441004579t" region="bottomCenter" style="s1" xml:id="subtitle360">I have no blood claim to the throne,</p>
+<p begin="16441845419t" end="16476459999t" region="bottomCenter" style="s1" xml:id="subtitle361">so there is nothing<br/>to which I may ascend.</p>
+<p begin="16492726249t" end="16521504999t" region="bottomCenter" style="s1" xml:id="subtitle362">I am a servant<br/>who has but one function.</p>
+<p begin="16522335829t" end="16534848329t" region="bottomCenter" style="s1" xml:id="subtitle363">Which is?</p>
+<p begin="16535689169t" end="16568221669t" region="bottomCenter" style="s1" xml:id="subtitle364">I speak truth.</p>
+<p begin="16569052499t" end="16605759169t" region="bottomCenter" style="s1" xml:id="subtitle365">It is this respect<br/>I show my Khan.</p>
+<p begin="16614928329t" end="16646209579t" region="bottomCenter" style="s1" xml:id="subtitle366">My days are driven<br/>by this alone.</p>
+<p begin="16647050419t" end="16681664999t" region="bottomCenter" style="s1" xml:id="subtitle367">"How do I best serve<br/>Kublai and his kingdom?"</p>
+<p begin="16690844169t" end="16739222499t" region="bottomCenter" style="s1" xml:id="subtitle368">There is...<br/>clarity in service...</p>
+<p begin="16740053329t" end="16779682919t" region="bottomCenter" style="s1" xml:id="subtitle369">but you... lack this.</p>
+<p begin="16815548749t" end="16840153329t" region="bottomCenter" style="s1" xml:id="subtitle370">Yet here we are.</p>
+<p begin="16851414579t" end="16871434579t" region="bottomCenter" style="s1" xml:id="subtitle371">Yet here we are.</p>
+<p begin="16901464579t" end="16954017079t" region="bottomCenter" style="s1" xml:id="subtitle372">But with what true purpose...<br/>does the Khan send you?</p>
+<p begin="16954857919t" end="16984467499t" region="bottomCenter" style="s1" xml:id="subtitle373">How will you earn his trust?</p>
+<p begin="17000313329t" end="17027840829t" region="bottomCenter" style="s1" xml:id="subtitle374">Think on that<br/>as you take your leave.</p>
+<p begin="17052455419t" end="17077480419t" region="bottomCenter" style="s1" xml:id="subtitle375">[praying in Arabic]</p>
+<p begin="17224707500t" end="17256409170t" region="bottomCenter" style="s1" xml:id="subtitle376">Is my father safe?</p>
+<p begin="17257240000t" end="17285187920t" region="bottomCenter" style="s1" xml:id="subtitle377">[Ahmad] Why ask me, Jingim?<br/>Did you ask our father?</p>
+<p begin="17286018750t" end="17308541250t" region="bottomCenter" style="s1" xml:id="subtitle378">[sighs] I did.</p>
+<p begin="17323976670t" end="17341904580t" region="bottomCenter" style="s1" xml:id="subtitle379">He trusts Byamba.</p>
+<p begin="17342745420t" end="17376939580t" region="bottomCenter" style="s1" xml:id="subtitle380">He trusts the Latin<br/>and offers me silence.</p>
+<p begin="17377780420t" end="17409061670t" region="bottomCenter" style="s1" xml:id="subtitle381">[Ahmad] Whatever they found in Kochkor<br/>was of no consequence.</p>
+<p begin="17409892500t" end="17426989580t" region="bottomCenter" style="s1" xml:id="subtitle382">He doesn't want to<br/>burden you with trivialities.</p>
+<p begin="17427830420t" end="17449101670t" region="bottomCenter" style="s1" xml:id="subtitle383">He doesn't trust me with the truth.</p>
+<p begin="17449932500t" end="17471203750t" region="bottomCenter" style="s1" xml:id="subtitle384">And what would you<br/>do with it, Jingim?</p>
+<p begin="17472034580t" end="17515828330t" region="bottomCenter" style="s1" xml:id="subtitle385">What would you do<br/>if you had a target for your rage?</p>
+<p begin="17525007500t" end="17550032500t" region="bottomCenter" style="s1" xml:id="subtitle386">I would let my Mongol heart guide me.</p>
+<p begin="17550863330t" end="17560873330t" region="bottomCenter" style="s1" xml:id="subtitle387">I would kill!</p>
+<p begin="17561714170t" end="17587149580t" region="bottomCenter" style="s1" xml:id="subtitle388">The Great Khan knows this.</p>
+<p begin="17587990420t" end="17604256670t" region="bottomCenter" style="s1" xml:id="subtitle389">If there is some truth<br/>to hold from you,</p>
+<p begin="17605087500t" end="17629281670t" region="bottomCenter" style="s1" xml:id="subtitle390">he does so because<br/>he knows your heart.</p>
+<p begin="17643455830t" end="17666819170t" region="bottomCenter" style="s1" xml:id="subtitle391">Let your father protect you.</p>
+<p begin="17676829170t" end="17710192500t" region="bottomCenter" style="s1" xml:id="subtitle392">Let me, your brother, protect you...</p>
+<p begin="17711023330t" end="17734386670t" region="bottomCenter" style="s1" xml:id="subtitle393">until we find a true target.</p>
+<p begin="18017579580t" end="18029261250t" region="bottomCenter" style="s1" xml:id="subtitle394">Untrue by an inch.</p>
+<p begin="18030092080t" end="18071803750t" region="bottomCenter" style="s1" xml:id="subtitle395">Untrue by an inch,<br/>untrue by a mile.</p>
+<p begin="18072634580t" end="18111423330t" region="bottomCenter" style="s1" xml:id="subtitle396">It is in the split moment when<br/>all four hooves leave the ground.</p>
+<p begin="18112264170t" end="18136448330t" region="bottomCenter" style="s1" xml:id="subtitle397">Breathe and send.</p>
+<p begin="18143125000t" end="18181493330t" region="bottomCenter" style="s1" xml:id="subtitle398">When you first arrived,<br/>you had too little yin, too much yang.</p>
+<p begin="18204436250t" end="18247809580t" region="bottomCenter" style="s1" xml:id="subtitle399">And now, too much yin...<br/>not enough...</p>
+<p begin="18305367080t" end="18324135830t" region="bottomCenter" style="s1" xml:id="subtitle400">Not so simple.</p>
+<p begin="18324976670t" end="18353755420t" region="bottomCenter" style="s1" xml:id="subtitle401">Do not strive for the center.</p>
+<p begin="18354586250t" end="18405887500t" region="bottomCenter" style="s1" xml:id="subtitle402">Just breathe...<br/>with your horse... and your arrow.</p>
+<p begin="18505567080t" end="18522253750t" region="bottomCenter" style="s1" xml:id="subtitle403">[sighs]</p>
+<p begin="18534766250t" end="18552283750t" region="bottomCenter" style="s1" xml:id="subtitle404">The Khan expects an answer.</p>
+<p begin="18553114580t" end="18573134580t" region="bottomCenter" style="s1" xml:id="subtitle405">What answer to give?</p>
+<p begin="18573975420t" end="18596497920t" region="bottomCenter" style="s1" xml:id="subtitle406">The cripple, Yusuf,<br/>is beyond reproach.</p>
+<p begin="18597328750t" end="18614846250t" region="bottomCenter" style="s1" xml:id="subtitle407">Yusuf hides behind his words.</p>
+<p begin="18615677080t" end="18634445830t" region="bottomCenter" style="s1" xml:id="subtitle408">Is that what you'll report?</p>
+<p begin="18713274580t" end="18742473750t" region="bottomCenter" style="s1" xml:id="subtitle409">Untrue by an inch...</p>
+<p begin="18743304580t" end="18772503750t" region="bottomCenter" style="s1" xml:id="subtitle410">untrue by a mile.</p>
+<p begin="18962273330t" end="18983544580t" region="bottomCenter" style="s1" xml:id="subtitle411">I have no story to tell, Sire.</p>
+<p begin="18984385420t" end="19010661670t" region="bottomCenter" style="s1" xml:id="subtitle412">I believe my friend, Sanga,<br/>traveled to Kochkor...</p>
+<p begin="19011492500t" end="19038189170t" region="bottomCenter" style="s1" xml:id="subtitle413">but I do not know<br/>on whose command... if anyone's.</p>
+<p begin="19039020000t" end="19065716670t" region="bottomCenter" style="s1" xml:id="subtitle414">What are your suspicions?</p>
+<p begin="19080731670t" end="19099910830t" region="bottomCenter" style="s1" xml:id="subtitle415">I must say nothing...</p>
+<p begin="19100751670t" end="19130781670t" region="bottomCenter" style="s1" xml:id="subtitle416">for fear that I may<br/>condemn an innocent.</p>
+<p begin="19147047920t" end="19182913750t" region="bottomCenter" style="s1" xml:id="subtitle417">All I know...<br/>is someone seeks your head.</p>
+<p begin="19183744580t" end="19202102920t" region="bottomCenter" style="s1" xml:id="subtitle418">[scoffs]</p>
+<p begin="19202933750t" end="19225876670t" region="bottomCenter" style="s1" xml:id="subtitle419">Many do, Latin.</p>
+<p begin="19245896670t" end="19285936670t" region="bottomCenter" style="s1" xml:id="subtitle420">But my children have been<br/>spared sight of me far too long.</p>
+<p begin="19298028750t" end="19323884580t" region="bottomCenter" style="s1" xml:id="subtitle421">Take your leave.</p>
+<p begin="19324725420t" end="19353914580t" region="bottomCenter" style="s1" xml:id="subtitle422">Your children want you alive, Sire.</p>
+<p begin="19472783330t" end="19483213750t" region="bottomCenter" style="s1" xml:id="subtitle423">[door closes]</p>
+<p begin="19484044580t" end="19510320830t" region="bottomCenter" style="s1" xml:id="subtitle424">Do you still suspect him?</p>
+<p begin="19550781250t" end="19607507920t" region="bottomCenter" style="s1" xml:id="subtitle425">A weaker man would surrender a name<br/>to deflect suspicion from himself.</p>
+<p begin="19608338750t" end="19633363750t" region="bottomCenter" style="s1" xml:id="subtitle426">As would a man<br/>burdened with guilt.</p>
+<p begin="19634194580t" end="19661311670t" region="bottomCenter" style="s1" xml:id="subtitle427">I believe him to be neither.</p>
+<p begin="19662142500t" end="19689670000t" region="bottomCenter" style="s1" xml:id="subtitle428">The boy has changed greatly<br/>since coming to us.</p>
+<p begin="19690500830t" end="19727627920t" region="bottomCenter" style="s1" xml:id="subtitle429">He did not come to us, Sire.<br/>He was left...</p>
+<p begin="19728458750t" end="19747647920t" region="bottomCenter" style="s1" xml:id="subtitle430">A fact that bears recall.</p>
+<p begin="19748478750t" end="19761411670t" region="bottomCenter" style="s1" xml:id="subtitle431">[chuckles]</p>
+<p begin="19762242500t" end="19791021250t" region="bottomCenter" style="s1" xml:id="subtitle432">You suspect the Latin's father?</p>
+<p begin="19801451670t" end="19845655830t" region="bottomCenter" style="s1" xml:id="subtitle433">Did he abandon his son<br/>to serve his purse... or his pope?</p>
+<p begin="19846496670t" end="19871932080t" region="bottomCenter" style="s1" xml:id="subtitle434">So, what course of action tomorrow?</p>
+<p begin="19881111250t" end="19918648750t" region="bottomCenter" style="s1" xml:id="subtitle435">We have detained and questioned<br/>your guards and staff.</p>
+<p begin="19919479580t" end="19947427500t" region="bottomCenter" style="s1" xml:id="subtitle436">I believe them innocent.</p>
+<p begin="19980790830t" end="20010410420t" region="bottomCenter" style="s1" xml:id="subtitle437">My suspicion of Marco has waned...</p>
+<p begin="20011241250t" end="20067967920t" region="bottomCenter" style="s1" xml:id="subtitle438">but for now, to be safe...<br/>those whom lack your trust... kill.</p>
+<p begin="20088818750t" end="20122182080t" region="bottomCenter" style="s1" xml:id="subtitle439">There would be few left living<br/>if I heed that counsel.</p>
+<p begin="20134694580t" end="20150550420t" region="bottomCenter" style="s1" xml:id="subtitle440">Should I trust you, Yusuf?</p>
+<p begin="20221451250t" end="20235635420t" region="bottomCenter" style="s1" xml:id="subtitle441">Hmm?</p>
+<p begin="20254814580t" end="20279008750t" region="bottomCenter" style="s1" xml:id="subtitle442">We will play another time.</p>
+<p begin="20424574170t" end="20445004580t" region="bottomCenter" style="s1" xml:id="subtitle443">[indistinct conversations]</p>
+<p begin="20919648750t" end="20935494580t" region="bottomCenter" style="s1" xml:id="subtitle444">[Byamba grunting]</p>
+<p begin="21021830830t" end="21044773750t" region="bottomCenter" style="s1" xml:id="subtitle445">[Khutulun]<br/>Where's your European playmate?</p>
+<p begin="21109838750t" end="21135694580t" region="bottomCenter" style="s1" xml:id="subtitle446">He's an innocent<br/>in this world, isn't he?</p>
+<p begin="21136535420t" end="21151550420t" region="bottomCenter" style="s1" xml:id="subtitle447">And you and I are not?</p>
+<p begin="21152381250t" end="21184082920t" region="bottomCenter" style="s1" xml:id="subtitle448">No... we are warriors.</p>
+<p begin="21202851670t" end="21236215000t" region="bottomCenter" style="s1" xml:id="subtitle449">I fear our world strips him<br/>of what innocence still remains.</p>
+<p begin="21267075830t" end="21293772500t" region="bottomCenter" style="s1" xml:id="subtitle450">Then we do him a favor.</p>
+<p begin="21294603330t" end="21329227920t" region="bottomCenter" style="s1" xml:id="subtitle451">The world is not kind to<br/>the weak and the guileless.</p>
+<p begin="21369267920t" end="21384282920t" region="bottomCenter" style="s1" xml:id="subtitle452">Would you like to wrestle me?</p>
+<p begin="21394292920t" end="21429738330t" region="bottomCenter" style="s1" xml:id="subtitle453">There are no witnesses,<br/>save Tengri.</p>
+<p begin="21430579170t" end="21449347920t" region="bottomCenter" style="s1" xml:id="subtitle454">Do you think<br/>you can beat me?</p>
+<p begin="21450178750t" end="21467275830t" region="bottomCenter" style="s1" xml:id="subtitle455">I think you wish me to.</p>
+<p begin="21486044580t" end="21498977500t" region="bottomCenter" style="s1" xml:id="subtitle456">Not today.</p>
+<p begin="21499808330t" end="21511910420t" region="bottomCenter" style="s1" xml:id="subtitle457">Are you afraid?</p>
+<p begin="21517325830t" end="21552360830t" region="bottomCenter" style="s1" xml:id="subtitle458">I simply hear the blade's song right now.</p>
+<p begin="21656214580t" end="21668727080t" region="bottomCenter" style="s1" xml:id="subtitle459">[women giggling]</p>
+<p begin="21669567920t" end="21679988330t" region="bottomCenter" style="s1" xml:id="subtitle460">[Kublai growling]</p>
+<p begin="21680829170t" end="21702510830t" region="bottomCenter" style="s1" xml:id="subtitle461">Where you go?</p>
+<p begin="21785513750t" end="21798857080t" region="bottomCenter" style="s1" xml:id="subtitle462">[Kublai growling]</p>
+<p begin="21799697920t" end="21818466670t" region="bottomCenter" style="s1" xml:id="subtitle463">Where are you going?</p>
+<p begin="22276834580t" end="22288095830t" region="bottomCenter" style="s1" xml:id="subtitle464">Come.</p>
+<p begin="22751478750t" end="22776503750t" region="bottomCenter" style="s1" xml:id="subtitle465">If it pleases the Khan.</p>
+<p begin="22791518750t" end="22813620830t" region="bottomCenter" style="s1" xml:id="subtitle466">[Kublai chuckling]</p>
+<p begin="22834481670t" end="22859917080t" region="bottomCenter" style="s1" xml:id="subtitle467">If it pleases the Queen.<br/>Hmm?</p>
+<p begin="22945422500t" end="22974621670t" region="bottomCenter" style="s1" xml:id="subtitle468">[whispers] It does not<br/>please the Queen.</p>
+<p begin="23113920830t" end="23132279170t" region="bottomCenter" style="s1" xml:id="subtitle469">[women sobbing]</p>
+<p begin="23199846670t" end="23236963750t" region="bottomCenter" style="s1" xml:id="subtitle470">[Ahmad] Pitiable event<br/>on this blessed day of <span style="s1_1">Tsagaan Sar.</span></p>
+<p begin="23407554170t" end="23425482080t" region="bottomCenter" style="s1" xml:id="subtitle471">[inhaling]</p>
+<p begin="23454260830t" end="23485131670t" region="bottomCenter" style="s1" xml:id="subtitle472">It seems life has left her too soon.</p>
+<p begin="23546022500t" end="23576052500t" region="bottomCenter" style="s1" xml:id="subtitle473">The Khan's consorts must not cry.</p>
+<p begin="23598995420t" end="23622348750t" region="bottomCenter" style="s1" xml:id="subtitle474">It clouds the eyes<br/>and ruddies the complexion.</p>
+<p begin="23623179580t" end="23634030420t" region="bottomCenter" style="s1" xml:id="subtitle475">Death is life.</p>
+<p begin="23634861250t" end="23664470830t" region="bottomCenter" style="s1" xml:id="subtitle476">Now is not the time for tears.</p>
+<p begin="23773329580t" end="23801697920t" region="bottomCenter" style="s1" xml:id="subtitle477">[Fang Zhen] Will you return to<br/>your village, Chancellor?</p>
+<p begin="23802528750t" end="23823800000t" region="bottomCenter" style="s1" xml:id="subtitle478">[Jia Sidao] I was too grand for it<br/>when I was part of it.</p>
+<p begin="23824630830t" end="23851327500t" region="bottomCenter" style="s1" xml:id="subtitle479">I've grown grander since.</p>
+<p begin="23852158330t" end="23876352500t" region="bottomCenter" style="s1" xml:id="subtitle480">I have been an admirer of yours...</p>
+<p begin="23877183330t" end="23910967080t" region="bottomCenter" style="s1" xml:id="subtitle481">from afar... from the battlefield.</p>
+<p begin="23911807920t" end="23954350420t" region="bottomCenter" style="s1" xml:id="subtitle482">You have been an annoying thorn in<br/>Kublai's side for many years, Fang Zhen,</p>
+<p begin="23955181250t" end="23989385420t" region="bottomCenter" style="s1" xml:id="subtitle483">frightening his tax collectors,<br/>burning his crops,</p>
+<p begin="23990216250t" end="24011067080t" region="bottomCenter" style="s1" xml:id="subtitle484">storing weapons<br/>in loyalist settlements,</p>
+<p begin="24011907920t" end="24039435420t" region="bottomCenter" style="s1" xml:id="subtitle485">settlements that bear the brunt<br/>of the Khan's brutality</p>
+<p begin="24040266250t" end="24053609580t" region="bottomCenter" style="s1" xml:id="subtitle486">after you've moved on.</p>
+<p begin="24062788750t" end="24084480420t" region="bottomCenter" style="s1" xml:id="subtitle487">I've long admired you as well.</p>
+<p begin="24090736670t" end="24106162080t" region="bottomCenter" style="s1" xml:id="subtitle488">I tire of warfare.</p>
+<p begin="24107002920t" end="24139945830t" region="bottomCenter" style="s1" xml:id="subtitle489">Before or after Empress Dowager<br/>offered you my title?</p>
+<p begin="24144950830t" end="24182908750t" region="bottomCenter" style="s1" xml:id="subtitle490">War is pointless.<br/>It never ends.</p>
+<p begin="24183739580t" end="24220866670t" region="bottomCenter" style="s1" xml:id="subtitle491">Yes... the warrior<br/>who rejects war.</p>
+<p begin="24232538330t" end="24252147920t" region="bottomCenter" style="s1" xml:id="subtitle492">Empress is more intelligent<br/>than I suspected.</p>
+<p begin="24252978750t" end="24267162920t" region="bottomCenter" style="s1" xml:id="subtitle493">You... more foolish.</p>
+<p begin="24267993750t" end="24323469170t" region="bottomCenter" style="s1" xml:id="subtitle494">We are like-minded, Chancellor...<br/>in our need to defend Xiangyang.</p>
+<p begin="24324300000t" end="24354330000t" region="bottomCenter" style="s1" xml:id="subtitle495">I will do so until my final breath.</p>
+<p begin="24355160830t" end="24377272920t" region="bottomCenter" style="s1" xml:id="subtitle496">Peace is possible...</p>
+<p begin="24378103750t" end="24423148750t" region="bottomCenter" style="s1" xml:id="subtitle497">and it begins, Jia Sidao...<br/>with our peaceful transition.</p>
+<p begin="24528674170t" end="24544520000t" region="bottomCenter" style="s1" xml:id="subtitle498">[Kublai grunts]</p>
+<p begin="24579134580t" end="24603328750t" region="bottomCenter" style="s1" xml:id="subtitle499">Is it time?</p>
+<p begin="24604159580t" end="24622517920t" region="bottomCenter" style="s1" xml:id="subtitle500">It is, Father...</p>
+<p begin="24664640000t" end="24698423750t" region="bottomCenter" style="s1" xml:id="subtitle501">but I did not advise<br/>your attendance.</p>
+<p begin="24699254580t" end="24735540830t" region="bottomCenter" style="s1" xml:id="subtitle502">What can be done<br/>has been done, Jingim.</p>
+<p begin="24750145420t" end="24772247500t" region="bottomCenter" style="s1" xml:id="subtitle503">You worry like your mother.</p>
+<p begin="24773078330t" end="24798944170t" region="bottomCenter" style="s1" xml:id="subtitle504">Vice Regent Yusuf himself<br/>concurs with me.</p>
+<p begin="24818123330t" end="24852747920t" region="bottomCenter" style="s1" xml:id="subtitle505">Yusuf is worse than your mother.</p>
+<p begin="24853578750t" end="24892787920t" region="bottomCenter" style="s1" xml:id="subtitle506">We do not yet know<br/>who conspired against Your Greatness.</p>
+<p begin="24893618750t" end="24920725830t" region="bottomCenter" style="s1" xml:id="subtitle507">Rumor breeds fear.</p>
+<p begin="24921566670t" end="24962017080t" region="bottomCenter" style="s1" xml:id="subtitle508">My people do not know if<br/>blood courses through my veins...</p>
+<p begin="24962857920t" end="25008733750t" region="bottomCenter" style="s1" xml:id="subtitle509">or if my body rests with Genghis<br/>in Burkhan Khaldun.</p>
+<p begin="25037512500t" end="25057952920t" region="bottomCenter" style="s1" xml:id="subtitle510">I must show them their Khan.</p>
+<p begin="25068793750t" end="25095900830t" region="bottomCenter" style="s1" xml:id="subtitle511">You are concerned<br/>you are seen as weak.</p>
+<p begin="25105910830t" end="25119264170t" region="bottomCenter" style="s1" xml:id="subtitle512">Mmm.</p>
+<p begin="25172647500t" end="25206431250t" region="bottomCenter" style="s1" xml:id="subtitle513">I cannot afford to<br/>bolster these perceptions.</p>
+<p begin="25207262080t" end="25233538330t" region="bottomCenter" style="s1" xml:id="subtitle514">There is no question, Father.</p>
+<p begin="25234379170t" end="25261906670t" region="bottomCenter" style="s1" xml:id="subtitle515">You slayed Ariq single-handedly.</p>
+<p begin="25274829580t" end="25305280000t" region="bottomCenter" style="s1" xml:id="subtitle516">Why was that necessary?</p>
+<p begin="25306110830t" end="25329474170t" region="bottomCenter" style="s1" xml:id="subtitle517">Why did my brother challenge me?</p>
+<p begin="25347822500t" end="25377852500t" region="bottomCenter" style="s1" xml:id="subtitle518">He saw me as weak.</p>
+<p begin="25378683330t" end="25417061670t" region="bottomCenter" style="s1" xml:id="subtitle519">Despite what I did...<br/>people still...</p>
+<p begin="25417892500t" end="25450004580t" region="bottomCenter" style="s1" xml:id="subtitle520">rumor of my decline...</p>
+<p begin="25450845420t" end="25467522080t" region="bottomCenter" style="s1" xml:id="subtitle521">and they worry for succession.</p>
+<p begin="25468362920t" end="25507982500t" region="bottomCenter" style="s1" xml:id="subtitle522">-The line is clear.<br/>-But not guaranteed, Jingim.</p>
+<p begin="25524248750t" end="25571796250t" region="bottomCenter" style="s1" xml:id="subtitle523">You will be opposed at the Kurultai<br/>when the time comes.</p>
+<p begin="25572627080t" end="25609333750t" region="bottomCenter" style="s1" xml:id="subtitle524">Kaidu... Nayan...</p>
+<p begin="25610164580t" end="25635189580t" region="bottomCenter" style="s1" xml:id="subtitle525">many feel entitled to my throne.</p>
+<p begin="25636030420t" end="25664809170t" region="bottomCenter" style="s1" xml:id="subtitle526">The throne is mine<br/>and I will ascend to it.</p>
+<p begin="25665640000t" end="25692336670t" region="bottomCenter" style="s1" xml:id="subtitle527">There is nothing I desire<br/>more than this.</p>
+<p begin="25708182500t" end="25727371670t" region="bottomCenter" style="s1" xml:id="subtitle528">But you fear I will fail.</p>
+<p begin="25728202500t" end="25757401670t" region="bottomCenter" style="s1" xml:id="subtitle529">You must prove yourself<br/>to the Khanate.</p>
+<p begin="25758232500t" end="25796600830t" region="bottomCenter" style="s1" xml:id="subtitle530">Until you do...<br/>until you silence all doubters...</p>
+<p begin="25797441670t" end="25810364580t" region="bottomCenter" style="s1" xml:id="subtitle531">I must be strong.</p>
+<p begin="25844989170t" end="25869593750t" region="bottomCenter" style="s1" xml:id="subtitle532">And so today...<br/>you risk yourself?</p>
+<p begin="25901295420t" end="25924648750t" region="bottomCenter" style="s1" xml:id="subtitle533">I fulfill my duty.</p>
+<p begin="25945089170t" end="25973867920t" region="bottomCenter" style="s1" xml:id="subtitle534">Rally my people.</p>
+<p begin="25995549580t" end="26025579580t" region="bottomCenter" style="s1" xml:id="subtitle535">To inspire your strength.</p>
+<p begin="26045189170t" end="26062286250t" region="bottomCenter" style="s1" xml:id="subtitle536">Am I such a burden?</p>
+<p begin="26103577500t" end="26119423330t" region="bottomCenter" style="s1" xml:id="subtitle537">You're my son.</p>
+<p begin="26276670420t" end="26324628330t" region="bottomCenter" style="s1" xml:id="subtitle538">[children laughing]</p>
+<p begin="26367591250t" end="26389282920t" region="bottomCenter" style="s1" xml:id="subtitle539">Tulga...</p>
+<p begin="26390113750t" end="26412636250t" region="bottomCenter" style="s1" xml:id="subtitle540">I spoke to Kokachin.</p>
+<p begin="26413467080t" end="26441835420t" region="bottomCenter" style="s1" xml:id="subtitle541">I did not come to hurt you.<br/>I came to help you.</p>
+<p begin="26448502080t" end="26463937500t" region="bottomCenter" style="s1" xml:id="subtitle542">You lie.</p>
+<p begin="26464768330t" end="26479372920t" region="bottomCenter" style="s1" xml:id="subtitle543">I know who you are.</p>
+<p begin="26480203750t" end="26524417920t" region="bottomCenter" style="s1" xml:id="subtitle544">One of the Bayaut...<br/>a survivor of the massacre.</p>
+<p begin="26547350830t" end="26559032500t" region="bottomCenter" style="s1" xml:id="subtitle545">I know she protects you.</p>
+<p begin="26559863330t" end="26577380830t" region="bottomCenter" style="s1" xml:id="subtitle546">I protect her.</p>
+<p begin="26578221670t" end="26595318750t" region="bottomCenter" style="s1" xml:id="subtitle547">No more.</p>
+<p begin="26596149580t" end="26622425830t" region="bottomCenter" style="s1" xml:id="subtitle548">If I found you,<br/>someone else will find you.</p>
+<p begin="26623266670t" end="26649122500t" region="bottomCenter" style="s1" xml:id="subtitle549">It will be your undoing and hers.</p>
+<p begin="26649953330t" end="26662886250t" region="bottomCenter" style="s1" xml:id="subtitle550">You risk the Princess.</p>
+<p begin="26663717080t" end="26680824170t" region="bottomCenter" style="s1" xml:id="subtitle551">The Princess is all I have.</p>
+<p begin="26706259580t" end="26717110420t" region="bottomCenter" style="s1" xml:id="subtitle552">You love her.</p>
+<p begin="26717941250t" end="26745468750t" region="bottomCenter" style="s1" xml:id="subtitle553">There was an arrangement... long ago.</p>
+<p begin="26746299580t" end="26760483750t" region="bottomCenter" style="s1" xml:id="subtitle554">We are to be together.</p>
+<p begin="26837640830t" end="26867260420t" region="bottomCenter" style="s1" xml:id="subtitle555">I will bring you the stones.<br/>You will not see Kokachin.</p>
+<p begin="26889362500t" end="26912305419t" region="bottomCenter" style="s1" xml:id="subtitle556">But you will live.</p>
+<p begin="26951504579t" end="26978201249t" region="bottomCenter" style="s1" xml:id="subtitle557">-[drumming]<br/>-[villagers chanting]</p>
+<p begin="27020743749t" end="27057860829t" region="bottomCenter" style="s1" xml:id="subtitle558">[Jingim] All bow down<br/>and worship at once your Lord.</p>
+<p begin="27076629579t" end="27122925829t" region="bottomCenter" style="s1" xml:id="subtitle559">God save and keep our Lord long<br/>with joy and gladness.</p>
+<p begin="27139612499t" end="27170893749t" region="bottomCenter" style="s1" xml:id="subtitle560">Long live the Khan of Khans!</p>
+<p begin="27191334169t" end="27216769579t" region="bottomCenter" style="s1" xml:id="subtitle561">[drumroll]</p>
+<p begin="27567960419t" end="27589642079t" region="bottomCenter" style="s1" xml:id="subtitle562">Urla.</p>
+<p begin="27590482919t" end="27628430829t" region="bottomCenter" style="s1" xml:id="subtitle563">No line up for water<br/>on the night of the White Moon.</p>
+<p begin="27657209579t" end="27685577919t" region="bottomCenter" style="s1" xml:id="subtitle564">I'm sorry for what happened<br/>to your father.</p>
+<p begin="27705177499t" end="27736458749t" region="bottomCenter" style="s1" xml:id="subtitle565">As you said,<br/>you did not sentence him...</p>
+<p begin="27737289579t" end="27764406669t" region="bottomCenter" style="s1" xml:id="subtitle566">and if he was a thief,<br/>he was deserving of punishment.</p>
+<p begin="27773575829t" end="27791513749t" region="bottomCenter" style="s1" xml:id="subtitle567">Sanga was a good man.</p>
+<p begin="27800692919t" end="27829471669t" region="bottomCenter" style="s1" xml:id="subtitle568">What do you think he did?</p>
+<p begin="27830302499t" end="27853655829t" region="bottomCenter" style="s1" xml:id="subtitle569">What was it<br/>Ahmad sent him to do?</p>
+<p begin="27854496669t" end="27869091249t" region="bottomCenter" style="s1" xml:id="subtitle570">I cannot answer that.</p>
+<p begin="27869922079t" end="27894947079t" region="bottomCenter" style="s1" xml:id="subtitle571">Never again breathe that suspicion.</p>
+<p begin="27895787919t" end="27934987079t" region="bottomCenter" style="s1" xml:id="subtitle572">For your family's sake... never.</p>
+<p begin="27998800829t" end="28017989999t" region="bottomCenter" style="s1" xml:id="subtitle573">Move on.</p>
+<p begin="28018820829t" end="28051353329t" region="bottomCenter" style="s1" xml:id="subtitle574">Help your family<br/>to find a future without him.</p>
+<p begin="28146448329t" end="28163134999t" region="bottomCenter" style="s1" xml:id="subtitle575">[rhythmic drumming]</p>
+<p begin="28373765419t" end="28397118749t" region="bottomCenter" style="s1" xml:id="subtitle576">The bracelet is delivered.</p>
+<p begin="28416718329t" end="28436738329t" region="bottomCenter" style="s1" xml:id="subtitle577">I am most grateful.</p>
+<p begin="28437579169t" end="28457178749t" region="bottomCenter" style="s1" xml:id="subtitle578">I will repay your gesture<br/>in the future.</p>
+<p begin="28458009579t" end="28499721249t" region="bottomCenter" style="s1" xml:id="subtitle579">You can repay it now...<br/>with the answer to a question.</p>
+<p begin="28500552079t" end="28529751249t" region="bottomCenter" style="s1" xml:id="subtitle580">How is it that a peasant<br/>weds a princess?</p>
+<p begin="28569791249t" end="28601072499t" region="bottomCenter" style="s1" xml:id="subtitle581">No royal marries<br/>beneath their station.</p>
+<p begin="28601903329t" end="28630271669t" region="bottomCenter" style="s1" xml:id="subtitle582">Then Tulga is delusional?</p>
+<p begin="28646948329t" end="28686577919t" region="bottomCenter" style="s1" xml:id="subtitle583">I could not be with Tulga, Master Marco,<br/>any more than I could be with you.</p>
+<p begin="28687408749t" end="28716607919t" region="bottomCenter" style="s1" xml:id="subtitle584">You avoid a direct answer<br/>to my question, Blue Princess.</p>
+<p begin="28759560829t" end="28785006249t" region="bottomCenter" style="s1" xml:id="subtitle585">Silence is no shield, Kokachin.</p>
+<p begin="28785837079t" end="28809610829t" region="bottomCenter" style="s1" xml:id="subtitle586">If you expect me to deliver<br/>the gems to your subject,</p>
+<p begin="28810451669t" end="28833804999t" region="bottomCenter" style="s1" xml:id="subtitle587">I need to know<br/>if that subject is mad.</p>
+<p begin="28873014169t" end="28893034169t" region="bottomCenter" style="s1" xml:id="subtitle588">He is not.</p>
+<p begin="28915967079t" end="28938909999t" region="bottomCenter" style="s1" xml:id="subtitle589">Then there are nuptials<br/>to be arranged.</p>
+<p begin="28939740829t" end="28954345419t" region="bottomCenter" style="s1" xml:id="subtitle590">Is the Khan aware?</p>
+<p begin="28976447499t" end="28990631669t" region="bottomCenter" style="s1" xml:id="subtitle591">You lack humor, Latin.</p>
+<p begin="28991462499t" end="29010651669t" region="bottomCenter" style="s1" xml:id="subtitle592">I intend none.</p>
+<p begin="29024415419t" end="29041932919t" region="bottomCenter" style="s1" xml:id="subtitle593">I am deceived.</p>
+<p begin="29104495419t" end="29154955829t" region="bottomCenter" style="s1" xml:id="subtitle594">It is time for Jingim<br/>to take a new wife, I think.</p>
+<p begin="29155796669t" end="29185826669t" region="bottomCenter" style="s1" xml:id="subtitle595">A more fertile bitch, I hope.</p>
+<p begin="29186657499t" end="29220861669t" region="bottomCenter" style="s1" xml:id="subtitle596">-The rest are barren as my Gobi.<br/>-[chuckles]</p>
+<p begin="29221692499t" end="29255896669t" region="bottomCenter" style="s1" xml:id="subtitle597">I trust you have<br/>someone in mind?</p>
+<p begin="29280501249t" end="29299690419t" region="bottomCenter" style="s1" xml:id="subtitle598">[people cheering]</p>
+<p begin="29967437499t" end="29987457499t" region="bottomCenter" style="s1" xml:id="subtitle599">Stop!</p>
+<p begin="29997887919t" end="30012482499t" region="bottomCenter" style="s1" xml:id="subtitle600">[people exclaiming]</p>
+<p begin="30100490419t" end="30117587499t" region="bottomCenter" style="s1" xml:id="subtitle601">[choking]</p>
+<p begin="30134274169t" end="30154294169t" region="bottomCenter" style="s1" xml:id="subtitle602">[people screaming]</p>
+<p begin="30379929579t" end="30391611249t" region="bottomCenter" style="s1" xml:id="subtitle603">[soldier grunting]</p>
+<p begin="30680649999t" end="30700249579t" region="bottomCenter" style="s1" xml:id="subtitle604">[gasping]</p>
+<p begin="30701090419t" end="30719859169t" region="bottomCenter" style="s1" xml:id="subtitle605">[soldiers shouting]</p>
+<p begin="30782421669t" end="30794513749t" region="bottomCenter" style="s1" xml:id="subtitle606">[grunts]</p>
+<p begin="30795344579t" end="30820369579t" region="bottomCenter" style="s1" xml:id="subtitle607">[wailing]</p>
+<p begin="30970519579t" end="30995964999t" region="bottomCenter" style="s1" xml:id="subtitle608">[theme music playing]</p>
+</div>
+</body>
+</tt>
