@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="style_1"/>
+<style tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="style_3"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="region_1"/>
+<region tts:displayAlign="before" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="region_2"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="69000000t" end="84333333t" region="region_1" xml:id="subtitle0"><span style="style_1">[engine starts]</span></p>
+<p begin="145000000t" end="197666666t" region="region_1" xml:id="subtitle1"><span style="style_1">[Jerry] </span><span style="style_3">This is a 1962 VW split-window</span><br/><span style="style_3">double-cab bus</span></p>
+<p begin="200533667t" end="230230000t" region="region_1" xml:id="subtitle2"><span style="style_3">in dove blue, primer gray, and rust.</span></p>
+<p begin="252666666t" end="287666666t" region="region_1" xml:id="subtitle3"><span style="style_3">The interior is gray vinyl and duct tape.</span></p>
+<p begin="297000000t" end="330000000t" region="region_1" xml:id="subtitle4"><span style="style_3">It's equipped with a 1971, 60-horsepower,</span></p>
+<p begin="331000000t" end="352666666t" region="region_1" xml:id="subtitle5"><span style="style_3">dual-port, four-cylinder engine.</span></p>
+<p begin="358358000t" end="389055334t" region="region_2" xml:id="subtitle6"><span style="style_3">What's cool about this bus, to me,</span><br/><span style="style_3">is that it was used as a service truck</span></p>
+<p begin="391057334t" end="425425001t" region="region_2" xml:id="subtitle7"><span style="style_3">for a VW Porsche repair shop</span><br/><span style="style_3">in Campbell, California.</span></p>
+<p begin="435333333t" end="464666666t" region="region_1" xml:id="subtitle8"><span style="style_3">It has a flatbed, two rows of seats</span></p>
+<p begin="467467001t" end="485485001t" region="region_1" xml:id="subtitle9"><span style="style_3">and an extra door on one side.</span></p>
+<p begin="507507000t" end="521521001t" region="region_1" xml:id="subtitle10"><span style="style_1">[phone ringing]</span></p>
+<p begin="522188334t" end="535535000t" region="region_1" xml:id="subtitle11"><span style="style_3">-</span><span style="style_1">[Jerry]</span><span style="style_3"> Michael?</span><br/><span style="style_3"/><span style="style_1">-[Michael] </span><span style="style_3">Jerry!</span></p>
+<p begin="536202334t" end="565231334t" region="region_1" xml:id="subtitle12"><span style="style_1">-[Jerry] </span><span style="style_3">Would you like to get a coffee?</span><br/><span style="style_3"/><span style="style_1">-[Michael] </span><span style="style_3">Definitely! Come over.</span></p>
+<p begin="568901667t" end="590923667t" region="region_1" xml:id="subtitle13"><span style="style_1">-[Jerry] </span><span style="style_3">I'll be there in a few minutes.</span><br/><span style="style_3"/><span style="style_1">-[Michael] </span><span style="style_3">Okay.</span></p>
+<p begin="635000000t" end="680333333t" region="region_1" xml:id="subtitle14"><span style="style_1">[Jerry] </span><span style="style_3">Hi, I'm Jerry Seinfeld, and this</span><br/><span style="style_3">is </span><span style="style_1">Comedians in Cars Getting Coffee.</span></p>
+<p begin="700000000t" end="715333333t" region="region_2" xml:id="subtitle15"><span style="style_3">Today, my guest is Michael Richards.</span></p>
+<p begin="720000000t" end="747000000t" region="region_2" xml:id="subtitle16"><span style="style_3">He played my next-door neighbor</span><br/><span style="style_3">for nine years on TV.</span></p>
+<p begin="750082667t" end="764430334t" region="region_2" xml:id="subtitle17"><span style="style_3">And we're still very close.</span></p>
+<p begin="864530334t" end="889889000t" region="region_1" xml:id="subtitle18"><span style="style_1">Why would you drink coffee?</span><br/><span style="style_1">What do you need, you need a boost?</span></p>
+<p begin="890556334t" end="916916001t" region="region_1" xml:id="subtitle19"><span style="style_1">-You looking for a boost?</span><br/><span style="style_1">-I need attention and I need a boost.</span></p>
+<p begin="918918000t" end="941273667t" region="region_1" xml:id="subtitle20"><span style="style_1">I want to get your reaction, unvarnished,</span></p>
+<p begin="943000000t" end="973333333t" region="region_1" xml:id="subtitle21"><span style="style_1">to this vehicle that I've chosen</span><br/><span style="style_1">specifically for you.</span></p>
+<p begin="983983001t" end="1006338667t" region="region_1" xml:id="subtitle22"><span style="style_1">-Oh, gosh, that's...</span><br/><span style="style_1">-[laughs]</span></p>
+<p begin="1007006001t" end="1017349667t" region="region_1" xml:id="subtitle23"><span style="style_1">-I love it. I...</span><br/><span style="style_1">-What do you want?</span></p>
+<p begin="1018017000t" end="1038370667t" region="region_1" xml:id="subtitle24"><span style="style_1">-This is you, Michael.</span><br/><span style="style_1">-No, I like it. This is me.</span></p>
+<p begin="1039333333t" end="1065666666t" region="region_1" xml:id="subtitle25"><span style="style_1">I like this. I can throw my gear in it.</span></p>
+<p begin="1124000000t" end="1144333333t" region="region_1" xml:id="subtitle26"><span style="style_1">You don't have to have coffee.</span><br/><span style="style_1">It's just the name of the show.</span></p>
+<p begin="1145333333t" end="1161333333t" region="region_1" xml:id="subtitle27"><span style="style_1">-I don't think you drink coffee.</span><br/><span style="style_1">-I do.</span></p>
+<p begin="1162161000t" end="1182514667t" region="region_1" xml:id="subtitle28"><span style="style_1">What is it? Coffee, liquor, money?</span></p>
+<p begin="1183182000t" end="1199198000t" region="region_1" xml:id="subtitle29"><span style="style_1">-Is that your life now?</span><br/><span style="style_1">-[laughing] Yeah.</span></p>
+<p begin="1202868334t" end="1221220000t" region="region_1" xml:id="subtitle30"><span style="style_1">-Oh, Jerry!</span><br/><span style="style_1">-Coffee, liquor, money.</span></p>
+<p begin="1222221000t" end="1249915334t" region="region_1" xml:id="subtitle31"><span style="style_1">-Those are my priorities.</span><br/><span style="style_1">-Coffee, liquor, and a lot of money.</span></p>
+<p begin="1289621667t" end="1306638667t" region="region_1" xml:id="subtitle32"><span style="style_1">[Michael]</span><br/><span style="style_1">What else can I point out to you?</span></p>
+<p begin="1309000000t" end="1339666666t" region="region_1" xml:id="subtitle33"><span style="style_1">Now, this is the Getty Museum</span><br/><span style="style_1">over here on the left.</span></p>
+<p begin="1340666666t" end="1391666666t" region="region_1" xml:id="subtitle34"><span style="style_1">It was up for sale, Jerry.</span><br/><span style="style_1">They wanted $7.5 million.</span></p>
+<p begin="1395000000t" end="1424000000t" region="region_1" xml:id="subtitle35"><span style="style_1">Take a look at the front of it.</span><br/><span style="style_1">It's sliding down the hill.</span></p>
+<p begin="1425000000t" end="1443000000t" region="region_1" xml:id="subtitle36"><span style="style_1">They put that retaining wall</span><br/><span style="style_1">at the bottom</span></p>
+<p begin="1444000000t" end="1467000000t" region="region_1" xml:id="subtitle37"><span style="style_1">because they anticipate</span><br/><span style="style_1">more of it to come down.</span></p>
+<p begin="1467799667t" end="1495494000t" region="region_1" xml:id="subtitle38"><span style="style_1">-[Jerry] Oh, my God.</span><br/><span style="style_1">-And the swimming pool's already gone.</span></p>
+<p begin="1496161334t" end="1516181334t" region="region_1" xml:id="subtitle39"><span style="style_1">Half the pool's already slid down.</span></p>
+<p begin="1516848667t" end="1537202334t" region="region_1" xml:id="subtitle40"><span style="style_1">-[Jerry] Oh, my God.</span><br/><span style="style_1">-Now, look. Look!</span></p>
+<p begin="1538203334t" end="1575907667t" region="region_1" xml:id="subtitle41"><span style="style_1">-There's the swimming pool, Jerry. Look!</span><br/><span style="style_1">-[Jerry laughing]</span></p>
+<p begin="1577666666t" end="1614333333t" region="region_1" xml:id="subtitle42"><span style="style_1">Why would you buy 7.5...</span><br/><span style="style_1">And you know, inevitably,</span></p>
+<p begin="1615333333t" end="1653666666t" region="region_1" xml:id="subtitle43"><span style="style_1">it's all coming down.</span><br/><span style="style_1">Just a slight tilt in the axis,</span></p>
+<p begin="1655666666t" end="1682000000t" region="region_1" xml:id="subtitle44"><span style="style_1">and it's bubbly time.</span><br/><span style="style_1">You're under the sea.</span></p>
+<p begin="1734666666t" end="1746333333t" region="region_1" xml:id="subtitle45"><span style="style_1">[Jerry] Remember we played each other?</span></p>
+<p begin="1747333333t" end="1770333333t" region="region_1" xml:id="subtitle46"><span style="style_1">I played you and you played me</span><br/><span style="style_1">in that one episode</span></p>
+<p begin="1771000000t" end="1796666666t" region="region_1" xml:id="subtitle47"><span style="style_1">because we switched apartments?</span><br/><span style="style_1">The Kenny Rogers Roasters.</span></p>
+<p begin="1797333333t" end="1818666666t" region="region_1" xml:id="subtitle48"><span style="style_1">-God, I'm awful at this.</span><br/><span style="style_1">-The orange sign.</span></p>
+<p begin="1820151667t" end="1831830000t" region="region_1" xml:id="subtitle49"><span style="style_1">When you opened the door,</span></p>
+<p begin="1832497334t" end="1859858000t" region="region_1" xml:id="subtitle50"><span style="style_1">that orange light hit you</span><br/><span style="style_1">and you leaned backwards.</span></p>
+<p begin="1889554334t" end="1913912000t" region="region_1" xml:id="subtitle51"><span style="style_1">-That was one of the funniest bits.</span><br/><span style="style_1">-Oh, my...</span></p>
+<p begin="1917000000t" end="1960000000t" region="region_1" xml:id="subtitle52"><span style="style_1">But that was the intellectual aspect</span><br/><span style="style_1">of your comedy that I always appreciated.</span></p>
+<p begin="1961666666t" end="1991333333t" region="region_1" xml:id="subtitle53"><span style="style_1">That the light is so strong,</span><br/><span style="style_1">it's gonna bend my spine.</span></p>
+<p begin="1995326667t" end="2024022000t" region="region_1" xml:id="subtitle54"><span style="style_1">-Oh, God. Those were good days.</span><br/><span style="style_1">-Those were good days.</span></p>
+<p begin="2025690334t" end="2044375667t" region="region_1" xml:id="subtitle55"><span style="style_1">You gave me the role of my lifetime.</span></p>
+<p begin="2045333333t" end="2075666666t" region="region_1" xml:id="subtitle56"><span style="style_1">You gave me the experience of my lifetime.</span></p>
+<p begin="2079000000t" end="2092000000t" region="region_1" xml:id="subtitle57"><span style="style_1">Getting to play with you.</span></p>
+<p begin="2095666666t" end="2143666666t" region="region_1" xml:id="subtitle58"><span style="style_1">You know, being around you, Jerry,</span><br/><span style="style_1">I'm gonna turn into that crazy character.</span></p>
+<p begin="2144666666t" end="2163000000t" region="region_1" xml:id="subtitle59"><span style="style_1">It's gonna happen.</span><br/><span style="style_1">It's gonna gradually happen.</span></p>
+<p begin="2163666666t" end="2173333333t" region="region_1" xml:id="subtitle60"><span style="style_1">Go ahead.</span></p>
+<p begin="2176174000t" end="2192190000t" region="region_1" xml:id="subtitle61"><span style="style_1">[Michael] Can you turn</span><br/><span style="style_1">down one of these streets?</span></p>
+<p begin="2192857334t" end="2201199000t" region="region_1" xml:id="subtitle62"><span style="style_1">[Jerry] Yes, which?</span></p>
+<p begin="2202000000t" end="2215333333t" region="region_1" xml:id="subtitle63"><span style="style_1">-[Michael] El Medio?</span><br/><span style="style_1">-Yes.</span></p>
+<p begin="2218549667t" end="2243908334t" region="region_1" xml:id="subtitle64"><span style="style_1">[Michael] Up here</span><br/><span style="style_1">is where Sugar Ray Leonard lives.</span></p>
+<p begin="2245333333t" end="2261333333t" region="region_1" xml:id="subtitle65"><span style="style_1">He lives in this house right here.</span></p>
+<p begin="2261926334t" end="2273938334t" region="region_1" xml:id="subtitle66"><span style="style_1">-[Jerry] Which?</span><br/><span style="style_1">-Let's say hello.</span></p>
+<p begin="2277333333t" end="2296666666t" region="region_1" xml:id="subtitle67"><span style="style_1">-Are you friends with him?</span><br/><span style="style_1">-Yeah, I know him.</span></p>
+<p begin="2299000000t" end="2309333333t" region="region_1" xml:id="subtitle68"><span style="style_1">He may invite us in.</span></p>
+<p begin="2324333333t" end="2334000000t" region="region_1" xml:id="subtitle69"><span style="style_1">[Michael] Sugar!</span></p>
+<p begin="2340338000t" end="2354685667t" region="region_1" xml:id="subtitle70"><span style="style_1">Su-- Sugar!</span></p>
+<p begin="2372666666t" end="2396000000t" region="region_1" xml:id="subtitle71"><span style="style_1">[Jerry] Hey, Barry.</span><br/><span style="style_1">What are you doing here?</span></p>
+<p begin="2401732667t" end="2421752667t" region="region_1" xml:id="subtitle72"><span style="style_1">He told me Sugar Ray Leonard lives here.</span></p>
+<p begin="2422666666t" end="2435666666t" region="region_1" xml:id="subtitle73"><span style="style_3">This is Barry Katz.</span></p>
+<p begin="2439000000t" end="2475666666t" region="region_1" xml:id="subtitle74"><span style="style_3">The last time I saw him was</span><br/><span style="style_3">in my 2002 documentary,</span><span style="style_1"> Comedian.</span></p>
+<p begin="2482000000t" end="2508666666t" region="region_2" xml:id="subtitle75"><span style="style_1">All he has to do is just...</span></p>
+<p begin="2531529000t" end="2553217334t" region="region_1" xml:id="subtitle76"><span style="style_1">-Are you on your way here?</span><br/><span style="style_1">-[Barry] Yes.</span></p>
+<p begin="2554000000t" end="2571000000t" region="region_1" xml:id="subtitle77"><span style="style_1">-[Jerry] Really?</span><br/><span style="style_1">-[Michael] Hey, hi.</span></p>
+<p begin="2572000000t" end="2582000000t" region="region_1" xml:id="subtitle78"><span style="style_1">Is Sugar in?</span></p>
+<p begin="2583000000t" end="2607666666t" region="region_1" xml:id="subtitle79"><span style="style_1">-[woman] Sugar in?</span><br/><span style="style_1">-[Michael] Sugar Ray Leonard live here?</span></p>
+<p begin="2608666666t" end="2617333333t" region="region_1" xml:id="subtitle80"><span style="style_1">[woman] No.</span></p>
+<p begin="2617948667t" end="2639637000t" region="region_1" xml:id="subtitle81"><span style="style_1">[Jerry] Oh, jeez.</span><br/><span style="style_1">Have you got the wrong house?</span></p>
+<p begin="2640333333t" end="2663000000t" region="region_1" xml:id="subtitle82"><span style="style_1">-[Michael] Whose house is it?</span><br/><span style="style_1">-[Barry] Jay Mohr.</span></p>
+<p begin="2663666666t" end="2688333333t" region="region_1" xml:id="subtitle83"><span style="style_1">-Who's Jay Mohr?</span><br/><span style="style_1">-He's a comedian and an actor.</span></p>
+<p begin="2691333333t" end="2711000000t" region="region_1" xml:id="subtitle84"><span style="style_1">It's the next house. I made a mistake.</span></p>
+<p begin="2712000000t" end="2732000000t" region="region_1" xml:id="subtitle85"><span style="style_1">-Are you sure?</span><br/><span style="style_1">-I'm sure of it. It's the next house.</span></p>
+<p begin="2732666666t" end="2750000000t" region="region_1" xml:id="subtitle86"><span style="style_1">So Jay Mohr lives</span><br/><span style="style_1">next to Sugar Ray Leonard?</span></p>
+<p begin="2751333333t" end="2770000000t" region="region_1" xml:id="subtitle87"><span style="style_1">We should say hello.</span><br/><span style="style_1">It'd be rude to not say hello.</span></p>
+<p begin="2770666666t" end="2801666666t" region="region_1" xml:id="subtitle88"><span style="style_1">-[Michael] Is that a real dog? Look.</span><br/><span style="style_1">-[Jerry] I didn't know he was gay.</span></p>
+<p begin="2802333333t" end="2819000000t" region="region_1" xml:id="subtitle89"><span style="style_1">-[dog barking]</span><br/><span style="style_1">-[Michael] I'm frightened.</span></p>
+<p begin="2820333333t" end="2838666666t" region="region_1" xml:id="subtitle90"><span style="style_1">I'm sure that was his house.</span></p>
+<p begin="2840666666t" end="2851666666t" region="region_1" xml:id="subtitle91"><span style="style_1">It's odd that...</span></p>
+<p begin="2859189667t" end="2869199667t" region="region_1" xml:id="subtitle92"><span style="style_1">Hmm...</span></p>
+<p begin="2878000000t" end="2909000000t" region="region_1" xml:id="subtitle93"><span style="style_1">-So, what do you think of it?</span><br/><span style="style_1">-Oh, I think the car's great.</span></p>
+<p begin="2909907000t" end="2940270667t" region="region_1" xml:id="subtitle94"><span style="style_1">It makes me want to take things</span><br/><span style="style_1">like this, you know, and just kind of...</span></p>
+<p begin="2940938000t" end="2961291667t" region="region_1" xml:id="subtitle95"><span style="style_1">You know... [grunts]</span></p>
+<p begin="2962000000t" end="2978000000t" region="region_1" xml:id="subtitle96"><span style="style_1">[speaking gibberish]</span></p>
+<p begin="3006666666t" end="3036000000t" region="region_1" xml:id="subtitle97"><span style="style_1">Can you imagine how upset</span><br/><span style="style_1">Jay Mohr is gonna be?</span></p>
+<p begin="3038666666t" end="3056000000t" region="region_1" xml:id="subtitle98"><span style="style_1">-Why? Really?</span><br/><span style="style_1">-If he finds out.</span></p>
+<p begin="3058333333t" end="3086333333t" region="region_1" xml:id="subtitle99"><span style="style_1">-[Michael] Did we excuse ourselves well?</span><br/><span style="style_1">-No.</span></p>
+<p begin="3087000000t" end="3100666666t" region="region_1" xml:id="subtitle100"><span style="style_1">-[Michael] Did we leave properly?</span><br/><span style="style_1">-It was rude.</span></p>
+<p begin="3102666666t" end="3115333333t" region="region_1" xml:id="subtitle101"><span style="style_1">We should go back.</span></p>
+<p begin="3116666666t" end="3139666666t" region="region_1" xml:id="subtitle102"><span style="style_1">No, I'm not going back.</span><br/><span style="style_1">We don't like to be rude but...</span></p>
+<p begin="3140666666t" end="3175333333t" region="region_1" xml:id="subtitle103"><span style="style_1">sitcom superstars</span><br/><span style="style_1">that have visited your home,</span></p>
+<p begin="3176333333t" end="3203000000t" region="region_1" xml:id="subtitle104"><span style="style_1">how long will you make them wait</span><br/><span style="style_1">out there on the sidewalk?</span></p>
+<p begin="3204000000t" end="3225666666t" region="region_1" xml:id="subtitle105"><span style="style_1">He may have been upstairs,</span><br/><span style="style_1">trying to get dressed.</span></p>
+<p begin="3226666666t" end="3244333333t" region="region_1" xml:id="subtitle106"><span style="style_1">As I said, they were working next door.</span></p>
+<p begin="3245333333t" end="3258000000t" region="region_1" xml:id="subtitle107"><span style="style_1">He probably didn't get much sleep.</span></p>
+<p begin="3258666666t" end="3278000000t" region="region_1" xml:id="subtitle108"><span style="style_1">Well, come down in a velveteen robe.</span></p>
+<p begin="3286000000t" end="3305333333t" region="region_1" xml:id="subtitle109"><span style="style_1">If he's got a dog that small,</span></p>
+<p begin="3306333333t" end="3333666666t" region="region_1" xml:id="subtitle110"><span style="style_1">-He could have a robe like that.</span><br/><span style="style_1">-He's got a robe, yeah.</span></p>
+<p begin="3350333333t" end="3372666666t" region="region_1" xml:id="subtitle111"><span style="style_1">[Michael] This is a long drive</span><br/><span style="style_1">for a cup of coffee.</span></p>
+<p begin="3373666666t" end="3398000000t" region="region_1" xml:id="subtitle112"><span style="style_1">Somebody waylaid me</span><br/><span style="style_1">at Sugar Ray Leonard's.</span></p>
+<p begin="3400000000t" end="3419333333t" region="region_1" xml:id="subtitle113"><span style="style_1">I'm sorry. I'm awful sorry.</span></p>
+<p begin="3422000000t" end="3446666666t" region="region_1" xml:id="subtitle114"><span style="style_1">-Now, tell me the truth--</span><br/><span style="style_1">-You know what's gonna happen?</span></p>
+<p begin="3447333333t" end="3470000000t" region="region_1" xml:id="subtitle115"><span style="style_1">-Do you really know Sugar Ray?</span><br/><span style="style_1">-Do I really know him?</span></p>
+<p begin="3470666666t" end="3494333333t" region="region_1" xml:id="subtitle116"><span style="style_1">-Tell me the truth.</span><br/><span style="style_1">-No.</span></p>
+<p begin="3503000000t" end="3515333333t" region="region_1" xml:id="subtitle117"><span style="style_1">I don't know him.</span></p>
+<p begin="3523186334t" end="3570900667t" region="region_1" xml:id="subtitle118"><span style="style_1">-See, I don't remember the past, too.</span><br/><span style="style_1">-Of course you don't remember the past.</span></p>
+<p begin="3571666666t" end="3590000000t" region="region_1" xml:id="subtitle119"><span style="style_1">There's nothing else to remember.</span></p>
+<p begin="3591333333t" end="3648000000t" region="region_1" xml:id="subtitle120"><span style="style_1">There goes 125 years of psychology</span><br/><span style="style_1">right out the window.</span></p>
+<p begin="3651666666t" end="3674666666t" region="region_1" xml:id="subtitle121"><span style="style_1">That kind of behavior, in the past,</span></p>
+<p begin="3675672000t" end="3693690001t" region="region_1" xml:id="subtitle122"><span style="style_1">-will wind you up in jail.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="3699000000t" end="3750333333t" region="region_1" xml:id="subtitle123"><span style="style_1">Jail is such a... really a way</span><br/><span style="style_1">that a grownup would punish a child.</span></p>
+<p begin="3751333333t" end="3778666666t" region="region_1" xml:id="subtitle124"><span style="style_1">You go in there and you stay in there.</span></p>
+<p begin="3779666666t" end="3812666666t" region="region_1" xml:id="subtitle125"><span style="style_1">Robbing a 7-Eleven. Get in that cell!</span></p>
+<p begin="3814333333t" end="3849666666t" region="region_1" xml:id="subtitle126"><span style="style_1">I mean, to drive a car</span><br/><span style="style_1">through a crowd of people,</span></p>
+<p begin="3850666666t" end="3885666666t" region="region_1" xml:id="subtitle127"><span style="style_1">with a sandwich in your hand,</span><br/><span style="style_1">not even looking where you are going.</span></p>
+<p begin="3886666666t" end="3912333333t" region="region_1" xml:id="subtitle128"><span style="style_1">You sit in that cell</span><br/><span style="style_1">and think about what you've done.</span></p>
+<p begin="3913333333t" end="3946000000t" region="region_1" xml:id="subtitle129"><span style="style_1">Charles Manson,</span><br/><span style="style_1">that was supposed to be a party.</span></p>
+<p begin="3947000000t" end="3966000000t" region="region_1" xml:id="subtitle130"><span style="style_1">You should be ashamed of yourself.</span></p>
+<p begin="3967296667t" end="3985648334t" region="region_1" xml:id="subtitle131"><span style="style_1">And there'll be no dinner tonight.</span></p>
+<p begin="4014000000t" end="4046666666t" region="region_1" xml:id="subtitle132"><span style="style_1">[Jerry] How weird an experience</span><br/><span style="style_1">was that for Jay Mohr?</span></p>
+<p begin="4049333333t" end="4082666666t" region="region_1" xml:id="subtitle133"><span style="style_1">Who was at my front door?</span><br/><span style="style_1">What were they doing?</span></p>
+<p begin="4084666666t" end="4111666666t" region="region_1" xml:id="subtitle134"><span style="style_1">They were looking</span><br/><span style="style_1">for Sugar Ray Leonard's house.</span></p>
+<p begin="4113333333t" end="4145333333t" region="region_1" xml:id="subtitle135"><span style="style_1">-And they called my dog what?</span><br/><span style="style_1">-I don't want to say.</span></p>
+<p begin="4181177000t" end="4218881334t" region="region_1" xml:id="subtitle136"><span style="style_1">[Michael] Are we really going in there?</span><br/><span style="style_1">Are you serious? All these people?</span></p>
+<p begin="4220333333t" end="4251333333t" region="region_1" xml:id="subtitle137"><span style="style_1">We can't just walk in there going, "Hi."</span><br/><span style="style_1">We're not normal people.</span></p>
+<p begin="4252333333t" end="4269333333t" region="region_1" xml:id="subtitle138"><span style="style_1">We're not normal people.</span></p>
+<p begin="4271333333t" end="4290666666t" region="region_1" xml:id="subtitle139"><span style="style_1">You just walk right in and go, "I'm here"?</span></p>
+<p begin="4291666666t" end="4307333333t" region="region_1" xml:id="subtitle140"><span style="style_1">"I'm here, you deal with it."</span></p>
+<p begin="4308637667t" end="4326989334t" region="region_1" xml:id="subtitle141"><span style="style_1">[Michael]</span><br/><span style="style_1">That's why I bring my kit with me.</span></p>
+<p begin="4361333333t" end="4380000000t" region="region_1" xml:id="subtitle142"><span style="style_1">Now you don't know. See?</span></p>
+<p begin="4394333333t" end="4413666666t" region="region_1" xml:id="subtitle143"><span style="style_1">You don't know who I am, do you?</span></p>
+<p begin="4414666666t" end="4434333333t" region="region_1" xml:id="subtitle144"><span style="style_1">No. I know you're crazy.</span></p>
+<p begin="4479666666t" end="4493000000t" region="region_1" xml:id="subtitle145"><span style="style_1">I don't know, Jerry.</span></p>
+<p begin="4500333333t" end="4516666666t" region="region_1" xml:id="subtitle146"><span style="style_1">[Michael] Hey, look. There's me.</span></p>
+<p begin="4524000000t" end="4549333333t" region="region_1" xml:id="subtitle147"><span style="style_1">-[Jerry] That's the same hair.</span><br/><span style="style_1">-[Michael] That's the same guy.</span></p>
+<p begin="4550333333t" end="4569000000t" region="region_1" xml:id="subtitle148"><span style="style_1">-Isn't that amazing?</span><br/><span style="style_1">-[Jerry] That's amazing.</span></p>
+<p begin="4570000000t" end="4587000000t" region="region_1" xml:id="subtitle149"><span style="style_1">[Michael] That's amazing. How you doing?</span></p>
+<p begin="4588000000t" end="4613333333t" region="region_1" xml:id="subtitle150"><span style="style_1">[Jerry] I can't believe</span><br/><span style="style_1">it's the same exact hairstyle.</span></p>
+<p begin="4614000000t" end="4629000000t" region="region_1" xml:id="subtitle151"><span style="style_1">-[Michael] Look.</span><br/><span style="style_1">-[Jerry] Look at that.</span></p>
+<p begin="4632294334t" end="4658987667t" region="region_1" xml:id="subtitle152"><span style="style_1">-The same sunglasses. Wait a minute.</span><br/><span style="style_1">-You never know who you meet.</span></p>
+<p begin="4659655000t" end="4675671000t" region="region_1" xml:id="subtitle153"><span style="style_1">This is unbelievable, isn't it?</span></p>
+<p begin="4679000000t" end="4701666666t" region="region_1" xml:id="subtitle154"><span style="style_1">-Yes.</span><br/><span style="style_1">-I could probably hide out as you.</span></p>
+<p begin="4702666666t" end="4728666666t" region="region_1" xml:id="subtitle155"><span style="style_1">-And I could hide out as you.</span><br/><span style="style_1">-This is unbelievable.</span></p>
+<p begin="4729666666t" end="4741333333t" region="region_1" xml:id="subtitle156"><span style="style_1">Life is a hideout.</span></p>
+<p begin="4743000000t" end="4771666666t" region="region_1" xml:id="subtitle157"><span style="style_1">No one is gonna believe</span><br/><span style="style_1">that that just happened.</span></p>
+<p begin="4776333333t" end="4801333333t" region="region_1" xml:id="subtitle158"><span style="style_1">I think you should wear a hat</span><br/><span style="style_1">and some sunglasses or something.</span></p>
+<p begin="4801797000t" end="4815477334t" region="region_1" xml:id="subtitle159"><span style="style_1">Oh, Michael. Free yourself.</span></p>
+<p begin="4818814000t" end="4841837000t" region="region_1" xml:id="subtitle160"><span style="style_1">We're just raindrops</span><br/><span style="style_1">on a windshield, Michael.</span></p>
+<p begin="4842504334t" end="4864192667t" region="region_1" xml:id="subtitle161"><span style="style_1">[Michael] I wanna know</span><br/><span style="style_1">who's wiping me off.</span></p>
+<p begin="4864860000t" end="4884880000t" region="region_1" xml:id="subtitle162"><span style="style_1">[inaudible]</span></p>
+<p begin="4961000000t" end="4974666666t" region="region_1" xml:id="subtitle163"><span style="style_1">[Jerry laughing]</span></p>
+<p begin="4987000000t" end="5015666666t" region="region_1" xml:id="subtitle164"><span style="style_1">[Michael] Jesus. Who put that there?</span></p>
+<p begin="5211000000t" end="5232000000t" region="region_1" xml:id="subtitle165"><span style="style_1">I was thinking this morning,</span><br/><span style="style_1">I swear to God,</span></p>
+<p begin="5232999999t" end="5270333333t" region="region_1" xml:id="subtitle166"><span style="style_1">we would be rehearsing,</span><br/><span style="style_1">something dumb would happen, or weird</span></p>
+<p begin="5271000000t" end="5298666666t" region="region_1" xml:id="subtitle167"><span style="style_1">and you would just go,</span><br/><span style="style_1">"Well, that was interesting."</span></p>
+<p begin="5301000000t" end="5341000000t" region="region_1" xml:id="subtitle168"><span style="style_1">And the wheels would start to turn.</span></p>
+<p begin="5341666666t" end="5374333333t" region="region_1" xml:id="subtitle169"><span style="style_1">That's how you play chess. He makes a move</span><br/><span style="style_1">and you go, "Hmm, that's interesting.</span></p>
+<p begin="5375000000t" end="5383666666t" region="region_1" xml:id="subtitle170"><span style="style_1">[Jerry laughing]</span></p>
+<p begin="5384666666t" end="5394666666t" region="region_1" xml:id="subtitle171"><span style="style_1">Interesting."</span></p>
+<p begin="5395666666t" end="5428333333t" region="region_1" xml:id="subtitle172"><span style="style_1">I used to play chess. When I was</span><br/><span style="style_1">in the Army, I played. I was unbeatable.</span></p>
+<p begin="5429333333t" end="5460666666t" region="region_1" xml:id="subtitle173"><span style="style_1">I was very, very good at it.</span><br/><span style="style_1">With chess, there's ratings.</span></p>
+<p begin="5464000000t" end="5487000000t" region="region_1" xml:id="subtitle174"><span style="style_1">And chess master is about 2,100.</span></p>
+<p begin="5487666666t" end="5517333333t" region="region_1" xml:id="subtitle175"><span style="style_1">And I was playing a computer</span><br/><span style="style_1">on a 2,100 level.</span></p>
+<p begin="5518000000t" end="5529666666t" region="region_1" xml:id="subtitle176"><span style="style_1">-Really?</span><br/><span style="style_1">-Yeah.</span></p>
+<p begin="5530191334t" end="5557885667t" region="region_1" xml:id="subtitle177"><span style="style_1">So I had been playing that machine</span><br/><span style="style_1">for weeks,</span></p>
+<p begin="5561666666t" end="5583666666t" region="region_1" xml:id="subtitle178"><span style="style_1">and then I happened to be out</span><br/><span style="style_1">on Hollywood Boulevard</span></p>
+<p begin="5584333333t" end="5620000000t" region="region_1" xml:id="subtitle179"><span style="style_1">standing on the corner and I saw this man,</span><br/><span style="style_1">tattered, dirty.</span></p>
+<p begin="5620666666t" end="5633666666t" region="region_1" xml:id="subtitle180"><span style="style_1">He was a street person.</span></p>
+<p begin="5634666666t" end="5658000000t" region="region_1" xml:id="subtitle181"><span style="style_1">-And he had a chess set there to play.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="5659000000t" end="5683000000t" region="region_1" xml:id="subtitle182"><span style="style_1">And I said, "You play chess?"</span><br/><span style="style_1">He says, "I do, I do."</span></p>
+<p begin="5691333333t" end="5712000000t" region="region_1" xml:id="subtitle183"><span style="style_1">-But it's a homeless guy.</span><br/><span style="style_1">-It's a homeless guy.</span></p>
+<p begin="5712666666t" end="5735666666t" region="region_1" xml:id="subtitle184"><span style="style_1">I said, "I'll tell you what,</span><br/><span style="style_1">I'll play you a game."</span></p>
+<p begin="5736666666t" end="5772333333t" region="region_1" xml:id="subtitle185"><span style="style_1">He goes,</span><br/><span style="style_1">"[mumbles] I'll play you two games.</span></p>
+<p begin="5773000000t" end="5794333333t" region="region_1" xml:id="subtitle186"><span style="style_1">I beat you two times,</span><br/><span style="style_1">you can't play me no more."</span></p>
+<p begin="5798333333t" end="5825666666t" region="region_1" xml:id="subtitle187"><span style="style_1">Puts out his hands, you know,</span><br/><span style="style_1">to see who's gonna go first.</span></p>
+<p begin="5827333333t" end="5865000000t" region="region_1" xml:id="subtitle188"><span style="style_1">Black, white. I pick. I'm white.</span><br/><span style="style_1">That means I have the first move.</span></p>
+<p begin="5865526334t" end="5878539334t" region="region_1" xml:id="subtitle189"><span style="style_1">I already have the advantage.</span></p>
+<p begin="5881666666t" end="5906666666t" region="region_1" xml:id="subtitle190"><span style="style_1">-Sitting on the sidewalk?</span><br/><span style="style_1">-I'm sitting on the sidewalk with him.</span></p>
+<p begin="5907333333t" end="5925000000t" region="region_1" xml:id="subtitle191"><span style="style_1">-I'm down here like this.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="5925666666t" end="5952666666t" region="region_1" xml:id="subtitle192"><span style="style_1">So I move my piece out,</span><br/><span style="style_1">he moves his piece out very quickly.</span></p>
+<p begin="5953280667t" end="5972967000t" region="region_1" xml:id="subtitle193"><span style="style_1">Boom! I said, "Oh, he stops that move."</span></p>
+<p begin="5974666666t" end="5994000000t" region="region_1" xml:id="subtitle194"><span style="style_1">So I move a knight out,</span><br/><span style="style_1">he moves out the pawn.</span></p>
+<p begin="5995000000t" end="6005333333t" region="region_1" xml:id="subtitle195"><span style="style_1">He moves out the bishop...</span></p>
+<p begin="6006333333t" end="6025666666t" region="region_1" xml:id="subtitle196"><span style="style_1">In two minutes, he's moving--</span><br/><span style="style_1">He's got me in a defense...</span></p>
+<p begin="6026353667t" end="6044705334t" region="region_1" xml:id="subtitle197"><span style="style_1">Boom, checkmate! I'm like, "Whoa!"</span></p>
+<p begin="6046333333t" end="6066666666t" region="region_1" xml:id="subtitle198"><span style="style_1">He checkmated me in two minutes.</span></p>
+<p begin="6075333333t" end="6106666666t" region="region_1" xml:id="subtitle199"><span style="style_1">Nobody has ever checkmated me</span><br/><span style="style_1">in two minutes.</span></p>
+<p begin="6107666666t" end="6147333333t" region="region_1" xml:id="subtitle200"><span style="style_1">Nobody. Not even the machine</span><br/><span style="style_1">can checkmate me in two minutes.</span></p>
+<p begin="6150666666t" end="6185666666t" region="region_1" xml:id="subtitle201"><span style="style_1">But this time, I said,</span><br/><span style="style_1">"Okay, let's play. Let's play chess."</span></p>
+<p begin="6186666666t" end="6213666666t" region="region_1" xml:id="subtitle202"><span style="style_1">He makes me pick. I go first again.</span></p>
+<p begin="6221000000t" end="6231000000t" region="region_1" xml:id="subtitle203"><span style="style_1">Okay.</span></p>
+<p begin="6235229001t" end="6271265000t" region="region_1" xml:id="subtitle204"><span style="style_1">I lean in. He moves out his knight,</span><br/><span style="style_1">I move my bishop...</span></p>
+<p begin="6271932334t" end="6290284000t" region="region_1" xml:id="subtitle205"><span style="style_1">-Ba-ba-ba... Checkmate!</span><br/><span style="style_1">-[laughing]</span></p>
+<p begin="6294333333t" end="6311000000t" region="region_1" xml:id="subtitle206"><span style="style_1">Faster than the first time.</span></p>
+<p begin="6320333333t" end="6352666666t" region="region_1" xml:id="subtitle207"><span style="style_1">So, now he's putting his stuff away.</span><br/><span style="style_1">I'm going, "Come on. Let's play again."</span></p>
+<p begin="6353666666t" end="6387000000t" region="region_1" xml:id="subtitle208"><span style="style_1">He goes, "No, no, no. I beat you</span><br/><span style="style_1">two times, you can't play me no more."</span></p>
+<p begin="6390666666t" end="6421666666t" region="region_1" xml:id="subtitle209"><span style="style_1">I'm walking down...</span><br/><span style="style_1">Following the guy down the street...</span></p>
+<p begin="6427666666t" end="6437333333t" region="region_1" xml:id="subtitle210"><span style="style_1">going, "Let's play."</span></p>
+<p begin="6438333333t" end="6466000000t" region="region_1" xml:id="subtitle211"><span style="style_1">He goes, "No, no, you leave me alone.</span><br/><span style="style_1">I don't wanna play..."</span></p>
+<p begin="6467000000t" end="6497666666t" region="region_1" xml:id="subtitle212"><span style="style_1">I'm going, "Come on,</span><br/><span style="style_1">let's just play another game. Come on."</span></p>
+<p begin="6502000000t" end="6513333333t" region="region_1" xml:id="subtitle213"><span style="style_1">He wouldn't play me.</span></p>
+<p begin="6516333333t" end="6547000000t" region="region_1" xml:id="subtitle214"><span style="style_1">I went home, I called a friend</span><br/><span style="style_1">who's a professional chess player.</span></p>
+<p begin="6548000000t" end="6613333333t" region="region_1" xml:id="subtitle215"><span style="style_1">I called him up. I said, "Leon, I played</span><br/><span style="style_1">a guy on the street who beat me twice."</span></p>
+<p begin="6615666666t" end="6632000000t" region="region_1" xml:id="subtitle216"><span style="style_1">He goes, "Yeah, you played a savant.</span></p>
+<p begin="6633333333t" end="6668000000t" region="region_1" xml:id="subtitle217"><span style="style_1">When I'm in tournaments in a city, I look</span><br/><span style="style_1">for those guys, to play those guys."</span></p>
+<p begin="6668662001t" end="6688348334t" region="region_1" xml:id="subtitle218"><span style="style_1">I say, "You beat them?" He goes, "Never."</span></p>
+<p begin="6698333333t" end="6715333333t" region="region_1" xml:id="subtitle219"><span style="style_1">-Really?</span><br/><span style="style_1">-Really.</span></p>
+<p begin="6718666666t" end="6745666666t" region="region_1" xml:id="subtitle220"><span style="style_1">I always thought, "Can you get</span><br/><span style="style_1">one of those guys in a tournament?"</span></p>
+<p begin="6746333333t" end="6773333333t" region="region_1" xml:id="subtitle221"><span style="style_1">Imagine. He says, "You can't hold them</span><br/><span style="style_1">in place. They're crazy."</span></p>
+<p begin="6775000000t" end="6788333333t" region="region_1" xml:id="subtitle222"><span style="style_1">But they're unbeatable.</span></p>
+<p begin="6800666666t" end="6830666666t" region="region_1" xml:id="subtitle223"><span style="style_1">So he could really be</span><br/><span style="style_1">the greatest chess player in the world.</span></p>
+<p begin="6831666666t" end="6845666666t" region="region_1" xml:id="subtitle224"><span style="style_1">Possibly... Most likely.</span></p>
+<p begin="6846333333t" end="6861000000t" region="region_1" xml:id="subtitle225"><span style="style_1">He told me in the beginning.</span></p>
+<p begin="6868194667t" end="6892218667t" region="region_1" xml:id="subtitle226"><span style="style_1">"I beat you two times, that's it.</span></p>
+<p begin="6892886000t" end="6913239667t" region="region_1" xml:id="subtitle227"><span style="style_1">We don't play anymore.</span><br/><span style="style_1">You can't play me anymore."</span></p>
+<p begin="6916000000t" end="6933666666t" region="region_1" xml:id="subtitle228"><span style="style_1">Why would he set a rule like that?</span></p>
+<p begin="6935000000t" end="6974666666t" region="region_1" xml:id="subtitle229"><span style="style_1">Because he's done it over and over again</span><br/><span style="style_1">and he doesn't have a lot of time</span></p>
+<p begin="6977666666t" end="7018000000t" region="region_1" xml:id="subtitle230"><span style="style_1">to be fooling around</span><br/><span style="style_1">with somebody he can beat so easily.</span></p>
+<p begin="7019000000t" end="7032000000t" region="region_1" xml:id="subtitle231"><span style="style_1">That's probably why.</span></p>
+<p begin="7034666666t" end="7095000000t" region="region_1" xml:id="subtitle232"><span style="style_1">What was it that he was able to do</span><br/><span style="style_1">so well that he could win so fast?</span></p>
+<p begin="7096666666t" end="7158000000t" region="region_1" xml:id="subtitle233"><span style="style_1">He saw the moves before they took place.</span><br/><span style="style_1">This is where it gets a bit metaphysical.</span></p>
+<p begin="7160000000t" end="7189000000t" region="region_1" xml:id="subtitle234"><span style="style_1">Perhaps you have to be ultimately crazy.</span></p>
+<p begin="7189666666t" end="7210666666t" region="region_1" xml:id="subtitle235"><span style="style_1">-You think he was a clairvoyant savant?</span><br/><span style="style_1">-Or dislodged</span></p>
+<p begin="7211666666t" end="7253000000t" region="region_1" xml:id="subtitle236"><span style="style_1">from the kind of reality</span><br/><span style="style_1">that we're all adjusting to.</span></p>
+<p begin="7254000000t" end="7286666666t" region="region_1" xml:id="subtitle237"><span style="style_1">There are other kinds of realities,</span><br/><span style="style_1">other kinds of zones</span></p>
+<p begin="7287666666t" end="7299333333t" region="region_1" xml:id="subtitle238"><span style="style_1">-to inhabit.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="7300333333t" end="7340000000t" region="region_1" xml:id="subtitle239"><span style="style_1">Great artists have inhabited zones</span><br/><span style="style_1">and then it becomes a new paradigm.</span></p>
+<p begin="7341000000t" end="7365000000t" region="region_1" xml:id="subtitle240"><span style="style_1">People go, "Wow, we hadn't thought</span><br/><span style="style_1">about going there."</span></p>
+<p begin="7367666666t" end="7416333333t" region="region_1" xml:id="subtitle241"><span style="style_1">I invented a chessboard.</span><br/><span style="style_1">I wanted to play it in the round.</span></p>
+<p begin="7419000000t" end="7439000000t" region="region_1" xml:id="subtitle242"><span style="style_1">So you're, like,</span><br/><span style="style_1">on the north and the south pole,</span></p>
+<p begin="7439666666t" end="7473000000t" region="region_1" xml:id="subtitle243"><span style="style_1">and your pieces...</span><br/><span style="style_1">So you can play in all directions.</span></p>
+<p begin="7501494000t" end="7522515000t" region="region_1" xml:id="subtitle244"><span style="style_1">That's when I had to stop playing chess.</span></p>
+<p begin="7559552000t" end="7578571001t" region="region_1" xml:id="subtitle245"><span style="style_1">-Bernie Brillstein.</span><br/><span style="style_1">-Bernie Brillstein.</span></p>
+<p begin="7579333333t" end="7600666666t" region="region_1" xml:id="subtitle246"><span style="style_1">-Showbiz legend, indeed.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="7601666666t" end="7633333333t" region="region_1" xml:id="subtitle247"><span style="style_1">That was when I was doing </span><span style="style_3">Fridays.</span><br/><span style="style_1">He was executive producer.</span></p>
+<p begin="7634333333t" end="7649333333t" region="region_1" xml:id="subtitle248"><span style="style_1">He came in. He's a big man.</span></p>
+<p begin="7657983667t" end="7691684000t" region="region_1" xml:id="subtitle249"><span style="style_1">And not just physically,</span><br/><span style="style_1">but his presence. What everybody knew,</span></p>
+<p begin="7692351334t" end="7715040667t" region="region_1" xml:id="subtitle250"><span style="style_1">-He was like a lion.</span><br/><span style="style_1">-that when Bernie walked into a room,</span></p>
+<p begin="7715708000t" end="7735394334t" region="region_1" xml:id="subtitle251"><span style="style_1">-Right.</span><br/><span style="style_1">-somebody just walked in the room.</span></p>
+<p begin="7739000000t" end="7770666666t" region="region_1" xml:id="subtitle252"><span style="style_1">Says, "What do you think, Bernie?"</span><br/><span style="style_1">He goes, "It's gold."</span></p>
+<p begin="7792000000t" end="7808333333t" region="region_1" xml:id="subtitle253"><span style="style_1">[Jerry laughing]</span></p>
+<p begin="7845000000t" end="7873000000t" region="region_1" xml:id="subtitle254"><span style="style_1">Which then became Banya's line,</span><br/><span style="style_1">on the show.</span></p>
+<p begin="7874000000t" end="7897000000t" region="region_1" xml:id="subtitle255"><span style="style_1">-You remember that?</span><br/><span style="style_1">-Oh, my God, you gave him that line?</span></p>
+<p begin="7897666666t" end="7920666666t" region="region_1" xml:id="subtitle256"><span style="style_1">-"It's gold, Jerry?" Oh, man.</span><br/><span style="style_1">-Yeah.</span></p>
+<p begin="7921333333t" end="7937333333t" region="region_1" xml:id="subtitle257"><span style="style_1">You don't miss a beat.</span><br/><span style="style_1">You pick it all up.</span></p>
+<p begin="7938000000t" end="7957333333t" region="region_1" xml:id="subtitle258"><span style="style_1">Well, it's in the air. It's in the color.</span></p>
+<p begin="8006666666t" end="8035000000t" region="region_1" xml:id="subtitle259"><span style="style_1">I remember when we were putting</span><br/><span style="style_1">the show together,</span></p>
+<p begin="8036000000t" end="8071666666t" region="region_1" xml:id="subtitle260"><span style="style_1">first thing I said when they said,</span><br/><span style="style_1">"Well, how about Michael Richards?"</span></p>
+<p begin="8072666666t" end="8099000000t" region="region_1" xml:id="subtitle261"><span style="style_1">I went, "Is he available?</span><br/><span style="style_1">Is Michael Richards available?"</span></p>
+<p begin="8102000000t" end="8129333333t" region="region_1" xml:id="subtitle262"><span style="style_1">You had to audition</span><br/><span style="style_1">with two other guys for the network.</span></p>
+<p begin="8130333333t" end="8150666666t" region="region_1" xml:id="subtitle263"><span style="style_1">Two others?</span><br/><span style="style_1">You brought me back three times.</span></p>
+<p begin="8151333333t" end="8173666666t" region="region_1" xml:id="subtitle264"><span style="style_1">There was a room of different people</span><br/><span style="style_1">to read against.</span></p>
+<p begin="8176333333t" end="8199000000t" region="region_1" xml:id="subtitle265"><span style="style_1">But it was like chess.</span><br/><span style="style_1">I knew I was gonna get the part.</span></p>
+<p begin="8200000000t" end="8225333333t" region="region_1" xml:id="subtitle266"><span style="style_1">-You did?</span><br/><span style="style_1">-I knew it on the first time I met you.</span></p>
+<p begin="8228000000t" end="8245333333t" region="region_1" xml:id="subtitle267"><span style="style_1">-Really?</span><br/><span style="style_1">-I knew it. I never said a thing.</span></p>
+<p begin="8246000000t" end="8259333333t" region="region_1" xml:id="subtitle268"><span style="style_1">And I never said it to you.</span></p>
+<p begin="8264333333t" end="8310333333t" region="region_1" xml:id="subtitle269"><span style="style_1">I knew when I started reading with you.</span><br/><span style="style_1">I just said, "They can't pass that up."</span></p>
+<p begin="8314666666t" end="8350666666t" region="region_1" xml:id="subtitle270"><span style="style_1">You just feel the hand of the universe</span><br/><span style="style_1">going, "You two are gonna be together."</span></p>
+<p begin="8352666666t" end="8379666666t" region="region_1" xml:id="subtitle271"><span style="style_1">But I could've played Kramer</span><br/><span style="style_1">for the rest of my life.</span></p>
+<p begin="8380333333t" end="8388666666t" region="region_1" xml:id="subtitle272"><span style="style_1">Yes.</span></p>
+<p begin="8389333333t" end="8413666666t" region="region_1" xml:id="subtitle273"><span style="style_1">That character would fit</span><br/><span style="style_1">into any situation.</span></p>
+<p begin="8417333333t" end="8457333333t" region="region_1" xml:id="subtitle274"><span style="style_1">There was a great universality</span><br/><span style="style_1">to the soul of that character.</span></p>
+<p begin="8462000000t" end="8486666666t" region="region_1" xml:id="subtitle275"><span style="style_1">-I went to Bali. Get away.</span><br/><span style="style_1">-Right.</span></p>
+<p begin="8491816667t" end="8527185334t" region="region_1" xml:id="subtitle276"><span style="style_1">Get away for a little while.</span><br/><span style="style_1">Like to just step away from the world.</span></p>
+<p begin="8532666666t" end="8568000000t" region="region_1" xml:id="subtitle277"><span style="style_1">I go out into the jungle.</span><br/><span style="style_1">I'm way deep into the jungle now.</span></p>
+<p begin="8568666666t" end="8594333333t" region="region_1" xml:id="subtitle278"><span style="style_1">And I see some naked people,</span><br/><span style="style_1">and they point at me. They go...</span></p>
+<p begin="8595666666t" end="8611333333t" region="region_1" xml:id="subtitle279"><span style="style_1">"[speaking gibberish] Kramer!"</span></p>
+<p begin="8623666666t" end="8634000000t" region="region_1" xml:id="subtitle280"><span style="style_1">"This is Kramer."</span></p>
+<p begin="8642666666t" end="8656333333t" region="region_1" xml:id="subtitle281"><span style="style_1">They recognized me from the show.</span></p>
+<p begin="8657333333t" end="8697666666t" region="region_1" xml:id="subtitle282"><span style="style_1">They had a hut with a cable</span><br/><span style="style_1">out there somewhere. They could watch--</span></p>
+<p begin="8698333333t" end="8727333333t" region="region_1" xml:id="subtitle283"><span style="style_1">They had a little television.</span><br/><span style="style_1">They watched the show.</span></p>
+<p begin="8730333333t" end="8745666666t" region="region_1" xml:id="subtitle284"><span style="style_1">In the jungles of Bali.</span></p>
+<p begin="8760666666t" end="8779333333t" region="region_1" xml:id="subtitle285"><span style="style_1">You know those performers</span><br/><span style="style_1">who just love it?</span></p>
+<p begin="8780333333t" end="8812666666t" region="region_1" xml:id="subtitle286"><span style="style_1">-Yeah.</span><br/><span style="style_1">-It was always a struggle with me.</span></p>
+<p begin="8813137667t" end="8821479334t" region="region_1" xml:id="subtitle287"><span style="style_1">[groans]</span></p>
+<p begin="8824333333t" end="8859000000t" region="region_1" xml:id="subtitle288"><span style="style_1">No, no.</span><br/><span style="style_1">I don't accept the judging of process.</span></p>
+<p begin="8860000000t" end="8873333333t" region="region_1" xml:id="subtitle289"><span style="style_1">Doesn't matter that you rehearse</span></p>
+<p begin="8874333333t" end="8902000000t" region="region_1" xml:id="subtitle290"><span style="style_1">with your nose up against the flat,</span><br/><span style="style_1">saying lines.</span></p>
+<p begin="8902666666t" end="8918666666t" region="region_1" xml:id="subtitle291"><span style="style_1">-Doesn't matter.</span><br/><span style="style_1">-You used to see doing that?</span></p>
+<p begin="8919333333t" end="8947333333t" region="region_1" xml:id="subtitle292"><span style="style_1">Yes. We're all trying to get</span><br/><span style="style_1">to the same island.</span></p>
+<p begin="8956666666t" end="9008333333t" region="region_1" xml:id="subtitle293"><span style="style_1">Whether you swim, fly, surf,</span><br/><span style="style_1">or skydive in, it doesn't matter.</span></p>
+<p begin="9009000000t" end="9027351667t" region="region_1" xml:id="subtitle294"><span style="style_1">What matters</span><br/><span style="style_1">is when the red light comes on.</span></p>
+<p begin="9028000000t" end="9060000000t" region="region_1" xml:id="subtitle295"><span style="style_1">Okay. Because sometimes</span><br/><span style="style_1">I look back at the show</span></p>
+<p begin="9060666666t" end="9080333333t" region="region_1" xml:id="subtitle296"><span style="style_1">and I think I should have</span><br/><span style="style_1">enjoyed myself more.</span></p>
+<p begin="9083000000t" end="9105666666t" region="region_1" xml:id="subtitle297"><span style="style_1">Michael, I could say that myself.</span></p>
+<p begin="9109666666t" end="9124000000t" region="region_1" xml:id="subtitle298"><span style="style_1">But that was not our job.</span></p>
+<p begin="9129000000t" end="9163333333t" region="region_1" xml:id="subtitle299"><span style="style_1">Our job is not for us to enjoy.</span><br/><span style="style_1">Our job is to make sure they enjoy it.</span></p>
+<p begin="9164155000t" end="9179503667t" region="region_1" xml:id="subtitle300"><span style="style_1">-And that's what we did.</span><br/><span style="style_1">-Ah.</span></p>
+<p begin="9180333333t" end="9203000000t" region="region_1" xml:id="subtitle301"><span style="style_1">You know, that's beautiful.</span><br/><span style="style_1">That's beautiful.</span></p>
+<p begin="9203666666t" end="9223666666t" region="region_1" xml:id="subtitle302"><span style="style_1">Because I think I worked selfishly.</span></p>
+<p begin="9227000000t" end="9240666666t" region="region_1" xml:id="subtitle303"><span style="style_1">And not selflessly.</span></p>
+<p begin="9241666666t" end="9265333333t" region="region_1" xml:id="subtitle304"><span style="style_1">-It's not about me. It's about them.</span><br/><span style="style_1">-Yes. No.</span></p>
+<p begin="9266333333t" end="9276333333t" region="region_1" xml:id="subtitle305"><span style="style_1">Yes.</span></p>
+<p begin="9277000000t" end="9314000000t" region="region_1" xml:id="subtitle306"><span style="style_1">Now, that's a lesson I learned</span><br/><span style="style_1">seven years ago,</span></p>
+<p begin="9319000000t" end="9333000000t" region="region_1" xml:id="subtitle307"><span style="style_1">when I blew it in the comedy club.</span></p>
+<p begin="9333666666t" end="9354666666t" region="region_1" xml:id="subtitle308"><span style="style_1">Lost my temper</span><br/><span style="style_1">because somebody interrupted my act</span></p>
+<p begin="9355346000t" end="9374031334t" region="region_1" xml:id="subtitle309"><span style="style_1">and said some things that hurt me,</span></p>
+<p begin="9374698667t" end="9395386000t" region="region_1" xml:id="subtitle310"><span style="style_1">-and I lashed out in anger.</span><br/><span style="style_1">-Right. Right.</span></p>
+<p begin="9397333333t" end="9427000000t" region="region_1" xml:id="subtitle311"><span style="style_1">I should have been working</span><br/><span style="style_1">selflessly that evening.</span></p>
+<p begin="9428333333t" end="9458000000t" region="region_1" xml:id="subtitle312"><span style="style_1">Most of the time,</span><br/><span style="style_1">when I'm in that zone, I am selfless.</span></p>
+<p begin="9458666666t" end="9486000000t" region="region_1" xml:id="subtitle313"><span style="style_1">Right. You told me that you had done</span><br/><span style="style_1">a couple of sets.</span></p>
+<p begin="9491333333t" end="9509000000t" region="region_1" xml:id="subtitle314"><span style="style_1">-No, I never--</span><br/><span style="style_1">-Do you want to?</span></p>
+<p begin="9510333333t" end="9546000000t" region="region_1" xml:id="subtitle315"><span style="style_1">Sometimes, I say, "I must. I should."</span><br/><span style="style_1">And normally, I would have...</span></p>
+<p begin="9551542000t" end="9561552000t" region="region_1" xml:id="subtitle316"><span style="style_1">[mutters]</span></p>
+<p begin="9564000000t" end="9600666666t" region="region_1" xml:id="subtitle317"><span style="style_1">...gone in and played around</span><br/><span style="style_1">with this material.</span></p>
+<p begin="9601592000t" end="9650641000t" region="region_1" xml:id="subtitle318"><span style="style_1">But, no. No, I... [stammers]</span></p>
+<p begin="9651333333t" end="9687000000t" region="region_1" xml:id="subtitle319"><span style="style_1">I busted up after that event</span><br/><span style="style_1">seven years ago. It broke me down.</span></p>
+<p begin="9690000000t" end="9721666666t" region="region_1" xml:id="subtitle320"><span style="style_1">It was a selfish response.</span></p>
+<p begin="9725333333t" end="9758333333t" region="region_1" xml:id="subtitle321"><span style="style_1">I took it too personally.</span><br/><span style="style_1">And I should have just said,</span></p>
+<p begin="9760083667t" end="9780103667t" region="region_1" xml:id="subtitle322"><span style="style_1">"Yeah, you're absolutely right.</span><br/><span style="style_1">I'm not funny.</span></p>
+<p begin="9780771000t" end="9809132667t" region="region_1" xml:id="subtitle323"><span style="style_1">I'll go home and work on my material.</span><br/><span style="style_1">I'll see you tomorrow night."</span></p>
+<p begin="9809800000t" end="9833824000t" region="region_1" xml:id="subtitle324"><span style="style_1">[speaks gibberish]</span><br/><span style="style_1">And split. Or something. Anything.</span></p>
+<p begin="9837333333t" end="9865000000t" region="region_1" xml:id="subtitle325"><span style="style_1">But, you know,</span><br/><span style="style_1">it's just one of those nights.</span></p>
+<p begin="9873864000t" end="9890213667t" region="region_1" xml:id="subtitle326"><span style="style_1">And thanks for sticking by me.</span></p>
+<p begin="9897333333t" end="9915666666t" region="region_1" xml:id="subtitle327"><span style="style_1">-Really, you...</span><br/><span style="style_1">-There was no issue with that.</span></p>
+<p begin="9916333333t" end="9946666666t" region="region_1" xml:id="subtitle328"><span style="style_1">-Well, I mean, it meant a lot to me.</span><br/><span style="style_1">-That's nice.</span></p>
+<p begin="9951333333t" end="9982000000t" region="region_1" xml:id="subtitle329"><span style="style_1">But inside,</span><br/><span style="style_1">it still kicks me around a bit.</span></p>
+<p begin="9982666666t" end="10011000000t" region="region_1" xml:id="subtitle330"><span style="style_1">Okay, well, that's... You know...</span><br/><span style="style_1">That's up to you.</span></p>
+<p begin="10011666666t" end="10045000000t" region="region_1" xml:id="subtitle331"><span style="style_1">-Yeah, [stammers] that's a big...</span><br/><span style="style_1">-That's up to you</span></p>
+<p begin="10045702334t" end="10075065000t" region="region_1" xml:id="subtitle332"><span style="style_1">to say, "You know,</span><br/><span style="style_1">I've been carrying this bag long enough.</span></p>
+<p begin="10075732334t" end="10085742334t" region="region_1" xml:id="subtitle333"><span style="style_1">-Yeah.</span><br/><span style="style_1">-I'm gonna put it down."</span></p>
+<p begin="10093666666t" end="10112666666t" region="region_1" xml:id="subtitle334"><span style="style_1">Yeah. Yeah...</span></p>
+<p begin="10159816334t" end="10179836334t" region="region_1" xml:id="subtitle335"><span style="style_1">[inaudible]</span></p>
+<p begin="10783666666t" end="10816000000t" region="region_1" xml:id="subtitle336"><span style="style_1">[Jerry] Well, I hope that you do consider</span><br/><span style="style_1">using your instrument again...</span></p>
+<p begin="10816666666t" end="10826333333t" region="region_1" xml:id="subtitle337"><span style="style_1">[Michael] Thanks.</span></p>
+<p begin="10826816001t" end="10844500334t" region="region_1" xml:id="subtitle338"><span style="style_1">[Jerry] ...because it's the most</span><br/><span style="style_1">beautiful instrument I've seen.</span></p>
+<p begin="10845333333t" end="10874000000t" region="region_1" xml:id="subtitle339"><span style="style_1">-[Michael] Oh, Jerry. Thanks, buddy.</span><br/><span style="style_1">-It is. Yeah.</span></p>
+</div>
+</body>
+</tt>
