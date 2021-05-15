@@ -85,7 +85,7 @@ namespace Phrazer
             
             // Add header
             if(!SubsConfig.generateAllInputsStatisticsFile) {
-                tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME" + "\t" + "COUNT");
+                tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
                 vocabulary.Add("DE" + "\t" + "EN");
             }
 
@@ -97,7 +97,7 @@ namespace Phrazer
             foreach (string row in rows)
             {
                 if(inputFormat == "vtt") {
-                    if(row.Trim() == "") continue;
+                    if(SubsRowFilter.SkipRow(row, false)) continue;
                     if(SubsHelper.GetOutputTime(row).Length > 0) {
                         time = SubsHelper.GetOutputTime(row);
                         continue;
@@ -125,7 +125,7 @@ namespace Phrazer
                     if(SubsConfig.generateAllInputsStatisticsFile) {
                         vocabulary.Add("" + "\t" + word);
                     } else {
-                        if(!vocabulary.Contains("" + "\t" + word)) 
+                        //if(!vocabulary.Contains("" + "\t" + word)) 
                             vocabulary.Add("" + "\t" + word);
                     }
                 }
@@ -142,11 +142,11 @@ namespace Phrazer
             // Prepare and write into file
             for(var i = 0; i < textBufferList.Length; i++) {
                 if(textBufferList[i] == null) break;
-                //tsvRows.Add(translatedTextList[i] + "\t" + textBufferList[i] + "\t" + textLengthList[i] + "\t" + rowNumberList[i] + "\t" + timeCodeList[i] + "\t" + "1");
+                tsvRows.Add(translatedTextList[i] + "\t" + textBufferList[i] + "\t" + textLengthList[i] + "\t" + rowNumberList[i] + "\t" + timeCodeList[i]);
             }
             
             if(SubsConfig.generateAllInputsStatisticsFile) {
-                //File.AppendAllLines(SubsHelper.GetOutputAbsoluteFilename("__ALL_TEXTS", ""), tsvRows, Encoding.UTF8);
+                File.AppendAllLines(SubsHelper.GetOutputAbsoluteFilename("__ALL_TEXTS", ""), tsvRows, Encoding.UTF8);
                 File.AppendAllLines(SubsHelper.GetOutputAbsoluteFilename("__ALL_WORDS", ""), vocabulary, Encoding.UTF8);
             } else {
                 string suffix = (harvesterMode) ? " - HARVESTER" : "";
@@ -199,15 +199,13 @@ namespace Phrazer
                 string partsBuffer = "";
                 textParts = textBuffer.Split(",");
                 for(int i = 0; i < textParts.Length; i++) {
-                    partsBuffer = partsBuffer + textParts[i];
-                    if( !textParts[i].EndsWith(".")
-                        && !textParts[i].EndsWith("?")
-                        && !textParts[i].EndsWith("!")
-                    ) {
-                        partsBuffer = partsBuffer + ", ";
-                        // wenn string zu kurz - einfach weitergehen.
-                        if(partsBuffer.Length < 15 || SubsHelper.GetWordsCount(partsBuffer) < 3) continue;
-                    }
+                    partsBuffer = partsBuffer + textParts[i].Trim();
+
+                    // wenn string zu kurz oder next zu kurz - einfach weitergehen.
+                    if(textParts.Length > i+1) partsBuffer = partsBuffer + ", ";
+                    if(textParts.Length == i+2 && textParts[i+1].Length < 12) continue;
+                    if(partsBuffer.Length < 15 || SubsHelper.GetWordsCount(partsBuffer) < 3) continue;
+
                     SaveTextPartToList(partsBuffer, ref rowNumber, ref time);
                     partsBuffer = "";
                 }

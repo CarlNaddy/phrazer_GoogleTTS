@@ -11,8 +11,8 @@ namespace Phrazer
         
         public static bool SkipRow(string text, bool harvesterMode)
         {
+            text = text.Trim();
             if(text.Length < 2) return true;
-            //string filteredText = Regex.Replace(text, @"[^a-zA-Z0-9,\s]+", "", RegexOptions.Compiled).Trim();
             if(text.Contains("♪")) return true;
             if(text.Contains("&lt;")) return true;
             if(text.Contains("==")) return true;
@@ -20,7 +20,6 @@ namespace Phrazer
             if(text.Contains("Subtitles")) return true;
 
             // CHECK: CUT IT MORE HARD
-            if(SubsHelper.GetWordsCount(text) < 1) return true;
             if(text.Contains("...") && text.Length < 8) return true;
             if(text.Contains("--") && text.Length < 6) return true;
 

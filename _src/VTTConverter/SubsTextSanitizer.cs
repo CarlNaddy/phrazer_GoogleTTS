@@ -21,6 +21,8 @@ namespace Phrazer
             text = text.Replace("&lt;br/>", " ");
             text = text.Replace("\t", "");
             text = text.Replace("\"", "");
+            text = text.Replace("“", "");
+            text = text.Replace("”", "");
             text = text.Replace("<i>", "");
             text = text.Replace("</i>", "");
             text = text.Replace(" !", "!");
@@ -76,6 +78,7 @@ namespace Phrazer
                 "So", "so",
                 
                 // DELETE MAYBE
+                /*
                 "Yes", "yes",
                 "No", "no",
                 "Now", "now",
@@ -85,6 +88,7 @@ namespace Phrazer
                 "Look", "look",
                 "Gee", "Boy",
                 "Darling", "Sweetheart",
+                */
 
                 // DELETE NAMES
                 "Alan", "Alan",

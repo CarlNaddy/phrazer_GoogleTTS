@@ -12,6 +12,6 @@ namespace Phrazer
         static public bool allowRepeat = true;
         static public bool transformTextToLowercase = false;
         static public bool generateHarvesterFiles = false;
-        static public bool generateAllInputsStatisticsFile = true;
+        static public bool generateAllInputsStatisticsFile = false;
     }
 }
