@@ -19,10 +19,10 @@ namespace Phrazer
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
         }
 
-        public static string GetSoundPath(string sound)
+        public static string GetSoundPath(string sound, string package)
         {
             // 24000 Khz Mono Wav only
-            string package = "piano_mono";
+            if(package == "") package = "piano_mono";
             return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
         }
 

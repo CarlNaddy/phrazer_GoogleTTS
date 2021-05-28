@@ -60,12 +60,6 @@ namespace Phrazer
             string oFileName = "";
             string oTranslation = "";
 
-            // Special format for Marcel
-            if(FromLang == "DE" && ToLang == "DE") {
-                oFileName = AdjustPath(fromText + " ..... ..... ..... .... .... .... ..... ..... ..... .... " + toText + ".wav");
-                return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
-            }
-
             oTranslation = GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length -3);
             if(oTranslation.Length < fromText.Length) oTranslation = oTranslation + "...";
             
@@ -73,8 +67,6 @@ namespace Phrazer
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
             + " (" + oTranslation + ")" 
             + ".wav");
-
-            //Console.WriteLine(oFileName.Length + ": " + oFileName);
             
             return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
         }
@@ -117,6 +109,7 @@ namespace Phrazer
             string[] csvEntries = csvRow.Split('\t');
             if (csvEntries.Length < 2) return; // Skip not well defined rows
             
+            // for the first header row in the input tsv file
             if (FromLang == "" && ToLang == "")
             {
                 FromLang = csvEntries[0].Trim();
@@ -127,13 +120,16 @@ namespace Phrazer
             FromText = csvEntries[0].Trim();
             ToText = csvEntries[1].Trim();
             if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
-            if(FromText.Length < 1 && SkipWithoutTranslation == true) return; 
+            if(FromText.Length < 1 && SkipWithoutTranslation == true) return;
 
             // Project Metadata / Params to set before creating audio
             RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
             TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
 
             if(FolderSuffixAllowed && RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
+
+            // just add a jingle file with timecode
+            if(addJingle(FromText)) return;
 
             ProcessTplFile();
         }
@@ -175,8 +171,6 @@ namespace Phrazer
 
         public void ProcessTplRow(string text)
         {
-            // add some SOUNDS
-            FromText = addHeadingSoundAndCut(FromText);
 
             // replace TEXTS
             text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
@@ -217,27 +211,34 @@ namespace Phrazer
             File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", FromText + "\t" + ToText + "\n");
         }
 
-        public string addHeadingSoundAndCut(string FromText)
+        public bool addJingle(string FromText)
         {
-            // Just for Compat with legacy stuff
-            if(FromText.StartsWith("### ")) { Generator.JustAddWavSound("h3"); FromText = FromText.Replace("### ", ""); }
-            if(FromText.StartsWith("## ")) { Generator.JustAddWavSound("h2"); FromText = FromText.Replace("## ", ""); }
-            if(FromText.StartsWith("# ")) { Generator.JustAddWavSound("h1"); FromText = FromText.Replace("# ", ""); }
-
 
             // Add sound file by name
+
             if(FromText.StartsWith("#")) {
-                Match match = Regex.Match(FromText, @"^#([a-zA-Z0-9]+)\.");
+                Match match = Regex.Match(FromText, @"^#([a-zA-Z0-9_.-]+)");
                 if(match.Success) {
+                    
                     string headingPrefix = match.Value;
                     string soundName = headingPrefix.TrimStart('#').TrimEnd('.');
 
-                    Generator.JustAddWavSound(soundName); FromText = FromText.Replace(headingPrefix, "").Trim();
+                    // from henceforce we just create a new jingle file - dont use the Generator
+                    string jingleFilename = Appdata.GetSoundPath(soundName, "jingles");
+                    if(File.Exists(jingleFilename)) {
+                        
+                        string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " music playing.wav");
+                        string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
+                        Console.WriteLine(">> GENERATE JINGLE: " + outputFilename);
+
+                        System.IO.File.Copy(jingleFilename, outputFilename, true);
+                        return true;
+                    }
+
+                    //Generator.JustAddWavSound(soundName); FromText = FromText.Replace(headingPrefix, "").Trim();
                 }
             }
-
-            
-            return FromText;
+            return false;
         }
 
 
