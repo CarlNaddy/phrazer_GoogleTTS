@@ -1,0 +1,2766 @@
+﻿1
+00:00:10,176 --> 00:00:12,846
+[rocket engine whooshing] 
+
+2
+00:00:16,641 --> 00:00:18,351
+[calm music playing]
+
+3
+00:00:24,190 --> 00:00:26,359
+[Mark inhaling sharply] Motherfucker!
+
+4
+00:00:26,443 --> 00:00:28,028
+-What? What is it?
+-Take a look.
+
+5
+00:00:29,779 --> 00:00:30,864
+[Mark] Goddamnit!
+
+6
+00:00:33,908 --> 00:00:35,160
+Motherfucker!
+
+7
+00:00:35,243 --> 00:00:36,369
+We have to get back to work!
+
+8
+00:00:36,453 --> 00:00:38,288
+Wait, are you okay to drive?
+
+9
+00:00:38,371 --> 00:00:39,456
+-Yeah.
+-You sure?
+
+10
+00:00:39,539 --> 00:00:42,292
+Oh, yeah! Acts of foreign aggression
+really sober me up!
+
+11
+00:00:42,667 --> 00:00:45,128
+-[engine revving] 
+-[tires squealing] 
+
+12
+00:00:53,344 --> 00:00:55,555
+[dance music blaring on car stereo] 
+
+13
+00:00:59,350 --> 00:01:00,310
+[music stops] 
+
+14
+00:01:00,477 --> 00:01:03,521
+Perhaps I come in, and we finish this.
+
+15
+00:01:04,773 --> 00:01:07,525
+Can't. Lots of math homework due tomorrow.
+
+16
+00:01:07,609 --> 00:01:10,278
+Great, I'll help you.
+It's gonna be like a study date.
+
+17
+00:01:11,112 --> 00:01:12,113
+It's trig.
+
+18
+00:01:12,655 --> 00:01:15,158
+We do trigonometry in grade six back home.
+
+19
+00:01:15,575 --> 00:01:17,327
+[chortles] Nerd.
+
+20
+00:01:17,410 --> 00:01:19,204
+[both laugh] 
+
+21
+00:01:19,788 --> 00:01:22,707
+Anyway, my father wouldn't approve.
+
+22
+00:01:22,791 --> 00:01:24,042
+Of study?
+
+23
+00:01:24,501 --> 00:01:25,752
+Of you helping.
+
+24
+00:01:26,336 --> 00:01:27,462
+He does it with me.
+
+25
+00:01:27,712 --> 00:01:29,672
+Makes sure I struggle enough.
+
+26
+00:01:30,799 --> 00:01:33,009
+It looks all lit up,
+but no car in driveway.
+
+27
+00:01:33,426 --> 00:01:34,803
+I don't think he's home.
+
+28
+00:01:35,804 --> 00:01:37,138
+Maybe I should go in.
+
+29
+00:01:37,847 --> 00:01:38,765
+Nah.
+
+30
+00:01:41,142 --> 00:01:42,894
+He promised he'd do it with me.
+
+31
+00:01:43,478 --> 00:01:47,857
+He's in there,
+waiting to pounce 'cause I'm late.
+
+32
+00:01:49,400 --> 00:01:50,944
+-Bye.
+-Bye.
+
+33
+00:01:53,655 --> 00:01:54,531
+[car door closes] 
+
+34
+00:01:54,614 --> 00:01:56,616
+[dance music resumes] 
+
+35
+00:02:02,914 --> 00:02:03,915
+Dad?
+
+36
+00:02:09,671 --> 00:02:13,591
+And what do you estimate
+the velocities are?
+
+37
+00:02:15,218 --> 00:02:16,803
+Yes. Understood.
+
+38
+00:02:16,886 --> 00:02:20,181
+The solar panels are still close
+to the Epsilon unit
+
+39
+00:02:20,265 --> 00:02:22,433
+but on a slightly different trajectory.
+
+40
+00:02:22,517 --> 00:02:25,728
+My guys are estimating
+we have around ten hours
+
+41
+00:02:25,812 --> 00:02:28,314
+before they're too far away to reattach.
+
+42
+00:02:28,398 --> 00:02:29,399
+Ten hours? Easy.
+
+43
+00:02:29,482 --> 00:02:31,359
+We're gonna Apollo 13
+the shit out of this thing!
+
+44
+00:02:31,442 --> 00:02:32,652
+Space Force spirit!
+
+45
+00:02:33,236 --> 00:02:34,904
+Assess and inventory?
+
+46
+00:02:35,655 --> 00:02:38,575
+The panel joints were snipped cleanly
+in the open position.
+
+47
+00:02:38,658 --> 00:02:41,327
+It'll provide power
+if we can get it to touch Epsilon 6,
+
+48
+00:02:41,411 --> 00:02:42,620
+and if we do nothing,
+
+49
+00:02:42,704 --> 00:02:45,165
+it'll fall into atmosphere
+and burn up by tomorrow morning.
+
+50
+00:02:45,248 --> 00:02:46,958
+Okay, team, what do we think?
+
+51
+00:02:50,879 --> 00:02:53,631
+I think we should try to get the panels
+and reattach them.
+
+52
+00:02:56,217 --> 00:02:59,262
+Good. That's a good suggestion. Good.
+
+53
+00:02:59,971 --> 00:03:02,015
+Okay, team, what do we think?
+
+54
+00:03:02,098 --> 00:03:04,392
+Suppose we leave the panels
+on their trajectory
+
+55
+00:03:04,475 --> 00:03:08,396
+and use Epsilon's adjustment thrusters
+to bring the craft to the panels?
+
+56
+00:03:08,938 --> 00:03:10,607
+-Interesting.
+-Great. Done.
+
+57
+00:03:10,690 --> 00:03:13,484
+And how are we powering the thrusters?
+
+58
+00:03:13,568 --> 00:03:15,778
+Because the panels were the power source.
+
+59
+00:03:16,988 --> 00:03:17,947
+Ah. 
+
+60
+00:03:18,323 --> 00:03:20,366
+The connection nubs are exposed.
+
+61
+00:03:20,450 --> 00:03:24,871
+Microwave irradiation of the nubs
+from the Alaska Microwave Telescope
+
+62
+00:03:24,954 --> 00:03:27,999
+might generate enough
+for thruster ignition.
+
+63
+00:03:28,666 --> 00:03:30,710
+The craft will be above Alaska
+in 15 minutes.
+
+64
+00:03:30,793 --> 00:03:31,961
+Uh-huh. 
+
+65
+00:03:32,045 --> 00:03:36,049
+It's almost dinnertime in Alaska.
+Are we sure that the nips will be exposed?
+
+66
+00:03:37,967 --> 00:03:39,219
+Nubs, sir.
+
+67
+00:03:39,552 --> 00:03:41,054
+[Brad panting] I'm here.
+
+68
+00:03:41,179 --> 00:03:42,096
+What's going on?
+
+69
+00:03:42,430 --> 00:03:45,558
+Oh! This is a fun 
+sleepover kind of energy, huh?
+
+70
+00:03:46,017 --> 00:03:47,101
+Get Alaska on the phone.
+
+71
+00:03:47,185 --> 00:03:48,311
+-Yes, sir.
+-No, don't bother.
+
+72
+00:03:48,394 --> 00:03:50,480
+The panels are headed for the atmosphere.
+
+73
+00:03:50,563 --> 00:03:52,440
+So... hurry, right?
+
+74
+00:03:52,899 --> 00:03:55,485
+The nubs won't generate enough power
+to change directions.
+
+75
+00:03:55,568 --> 00:03:56,694
+Epsilon will burn up.
+
+76
+00:03:56,778 --> 00:03:58,655
+Never mind. Stupid. Stupid! 
+
+77
+00:03:59,322 --> 00:04:00,823
+How did this guy get hired?
+
+78
+00:04:01,532 --> 00:04:04,953
+I'm the foremost aeronautical
+engineering theorist in Belgium.
+
+79
+00:04:05,036 --> 00:04:08,748
+Oh, well, I didn't realize
+that Belgium had a space force.
+
+80
+00:04:08,831 --> 00:04:11,668
+Belgium is part
+of the European Space Agency
+
+81
+00:04:11,751 --> 00:04:14,212
+because Belgium is part of Europe.
+
+82
+00:04:14,295 --> 00:04:17,632
+Great, 'cause there's nothing stronger
+than a European Union.
+
+83
+00:04:17,715 --> 00:04:18,633
+What's after Brexit?
+
+84
+00:04:18,716 --> 00:04:19,926
+Frexit? Swexit?
+
+85
+00:04:20,677 --> 00:04:22,178
+Shall we brainstorm?
+
+86
+00:04:22,262 --> 00:04:24,305
+Yeah, let's do that.
+Let's break up into teams.
+
+87
+00:04:24,389 --> 00:04:27,350
+Anybody under the rank
+of lieutenant general can take notes.
+
+88
+00:04:27,767 --> 00:04:29,894
+And... anybody who's from Belgium.
+
+89
+00:04:32,230 --> 00:04:34,524
+["Fortunate Son"
+by Creedence Clearwater Revival playing]
+
+90
+00:04:34,607 --> 00:04:37,860
+[Mallory] Would we ever get 
+to this flight equation?
+
+91
+00:04:37,944 --> 00:04:39,946
+-This is the satellite.
+-Right.
+
+92
+00:04:40,029 --> 00:04:41,990
+This is what's come off of the satellite.
+
+93
+00:04:42,073 --> 00:04:43,658
+Yes, if we enter this way...
+
+94
+00:04:43,741 --> 00:04:45,118
+As long as the models match.
+
+95
+00:04:45,201 --> 00:04:49,539
+Keep in mind that we don't have
+any glasses or protractors in space.
+
+96
+00:04:49,622 --> 00:04:52,208
+Would the thrust chamber 
+assembly cluster...
+
+97
+00:04:52,292 --> 00:04:55,128
+La-la-la, listen.
+Are you familiar with the sonic boom?
+
+98
+00:04:55,211 --> 00:04:56,713
+Fresh out of the oven!
+
+99
+00:04:56,796 --> 00:04:57,964
+Here you go. Cookies.
+
+100
+00:04:58,047 --> 00:05:00,717
+Take one per person. One.
+Careful, they're hot.
+
+101
+00:05:01,134 --> 00:05:02,218
+[Mallory] Okay.
+
+102
+00:05:04,095 --> 00:05:07,098
+"Manned space walk from the ISS."
+
+103
+00:05:07,181 --> 00:05:11,477
+Hmm. That's risky,
+and the ISS is 200 kilometers away.
+
+104
+00:05:11,561 --> 00:05:12,937
+If we ask for outside help,
+
+105
+00:05:13,021 --> 00:05:16,274
+the whole world will know
+that the Chinese bufu'd our satellite.
+
+106
+00:05:16,357 --> 00:05:17,358
+Next card.
+
+107
+00:05:17,775 --> 00:05:21,070
+"Solar panels are like light sails.
+
+108
+00:05:21,154 --> 00:05:22,530
+Push them back with light."
+
+109
+00:05:22,989 --> 00:05:25,158
+Hmm. That's interesting, Yamato.
+
+110
+00:05:25,533 --> 00:05:30,079
+It is, but how would we focus the sunlight
+in the right direction?
+
+111
+00:05:30,163 --> 00:05:32,123
+-Retask a LEOT.
+-Next card!
+
+112
+00:05:32,206 --> 00:05:34,125
+That's Low Earth Orbit Telescope.
+
+113
+00:05:34,208 --> 00:05:35,209
+Next card, please!
+
+114
+00:05:35,293 --> 00:05:36,836
+Yamato, there is something there.
+
+115
+00:05:36,919 --> 00:05:39,422
+Why don't you take Swedberg and Carter
+
+116
+00:05:39,505 --> 00:05:41,341
+and noodle it around a little bit?
+
+117
+00:05:41,424 --> 00:05:42,258
+Good idea.
+
+118
+00:05:43,384 --> 00:05:45,053
+Okay, what have we here?
+
+119
+00:05:45,136 --> 00:05:46,429
+This says...
+
+120
+00:05:46,804 --> 00:05:47,805
+"Bomb."
+
+121
+00:05:49,390 --> 00:05:52,518
+-[low chuckles]
+-I don't know if that is a noun, a verb,
+
+122
+00:05:52,602 --> 00:05:55,313
+or an adjective describing my outfit.
+
+123
+00:05:55,396 --> 00:05:57,565
+All right,
+let's not just dismiss that out of hand.
+
+124
+00:05:57,648 --> 00:05:58,691
+What about a bomb?
+
+125
+00:05:58,775 --> 00:06:02,487
+In my experience with the Air Force,
+that was very often the right answer.
+
+126
+00:06:02,570 --> 00:06:04,238
+Very, very often.
+
+127
+00:06:04,322 --> 00:06:06,949
+Are we now pretending
+we have tons of time?
+
+128
+00:06:07,033 --> 00:06:07,909
+We don't!
+
+129
+00:06:07,992 --> 00:06:12,163
+Okay, then who would like to elaborate
+on their idea of "bomb"?
+
+130
+00:06:19,087 --> 00:06:20,171
+All right, it was me!
+
+131
+00:06:20,922 --> 00:06:24,467
+Maybe it's a small smart bomb,
+very targeted.
+
+132
+00:06:25,259 --> 00:06:26,594
+I don't see how that could help.
+
+133
+00:06:26,677 --> 00:06:29,722
+All right, a big fuckin' bomb.
+That was my first instinct, anyway.
+
+134
+00:06:29,806 --> 00:06:31,140
+-That's no better.
+-Shockwaves!
+
+135
+00:06:31,224 --> 00:06:33,059
+-It's a vacuum.
+-Space is a vacuum.
+
+136
+00:06:33,142 --> 00:06:35,770
+Vandeveld, take Chan,
+and work out the details.
+
+137
+00:06:37,188 --> 00:06:38,648
+Noodle it around.
+
+138
+00:06:55,623 --> 00:06:56,624
+I don't get it.
+
+139
+00:06:57,542 --> 00:06:58,501
+I don't get it.
+
+140
+00:06:59,085 --> 00:07:00,294
+"Tangent X"?
+
+141
+00:07:02,213 --> 00:07:03,339
+Dad!
+
+142
+00:07:04,257 --> 00:07:05,675
+[Mallory] Assess and inventory.
+
+143
+00:07:05,758 --> 00:07:09,971
+What assets do we have
+within a 100-mile radius of Epsilon?
+
+144
+00:07:10,054 --> 00:07:11,305
+Four pieces of space junk
+
+145
+00:07:11,389 --> 00:07:15,768
+consisting of three bags of garbage
+from a 1990 shuttle mission and a Tesla.
+
+146
+00:07:17,061 --> 00:07:18,729
+Also, there's something here
+
+147
+00:07:18,813 --> 00:07:21,858
+that this computer only identifies
+as "Mission X-12."
+
+148
+00:07:21,941 --> 00:07:22,859
+[mouse clicking] 
+
+149
+00:07:22,942 --> 00:07:24,902
+I don't have the security clearance
+to see what it is.
+
+150
+00:07:24,986 --> 00:07:26,654
+Use my code. I'll type it in.
+
+151
+00:07:26,737 --> 00:07:27,780
+Okay.
+
+152
+00:07:32,827 --> 00:07:34,162
+[sighs]
+
+153
+00:07:40,960 --> 00:07:42,086
+Okay. It's open.
+
+154
+00:07:42,170 --> 00:07:44,005
+Assess and inventory.
+
+155
+00:07:45,006 --> 00:07:48,759
+This launched two months ago.
+On board: assault rifles, ten.
+
+156
+00:07:49,302 --> 00:07:50,511
+Assault rifles?
+
+157
+00:07:51,012 --> 00:07:55,433
+This was not
+a scientifically useful mission, guys.
+
+158
+00:07:55,516 --> 00:07:56,809
+I kept it from you.
+
+159
+00:07:56,893 --> 00:07:59,854
+It was a very successful mission,
+ordered by POTUS himself,
+
+160
+00:07:59,937 --> 00:08:03,483
+which proved that assault rifles
+will work in the vacuum of space.
+
+161
+00:08:03,566 --> 00:08:04,734
+Which was never in doubt.
+
+162
+00:08:04,817 --> 00:08:09,780
+But now the Manchester Arms Company
+can advertise the R-9
+
+163
+00:08:09,864 --> 00:08:12,617
+as the official Space Force gun
+
+164
+00:08:12,700 --> 00:08:15,369
+for committing mass shootings on the moon.
+
+165
+00:08:15,745 --> 00:08:16,996
+Or hunting.
+
+166
+00:08:17,079 --> 00:08:19,290
+Okay, okay, no politics, please!
+
+167
+00:08:19,373 --> 00:08:21,417
+We all took an oath
+to defend the Constitution,
+
+168
+00:08:21,501 --> 00:08:22,460
+not a political party.
+
+169
+00:08:22,543 --> 00:08:24,253
+We are all Americans here.
+
+170
+00:08:24,337 --> 00:08:26,422
+Even Chan and Vanden-f-flank.
+
+171
+00:08:26,797 --> 00:08:28,799
+-I'm an EU citizen.
+-Canadian.
+
+172
+00:08:28,883 --> 00:08:31,135
+Indian immigrant. On a green card.
+
+173
+00:08:31,219 --> 00:08:34,222
+-Sri Lankan with an O-1 work visa.
+-We don't have time for this!
+
+174
+00:08:34,805 --> 00:08:35,806
+Keep going, Chan.
+
+175
+00:08:36,224 --> 00:08:39,602
+Okay, also on board:
+assorted tool package 2-A.
+
+176
+00:08:39,685 --> 00:08:41,437
+Bags of chimp food, ten.
+
+177
+00:08:41,520 --> 00:08:42,939
+Bags of dog food, ten.
+
+178
+00:08:43,397 --> 00:08:45,316
+Chimp, adult male.
+
+179
+00:08:45,733 --> 00:08:47,235
+Dog, adult male.
+
+180
+00:08:47,985 --> 00:08:52,114
+I’m in charge of animal experimentation.
+Why were there animals on board?
+
+181
+00:08:52,949 --> 00:08:54,450
+Would you like to handle that?
+
+182
+00:08:55,034 --> 00:08:56,577
+The White House felt very strongly
+
+183
+00:08:56,661 --> 00:09:00,373
+that footage of a dogstronaut
+and a chimpstronaut would be worthwhile
+
+184
+00:09:00,456 --> 00:09:02,041
+and would be, um...
+
+185
+00:09:02,124 --> 00:09:02,959
+what's the word?
+
+186
+00:09:03,042 --> 00:09:03,960
+Viral.
+
+187
+00:09:04,669 --> 00:09:06,963
+That reminds me,
+someone release Fuck Tony from the brig.
+
+188
+00:09:07,046 --> 00:09:10,007
+[Mallory] So the groundbreaking science
+was not enough.
+
+189
+00:09:10,091 --> 00:09:14,178
+We needed a literal dog and pony show,
+recast with a chimp.
+
+190
+00:09:14,262 --> 00:09:15,096
+Yes!
+
+191
+00:09:15,179 --> 00:09:18,307
+But that is something
+that we can work with.
+
+192
+00:09:18,391 --> 00:09:21,269
+We have a manned flight
+or man's best friend.
+
+193
+00:09:21,352 --> 00:09:23,271
+We have personnel in the field.
+
+194
+00:09:23,354 --> 00:09:27,567
+Yes, but we have the best personnel
+here on the ground,
+
+195
+00:09:27,650 --> 00:09:30,486
+and surely it is the people
+who invented the bus,
+
+196
+00:09:30,569 --> 00:09:32,154
+rather than the driver,
+
+197
+00:09:32,238 --> 00:09:34,615
+who are the best people to fix it.
+
+198
+00:09:34,699 --> 00:09:37,493
+You're talking to a pilot.
+Remember who flies the plane.
+
+199
+00:09:37,577 --> 00:09:39,412
+Most planes fly by autopilot.
+
+200
+00:09:39,495 --> 00:09:41,872
+-Shut up, Chan.
+-Well, most buses, too.
+
+201
+00:09:41,956 --> 00:09:44,917
+Soon, everybody will be out of a job,
+except scientists.
+
+202
+00:09:45,001 --> 00:09:46,210
+[guffaws] 
+
+203
+00:09:46,627 --> 00:09:49,880
+I think Yamato's light sail team
+are our best bet.
+
+204
+00:09:49,964 --> 00:09:52,216
+Yeah, but I don't understand what that is.
+
+205
+00:09:52,717 --> 00:09:55,845
+Warren Buffett always says
+that he doesn't invest in tech
+
+206
+00:09:55,928 --> 00:09:57,388
+because he doesn't understand it.
+
+207
+00:09:57,471 --> 00:10:01,267
+Wait, look,
+why do you distrust scientists?
+
+208
+00:10:01,350 --> 00:10:04,353
+You scientists say
+"don't eat carbs" one day,
+
+209
+00:10:04,437 --> 00:10:05,938
+and "only eat carbs" the next!
+
+210
+00:10:06,022 --> 00:10:09,025
+Because of the large sample sizes
+and long time periods,
+
+211
+00:10:09,108 --> 00:10:11,152
+dietary science
+is by nature an imprecise sci--
+
+212
+00:10:11,235 --> 00:10:12,069
+Shut up!
+
+213
+00:10:12,570 --> 00:10:13,863
+I wanna talk to this chimp.
+
+214
+00:10:14,155 --> 00:10:15,906
+Can we get a video conference going?
+
+215
+00:10:16,282 --> 00:10:19,493
+Chan, does it say
+who trained the dog and the chimp?
+
+216
+00:10:19,577 --> 00:10:21,329
+Yes. I can have them brought in.
+
+217
+00:10:22,246 --> 00:10:23,664
+General, I have to warn you.
+
+218
+00:10:24,123 --> 00:10:26,876
+We've pretty much ignored these animals
+for the last two weeks.
+
+219
+00:10:26,959 --> 00:10:29,920
+It seems there was no provisions made
+to bring them home, so we...
+
+220
+00:10:30,546 --> 00:10:31,672
+ghosted them.
+
+221
+00:10:32,173 --> 00:10:33,007
+You what?
+
+222
+00:10:33,424 --> 00:10:37,678
+It's standard. The reentry capsules
+are too expensive for animal missions.
+
+223
+00:10:37,762 --> 00:10:40,598
+So, Laika, Gordie, Dezik,
+
+224
+00:10:40,681 --> 00:10:43,225
+-Lisa, Albert II, Albert IV...
+-Four.
+
+225
+00:10:43,309 --> 00:10:46,562
+...were all left there
+after the mission was accomplished,
+
+226
+00:10:46,646 --> 00:10:50,483
+which, in this case,
+was apparently obtaining cute footage.
+
+227
+00:10:51,233 --> 00:10:52,109
+That's horrible.
+
+228
+00:10:52,193 --> 00:10:53,402
+Not nice.
+
+229
+00:10:53,486 --> 00:10:54,654
+Shame on us!
+
+230
+00:10:55,571 --> 00:10:56,989
+I found some of the footage.
+
+231
+00:11:01,243 --> 00:11:03,287
+-[chattering] 
+-[dog growling playfully] 
+
+232
+00:11:04,288 --> 00:11:05,665
+[toy squeaking]
+
+233
+00:11:10,378 --> 00:11:11,837
+[laughs] 
+
+234
+00:11:11,962 --> 00:11:13,297
+That is cute, though.
+
+235
+00:11:13,381 --> 00:11:14,215
+[dog barks]
+
+236
+00:11:14,298 --> 00:11:16,008
+Ah. Mission accomplished.
+
+237
+00:11:16,092 --> 00:11:18,886
+-[chuckling] Play it again.
+-No time. Come on, Brad.
+
+238
+00:11:25,393 --> 00:11:27,186
+I'm Marcus and Theodore's trainer.
+
+239
+00:11:27,478 --> 00:11:29,355
+Ah. Uh, which one is the dog?
+
+240
+00:11:29,438 --> 00:11:30,398
+Uh, Theodore.
+
+241
+00:11:30,481 --> 00:11:31,565
+[Mark] Well, first things first,
+
+242
+00:11:31,649 --> 00:11:34,360
+which one would better suited
+to fix something?
+
+243
+00:11:34,902 --> 00:11:36,904
+Okay, well, probably Marcus.
+
+244
+00:11:36,987 --> 00:11:39,365
+It's way more difficult
+for a dog to handle a tool.
+
+245
+00:11:39,448 --> 00:11:41,575
+What exactly are you expecting him to do?
+
+246
+00:11:41,659 --> 00:11:44,704
+I want him to do a spacewalk
+outside of the capsule,
+
+247
+00:11:44,787 --> 00:11:48,249
+and weld two solar panels
+back onto the Epsilon 6.
+
+248
+00:11:48,332 --> 00:11:50,084
+Okay, well, that's not gonna happen.
+
+249
+00:11:50,167 --> 00:11:52,628
+It had better happen
+because it is our best hope
+
+250
+00:11:52,712 --> 00:11:54,672
+of salvaging a satellite worth billions.
+
+251
+00:11:54,755 --> 00:11:57,717
+Our best hope are Yamato's light sails.
+
+252
+00:11:57,800 --> 00:12:00,386
+Shh! Corporal, 
+what are the challenges here?
+
+253
+00:12:00,469 --> 00:12:03,013
+Well, it takes quite a while
+to train a new behavior,
+
+254
+00:12:03,097 --> 00:12:04,890
+and this sounds like
+a string of new behaviors.
+
+255
+00:12:05,433 --> 00:12:07,768
+Uh, the experiment ended
+at least ten days ago,
+
+256
+00:12:07,852 --> 00:12:10,146
+so I don't know what treats are left
+to reinforce him with.
+
+257
+00:12:10,229 --> 00:12:13,357
+What about duty?
+Is that not enough of a treat anymore?
+
+258
+00:12:14,108 --> 00:12:15,151
+Look, I'll do my best.
+
+259
+00:12:15,234 --> 00:12:18,738
+And I will try to impress upon him
+the importance of this new mission.
+
+260
+00:12:19,613 --> 00:12:22,950
+All right,
+so how do you communicate with...
+
+261
+00:12:23,033 --> 00:12:24,201
+What? Marcus is it?
+
+262
+00:12:24,285 --> 00:12:26,078
+Uh... sign language.
+
+263
+00:12:26,162 --> 00:12:28,456
+You do realize this is a chimpanzee?
+
+264
+00:12:28,539 --> 00:12:29,874
+Yes. Yes, of course.
+
+265
+00:12:29,957 --> 00:12:32,084
+A Space Force chimpanzee named Marcus.
+
+266
+00:12:33,002 --> 00:12:35,838
+All right, get him up on the screen.
+We do not have much time.
+
+267
+00:12:35,921 --> 00:12:36,881
+[clears throat] 
+
+268
+00:12:37,923 --> 00:12:38,841
+[trainer] Marcus!
+
+269
+00:12:40,634 --> 00:12:41,635
+Marcus?
+
+270
+00:12:41,969 --> 00:12:43,179
+[Marcus chittering] 
+
+271
+00:12:43,429 --> 00:12:44,472
+Here, Marcus!
+
+272
+00:12:44,972 --> 00:12:46,140
+-Up here.
+-[banging] 
+
+273
+00:12:48,142 --> 00:12:50,561
+[pant-hooting]
+
+274
+00:12:51,187 --> 00:12:53,314
+What is he doing? Is he signing something?
+
+275
+00:12:53,397 --> 00:12:55,065
+Yes. He's saying "baby monkey."
+
+276
+00:12:55,149 --> 00:12:56,108
+[continues] 
+
+277
+00:12:56,192 --> 00:12:58,527
+Oh. Jesus, he misses his children.
+
+278
+00:12:58,611 --> 00:13:02,823
+No. In nature, chimps eat baby monkeys
+whenever they can their hands on them.
+
+279
+00:13:02,907 --> 00:13:03,824
+Google it.
+
+280
+00:13:04,950 --> 00:13:07,578
+Probably just sick of
+his regular chimp food.
+
+281
+00:13:07,661 --> 00:13:09,079
+[Brad] Oh, my word.
+
+282
+00:13:09,789 --> 00:13:12,875
+This is absolutely disgusting. Look.
+
+283
+00:13:13,334 --> 00:13:15,169
+-[groans] 
+-Yeah, they eat human babies, too.
+
+284
+00:13:15,252 --> 00:13:18,339
+-Look that up.
+-Stop. Stop. It's a wild animal.
+
+285
+00:13:18,422 --> 00:13:19,381
+Oh, my God!
+
+286
+00:13:19,465 --> 00:13:21,133
+He has a different morality,
+
+287
+00:13:21,217 --> 00:13:24,512
+and NASA was riddled with ex-Nazis,
+
+288
+00:13:24,595 --> 00:13:28,516
+so... who are we to cast stones?
+All right.
+
+289
+00:13:28,933 --> 00:13:32,895
+Tell Marcus we will get him baby monkey.
+
+290
+00:13:32,978 --> 00:13:36,273
+But first, he has to do something for us.
+
+291
+00:13:36,357 --> 00:13:37,775
+Something for his country.
+
+292
+00:13:38,192 --> 00:13:40,194
+We're not going to give him baby monkey.
+
+293
+00:13:40,277 --> 00:13:41,487
+Of course we're not, Dr. Wolf,
+
+294
+00:13:41,570 --> 00:13:44,907
+but sometimes you have to lie to people
+in order to motivate them.
+
+295
+00:13:44,990 --> 00:13:47,368
+Like your promotion or your sabbatical.
+
+296
+00:13:47,451 --> 00:13:48,744
+-What?
+-Tell him!
+
+297
+00:13:49,203 --> 00:13:52,706
+We know Marcus want treat.
+
+298
+00:13:52,790 --> 00:13:55,459
+But first, Marcus go outside.
+
+299
+00:13:55,543 --> 00:13:57,503
+[grunting] 
+
+300
+00:13:58,045 --> 00:13:59,713
+"Go outside, die."
+
+301
+00:13:59,797 --> 00:14:01,757
+No die. Helmet.
+
+302
+00:14:02,550 --> 00:14:04,718
+He can put on his helmet.
+That's one of his behaviors.
+
+303
+00:14:04,802 --> 00:14:07,596
+Also, his helmet has a laser
+that we can activate,
+
+304
+00:14:07,680 --> 00:14:12,101
+and when it shines on something,
+Marcus will try to manipulate that thing.
+
+305
+00:14:15,145 --> 00:14:17,356
+"Bored. Hungry. Horny."
+
+306
+00:14:17,731 --> 00:14:20,276
+Tell him, "I know bored.
+
+307
+00:14:20,901 --> 00:14:21,986
+Sorry hungry.
+
+308
+00:14:22,486 --> 00:14:24,071
+Horny bad.
+
+309
+00:14:24,613 --> 00:14:27,032
+Space Force good.
+
+310
+00:14:27,449 --> 00:14:28,617
+Help Space Force.
+
+311
+00:14:29,118 --> 00:14:30,119
+Get banana."
+
+312
+00:14:33,747 --> 00:14:36,166
+[trainer] "No smell banana. Where banana?"
+
+313
+00:14:37,001 --> 00:14:38,210
+Banana there.
+
+314
+00:14:38,794 --> 00:14:39,962
+Special banana.
+
+315
+00:14:40,421 --> 00:14:41,755
+Frozen banana.
+
+316
+00:14:42,715 --> 00:14:44,341
+Mmm! Banana.
+
+317
+00:14:45,593 --> 00:14:46,719
+Why are we doing this?
+
+318
+00:14:47,386 --> 00:14:50,055
+Open the cage.
+Let him come out and put on his helmet.
+
+319
+00:14:52,725 --> 00:14:55,728
+[trainer] If we can get the helmet on
+and the camera turned on,
+
+320
+00:14:55,811 --> 00:14:58,439
+and if he looks at the right tool
+on the tool wall,
+
+321
+00:14:58,522 --> 00:15:00,357
+I think I can get him to pick it up.
+
+322
+00:15:00,441 --> 00:15:01,942
+But those are big ifs.
+
+323
+00:15:03,902 --> 00:15:05,696
+[Mark] He's doing it.
+Look at that, look at that.
+
+324
+00:15:05,779 --> 00:15:07,323
+There he goes. There he goes!
+
+325
+00:15:09,450 --> 00:15:13,078
+There! There, he-- Look at-- He did it!
+He did it. He's ready for his spacewalk.
+
+326
+00:15:13,162 --> 00:15:15,956
+Goddamnit, I love this fucking chimp!
+
+327
+00:15:16,373 --> 00:15:17,207
+Okay.
+
+328
+00:15:17,291 --> 00:15:18,542
+There's the tool wall.
+
+329
+00:15:18,626 --> 00:15:20,961
+What do you think
+the best tool would be for the job?
+
+330
+00:15:21,378 --> 00:15:23,213
+[trainer] Probably the cordless drill.
+
+331
+00:15:23,547 --> 00:15:26,050
+Tell him, "Pick up the cordless drill."
+
+332
+00:15:26,133 --> 00:15:29,261
+[trainer] That's not how it works.
+We have to wait till he looks at it.
+
+333
+00:15:29,803 --> 00:15:31,221
+How much time left, Chan?
+
+334
+00:15:31,305 --> 00:15:32,973
+Six hours, 18 minutes.
+
+335
+00:15:33,057 --> 00:15:35,017
+[Mallory] Okay, I'm gonna 
+check on Yamato's team.
+
+336
+00:15:35,100 --> 00:15:37,102
+You keep playing with Murderous George.
+
+337
+00:15:38,020 --> 00:15:39,855
+[Mark] Get the-- Get it! Get the drill!
+
+338
+00:15:39,939 --> 00:15:44,151
+[man on video] The half-angle identity 
+of a tangent is normally written as
+
+339
+00:15:44,234 --> 00:15:46,987
+-tangent alpha over two...
+-[cell phone buzzing] 
+
+340
+00:15:47,071 --> 00:15:52,159
+...equals sine alpha
+over one plus cosine Alpha...
+
+341
+00:15:52,910 --> 00:15:53,827
+Grandpa?
+
+342
+00:15:54,119 --> 00:15:55,371
+[Fred] Oh, you're back.
+
+343
+00:15:55,829 --> 00:15:57,623
+-How was Mexico?
+-[CPAP machine pumping]
+
+344
+00:15:57,706 --> 00:16:00,292
+Hey, did those kidnappers
+get the money I wired them?
+
+345
+00:16:00,793 --> 00:16:05,589
+Oh, Grandpa, you have got to stop
+wiring money to scammers.
+
+346
+00:16:05,673 --> 00:16:07,132
+I had no choice.
+
+347
+00:16:07,216 --> 00:16:09,802
+They were gonna sell you
+to a brothel in Guadalajara.
+
+348
+00:16:09,885 --> 00:16:11,720
+That's no life for a young lady.
+
+349
+00:16:11,804 --> 00:16:12,846
+Okay.
+
+350
+00:16:12,930 --> 00:16:17,351
+I'm gonna send you an article
+from the AARP about Internet scams, okay?
+
+351
+00:16:17,768 --> 00:16:19,144
+I won't even open it.
+
+352
+00:16:19,228 --> 00:16:22,690
+Never clink on a link
+with the word "scam" in it, honey.
+
+353
+00:16:23,107 --> 00:16:25,275
+There's too many con artists out there.
+
+354
+00:16:26,402 --> 00:16:28,153
+Wait, what-- what time is it there?
+
+355
+00:16:28,237 --> 00:16:29,905
+Oh, jeez, I don't know.
+
+356
+00:16:29,988 --> 00:16:31,865
+My heart beats so slow lately.
+
+357
+00:16:31,949 --> 00:16:33,492
+I don't even really sleep.
+
+358
+00:16:34,076 --> 00:16:36,328
+Do you know anything about trig?
+
+359
+00:16:36,704 --> 00:16:39,456
+Trig? Yeah.
+That was the name of Roy Rogers' horse.
+
+360
+00:16:40,040 --> 00:16:41,542
+Why, you doing a crossword?
+
+361
+00:16:41,625 --> 00:16:43,752
+[farting] 
+
+362
+00:16:43,836 --> 00:16:46,088
+Oh, no. Oh, God. Here we go.
+
+363
+00:16:46,630 --> 00:16:48,590
+Uh, Erin, I'll talk to you later.
+
+364
+00:16:48,674 --> 00:16:50,634
+There's something going down over here.
+
+365
+00:16:50,968 --> 00:16:52,678
+-Your grandma needs me.
+-[farting continues] 
+
+366
+00:16:52,761 --> 00:16:55,264
+Uh, I gotta adjust that machine of hers.
+
+367
+00:16:55,347 --> 00:16:56,932
+I've been giving her too much air.
+
+368
+00:16:57,683 --> 00:16:59,560
+Okay. Love you.
+
+369
+00:16:59,977 --> 00:17:03,105
+Love you, too. Just get that money
+back to me whenever you can.
+
+370
+00:17:03,439 --> 00:17:05,774
+[Marcus chattering softly]
+
+371
+00:17:06,817 --> 00:17:07,651
+[Mark] There!
+
+372
+00:17:07,735 --> 00:17:09,528
+Oh, shit. He swung past again.
+
+373
+00:17:10,571 --> 00:17:12,322
+I think he is slowing down, though.
+
+374
+00:17:12,406 --> 00:17:14,867
+-Two hours left.
+-I know that, Chan. Thank you.
+
+375
+00:17:14,950 --> 00:17:16,660
+Wait. Wait, wait, wait. Press the laser.
+
+376
+00:17:16,744 --> 00:17:19,204
+Oh, no, he just turned away.
+
+377
+00:17:19,663 --> 00:17:23,333
+Oh, cr-- No. Okay. There he goes!
+He's looking at it again! Right now!
+
+378
+00:17:23,417 --> 00:17:24,918
+No, missed it.
+
+379
+00:17:25,002 --> 00:17:26,420
+Okay. That...
+
+380
+00:17:26,879 --> 00:17:28,088
+Go! Now go! He's there.
+
+381
+00:17:28,172 --> 00:17:30,257
+Go! Press it!
+
+382
+00:17:32,384 --> 00:17:33,886
+-Yes! He did it!
+-[all exclaim] 
+
+383
+00:17:33,969 --> 00:17:35,012
+All right!
+
+384
+00:17:35,095 --> 00:17:36,555
+Okay, now we're talking.
+
+385
+00:17:37,181 --> 00:17:40,017
+Okay. Good. Good. Finally, he's doing it.
+
+386
+00:17:40,476 --> 00:17:42,811
+Tell Marcus to go to the airlock.
+
+387
+00:17:42,895 --> 00:17:44,855
+It is time for our spacewalk.
+
+388
+00:17:45,439 --> 00:17:46,356
+Should I tell Dr. Mallory?
+
+389
+00:17:47,232 --> 00:17:49,693
+Let's surprise him
+with a successful mission.
+
+390
+00:17:49,777 --> 00:17:52,029
+Aw, you're killing it, boss man!
+
+391
+00:17:52,112 --> 00:17:53,447
+What are you doing here?
+
+392
+00:17:53,530 --> 00:17:54,823
+Well, I saw history being made.
+
+393
+00:17:54,907 --> 00:17:57,034
+I couldn't resist being a part of it.
+So, up top.
+
+394
+00:17:57,451 --> 00:17:59,203
+I fired you 17 hours ago.
+
+395
+00:17:59,286 --> 00:18:02,831
+Yeah, you know what? In my experience,
+there's "fired," and then there's fired.
+
+396
+00:18:02,915 --> 00:18:04,708
+This one felt more like
+a "fired" type thing.
+
+397
+00:18:04,792 --> 00:18:07,419
+But if I'm fired, I'm fired. I get it.
+Don't even think about it now.
+
+398
+00:18:07,503 --> 00:18:10,422
+You're busy. [whispers] I'm not even here.
+You're crushing it.
+
+399
+00:18:13,801 --> 00:18:14,927
+You can do it, Marcus.
+
+400
+00:18:15,469 --> 00:18:16,637
+[airlock door opening] 
+
+401
+00:18:18,722 --> 00:18:20,307
+-[loud cheering]
+-[man] Yeah!
+
+402
+00:18:22,976 --> 00:18:24,061
+Holy shit.
+
+403
+00:18:24,436 --> 00:18:26,688
+He's got the chimp out of the capsule.
+
+404
+00:18:29,191 --> 00:18:32,152
+-[cheering] 
+-[Mark] Oh, here he comes. Here he comes.
+
+405
+00:18:32,528 --> 00:18:33,904
+There we go. Yeah.
+
+406
+00:18:33,987 --> 00:18:35,114
+All right. Good.
+
+407
+00:18:36,323 --> 00:18:39,368
+Dr. Mallory, just in time
+to see a Space Force hero
+
+408
+00:18:39,451 --> 00:18:40,452
+kicking ass at the scene.
+
+409
+00:18:40,536 --> 00:18:41,870
+[Marcus grunting softly] 
+
+410
+00:18:41,954 --> 00:18:44,414
+So, how fast is he approaching Epsilon?
+
+411
+00:18:44,498 --> 00:18:46,125
+Two miles an hour in relative speed.
+
+412
+00:18:46,208 --> 00:18:48,210
+He should be able to grab the fin
+and use the drill
+
+413
+00:18:48,293 --> 00:18:50,629
+to connect the panel
+onto the body of the craft.
+
+414
+00:18:50,712 --> 00:18:53,549
+-We can take over from there.
+-Marcus! You're doing great.
+
+415
+00:18:53,924 --> 00:18:55,843
+You see that fin?
+
+416
+00:18:56,260 --> 00:18:57,886
+That is where you grab on.
+
+417
+00:18:57,970 --> 00:18:59,638
+[trainer] Grab fin. Grab fin.
+
+418
+00:19:06,770 --> 00:19:08,355
+Now grab the drill!
+
+419
+00:19:09,398 --> 00:19:10,482
+Pick up drill!
+
+420
+00:19:12,734 --> 00:19:15,028
+Both! Pick up both! Fin and the drill.
+
+421
+00:19:15,112 --> 00:19:16,613
+Grab fin. Grab fin.
+
+422
+00:19:16,697 --> 00:19:18,407
+[Mark] Also drill. No!
+
+423
+00:19:18,490 --> 00:19:20,659
+Both fin and drill. Fin and drill.
+
+424
+00:19:21,326 --> 00:19:23,078
+-All right. No. Don't...
+-[clanging] 
+
+425
+00:19:23,162 --> 00:19:24,454
+-What is he... No.
+-[shrieking] 
+
+426
+00:19:24,538 --> 00:19:26,874
+[Mark] Marcus, don't hit that. Bad Marcus.
+
+427
+00:19:26,957 --> 00:19:28,083
+-Don't do that.
+-Whoa. 
+
+428
+00:19:28,167 --> 00:19:29,001
+[Mark] No!
+
+429
+00:19:29,418 --> 00:19:31,211
+-Wait, he can't bend that.
+-All right, no, no, no!
+
+430
+00:19:31,295 --> 00:19:32,754
+No, no, no. That's very valuable.
+
+431
+00:19:32,838 --> 00:19:34,965
+-Don't smash. What are you telling him?
+-[continues shrieking] 
+
+432
+00:19:35,048 --> 00:19:36,633
+[Mark] Marcus, no smash!
+
+433
+00:19:36,717 --> 00:19:38,427
+-What is he doing?
+-He's frustrated.
+
+434
+00:19:38,510 --> 00:19:39,469
+He's frustrated?
+
+435
+00:19:39,553 --> 00:19:41,430
+You tell him
+that I've been up for 24 hours,
+
+436
+00:19:41,513 --> 00:19:43,056
+and my career is at stake!
+
+437
+00:19:43,140 --> 00:19:45,642
+There's really no word for "career"
+in primate sign language,
+
+438
+00:19:45,726 --> 00:19:48,061
+so I'll just say, "Food-work in danger."
+
+439
+00:19:48,770 --> 00:19:49,855
+[Marcus grunts] 
+
+440
+00:19:49,938 --> 00:19:50,898
+[Chan] Wait.
+
+441
+00:19:51,648 --> 00:19:52,482
+Wait.
+
+442
+00:19:53,066 --> 00:19:54,026
+He's doing it!
+
+443
+00:19:54,109 --> 00:19:55,235
+[Mark] Drill, Marcus!
+
+444
+00:19:55,777 --> 00:19:57,321
+Drill for banana.
+
+445
+00:19:57,404 --> 00:20:00,073
+Drill for the general's food-work.
+
+446
+00:20:00,157 --> 00:20:02,075
+-[electricity sparking]
+-[Chan] Look, the lights.
+
+447
+00:20:09,166 --> 00:20:11,001
+[Mark] There we go! All right. All right. 
+
+448
+00:20:12,711 --> 00:20:15,339
+Wait! Hold off. Have him hold off.
+
+449
+00:20:15,422 --> 00:20:16,506
+[trainer] Wait. Marcus, stop!
+
+450
+00:20:16,590 --> 00:20:19,593
+-[drill whirring] 
+-[Marcus screeching]
+
+451
+00:20:20,093 --> 00:20:21,220
+Oh!
+
+452
+00:20:21,303 --> 00:20:22,888
+Whoa, whoa. Shouldn't he let go?
+
+453
+00:20:22,971 --> 00:20:24,973
+-Or should he hold-- What? What should--
+-I don't--
+
+454
+00:20:25,057 --> 00:20:27,059
+Is he supposed to let go or hold on?
+Get him to let go of it!
+
+455
+00:20:27,142 --> 00:20:28,393
+Tell him to release the drill!
+
+456
+00:20:28,477 --> 00:20:31,063
+-Tell him to release! 
+-Release, Marcus. Release! Release!
+
+457
+00:20:32,439 --> 00:20:33,982
+[Marcus] Hoo-hoo...
+
+458
+00:20:34,650 --> 00:20:36,360
+Oh! Damn it!
+
+459
+00:20:36,443 --> 00:20:38,904
+Oh, mother of God.
+
+460
+00:20:42,241 --> 00:20:43,784
+What happened to the tether?
+
+461
+00:20:43,867 --> 00:20:45,702
+Snapped, it looks like.
+
+462
+00:20:45,786 --> 00:20:46,954
+Oh, damn it.
+
+463
+00:20:47,037 --> 00:20:51,875
+He's heading on a trajectory
+to intercept the sun sometime next week.
+
+464
+00:20:53,126 --> 00:20:54,711
+Oh, fuck me!
+
+465
+00:20:55,963 --> 00:20:57,047
+[exhales] 
+
+466
+00:20:57,130 --> 00:20:59,091
+Marcus, Marcus, Marcus, Marcus...
+
+467
+00:20:59,841 --> 00:21:02,427
+Oh, you did not deserve that, Marcus.
+
+468
+00:21:03,136 --> 00:21:04,137
+You tried so hard.
+
+469
+00:21:04,221 --> 00:21:05,555
+Oh, God.
+
+470
+00:21:06,473 --> 00:21:07,724
+-Brad.
+-Yes, sir?
+
+471
+00:21:08,392 --> 00:21:09,810
+See to it that he is awarded
+
+472
+00:21:09,893 --> 00:21:12,562
+the highest service medal
+that he is eligible for.
+
+473
+00:21:13,063 --> 00:21:15,524
+Well, he's not eligible for anything
+because he's an animal.
+
+474
+00:21:15,607 --> 00:21:18,110
+He is not an animal! He is a spaceman!
+
+475
+00:21:18,193 --> 00:21:20,028
+And no spaceman gets left behind.
+
+476
+00:21:20,112 --> 00:21:21,530
+Even one that eats babies.
+
+477
+00:21:22,072 --> 00:21:23,782
+And how is that different than veal?
+
+478
+00:21:24,116 --> 00:21:25,075
+[sighs]
+
+479
+00:21:25,492 --> 00:21:27,869
+How much will it cost
+to go up and rescue him?
+
+480
+00:21:27,953 --> 00:21:28,912
+You know what? No.
+
+481
+00:21:28,996 --> 00:21:30,789
+No! I don't even wanna know!
+
+482
+00:21:30,872 --> 00:21:33,709
+-'Cause we are doing it.
+-It's about 50 to 400 million dollars.
+
+483
+00:21:33,792 --> 00:21:36,503
+Bleh. Okay, well, he was gonna die anyway.
+
+484
+00:21:36,586 --> 00:21:37,671
+No! No!
+
+485
+00:21:37,754 --> 00:21:39,089
+We are bringing him home!
+
+486
+00:21:39,589 --> 00:21:41,383
+-Can he still hear us?
+-Probably.
+
+487
+00:21:42,175 --> 00:21:43,218
+[Mark] Marcus...
+
+488
+00:21:43,302 --> 00:21:44,261
+[Marcus coos] 
+
+489
+00:21:44,344 --> 00:21:45,721
+...this is General Naird.
+
+490
+00:21:47,264 --> 00:21:48,432
+Thank you, Marcus.
+
+491
+00:21:50,642 --> 00:21:54,896
+It is very difficult for an officer
+to send a spaceman into harm's way.
+
+492
+00:21:54,980 --> 00:21:55,897
+[Marcus] Hoo...
+
+493
+00:21:56,314 --> 00:21:58,483
+And this...
+
+494
+00:21:59,526 --> 00:22:00,986
+did not go as planned.
+
+495
+00:22:01,570 --> 00:22:02,529
+Clearly.
+
+496
+00:22:03,196 --> 00:22:04,489
+Long story short,
+
+497
+00:22:05,449 --> 00:22:08,535
+you are going to be
+hurtling towards the sun for about a week,
+
+498
+00:22:08,618 --> 00:22:14,624
+but then... a giant metal space friend
+will come and rescue you, Marcus.
+
+499
+00:22:16,418 --> 00:22:17,544
+[Marcus cooing] 
+
+500
+00:22:17,836 --> 00:22:18,712
+[Mark] Yes.
+
+501
+00:22:20,964 --> 00:22:22,049
+Yes, Marcus.
+
+502
+00:22:23,967 --> 00:22:25,052
+Hoo-hoo. 
+
+503
+00:22:25,969 --> 00:22:28,263
+Hoo... hoo.
+
+504
+00:22:31,391 --> 00:22:36,313
+We are awarding you the Two Star Rampant
+of the Space Force Ultimate Service Medal.
+
+505
+00:22:38,774 --> 00:22:40,984
+Marcus, God bless you.
+
+506
+00:22:41,943 --> 00:22:44,112
+You represent the best in all of us.
+
+507
+00:22:45,781 --> 00:22:46,907
+I knew that chimp.
+
+508
+00:22:47,699 --> 00:22:49,242
+I managed his Facebook page.
+
+509
+00:22:49,910 --> 00:22:51,078
+I follow him, yeah.
+
+510
+00:22:52,454 --> 00:22:53,371
+[Marcus] Hoo...
+
+511
+00:22:54,456 --> 00:22:55,290
+All right!
+
+512
+00:22:55,874 --> 00:22:57,667
+[sighs] Let's try Theodore.
+
+513
+00:22:59,628 --> 00:23:01,463
+-Who?
+-The dog.
+
+514
+00:23:01,546 --> 00:23:04,591
+The husky. Let's see
+if he can hold the drill in his mouth.
+
+515
+00:23:05,759 --> 00:23:08,095
+[rapid typing]
+
+516
+00:23:15,560 --> 00:23:16,520
+What is that?
+
+517
+00:23:18,438 --> 00:23:21,525
+I believe that Marcus,
+at some point in the last two weeks,
+
+518
+00:23:21,608 --> 00:23:24,444
+must have eaten Theodore.
+
+519
+00:23:26,738 --> 00:23:27,739
+Seriously?
+
+520
+00:23:28,824 --> 00:23:31,076
+Well, that sucks.
+
+521
+00:23:31,159 --> 00:23:34,329
+And I just said
+he represents the best in all of us.
+
+522
+00:23:34,413 --> 00:23:35,414
+Take that back!
+
+523
+00:23:35,497 --> 00:23:37,958
+Brad, no medal for that asshole.
+
+524
+00:23:38,708 --> 00:23:40,627
+The dog is eaten. Oh, my God.
+
+525
+00:23:40,710 --> 00:23:41,753
+He ate the dog.
+
+526
+00:23:41,837 --> 00:23:45,632
+Theodore is the real hero here,
+not that fuckin' monkey!
+
+527
+00:23:46,508 --> 00:23:47,926
+How much time do we have left?
+
+528
+00:23:48,969 --> 00:23:50,053
+Looks like 11 minutes.
+
+529
+00:23:50,137 --> 00:23:52,681
+Eleven minutes.
+All right, let's try Yamato's idea.
+
+530
+00:23:52,764 --> 00:23:54,266
+[stammers] That won't work now.
+
+531
+00:23:54,349 --> 00:23:55,767
+Don't be a sore loser, Adrian.
+
+532
+00:23:55,851 --> 00:23:57,978
+-Just try it!
+-No, it's impossible.
+
+533
+00:23:58,061 --> 00:24:01,356
+His idea was to gently push
+
+534
+00:24:01,815 --> 00:24:04,234
+the panels back toward the craft,
+
+535
+00:24:04,317 --> 00:24:07,904
+but now your chimp
+has flung them way past the craft,
+
+536
+00:24:07,988 --> 00:24:09,948
+so we would have to pull them back,
+
+537
+00:24:10,031 --> 00:24:13,410
+and there's nothing
+we can transmit from Earth
+
+538
+00:24:13,493 --> 00:24:14,828
+that will pull anything.
+
+539
+00:24:15,287 --> 00:24:16,163
+Are you sure?
+
+540
+00:24:16,246 --> 00:24:17,289
+Yes, quite.
+
+541
+00:24:18,790 --> 00:24:20,709
+I wish we had a tractor beam
+like in Star Trek.
+
+542
+00:24:20,792 --> 00:24:23,253
+-Well, we don't have--
+-I know that.
+
+543
+00:24:23,795 --> 00:24:25,130
+'Cause they don't exist.
+
+544
+00:24:25,213 --> 00:24:26,673
+Yes, yes, yes.
+
+545
+00:24:30,051 --> 00:24:30,969
+Whose is that?
+
+546
+00:24:31,052 --> 00:24:33,388
+[Mallory] Switch to Marcus's helmet cam.
+
+547
+00:24:33,680 --> 00:24:34,931
+[Marcus grunting] 
+
+548
+00:24:38,226 --> 00:24:39,394
+The Chinese.
+
+549
+00:24:39,519 --> 00:24:41,104
+[Marcus chattering excitedly]
+
+550
+00:24:41,188 --> 00:24:42,772
+They've made a full orbit.
+
+551
+00:24:42,856 --> 00:24:44,107
+Those assholes.
+
+552
+00:24:48,570 --> 00:24:50,739
+Oh, no, no, no, Marcus.
+
+553
+00:24:51,198 --> 00:24:52,032
+No.
+
+554
+00:24:52,115 --> 00:24:53,116
+Marcus!
+
+555
+00:24:53,700 --> 00:24:55,744
+Mar-- No. Resist, Marcus.
+
+556
+00:24:56,077 --> 00:24:57,621
+Do not go willingly.
+
+557
+00:24:58,330 --> 00:25:00,248
+Remember the military code, Marcus.
+
+558
+00:25:00,832 --> 00:25:03,126
+No!
+You will resist the enemy at all costs.
+
+559
+00:25:03,710 --> 00:25:05,045
+Marcus, don't...
+
+560
+00:25:05,128 --> 00:25:05,962
+[cooing] 
+
+561
+00:25:06,046 --> 00:25:08,131
+[Mark] Do not go with them!
+Marcus, they are the--
+
+562
+00:25:08,673 --> 00:25:09,841
+You're not doing it.
+
+563
+00:25:09,925 --> 00:25:11,301
+[stammering] You!
+
+564
+00:25:12,093 --> 00:25:13,220
+Dog-eating bastard!
+
+565
+00:25:15,680 --> 00:25:16,681
+[static crackling]
+
+566
+00:25:17,015 --> 00:25:18,266
+[groaning] Uh... 
+
+567
+00:25:18,350 --> 00:25:19,976
+[cell phone buzzing] 
+
+568
+00:25:21,311 --> 00:25:22,771
+Sec Def is on the phone.
+
+569
+00:25:26,524 --> 00:25:27,651
+I'll take it in my office.
+
+570
+00:25:34,783 --> 00:25:35,825
+[beeps] 
+
+571
+00:25:36,826 --> 00:25:37,744
+Hello.
+
+572
+00:25:37,827 --> 00:25:40,455
+[John] So, I understand
+something is wrong with the Epsilon.
+
+573
+00:25:41,706 --> 00:25:44,793
+Yes,
+I took over the rescue efforts personally,
+
+574
+00:25:44,876 --> 00:25:46,795
+and it all pretty much went sideways.
+
+575
+00:25:48,880 --> 00:25:51,132
+We've got a chimpstronaut
+in Chinese hands.
+
+576
+00:25:53,009 --> 00:25:54,761
+I take full responsibility.
+
+577
+00:25:55,553 --> 00:25:57,597
+[John] Did anyone try to bomb anything?
+
+578
+00:25:59,808 --> 00:26:02,477
+I was talked out of it
+by the science team.
+
+579
+00:26:04,729 --> 00:26:07,065
+I will tender my resignation to POTUS.
+
+580
+00:26:08,316 --> 00:26:10,860
+[John] I think you're being
+a little hard on yourself. Get some rest.
+
+581
+00:26:10,944 --> 00:26:13,822
+Sounds like you've been awake
+and working for two days straight.
+
+582
+00:26:20,245 --> 00:26:21,288
+Thank you, sir.
+
+583
+00:26:28,878 --> 00:26:30,630
+Hey, thanks for the pineapple, sir.
+
+584
+00:26:30,714 --> 00:26:32,090
+-I got it last night.
+-Hmm? 
+
+585
+00:26:32,507 --> 00:26:33,466
+Oh. 
+
+586
+00:26:33,550 --> 00:26:35,135
+Jesus, it feels like a week ago.
+
+587
+00:26:35,218 --> 00:26:36,386
+[chuckles] 
+
+588
+00:26:37,804 --> 00:26:41,308
+Well, I really screwed up tonight,
+spaceman.
+
+589
+00:26:41,850 --> 00:26:43,226
+We all make mistakes, sir.
+
+590
+00:26:44,019 --> 00:26:45,186
+Did anybody die?
+
+591
+00:26:46,855 --> 00:26:47,772
+Theodore.
+
+592
+00:26:49,107 --> 00:26:50,233
+The dogstronaut.
+
+593
+00:26:50,317 --> 00:26:52,193
+-"The dog..."
+-He was a good boy.
+
+594
+00:26:52,861 --> 00:26:54,446
+So cute, and he could catch.
+
+595
+00:26:56,448 --> 00:26:57,866
+[clears throat emotionally] 
+
+596
+00:26:58,450 --> 00:27:01,911
+It's our first Space Force casualty.
+It's just sort of weighing on me.
+
+597
+00:27:01,995 --> 00:27:02,912
+[clears throat] 
+
+598
+00:27:03,455 --> 00:27:05,206
+Yeah, um, how did it happen?
+
+599
+00:27:06,374 --> 00:27:08,084
+He was eaten by a crewmate.
+
+600
+00:27:09,169 --> 00:27:10,337
+A chimpstronaut...
+
+601
+00:27:11,046 --> 00:27:13,548
+who is now a POW in a Chinese satellite.
+
+602
+00:27:14,966 --> 00:27:15,925
+[sighs] 
+
+603
+00:27:20,055 --> 00:27:21,681
+You have a difficult job, sir.
+
+604
+00:27:25,769 --> 00:27:28,313
+That chimp better keep
+his fuckin' mouth shut.
+
+605
+00:27:37,739 --> 00:27:39,115
+[sighs heavily]
+
+606
+00:27:51,002 --> 00:27:51,920
+Hey.
+
+607
+00:27:52,462 --> 00:27:53,380
+Bug.
+
+608
+00:27:55,757 --> 00:27:57,258
+Oh, hey.
+
+609
+00:27:57,342 --> 00:27:59,344
+[Mark] Hey. How'd the homework go?
+
+610
+00:28:00,428 --> 00:28:01,262
+Not good.
+
+611
+00:28:02,472 --> 00:28:04,808
+There was some stuff
+I didn't understand, so...
+
+612
+00:28:05,600 --> 00:28:07,977
+Okay, well, let's figure it out.
+
+613
+00:28:08,395 --> 00:28:09,854
+No, come on. You look exhausted.
+
+614
+00:28:09,938 --> 00:28:12,524
+I'll make it up later in the year
+with extra credit or something.
+
+615
+00:28:12,607 --> 00:28:15,652
+No. Save extra credit for a rainy day.
+
+616
+00:28:16,361 --> 00:28:19,114
+We have time. Yeah... Yep. Let's do it.
+
+617
+00:28:21,324 --> 00:28:22,325
+Dad. 
+
+618
+00:28:22,409 --> 00:28:23,868
+It's okay. I'm good.
+
+619
+00:28:24,828 --> 00:28:27,956
+You can bet the dads
+in China and Russia and India
+
+620
+00:28:28,039 --> 00:28:30,667
+aren't too tired to help
+with a little math homework.
+
+621
+00:28:31,418 --> 00:28:32,919
+You need to know math, kiddo.
+
+622
+00:28:33,628 --> 00:28:36,005
+You could invent the thing
+that saves the world.
+
+623
+00:28:36,715 --> 00:28:37,549
+[scoffs] 
+
+624
+00:28:37,632 --> 00:28:40,510
+That's sweet, but come on, let's be real.
+
+625
+00:28:42,178 --> 00:28:44,431
+I'm being as real as a cinder block.
+
+626
+00:28:46,766 --> 00:28:48,268
+Okay. [chuckles] 
+
+627
+00:28:49,477 --> 00:28:53,857
+Okay, so on this one,
+we're dealing with radians.
+
+628
+00:28:53,940 --> 00:28:56,401
+-So...
+-Oh, radians. Here we go.
+
+629
+00:28:56,484 --> 00:29:00,530
+Okay, so the sine value is just the height
+of the Y coordinate or two.
+
+630
+00:29:00,613 --> 00:29:02,365
+But now they wanna know the arcsine.
+
+631
+00:29:02,449 --> 00:29:03,324
+Or the...
+
+632
+00:29:03,700 --> 00:29:05,076
+-Um...
+-[Mark] What's your angle?
+
+633
+00:29:05,702 --> 00:29:07,328
+-[Erin] Um, forty-five.
+-[Mark] Forty-five.
+
+634
+00:29:07,412 --> 00:29:09,497
+-And the other one is 45.
+-[Erin] Right.
+
+635
+00:29:09,581 --> 00:29:11,541
+[Mark] So 90 right angle.
+Really pretty easy.
+
+636
+00:29:11,624 --> 00:29:13,418
+[Erin] I could be remembering something
+from SAT prep.
+
+637
+00:29:13,501 --> 00:29:14,711
+[Mark] Draw the unit circle.
+
+638
+00:29:27,182 --> 00:29:30,185
+[theme music playing] 
+
