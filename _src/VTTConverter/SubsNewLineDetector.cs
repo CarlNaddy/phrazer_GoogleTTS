@@ -10,12 +10,6 @@ namespace Phrazer
         {
             harvesterMode = hM;
         }
-
-
-        public static int GetMaxBufferSize()
-        {
-            return 180;
-        }
         
 
         public bool ShouldCreateNewRow(string textBuffer, string word)
@@ -25,9 +19,13 @@ namespace Phrazer
                 EndOfPhraseDetected(textBuffer, word)
                 // SOME IMPORTANT EXCEPTIONS
                 && !textBuffer.EndsWith("Mr.")
+                && !textBuffer.EndsWith("MR.")
+                && !textBuffer.EndsWith("mr.")
                 && !textBuffer.EndsWith("Mrs.")
                 && !textBuffer.EndsWith("Dr.")
+                && !textBuffer.EndsWith("dr.")
                 && !textBuffer.EndsWith("U.S.")
+                && !textBuffer.EndsWith("u.s.")
                 && !textBuffer.EndsWith("L.A.")
                 && !textBuffer.EndsWith("K.O.")
                 && !textBuffer.EndsWith("C.E.O.")
@@ -67,7 +65,6 @@ namespace Phrazer
                 || word.Trim() == "In"
                 || word.Trim() == "So"
                 || word.Trim() == "Perhaps"
-                || word.StartsWith(">>")
             ) return true;
             
 

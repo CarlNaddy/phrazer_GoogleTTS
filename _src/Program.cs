@@ -14,7 +14,7 @@ namespace Phrazer
 
             //VTTConverter.convertToTSV(); return;
             
-            PhrazeGenerator.ProceedAllInputPhrazerFiles();
+            PhrazeGenerator.ProceedAllInputPhrazerFiles(); return;
 
         }
     }

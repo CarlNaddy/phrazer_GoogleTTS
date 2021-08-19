@@ -16,7 +16,7 @@ namespace Phrazer
         public string ToLang { get; set; }
         public string FromText { get; set; }
         public string ToText { get; set; }
-        public int RowNumber { get; set; }
+        public string RowNumber { get; set; }
         public string TimeCode { get; set; }
         public string TimeCodeList { get; set; }
         public int MaxTextLength { get; set; }
@@ -32,7 +32,7 @@ namespace Phrazer
             FromLang = "";
             ToLang = "";
             MaxTextLength = 140;
-            RowNumber = 0;
+            RowNumber = "";
             TimeCode = "";
             TimeCodeList = "";
             FolderSuffix = "";
@@ -42,13 +42,11 @@ namespace Phrazer
 
         public string GetOutputFilenamePrefix()
         {
-            int wordCount = GTTSHelper.GetWordsCount(ToText);
-            string wordCountStr = ("" + wordCount).PadLeft(2, '0');
-            string rowNumberStr = "c" + ("" + RowNumber).PadLeft(3, '0');
-
             if(TimeCode.Length > 0) return TimeCode + ". ";
-            if(RowNumber > 0) return rowNumberStr + ". ";
-            return wordCountStr + ". "; // buildup is default procedure
+            if(RowNumber.Length > 0) return RowNumber + ". ";
+
+            // else standard buildup/wordcount procedure
+            return GetFormattedWordCount(ToText) + ". ";
         }
 
         public string GetOutputFilename()
@@ -120,16 +118,19 @@ namespace Phrazer
             FromText = csvEntries[0].Trim();
             ToText = csvEntries[1].Trim();
             if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
-            if(FromText.Length < 1 && SkipWithoutTranslation == true) return;
-
+            
             // Project Metadata / Params to set before creating audio
-            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? int.Parse(csvEntries[3].Trim()) : RowNumber;
+            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[3].Trim()) : RowNumber;
             TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
 
-            if(FolderSuffixAllowed && RowNumber > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
+            if(FolderSuffixAllowed && RowNumber.Length > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
             // just add a jingle file with timecode
             if(addJingle(FromText)) return;
+            if(addJingle(ToText)) return;
+
+            // Wenn kein Jingle und nicht übersetzt - skip it!
+            if(FromText.Length < 1 && SkipWithoutTranslation == true) return;
 
             ProcessTplFile();
         }
@@ -198,7 +199,7 @@ namespace Phrazer
             CurrentSsml = csvEntries[1].Trim();
 
             Generator.SynthesizeSpeechAndAddToBuffer(CurrentVoice, CurrentSsml);
-            Thread.Sleep(500);
+            Thread.Sleep(800);
         }
 
 
@@ -211,13 +212,13 @@ namespace Phrazer
             File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", FromText + "\t" + ToText + "\n");
         }
 
-        public bool addJingle(string FromText)
+        public bool addJingle(string text)
         {
 
             // Add sound file by name
 
-            if(FromText.StartsWith("#")) {
-                Match match = Regex.Match(FromText, @"^#([a-zA-Z0-9_.-]+)");
+            if(text.StartsWith("#")) {
+                Match match = Regex.Match(text, @"^#([a-zA-Z0-9_.-]+)");
                 if(match.Success) {
                     
                     string headingPrefix = match.Value;
@@ -234,8 +235,6 @@ namespace Phrazer
                         System.IO.File.Copy(jingleFilename, outputFilename, true);
                         return true;
                     }
-
-                    //Generator.JustAddWavSound(soundName); FromText = FromText.Replace(headingPrefix, "").Trim();
                 }
             }
             return false;
@@ -254,6 +253,17 @@ namespace Phrazer
             }
         }
 
+        public string GetFormattedWordCount(string text)
+        {
+            return ("" + GTTSHelper.GetWordsCount(text)).PadLeft(2, '0');
+        }
+
+        public string GetFormattedRowNumber(string rowNumber)
+        {
+            if(rowNumber.Length < 3) return "i" + rowNumber.PadLeft(2, '0');
+            if(rowNumber.Length < 4) return "ii" + rowNumber.PadLeft(2, '0');
+            return rowNumber;
+        }
         public string GetFormattedTimeCode(string timeCode)
         {
             if(timeCode.Length < 8 && !timeCode.Contains(":")) return timeCode;
@@ -261,15 +271,10 @@ namespace Phrazer
             string formattedTime = timeCode;
             formattedTime = timeCode.Replace(":", "");
 
-            // no cut the "a" letter off, if no b-item provided
-            if(timeCode.EndsWith("a")) {
-                //if(!TimeCodeList.Contains("_" + timeCode.Replace("a", "") + "b")) formattedTime = formattedTime.Replace("a", "");
-            }
-
-            if(formattedTime.StartsWith("00")) return "I" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("01")) return "II" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("02")) return "III" + formattedTime.Substring(2);
-            if(formattedTime.StartsWith("03")) return "IIII" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("00")) return "l" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("01")) return "ll" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("02")) return "lll" + formattedTime.Substring(2);
+            if(formattedTime.StartsWith("03")) return "llll" + formattedTime.Substring(2);
             return timeCode;
         }
     }

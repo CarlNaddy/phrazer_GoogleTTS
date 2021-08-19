@@ -85,8 +85,8 @@ namespace Phrazer
             
             // Add header
             if(!SubsConfig.generateAllInputsStatisticsFile) {
-                tsvRows.Add("DE" + "\t" + "EN" + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
-                vocabulary.Add("DE" + "\t" + "EN");
+                tsvRows.Add(SubsConfig.defaultFromLanguage + "\t" + SubsConfig.defaultToLanguage + "\t" + "LEN" + "\t" + "ROW" + "\t" + "TIME");
+                vocabulary.Add(SubsConfig.defaultFromLanguage + "\t" + SubsConfig.defaultToLanguage);
             }
 
             string textBuffer = "";
@@ -112,12 +112,13 @@ namespace Phrazer
                 foreach(string item in rowText.Split(" "))
                 {
                     string word = item.Trim();
-                    if(textBuffer.Length > SubsNewLineDetector.GetMaxBufferSize() || newLineDetector.ShouldCreateNewRow(textBuffer, word))
+                    if(newLineDetector.ShouldCreateNewRow(textBuffer, word))
                     {
                         SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                     }
                     textBuffer = (textBuffer + " " + word).Trim();
                     if(SubsConfig.transformTextToLowercase) textBuffer = textBuffer.ToLower();
+
 
                     // save vocabulary
                     word = SubsTextSanitizer.SanitizeVocabulary(word);
@@ -128,10 +129,6 @@ namespace Phrazer
                         //if(!vocabulary.Contains("" + "\t" + word)) 
                             vocabulary.Add("" + "\t" + word);
                     }
-                }
-
-                if(textBuffer.Length > SubsNewLineDetector.GetMaxBufferSize()) {
-                    SaveTextBufferToList(ref textBuffer, ref rowNumber, ref time);
                 }
             }
 

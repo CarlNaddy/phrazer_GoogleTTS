@@ -32,7 +32,8 @@ namespace Phrazer
             text = text.Replace("I-I", "I");
             text = text.Replace("’", "'");
             text = text.Replace("!", ".");
-            text = text.Replace(">", ". ");
+            text = text.Replace("<", " ");
+            text = text.Replace(">", " ");
             text = text.TrimStart('-');
             
             // Remove all "NAMES:"  

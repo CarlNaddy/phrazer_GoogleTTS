@@ -97,10 +97,11 @@ namespace Phrazer
 
 
 
-        public static string GetFolderSuffix(int rowNumber)
+        public static string GetFolderSuffix(string rowNumber)
         {
-            if(rowNumber == 0) return "";
-            int folderNumber = (int) (Math.Ceiling(((decimal)rowNumber / 500)));
+            int rn = int.Parse(rowNumber);
+            if(rn == 0) return "";
+            int folderNumber = (int) (Math.Ceiling(((decimal)rn / 500)));
             if(folderNumber > 1) return "_" + folderNumber;
             return "";
         }
