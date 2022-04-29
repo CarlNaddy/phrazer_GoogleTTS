@@ -31,6 +31,7 @@ namespace Phrazer
             text = text.Replace("’", "'");
             text = text.Replace("♪", "");
             text = text.Replace(">", "");
+            text = text.Replace("_", ".");
             text = text.Replace("... ", "...");
             text = text.Replace(" ...", "...");
             text = text.Trim();
