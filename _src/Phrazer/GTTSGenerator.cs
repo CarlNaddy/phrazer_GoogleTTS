@@ -15,6 +15,7 @@ namespace Phrazer
         public GTTSGenerator() {
             // Check Google TTS API Key
             string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
+            Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS: " + value);
             if(!File.Exists(value)) {
                 Console.WriteLine("ERROR: GOOGLE_APPLICATION_CREDENTIALS ERROR is not set!");
                 Console.WriteLine(value + " NOT EXISTS!");

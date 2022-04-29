@@ -31,7 +31,7 @@ namespace Phrazer
         {
             FromLang = "";
             ToLang = "";
-            MaxTextLength = 140;
+            MaxTextLength = 115;
             RowNumber = "";
             TimeCode = "";
             TimeCodeList = "";
@@ -157,7 +157,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GTTSHelper.GetTemplateName(FromText, ToText)));
+            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GTTSHelper.GetTemplateName(FromText, ToText, FromLang, ToLang)));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -186,8 +186,10 @@ namespace Phrazer
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(150));
             text = text.Replace(";", GTTSHelper.GetBreakSsmlTag(200));
-            text = text.Replace("...", GTTSHelper.GetBreakSsmlTag(250));
-            text = text.Replace(".", GTTSHelper.GetBreakSsmlTag(300));
+            text = text.Replace("... ", GTTSHelper.GetBreakSsmlTag(300) + " ");
+            text = text.Replace(". ", GTTSHelper.GetBreakSsmlTag(300) + " ");
+            text = text.Replace("! ", GTTSHelper.GetBreakSsmlTag(300) + " ");
+            text = text.Replace("? ", GTTSHelper.GetBreakSsmlTag(300) + " ");
 
             Console.WriteLine(text);
 
@@ -199,7 +201,7 @@ namespace Phrazer
             CurrentSsml = csvEntries[1].Trim();
 
             Generator.SynthesizeSpeechAndAddToBuffer(CurrentVoice, CurrentSsml);
-            Thread.Sleep(800);
+            Thread.Sleep(400);
         }
 
 
@@ -260,9 +262,7 @@ namespace Phrazer
 
         public string GetFormattedRowNumber(string rowNumber)
         {
-            if(rowNumber.Length < 3) return "i" + rowNumber.PadLeft(2, '0');
-            if(rowNumber.Length < 4) return "ii" + rowNumber.PadLeft(2, '0');
-            return rowNumber;
+            return "i" + rowNumber.PadLeft(3, '0');
         }
         public string GetFormattedTimeCode(string timeCode)
         {
@@ -270,6 +270,10 @@ namespace Phrazer
 
             string formattedTime = timeCode;
             formattedTime = timeCode.Replace(":", "");
+
+            if(timeCode.Length > 4 && timeCode.Length < 7) {
+                return "l" + formattedTime;
+            }
 
             if(formattedTime.StartsWith("00")) return "l" + formattedTime.Substring(2);
             if(formattedTime.StartsWith("01")) return "ll" + formattedTime.Substring(2);

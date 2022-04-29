@@ -22,6 +22,10 @@ namespace Phrazer
 
         public static string GetSanitizedText(string text, string forWhat)
         {
+            // First remowe the gender prefixes
+            if(text.StartsWith("W:")) text = text.Replace("W:", "");
+            if(text.StartsWith("M:")) text = text.Replace("M:", "");
+
             text = text.Replace(":", "."); // Wichtiges Trennzeichen
             text = text.Replace("/", " ");
             text = text.Replace("’", "'");
@@ -47,7 +51,7 @@ namespace Phrazer
         {
             string[] parts = text.Split(" ");
             for(int i = 0; i < parts.Length; i ++) {
-                parts[i] = parts[i] + GetBreakSsmlTag(1000);
+                parts[i] = parts[i] + GetBreakSsmlTag(900);
             }
             return string.Join("", parts);
         }
@@ -68,16 +72,28 @@ namespace Phrazer
             if(includingThingingTime)
                 thinkingTime = text.Length * 0.005 + 1;
 
-            if(text.Length > 75) {
-                if(includingThingingTime) thinkingTime = -1;
-                repeatingTime = 4; // Wartezeiten limitieren bei langen Sätzen
+            if(text.Length > 70) {
+                //if(includingThingingTime) thinkingTime = -1;
+                //repeatingTime = 4; // Wartezeiten limitieren bei langen Sätzen
             }
                 
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
 
-        public static string GetTemplateName(string FromText, string ToText)
+        public static string GetTemplateName(string FromText, string ToText, string FromLang, string ToLang)
         {
+            if(FromLang == "DE" && ToLang == "DE") {
+                return "de_de.tpl";
+            }
+
+            // gender voice needed (W or M)?
+            if(ToText.StartsWith("W:")) {
+                return "phrase_3_W.tpl";
+            }
+            if(ToText.StartsWith("M:")) {
+                return "phrase_3_M.tpl";
+            }
+
             // Repeat 2 times on longer phrase
             if(ToText.Length > 75) {
                 return "phrase_2.tpl";
