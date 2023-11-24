@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "9y1aXw/4jH2Ax86aWJSnnC3e6FwEMIYmBjg8Hx/SOGuaNq+3yjFSO774wIPmT8TLLf96qnz0UGIKY2irMn+kUg==",
+  "success": true,
+  "projectFilePath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.commonprotos\\1.7.0\\google.api.commonprotos.1.7.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.gax\\3.0.0\\google.api.gax.3.0.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.gax.grpc\\2.10.0-beta04\\google.api.gax.grpc.2.10.0-beta04.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.gax.rest\\3.0.0\\google.api.gax.rest.3.0.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.apis\\1.44.1\\google.apis.1.44.1.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.apis.auth\\1.44.1\\google.apis.auth.1.44.1.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.apis.core\\1.44.1\\google.apis.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.apis.translate.v2\\1.42.0.875\\google.apis.translate.v2.1.42.0.875.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.cloud.texttospeech.v1\\1.1.0-beta01\\google.cloud.texttospeech.v1.1.1.0-beta01.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.cloud.translation.v2\\2.0.0\\google.cloud.translation.v2.2.0.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\google.protobuf\\3.8.0\\google.protobuf.3.8.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\grpc.auth\\1.22.0\\grpc.auth.1.22.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\grpc.core\\1.22.1\\grpc.core.1.22.1.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\grpc.core.api\\1.22.1\\grpc.core.api.1.22.1.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\naudio\\1.9.0\\naudio.1.9.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
