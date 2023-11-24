@@ -120,8 +120,8 @@ namespace Phrazer
             if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
             
             // Project Metadata / Params to set before creating audio
-            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[3].Trim()) : RowNumber;
-            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : TimeCode;
+            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[3].Trim()) : "";
+            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : "";
 
             if(FolderSuffixAllowed && RowNumber.Length > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
@@ -184,12 +184,12 @@ namespace Phrazer
             text = text.Replace("__WAITTIMETO__", GTTSHelper.GetWaitTime(ToText, false).ToString());
 
             // add some BREAKS
-            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(150));
+            text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(200));
             text = text.Replace(";", GTTSHelper.GetBreakSsmlTag(200));
-            text = text.Replace("... ", GTTSHelper.GetBreakSsmlTag(300) + " ");
-            text = text.Replace(". ", GTTSHelper.GetBreakSsmlTag(300) + " ");
-            text = text.Replace("! ", GTTSHelper.GetBreakSsmlTag(300) + " ");
-            text = text.Replace("? ", GTTSHelper.GetBreakSsmlTag(300) + " ");
+            text = text.Replace("... ", GTTSHelper.GetBreakSsmlTag(400) + " ");
+            text = text.Replace(". ", GTTSHelper.GetBreakSsmlTag(400) + " ");
+            text = text.Replace("! ", GTTSHelper.GetBreakSsmlTag(400) + " ");
+            text = text.Replace("? ", GTTSHelper.GetBreakSsmlTag(400) + " ");
 
             Console.WriteLine(text);
 
@@ -230,7 +230,7 @@ namespace Phrazer
                     string jingleFilename = Appdata.GetSoundPath(soundName, "jingles");
                     if(File.Exists(jingleFilename)) {
                         
-                        string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " music playing.wav");
+                        string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " playing.wav");
                         string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
                         Console.WriteLine(">> GENERATE JINGLE: " + outputFilename);
 

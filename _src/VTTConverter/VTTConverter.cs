@@ -42,7 +42,6 @@ namespace Phrazer
             // EMPTY THE ALLINPUTS FILE
             if(SubsConfig.generateAllInputsStatisticsFile) {
                 File.WriteAllText(SubsHelper.GetOutputAbsoluteFilename("__ALL_TEXTS", ""), "", Encoding.UTF8);
-                File.WriteAllText(SubsHelper.GetOutputAbsoluteFilename("__ALL_WORDS", ""), "", Encoding.UTF8);
             }
             
 
@@ -144,11 +143,9 @@ namespace Phrazer
             
             if(SubsConfig.generateAllInputsStatisticsFile) {
                 File.AppendAllLines(SubsHelper.GetOutputAbsoluteFilename("__ALL_TEXTS", ""), tsvRows, Encoding.UTF8);
-                File.AppendAllLines(SubsHelper.GetOutputAbsoluteFilename("__ALL_WORDS", ""), vocabulary, Encoding.UTF8);
             } else {
                 string suffix = (harvesterMode) ? " - HARVESTER" : "";
                 File.WriteAllLines(SubsHelper.GetOutputAbsoluteFilename(currentFileName, suffix), tsvRows, Encoding.UTF8);
-                File.WriteAllLines(SubsHelper.GetOutputAbsoluteFilename(currentFileName, " - WORDS"), vocabulary, Encoding.UTF8);
             }
         }
 
@@ -174,6 +171,12 @@ namespace Phrazer
             if(textBuffer.Length < 2) return;
 
             textBuffer = SubsTextSanitizer.SanitizeText(textBuffer);
+
+            // Speziaelle Steuerzeichen im Text ersetzen.
+            textBuffer = textBuffer.Replace("_ ", ", ");
+            textBuffer = textBuffer.Replace(".- ", ". ");
+            textBuffer = textBuffer.Replace("!- ", "! ");
+            textBuffer = textBuffer.Replace("?- ", "? ");
 
             string kontrollText = textBuffer;
             kontrollText = Regex.Replace(kontrollText, @"[^a-zA-Z0-9,\d\s]+", "", RegexOptions.Compiled);

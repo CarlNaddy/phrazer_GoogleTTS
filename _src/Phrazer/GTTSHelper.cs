@@ -6,6 +6,7 @@ namespace Phrazer
 {
     class GTTSHelper
     {
+        public static int LongPhraseLength = 65;
 
         /**
         Available voices: https://cloud.google.com/text-to-speech/docs/voices?hl=de
@@ -16,7 +17,8 @@ namespace Phrazer
             lang = lang.Trim();
             if(lang == "EN") speaker = "en-GB-Wavenet-C";
             if(lang == "DE") speaker = "de-DE-Wavenet-C";
-            if(lang == "RU") speaker = "ru-RU-Wavenet-B";
+            if(lang == "RU") speaker = "ru-RU-Wavenet-A"; //woman
+            //if(lang == "RU") speaker = "ru-RU-Wavenet-B"; // man
             return speaker; 
         }
 
@@ -68,14 +70,19 @@ namespace Phrazer
             double thinkingTime = 0;
 
             // TEXT LENGTH BASED
-            double repeatingTime = text.Length * 0.05 + 2;
+            double repeatingTime = text.Length * 0.04 + 2;
             
             if(includingThingingTime)
-                thinkingTime = text.Length * 0.005 + 1;
+                thinkingTime = text.Length * 0.004 + 1;
 
-            if(text.Length > 70) {
+            if(text.Length > LongPhraseLength) {
                 //if(includingThingingTime) thinkingTime = -1;
                 //repeatingTime = 4; // Wartezeiten limitieren bei langen Sätzen
+
+                repeatingTime = text.Length * 0.04 + 1;
+
+                if(includingThingingTime)
+                    thinkingTime = text.Length * 0.004;
             }
                 
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
@@ -87,6 +94,10 @@ namespace Phrazer
                 return "de_de.tpl";
             }
 
+            if(FromLang == "RU" && ToLang == "DE") {
+                return "ru_de.tpl";
+            }
+
             // gender voice needed (W or M)?
             if(ToText.StartsWith("W:")) {
                 return "phrase_3_W.tpl";
@@ -96,7 +107,7 @@ namespace Phrazer
             }
 
             // Repeat 2 times on longer phrase
-            if(ToText.Length > 75) {
+            if(ToText.Length > LongPhraseLength) {
                 return "phrase_2.tpl";
             }
 

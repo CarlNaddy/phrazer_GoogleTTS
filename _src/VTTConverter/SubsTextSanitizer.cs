@@ -16,6 +16,10 @@ namespace Phrazer
             text = RemoveBracketsText(text, '[', ']');
             text = RemoveBracketsText(text, '(', ')');
             text = text.Trim();
+
+            // If subtitle row number detected. Just Skip
+            if (text.Length < 5 && Int32.TryParse(text, out int numValue))  return "";
+
             text = text.Replace("&lt;i>", "");
             text = text.Replace("&lt;/i>", "");
             text = text.Replace("&lt;br/>", " ");
@@ -71,12 +75,12 @@ namespace Phrazer
                 "Uh", "uh",
                 "Um", "um",
                 "Ooh", "ooh",
-                "Hey", "hey",
-                "Hi", "hi",
-                "Yeah", "yeah",
-                "Okay", "okay",
-                "Well", "well",
-                "So", "so",
+                //"Hey", "hey",
+                //"Hi", "hi",
+                //"Yeah", "yeah",
+                //"Okay", "okay",
+                //"Well", "well",
+                //"So", "so",
                 
                 // DELETE MAYBE
                 /*
