@@ -7,3 +7,7 @@ _appdata/_extern/inputVTT/*
 _appdata/_extern/outputTSV/*
 _appdata/_history/*
 !.gitkeep
+obj/phrazer.csproj.nuget.dgspec.json
+obj/phrazer.csproj.nuget.g.props
+obj/phrazer.csproj.nuget.g.targets
+obj/project.assets.json
