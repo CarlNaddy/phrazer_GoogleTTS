@@ -7,6 +7,7 @@ namespace Phrazer
     class GTTSHelper
     {
         public static int LongPhraseLength = 65;
+        public static int SlowTextPauseBetweenWordsMs = 750;
 
         /**
         Available voices: https://cloud.google.com/text-to-speech/docs/voices?hl=de
@@ -17,8 +18,8 @@ namespace Phrazer
             lang = lang.Trim();
             if(lang == "EN") speaker = "en-GB-Wavenet-C";
             if(lang == "DE") speaker = "de-DE-Wavenet-C";
-            if(lang == "RU") speaker = "ru-RU-Wavenet-A"; //woman
-            //if(lang == "RU") speaker = "ru-RU-Wavenet-B"; // man
+            //if(lang == "RU") speaker = "ru-RU-Wavenet-A"; //woman
+            if(lang == "RU") speaker = "ru-RU-Wavenet-B"; // man
             return speaker; 
         }
 
@@ -52,9 +53,14 @@ namespace Phrazer
 
         public static string GetTextSlow(string text)
         {
+            int currentPauseBetweenWords = 0;
             string[] parts = text.Split(" ");
             for(int i = 0; i < parts.Length; i ++) {
-                parts[i] = parts[i] + GetBreakSsmlTag(900);
+                currentPauseBetweenWords = SlowTextPauseBetweenWordsMs;
+                if (parts[i].Length > 9) {
+                    currentPauseBetweenWords = SlowTextPauseBetweenWordsMs * 2;
+                }
+                parts[i] = parts[i] + GetBreakSsmlTag(currentPauseBetweenWords);
             }
             return string.Join("", parts);
         }
