@@ -4,6 +4,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Threading;
+// for calling lame converter
+using System.Diagnostics;
 
 
 namespace Phrazer
@@ -49,7 +51,7 @@ namespace Phrazer
             return GetFormattedWordCount(ToText) + ". ";
         }
 
-        public string GetOutputFilename()
+        public string GetOutputFilename(string exportSubfolder, string extension)
         {
             string fromText = GTTSHelper.GetSanitizedText(FromText, "filename");
             string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
@@ -64,9 +66,9 @@ namespace Phrazer
             oFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
             + " (" + oTranslation + ")" 
-            + ".wav");
+            + "." + extension);
             
-            return Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
+            return Appdata.GetExportPath(InputFileName, FolderSuffix, exportSubfolder) + oFileName;
         }
 
         private string AdjustPath(string Input)
@@ -147,12 +149,12 @@ namespace Phrazer
                 return;
             }
             
-            string fileName = GetOutputFilename();
-            if (File.Exists(fileName)) {
-                Console.WriteLine("! ALREADY EXISTS: " + fileName); return;
+            string wavFileName = GetOutputFilename("__wav__", "wav");
+            if (File.Exists(wavFileName)) {
+                Console.WriteLine("! ALREADY EXISTS: " + wavFileName); return;
             }
             
-            Console.WriteLine(">> GENERATE FILE: " + fileName);
+            Console.WriteLine(">> GENERATE FILE: " + wavFileName);
             Console.WriteLine("----------- SSML:");
 
             Generator = new GTTSGenerator();
@@ -164,7 +166,16 @@ namespace Phrazer
                 RowNumberTpl++;
                 ProcessTplRow(row);
             }
-            Generator.ConcatAndSaveWavContents(fileName);
+            Generator.ConcatAndSaveWavContents(wavFileName);
+
+            string filePath = Path.GetDirectoryName(wavFileName) + Path.DirectorySeparatorChar;
+            Console.WriteLine(filePath);
+            Console.WriteLine(Environment.CurrentDirectory);
+
+            // Convert to mp3
+            string mp3FileName = GetOutputFilename("", "mp3");
+            Process.Start(@"_lame.exe", @"-V2 " + "\"" + wavFileName + "\"" + " " + "\"" + mp3FileName + "\"");
+
             CreateHistoryRow();
         }
 
@@ -231,7 +242,7 @@ namespace Phrazer
                     if(File.Exists(jingleFilename)) {
                         
                         string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " playing.wav");
-                        string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix) + oFileName;
+                        string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix, "") + oFileName;
                         Console.WriteLine(">> GENERATE JINGLE: " + outputFilename);
 
                         System.IO.File.Copy(jingleFilename, outputFilename, true);

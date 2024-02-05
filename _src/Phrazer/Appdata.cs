@@ -40,9 +40,15 @@ namespace Phrazer
             return path;
         }
 
-        public static string GetExportPath(string currentFileName, string folderSuffix)
+        public static string GetExportPath(string currentFileName, string folderSuffix, string exportSubfolder)
         {
-            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(currentFileName) + folderSuffix + Path.DirectorySeparatorChar;
+            string path = GetAppdataPath() + "export" + Path.DirectorySeparatorChar
+                + Path.GetFileNameWithoutExtension(currentFileName) + folderSuffix + Path.DirectorySeparatorChar;
+
+            if(exportSubfolder.Length > 0) {
+                path = path + exportSubfolder + Path.DirectorySeparatorChar;
+            }
+            
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }
