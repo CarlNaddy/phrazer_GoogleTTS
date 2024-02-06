@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/g0boUaH6XWU//al/zNRLomtLyRRCCyuI4EcDidx8JnyrOuqzhwe5VVodc8YGia8rUGHNvARECdWuW5xnGUPHg==",
+  "dgSpecHash": "SLnfDTLr4bY1qoDETc6qrD6Ey9Fb8d00ZFmftP5Fe2Vp3yzCdK4iqHdI8SLkeb2QkguZxmkf5EIoahvD658Auw==",
   "success": true,
   "projectFilePath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\phrazer.csproj",
   "expectedPackageFiles": [
@@ -24,8 +24,7 @@
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512",
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
-    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
-    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    "net6.0": {
       "Google.Api.CommonProtos/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -62,10 +62,10 @@
           "Google.Apis.Core": "1.66.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.dll": {}
+          "lib/net6.0/Google.Apis.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {}
+          "lib/net6.0/Google.Apis.dll": {}
         }
       },
       "Google.Apis.Auth/1.66.0": {
@@ -76,10 +76,10 @@
           "System.Management": "7.0.2"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+          "lib/net6.0/Google.Apis.Auth.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+          "lib/net6.0/Google.Apis.Auth.dll": {}
         }
       },
       "Google.Apis.Core/1.66.0": {
@@ -88,10 +88,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+          "lib/net6.0/Google.Apis.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+          "lib/net6.0/Google.Apis.Core.dll": {}
         }
       },
       "Google.Apis.Translate.v2/1.42.0.875": {
@@ -231,22 +231,22 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.CodeDom/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.CodeDom.dll": {}
+          "lib/net6.0/System.CodeDom.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {}
+          "lib/net6.0/System.CodeDom.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.CodeDom.targets": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Interactive.Async/3.2.0": {
@@ -264,13 +264,19 @@
           "System.CodeDom": "7.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Management.dll": {}
+          "lib/net6.0/System.Management.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Management.dll": {}
+          "lib/net6.0/System.Management.dll": {}
         },
         "build": {
-          "buildTransitive/netcoreapp2.0/System.Management.targets": {}
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Memory/4.5.2": {
@@ -763,7 +769,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    "net6.0": [
       "Google.Apis.Auth >= 1.66.0",
       "Google.Cloud.TextToSpeech.V1 >= 1.1.0-beta01",
       "Google.Cloud.Translation.V2 >= 2.0.0",
@@ -786,14 +792,14 @@
         "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
-          "targetAlias": "netcoreapp3.0",
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
           "projectReferences": {}
         }
       },
@@ -804,8 +810,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
-        "targetAlias": "netcoreapp3.0",
+      "net6.0": {
+        "targetAlias": "netcoreapp6.0",
         "dependencies": {
           "Google.Apis.Auth": {
             "target": "Package",
@@ -834,12 +840,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.0.3, 3.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
