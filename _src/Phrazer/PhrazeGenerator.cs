@@ -168,10 +168,6 @@ namespace Phrazer
             }
             Generator.ConcatAndSaveWavContents(wavFileName);
 
-            string filePath = Path.GetDirectoryName(wavFileName) + Path.DirectorySeparatorChar;
-            Console.WriteLine(filePath);
-            Console.WriteLine(Environment.CurrentDirectory);
-
             // Convert to mp3
             string mp3FileName = GetOutputFilename("", "mp3");
             Process.Start(@"_lame.exe", @"-V2 " + "\"" + wavFileName + "\"" + " " + "\"" + mp3FileName + "\"");

@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using Google.Cloud.TextToSpeech.V1;
+using Google.Apis.Auth.OAuth2;
 
 using NAudio;
 using NAudio.Wave;
@@ -13,7 +14,8 @@ namespace Phrazer
     class GTTSGenerator
     {
         public GTTSGenerator() {
-            // Check Google TTS API Key
+            // Set and Check Google TTS API Key
+            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", Appdata.GetAppdataPath() + "fair-portal-143718-41e0b8fef741.json");
             string value = Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS");
             Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS: " + value);
             if(!File.Exists(value)) {
@@ -28,6 +30,8 @@ namespace Phrazer
 
         public void SynthesizeSpeechAndAddToBuffer(string voice, string ssml)
         {
+            //var sac = ServiceAccountCredential.FromServiceAccountData(new FileStream("_appdata\\fair-portal-143718-41e0b8fef741.json", FileMode.Open));
+
             var client = TextToSpeechClient.Create();
             var response = client.SynthesizeSpeech(new SynthesizeSpeechRequest
             {

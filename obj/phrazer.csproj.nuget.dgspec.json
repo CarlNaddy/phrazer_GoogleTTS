@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer.csproj": {}
+    "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\phrazer.csproj": {}
   },
   "projects": {
-    "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer.csproj": {
+    "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\phrazer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer.csproj",
+        "projectUniqueName": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\phrazer.csproj",
         "projectName": "phrazer",
-        "projectPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer.csproj",
+        "projectPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\phrazer.csproj",
         "packagesPath": "C:\\Users\\knadobnykh\\.nuget\\packages\\",
-        "outputPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\obj\\",
+        "outputPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_gen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.66.0, )"
+            },
             "Google.Cloud.TextToSpeech.V1": {
               "target": "Package",
               "version": "[1.1.0-beta01, )"

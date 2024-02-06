@@ -8,14 +8,7 @@ namespace Phrazer
     {
         static void Main(string[] args)
         {
-            // Uncomment if need to convert VTT files
-            
-            //VTTConverter.createDownloadSubtitlesHTML(); return;
-
-            //VTTConverter.convertToTSV(); return;
-            
-            PhrazeGenerator.ProceedAllInputPhrazerFiles(); return;
-
+            PhrazeGenerator.ProceedAllInputPhrazerFiles();
         }
     }
 }
