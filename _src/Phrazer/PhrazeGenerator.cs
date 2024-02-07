@@ -169,8 +169,14 @@ namespace Phrazer
             Generator.ConcatAndSaveWavContents(wavFileName);
 
             // Convert to mp3
-            string mp3FileName = GetOutputFilename("", "mp3");
-            Process.Start(@"_lame.exe", @"-V2 " + "\"" + wavFileName + "\"" + " " + "\"" + mp3FileName + "\"");
+            if (!File.Exists("lame.exe"))
+            {
+                Console.WriteLine("Please add _lame.exe to this folder in order to generate MP3 files!");
+                Console.WriteLine("Current folder: " + Environment.CurrentDirectory);
+            } else {
+                string mp3FileName = GetOutputFilename("", "mp3");
+                Process.Start(@"lame.exe", @"-V2 " + "\"" + wavFileName + "\"" + " " + "\"" + mp3FileName + "\"");
+            }
 
             CreateHistoryRow();
         }
