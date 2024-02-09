@@ -94,16 +94,17 @@ namespace Phrazer
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
 
-        public static string GetTemplateName(string FromText, string ToText, string FromLang, string ToLang)
+        public static string GetTplPath(string langFrom, string langTo)
         {
-            if(FromLang == "DE" && ToLang == "DE") {
-                return "de_de.tpl";
-            }
-
-            if(FromLang == "RU" && ToLang == "DE") {
-                return "ru_de.tpl";
-            }
-
+            string voiceGenerater = "GoogleSSML";
+            string targetGroup = langFrom + "_" + langTo;
+            return Appdata.GetAppdataPath()
+            + "_tpl" + Path.DirectorySeparatorChar 
+            + voiceGenerater + Path.DirectorySeparatorChar 
+            + targetGroup + Path.DirectorySeparatorChar;
+        }
+        public static string GetTplName(string FromText, string ToText)
+        {
             // gender voice needed (W or M)?
             if(ToText.StartsWith("W:")) {
                 return "phrase_3_W.tpl";
@@ -111,22 +112,19 @@ namespace Phrazer
             if(ToText.StartsWith("M:")) {
                 return "phrase_3_M.tpl";
             }
-
             // Repeat 2 times on longer phrase
             if(ToText.Length > LongPhraseLength) {
                 return "phrase_2.tpl";
             }
-
             // if no TEXT_FROM, then make just text
             if(FromText.Length == 0) {
                 return "text_2.tpl";
             }
-
             // else just a usual audioflashcard
             return "phrase_3.tpl";
         }
 
-
+        
 
 
 

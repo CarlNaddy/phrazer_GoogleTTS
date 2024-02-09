@@ -1,3 +1,3 @@
-﻿__FROMSPEAKER__: <speak><break time="200ms"/><prosody rate="90%">__FROMTEXT__</prosody><break time="__WAITTIMEFROM__ms"/></speak>
+﻿ru-RU-Wavenet-B: <speak><break time="200ms"/><prosody rate="90%">__FROMTEXT__</prosody><break time="__WAITTIMEFROM__ms"/></speak>
 en-US-Wavenet-J: <speak><prosody rate="85%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>
 en-US-Wavenet-E: <speak><prosody rate="85%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>

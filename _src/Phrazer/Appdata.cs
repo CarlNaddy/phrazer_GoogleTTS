@@ -26,11 +26,6 @@ namespace Phrazer
             return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
         }
 
-        public static string GetTplPath(string templateName)
-        {
-            return GetAppdataPath() + "_tpl" + Path.DirectorySeparatorChar + "GTTS" + Path.DirectorySeparatorChar + templateName;
-        }
-
         public static string GetHistoryPath()
         {
             string path = GetAppdataPath() + "_history" + Path.DirectorySeparatorChar;

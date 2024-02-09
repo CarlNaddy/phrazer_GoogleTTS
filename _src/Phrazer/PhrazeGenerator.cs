@@ -159,7 +159,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(Appdata.GetTplPath(GTTSHelper.GetTemplateName(FromText, ToText, FromLang, ToLang)));
+            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(FromLang, ToLang) + GTTSHelper.GetTplName(FromText, ToText));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -187,7 +187,7 @@ namespace Phrazer
         {
 
             // replace TEXTS
-            text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
+            //text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
             text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
             text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
             text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
