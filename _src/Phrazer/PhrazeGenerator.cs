@@ -33,6 +33,8 @@ namespace Phrazer
 
         public PhrazeGenerator()
         {
+            // @todo: It might be better to get Lang values from file name
+            // UK_DE_xxxxxxxxxxxxxx.tsv
             LangFrom = "UK";
             LangTo = "DE";
             MaxTextLength = 115;
