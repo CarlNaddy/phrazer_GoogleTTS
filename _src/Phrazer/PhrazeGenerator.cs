@@ -14,10 +14,12 @@ namespace Phrazer
     {
         public string InputFileName { get; set; }
         public int RowNumberTpl { get; set; }
-        public string FromLang { get; set; }
-        public string ToLang { get; set; }
-        public string FromText { get; set; }
-        public string ToText { get; set; }
+        public string LangFrom { get; set; }
+        public string LangTo { get; set; }
+        public int LangFromIndex { get; set; }
+        public int LangToIndex { get; set; }
+        public string TextFrom { get; set; }
+        public string TextTo { get; set; }
         public string RowNumber { get; set; }
         public string TimeCode { get; set; }
         public string TimeCodeList { get; set; }
@@ -31,8 +33,8 @@ namespace Phrazer
 
         public PhrazeGenerator()
         {
-            FromLang = "";
-            ToLang = "";
+            LangFrom = "UK";
+            LangTo = "DE";
             MaxTextLength = 115;
             RowNumber = "";
             TimeCode = "";
@@ -48,19 +50,19 @@ namespace Phrazer
             if(RowNumber.Length > 0) return RowNumber + ". ";
 
             // else standard buildup/wordcount procedure
-            return GetFormattedWordCount(ToText) + ". ";
+            return GetFormattedWordCount(TextTo) + ". ";
         }
 
         public string GetOutputFilename(string exportSubfolder, string extension)
         {
-            string fromText = GTTSHelper.GetSanitizedText(FromText, "filename");
-            string toText = GTTSHelper.GetSanitizedText(ToText, "filename");
+            string fromText = GTTSHelper.GetSanitizedText(TextFrom, "filename");
+            string toText = GTTSHelper.GetSanitizedText(TextTo, "filename");
 
             // Generate a file from the script and save
-            string oFileName = "";
-            string oTranslation = "";
+            string oFileName;
+            string oTranslation;
 
-            oTranslation = GTTSHelper.Substring(fromText, 0, MaxTextLength - ToText.Length -3);
+            oTranslation = GTTSHelper.Substring(fromText, 0, MaxTextLength - TextTo.Length -3);
             if(oTranslation.Length < fromText.Length) oTranslation = oTranslation + "...";
             
             oFileName = AdjustPath(GetOutputFilenamePrefix() 
@@ -91,35 +93,48 @@ namespace Phrazer
                 Console.WriteLine("File " + currentFileName + " not exists!");
                 return;
             }
+            // for the first header row in the input tsv file
+            if (LangFrom == "" || LangTo == "")
+            {
+                Console.WriteLine("LangFrom or LangTo NOT SET. Abort...");
+                return;
+            }
 
             InputFileName = currentFileName;
             string[] rows = File.ReadAllLines(InputFileName);
 
             FillTheTimeCodeList(rows);
+            int index = 0;
+
             foreach (string csvRow in rows)
             {
-                ProceedRow(csvRow);
+                if(index == 0) {
+                    string[] csvEntries = csvRow.Split('\t');
+                    LangFromIndex = Array.IndexOf(csvEntries, LangFrom);
+                    LangToIndex = Array.IndexOf(csvEntries, LangTo);
+                    index++;
+                    continue;
+                }
+                if (LangFromIndex == -1 || LangToIndex == -1){
+                    Console.WriteLine("Please check your LangFromIndex & LangToIndex settings. Abort...");
+                    return;
+                }
+
+                ProceedRow(csvRow, index);
+                index++;
             }
         }
 
 
 
-        public void ProceedRow(string csvRow)
+        public void ProceedRow(string csvRow, int index)
         {
             string[] csvEntries = csvRow.Split('\t');
             if (csvEntries.Length < 2) return; // Skip not well defined rows
-            
-            // for the first header row in the input tsv file
-            if (FromLang == "" && ToLang == "")
-            {
-                FromLang = csvEntries[0].Trim();
-                ToLang = csvEntries[1].Trim();
-                return;
-            }
 
-            FromText = csvEntries[0].Trim();
-            ToText = csvEntries[1].Trim();
-            if(FromText.Length < 1 && ToText.Length < 1) return; // if nothing todo dont start the generator. Just skip!
+            TextFrom = csvEntries[LangFromIndex].Trim();
+            TextTo = csvEntries[LangToIndex].Trim();
+            if(TextFrom.Length < 1 && TextTo.Length < 1) return; // if nothing todo dont start the generator. Just skip!
             
             // Project Metadata / Params to set before creating audio
             RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[3].Trim()) : "";
@@ -128,11 +143,11 @@ namespace Phrazer
             if(FolderSuffixAllowed && RowNumber.Length > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
             // just add a jingle file with timecode
-            if(addJingle(FromText)) return;
-            if(addJingle(ToText)) return;
+            if(addJingle(TextFrom)) return;
+            if(addJingle(TextTo)) return;
 
             // Wenn kein Jingle und nicht übersetzt - skip it!
-            if(FromText.Length < 1 && SkipWithoutTranslation == true) return;
+            if(TextFrom.Length < 1 && SkipWithoutTranslation == true) return;
 
             ProcessTplFile();
         }
@@ -143,9 +158,9 @@ namespace Phrazer
         public void ProcessTplFile()
         {
             // LOgging for oversized rows
-            if (FromText.Length > MaxTextLength || ToText.Length > MaxTextLength)
+            if (TextFrom.Length > MaxTextLength || TextTo.Length > MaxTextLength)
             {
-                File.AppendAllText(Appdata.GetHistoryPath() + "_skipped.csv", FromText + "\t" + ToText + "\n");
+                File.AppendAllText(Appdata.GetHistoryPath() + "_skipped.csv", TextFrom + "\t" + TextTo + "\n");
                 return;
             }
             
@@ -159,7 +174,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(FromLang, ToLang) + GTTSHelper.GetTplName(FromText, ToText));
+            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(LangFrom, LangTo) + GTTSHelper.GetTplName(TextFrom, TextTo));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -187,14 +202,14 @@ namespace Phrazer
         {
 
             // replace TEXTS
-            //text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(FromLang));
-            text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(FromText, "audioengine"));
-            text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(ToText, "audioengine"));
-            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(ToText, "audioengine")));
+            //text = text.Replace("__FROMSPEAKER__", GTTSHelper.GetDefaultSpeaker(LangFrom));
+            text = text.Replace("__FROMTEXT__", GTTSHelper.GetSanitizedText(TextFrom, "audioengine"));
+            text = text.Replace("__TOTEXT__", GTTSHelper.GetSanitizedText(TextTo, "audioengine"));
+            text = text.Replace("__TOTEXTSLOW__", GTTSHelper.GetTextSlow(GTTSHelper.GetSanitizedText(TextTo, "audioengine")));
 
             // Wartezeit berechnen
-            text = text.Replace("__WAITTIMEFROM__", GTTSHelper.GetWaitTime(ToText, true).ToString());
-            text = text.Replace("__WAITTIMETO__", GTTSHelper.GetWaitTime(ToText, false).ToString());
+            text = text.Replace("__WAITTIMEFROM__", GTTSHelper.GetWaitTime(TextTo, true).ToString());
+            text = text.Replace("__WAITTIMETO__", GTTSHelper.GetWaitTime(TextTo, false).ToString());
 
             // add some BREAKS
             text = text.Replace(",", GTTSHelper.GetBreakSsmlTag(200));
@@ -224,7 +239,7 @@ namespace Phrazer
         public void CreateHistoryRow()
         {
             if(TimeCode.Length > 0) return;
-            File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", FromText + "\t" + ToText + "\n");
+            File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", TextFrom + "\t" + TextTo + "\n");
         }
 
         public bool addJingle(string text)
