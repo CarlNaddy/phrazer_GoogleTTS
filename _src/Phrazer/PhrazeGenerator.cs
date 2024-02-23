@@ -18,10 +18,14 @@ namespace Phrazer
         public string LangTo { get; set; }
         public int LangFromIndex { get; set; }
         public int LangToIndex { get; set; }
+        public string Gender { get; set; }
+        public int GenderIndex { get; set; }
         public string TextFrom { get; set; }
         public string TextTo { get; set; }
         public string RowNumber { get; set; }
+        public int RowNumberIndex { get; set; }
         public string TimeCode { get; set; }
+        public int TimeCodeIndex { get; set; }
         public string TimeCodeList { get; set; }
         public int MaxTextLength { get; set; }
         public bool SkipWithoutTranslation { get; set; }
@@ -82,7 +86,7 @@ namespace Phrazer
 
         static public void ProceedAllInputPhrazerFiles()
         {
-            string[] files = Directory.GetFiles(Appdata.GetCsvPath(), "*.tsv");
+            string[] files = Directory.GetFiles(Appdata.GetInputPath(), "*.tsv");
             foreach(string file in files) {
                 PhrazeGenerator obj = new PhrazeGenerator();
                 obj.ProceedCsvFile(file);
@@ -114,6 +118,9 @@ namespace Phrazer
                     string[] csvEntries = csvRow.Split('\t');
                     LangFromIndex = Array.IndexOf(csvEntries, LangFrom);
                     LangToIndex = Array.IndexOf(csvEntries, LangTo);
+                    GenderIndex = Array.IndexOf(csvEntries, "GENDER");
+                    RowNumberIndex = Array.IndexOf(csvEntries, "ROW");
+                    TimeCodeIndex = Array.IndexOf(csvEntries, "TIME");
                     index++;
                     continue;
                 }
@@ -136,11 +143,9 @@ namespace Phrazer
 
             TextFrom = csvEntries[LangFromIndex].Trim();
             TextTo = csvEntries[LangToIndex].Trim();
-            if(TextFrom.Length < 1 && TextTo.Length < 1) return; // if nothing todo dont start the generator. Just skip!
-            
-            // Project Metadata / Params to set before creating audio
-            RowNumber = (csvEntries.Length > 3 && csvEntries[3].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[3].Trim()) : "";
-            TimeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[4].Trim()) : "";
+            Gender = csvEntries[GenderIndex].Trim();
+            RowNumber = (csvEntries.Length > 3 && csvEntries[RowNumberIndex].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[RowNumberIndex].Trim()) : "";
+            TimeCode = (csvEntries.Length > 4 && csvEntries[TimeCodeIndex].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[TimeCodeIndex].Trim()) : "";
 
             if(FolderSuffixAllowed && RowNumber.Length > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
@@ -176,7 +181,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(LangFrom, LangTo) + GTTSHelper.GetTplName(TextFrom, TextTo));
+            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(LangFrom, LangTo) + GTTSHelper.GetTplName(TextFrom, TextTo, Gender));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -224,11 +229,11 @@ namespace Phrazer
             Console.WriteLine(text);
 
             // Than SPLIT
-            string[] csvEntries = text.Split(':');
-            if (csvEntries.Length < 2) return;
+            string[] csvValues = text.Split(':');
+            if (csvValues.Length < 2) return;
 
-            CurrentVoice = csvEntries[0].Trim();
-            CurrentSsml = csvEntries[1].Trim();
+            CurrentVoice = csvValues[0].Trim();
+            CurrentSsml = csvValues[1].Trim();
 
             Generator.SynthesizeSpeechAndAddToBuffer(CurrentVoice, CurrentSsml);
             Thread.Sleep(400);
@@ -240,8 +245,29 @@ namespace Phrazer
 
         public void CreateHistoryRow()
         {
-            if(TimeCode.Length > 0) return;
-            File.AppendAllText(Appdata.GetHistoryPath() + "_history.csv", TextFrom + "\t" + TextTo + "\n");
+            int len = TextFrom.Length + TextTo.Length;
+            string tpl = LangFrom + "_" + LangTo + "\\" + GTTSHelper.GetTplName(TextFrom, TextTo, Gender);
+
+            string file = Appdata.GetHistoryPath() + "_history.csv";
+            if(!File.Exists(file)){
+                File.AppendAllText(file, 
+                    "Month" + "\t" 
+                    + "Date" + "\t" 
+                    + "TextFrom" + "\t" 
+                    + "TextTo" + "\t" 
+                    + "Len"  + "\t"  
+                    + "Tpl" + "\n"
+                );
+            }
+
+            File.AppendAllText(file, 
+                DateTime.Now.ToString("yyyy-MM") + "\t" 
+                    + DateTime.Now.ToString("dd-MM-yyyy") + "\t" 
+                    + TextFrom + "\t" 
+                    + TextTo + "\t" 
+                    + len  + "\t"  
+                    + tpl + "\n"
+            );
         }
 
         public bool addJingle(string text)
@@ -280,7 +306,7 @@ namespace Phrazer
             {
                 string[] csvEntries = csvRow.Split('\t');
                 if (csvEntries.Length < 2) return; // Skip not well defined rows
-                timeCode = (csvEntries.Length > 4 && csvEntries[4].Trim().Length > 0) ? csvEntries[4].Trim() : "";
+                timeCode = (TimeCodeIndex > 0 && csvEntries[TimeCodeIndex].Trim().Length > 0) ? csvEntries[TimeCodeIndex].Trim() : "";
                 TimeCodeList = TimeCodeList + "_" + timeCode;
             }
         }

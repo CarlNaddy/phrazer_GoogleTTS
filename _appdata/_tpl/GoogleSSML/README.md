@@ -1,21 +1,51 @@
 Google TTS Voice List:
 https://cloud.google.com/text-to-speech/docs/voices
 
-en-GB-Wavenet-C: 
-en-GB-Wavenet-B: 
-en-US-Wavenet-D: 
-en-GB-Wavenet-D: 
-en-US-Wavenet-C: 
 
-ru-RU-Wavenet-B: 
-ru-RU-Wavenet-C: 
 
-de-DE-Wavenet-C: 
-de-DE-Wavenet-D: 
+W
+en-GB-Studio-C  (very good, but expensive)
+en-GB-Neural2-A
+en-GB-Neural2-C
+en-GB-Wavenet-A 
+en-GB-Wavenet-C 
+en-US-Wavenet-C
 
-uk-UA-Wavenet-A: best FEMALE ukrainian voice
-de-DE-Neural2-F: good FEMALE german voice
-de-DE-Neural2-B: good MALE german voice
+M
+en-GB-Studio-B  (very good, but expensive)
+en-GB-Neural2-B
+en-GB-Neural2-D
+en-GB-Wavenet-B 
+en-GB-Wavenet-D 
+en-US-Wavenet-D 
+
+
+W
+ru-RU-Wavenet-A
+ru-RU-Wavenet-C
+
+M
+ru-RU-Wavenet-B 
+ru-RU-Wavenet-D 
+
+
+W
+uk-UA-Wavenet-A  (the only FEMALE ukrainian voice?)
+
+
+W
+de-DE-Neural2-A
+de-DE-Neural2-C
+de-DE-Neural2-F  (best FEMALE german voice?)
+de-DE-Wavenet-C
+
+M
+de-DE-Polyglot-1  (very good, but might be expensive)
+de-DE-Neural2-B  (best MALE german voice?)
+de-DE-Neural2-D
+de-DE-Wavenet-D
+
+
 
 ############################################################
 

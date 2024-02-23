@@ -14,25 +14,9 @@ namespace Phrazer
             return Environment.CurrentDirectory + Path.DirectorySeparatorChar + "_appdata" + Path.DirectorySeparatorChar;
         }
 
-        public static string GetCsvPath()
+        public static string GetInputPath()
         {
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
-        }
-
-        public static string GetSoundPath(string sound, string package)
-        {
-            // 24000 Khz Mono Wav only
-            if(package == "") package = "piano_mono";
-            return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
-        }
-
-        public static string GetHistoryPath()
-        {
-            string path = GetAppdataPath() + "_history" + Path.DirectorySeparatorChar;
-            if(!Directory.Exists(path)) {
-                Directory.CreateDirectory(path);
-            }
-            return path;
         }
 
         public static string GetExportPath(string currentFileName, string folderSuffix, string exportSubfolder)
@@ -46,6 +30,26 @@ namespace Phrazer
                 path = path + exportSubfolder + Path.DirectorySeparatorChar;
             }
             
+            if(!Directory.Exists(path)) {
+                Directory.CreateDirectory(path);
+            }
+            return path;
+        }
+
+
+        /**
+        * @todo should become mp3 along with jingles 
+        */
+        public static string GetSoundPath(string sound, string package)
+        {
+            // 24000 Khz Mono Wav only
+            if(package == "") package = "piano_mono";
+            return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
+        }
+
+        public static string GetHistoryPath()
+        {
+            string path = GetAppdataPath() + "_history" + Path.DirectorySeparatorChar;
             if(!Directory.Exists(path)) {
                 Directory.CreateDirectory(path);
             }

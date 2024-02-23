@@ -103,21 +103,21 @@ namespace Phrazer
             + voiceGenerater + Path.DirectorySeparatorChar 
             + targetGroup + Path.DirectorySeparatorChar;
         }
-        public static string GetTplName(string FromText, string ToText)
+        public static string GetTplName(string fromText, string toText, string gender)
         {
             // gender voice needed (W or M)?
-            if(ToText.StartsWith("W:")) {
+            if(toText.StartsWith("W:") || gender.ToUpper() == "W") {
                 return "phrase_3_W.tpl";
             }
-            if(ToText.StartsWith("M:")) {
+            if(toText.StartsWith("M:") || gender.ToUpper() == "M") {
                 return "phrase_3_M.tpl";
             }
             // Repeat 2 times on longer phrase
-            if(ToText.Length > LongPhraseLength) {
+            if(toText.Length > LongPhraseLength) {
                 return "phrase_2.tpl";
             }
             // if no TEXT_FROM, then make just text
-            if(FromText.Length == 0) {
+            if(fromText.Length == 0) {
                 return "text_2.tpl";
             }
             // else just a usual audioflashcard

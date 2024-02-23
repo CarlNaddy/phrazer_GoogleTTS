@@ -8,10 +8,14 @@
           "Google.Protobuf": "3.8.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {}
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {}
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Api.Gax/3.0.0": {
@@ -21,10 +25,14 @@
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Api.Gax.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Api.Gax.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Api.Gax.Grpc/2.10.0-beta04": {
@@ -37,10 +45,14 @@
           "Grpc.Core": "[1.22.0, 2.0.0)"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.Grpc.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Api.Gax.Rest/3.0.0": {
@@ -50,10 +62,14 @@
           "Google.Apis.Auth": "1.44.1"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {}
+          "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Apis/1.66.0": {
@@ -62,10 +78,14 @@
           "Google.Apis.Core": "1.66.0"
         },
         "compile": {
-          "lib/net6.0/Google.Apis.dll": {}
+          "lib/net6.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Google.Apis.dll": {}
+          "lib/net6.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Apis.Auth/1.66.0": {
@@ -76,10 +96,14 @@
           "System.Management": "7.0.2"
         },
         "compile": {
-          "lib/net6.0/Google.Apis.Auth.dll": {}
+          "lib/net6.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Google.Apis.Auth.dll": {}
+          "lib/net6.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Apis.Core/1.66.0": {
@@ -88,10 +112,14 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "lib/net6.0/Google.Apis.Core.dll": {}
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Google.Apis.Core.dll": {}
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Apis.Translate.v2/1.42.0.875": {
@@ -101,10 +129,14 @@
           "Google.Apis.Auth": "1.42.0"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {}
+          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {}
+          "lib/netstandard2.0/Google.Apis.Translate.v2.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Cloud.TextToSpeech.V1/1.1.0-beta01": {
@@ -114,10 +146,14 @@
           "Grpc.Core": "1.22.1"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll": {}
+          "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll": {}
+          "lib/netstandard2.0/Google.Cloud.TextToSpeech.V1.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Cloud.Translation.V2/2.0.0": {
@@ -127,10 +163,14 @@
           "Google.Apis.Translate.v2": "1.42.0.875"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {}
+          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {}
+          "lib/netstandard2.0/Google.Cloud.Translation.V2.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Google.Protobuf/3.8.0": {
@@ -139,10 +179,14 @@
           "System.Memory": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {}
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {}
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Grpc.Auth/1.22.0": {
@@ -152,10 +196,14 @@
           "Grpc.Core": "1.22.0"
         },
         "compile": {
-          "lib/netstandard2.0/Grpc.Auth.dll": {}
+          "lib/netstandard2.0/Grpc.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Grpc.Auth.dll": {}
+          "lib/netstandard2.0/Grpc.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Grpc.Core/1.22.1": {
@@ -165,10 +213,14 @@
           "System.Interactive.Async": "3.2.0"
         },
         "compile": {
-          "lib/netstandard2.0/Grpc.Core.dll": {}
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Grpc.Core.dll": {}
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
@@ -204,10 +256,14 @@
           "System.Memory": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -216,34 +272,48 @@
           "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NAudio/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NAudio.dll": {}
+          "lib/netstandard2.0/NAudio.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NAudio.dll": {}
+          "lib/netstandard2.0/NAudio.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.CodeDom/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.CodeDom.dll": {}
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {}
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -252,10 +322,14 @@
       "System.Interactive.Async/3.2.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Management/7.0.2": {
@@ -264,10 +338,14 @@
           "System.CodeDom": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Management.dll": {}
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Management.dll": {}
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -789,12 +867,14 @@
       "outputPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -807,6 +887,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -836,16 +921,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.27, 6.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

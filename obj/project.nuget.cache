@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e8IuO/fSgBlJXux8VtLLTa9lO9SPiyuOS+WCVHLEyqOXbLbOAtqkrNVuMgxlPQOFdBcvbWsxGwCbL4+Hs7ss3w==",
+  "dgSpecHash": "29zXIJuMcBSFOW03yZp2IOja6ws7PX/Gf9kjkwTff7mmgRKemJMD6HSlZBtSiDizWfiMQ/EeTiXA1ahMxnzsNQ==",
   "success": true,
   "projectFilePath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\phrazer.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,11 @@
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512",
     "C:\\Users\\knadobnykh\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
-    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512"
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\knadobnykh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }
