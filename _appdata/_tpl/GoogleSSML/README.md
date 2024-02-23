@@ -8,8 +8,10 @@ en-GB-Studio-C  (very good, but expensive)
 en-GB-Neural2-A
 en-GB-Neural2-C
 en-GB-Wavenet-A 
-en-GB-Wavenet-C 
+en-GB-Wavenet-C
+en-US-Neural2-F 
 en-US-Wavenet-C
+en-US-Journey-F  (wow, test it)
 
 M
 en-GB-Studio-B  (very good, but expensive)
@@ -18,6 +20,8 @@ en-GB-Neural2-D
 en-GB-Wavenet-B 
 en-GB-Wavenet-D 
 en-US-Wavenet-D 
+en-US-Journey-D  (wow, test it)
+en-US-Casual-K  (try this one as well)
 
 
 W
