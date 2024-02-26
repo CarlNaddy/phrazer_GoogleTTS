@@ -860,11 +860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\phrazer.csproj",
+      "projectUniqueName": "C:\\_DATA\\phrazer_afcgen\\phrazer.csproj",
       "projectName": "phrazer",
-      "projectPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\phrazer.csproj",
+      "projectPath": "C:\\_DATA\\phrazer_afcgen\\phrazer.csproj",
       "packagesPath": "C:\\Users\\knadobnykh\\.nuget\\packages\\",
-      "outputPath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\obj\\",
+      "outputPath": "C:\\_DATA\\phrazer_afcgen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\knadobnykh\\AppData\\Roaming\\NuGet\\NuGet.Config",

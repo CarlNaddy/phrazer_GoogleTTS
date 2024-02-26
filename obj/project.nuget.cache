@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29zXIJuMcBSFOW03yZp2IOja6ws7PX/Gf9kjkwTff7mmgRKemJMD6HSlZBtSiDizWfiMQ/EeTiXA1ahMxnzsNQ==",
+  "dgSpecHash": "RPxh/8Y6hkwwo5E4iwpy3KYVziBGih+X3u5ZVJeqvzjKjBNzT5e67D9vPNN3vkQMlo2iGFL/X7229jmiaA/kaQ==",
   "success": true,
-  "projectFilePath": "C:\\_DATA\\__PHRAZER2_GENERATOR\\phrazer_afcgen\\phrazer.csproj",
+  "projectFilePath": "C:\\_DATA\\phrazer_afcgen\\phrazer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.commonprotos\\1.7.0\\google.api.commonprotos.1.7.0.nupkg.sha512",
     "C:\\Users\\knadobnykh\\.nuget\\packages\\google.api.gax\\3.0.0\\google.api.gax.3.0.0.nupkg.sha512",

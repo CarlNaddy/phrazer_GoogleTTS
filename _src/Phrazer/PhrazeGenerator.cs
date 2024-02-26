@@ -283,14 +283,14 @@ namespace Phrazer
                     string soundName = headingPrefix.TrimStart('#').TrimEnd('.');
 
                     // from henceforce we just create a new jingle file - dont use the Generator
-                    string jingleFilename = Appdata.GetSoundPath(soundName, "jingles");
+                    string jingleFilename = Appdata.GetSoundPath(soundName, "jingles", "mp3");
                     if(File.Exists(jingleFilename)) {
                         
-                        string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " playing.wav");
+                        string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " playing.mp3");
                         string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix, "") + oFileName;
                         Console.WriteLine(">> GENERATE JINGLE: " + outputFilename);
 
-                        System.IO.File.Copy(jingleFilename, outputFilename, true);
+                        File.Copy(jingleFilename, outputFilename, true);
                         return true;
                     }
                 }

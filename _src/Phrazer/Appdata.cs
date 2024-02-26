@@ -40,11 +40,11 @@ namespace Phrazer
         /**
         * @todo should become mp3 along with jingles 
         */
-        public static string GetSoundPath(string sound, string package)
+        public static string GetSoundPath(string sound, string package, string format)
         {
             // 24000 Khz Mono Wav only
             if(package == "") package = "piano_mono";
-            return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + ".wav";
+            return GetAppdataPath() + "_sounds" + Path.DirectorySeparatorChar + package + Path.DirectorySeparatorChar + sound + "." + format;
         }
 
         public static string GetHistoryPath()

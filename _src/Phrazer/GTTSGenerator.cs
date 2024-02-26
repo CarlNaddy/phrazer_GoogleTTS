@@ -55,9 +55,10 @@ namespace Phrazer
             AudioContents.Add(response.AudioContent.ToByteArray());
         }
 
+        /* Legacy: for putting sound directly into track (we don't use it anymore) */
         public void JustAddWavSound(string sound)
         {
-            string fileName = Appdata.GetSoundPath(sound, "");
+            string fileName = Appdata.GetSoundPath(sound, "", "wav");
             if(File.Exists(fileName)) AudioContents.Add(File.ReadAllBytes(fileName));
         }
 
