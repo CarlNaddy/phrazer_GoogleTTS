@@ -1,3 +1,3 @@
-bin\Debug\netcoreapp3.0\phrazer.exe
+bin\Debug\netcoreapp6.0\phrazer.exe
 
 set /p DUMMY=Hit ENTER to continue...

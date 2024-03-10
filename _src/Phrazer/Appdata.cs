@@ -19,10 +19,11 @@ namespace Phrazer
             return GetAppdataPath() + "input" + Path.DirectorySeparatorChar;
         }
 
-        public static string GetExportPath(string currentFileName, string folderSuffix, string exportSubfolder)
+        public static string GetExportPath(string currentFileName, string targetGroup, string folderSuffix, string exportSubfolder)
         {
             string path = GetAppdataPath() 
                 + "export" + Path.DirectorySeparatorChar
+                + targetGroup + "_"
                 + Path.GetFileNameWithoutExtension(currentFileName) 
                 + folderSuffix + Path.DirectorySeparatorChar;
 

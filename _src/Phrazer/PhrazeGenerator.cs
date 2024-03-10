@@ -14,6 +14,7 @@ namespace Phrazer
     {
         public string InputFileName { get; set; }
         public int RowNumberTpl { get; set; }
+        public string TargetGroup { get; set; }
         public string LangFrom { get; set; }
         public string LangTo { get; set; }
         public int LangFromIndex { get; set; }
@@ -30,7 +31,7 @@ namespace Phrazer
         public int MaxTextLength { get; set; }
         public bool SkipWithoutTranslation { get; set; }
         public string FolderSuffix { get; set; }
-        public bool FolderSuffixAllowed { get; set; }
+        public int FolderSuffixIndex { get; set; }
         public string CurrentVoice { get; set; }
         public string CurrentSsml { get; set; }
         public GTTSGenerator Generator { get; set; }
@@ -39,14 +40,14 @@ namespace Phrazer
         {
             // @todo: It might be better to get Lang values from file name
             // UK_DE_xxxxxxxxxxxxxx.tsv
-            LangFrom = "UK";
+            LangFrom = "RU";
             LangTo = "DE";
+            TargetGroup = LangFrom + "_" + LangTo;
             MaxTextLength = 115;
             RowNumber = "";
             TimeCode = "";
             TimeCodeList = "";
             FolderSuffix = "";
-            FolderSuffixAllowed = false;
             SkipWithoutTranslation = true;
         }
 
@@ -76,7 +77,7 @@ namespace Phrazer
             + " (" + oTranslation + ")" 
             + "." + extension);
             
-            return Appdata.GetExportPath(InputFileName, FolderSuffix, exportSubfolder) + oFileName;
+            return Appdata.GetExportPath(InputFileName, TargetGroup, FolderSuffix, exportSubfolder) + oFileName;
         }
 
         private string AdjustPath(string Input)
@@ -121,6 +122,7 @@ namespace Phrazer
                     GenderIndex = Array.IndexOf(csvEntries, "GENDER");
                     RowNumberIndex = Array.IndexOf(csvEntries, "ROW");
                     TimeCodeIndex = Array.IndexOf(csvEntries, "TIME");
+                    FolderSuffixIndex = Array.IndexOf(csvEntries, "SUFFIX");
                     index++;
                     continue;
                 }
@@ -144,10 +146,9 @@ namespace Phrazer
             TextFrom = csvEntries[LangFromIndex].Trim();
             TextTo = csvEntries[LangToIndex].Trim();
             Gender = csvEntries[GenderIndex].Trim();
+            FolderSuffix = "-" + csvEntries[FolderSuffixIndex].Trim();
             RowNumber = (csvEntries.Length > 3 && csvEntries[RowNumberIndex].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[RowNumberIndex].Trim()) : "";
             TimeCode = (csvEntries.Length > 4 && csvEntries[TimeCodeIndex].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[TimeCodeIndex].Trim()) : "";
-
-            if(FolderSuffixAllowed && RowNumber.Length > 0) FolderSuffix = GTTSHelper.GetFolderSuffix(RowNumber);
 
             // just add a jingle file with timecode
             if(addJingle(TextFrom)) return;
@@ -181,7 +182,7 @@ namespace Phrazer
 
             Generator = new GTTSGenerator();
 
-            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(LangFrom, LangTo) + GTTSHelper.GetTplName(TextFrom, TextTo, Gender));
+            string[] rows = File.ReadAllLines(GTTSHelper.GetTplPath(TargetGroup) + GTTSHelper.GetTplName(TextFrom, TextTo, Gender));
             RowNumberTpl = 0;
             foreach (string row in rows)
             {
@@ -198,6 +199,9 @@ namespace Phrazer
             } else {
                 string mp3FileName = GetOutputFilename("", "mp3");
                 Process.Start(@"lame.exe", @"-V2 " + "\"" + wavFileName + "\"" + " " + "\"" + mp3FileName + "\"");
+
+                // Delete WAV after converting
+                //File.Delete(wavFileName);
             }
 
             CreateHistoryRow();
@@ -287,7 +291,7 @@ namespace Phrazer
                     if(File.Exists(jingleFilename)) {
                         
                         string oFileName = AdjustPath(GetOutputFilenamePrefix() + soundName + " playing.mp3");
-                        string outputFilename = Appdata.GetExportPath(InputFileName, FolderSuffix, "") + oFileName;
+                        string outputFilename = Appdata.GetExportPath(InputFileName, TargetGroup, FolderSuffix, "") + oFileName;
                         Console.WriteLine(">> GENERATE JINGLE: " + outputFilename);
 
                         File.Copy(jingleFilename, outputFilename, true);

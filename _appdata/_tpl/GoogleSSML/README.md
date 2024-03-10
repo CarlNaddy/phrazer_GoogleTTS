@@ -26,11 +26,11 @@ en-US-Casual-K  (try this one as well)
 
 W
 ru-RU-Wavenet-A
-ru-RU-Wavenet-C
+ru-RU-Wavenet-C // good woman
 
 M
-ru-RU-Wavenet-B 
-ru-RU-Wavenet-D 
+ru-RU-Wavenet-B // good nerd voice
+ru-RU-Wavenet-D // good man voice
 
 
 W

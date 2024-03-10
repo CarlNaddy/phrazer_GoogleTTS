@@ -37,7 +37,11 @@ namespace Phrazer
             text = text.Replace("_", ".");
             text = text.Replace("... ", "...");
             text = text.Replace(" ...", "...");
-            text = text.Trim();
+            
+            if(forWhat == "audioengine") {
+                text = text.Replace(" \"", " '"); // due to Ukrainian Lang word stress [at the beginning of the word]
+                text = text.Replace("\"", "-"); // due to Ukrainian Lang word stress [in the middle of the word]
+            }
             
             if(forWhat == "filename") {
                 text = text.Trim(',');
@@ -46,7 +50,10 @@ namespace Phrazer
                 text = text.Replace("(", "-");
                 text = text.Replace(")", "-");
                 text = text.Replace("?", "..");
+                text = text.Replace("+", ""); // due to Ukrainian Lang word stress
             }
+
+            text = text.Trim();
             text = System.Text.RegularExpressions.Regex.Replace(text, @"[\\/:*""<>|]", string.Empty); // BEWARE: ? will not be treated here
             return text;
         }
@@ -94,10 +101,9 @@ namespace Phrazer
             return Convert.ToInt32((repeatingTime + thinkingTime) * 1000);
         }
 
-        public static string GetTplPath(string langFrom, string langTo)
+        public static string GetTplPath(string targetGroup)
         {
             string voiceGenerater = "GoogleSSML";
-            string targetGroup = langFrom + "_" + langTo;
             return Appdata.GetAppdataPath()
             + "_tpl" + Path.DirectorySeparatorChar 
             + voiceGenerater + Path.DirectorySeparatorChar 
