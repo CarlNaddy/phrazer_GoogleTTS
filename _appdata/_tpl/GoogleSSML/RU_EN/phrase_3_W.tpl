@@ -1,4 +1,4 @@
 ﻿ru-RU-Wavenet-C: <speak><break time="200ms"/><prosody rate="97%">__FROMTEXT__</prosody><break time="__WAITTIMEFROM__ms"/></speak>
-en-US-Wavenet-E: <speak><prosody rate="85%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>
+en-US-Neural2-F: <speak><prosody rate="85%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>
 en-US-Wavenet-E: <speak><prosody rate="85%">__TOTEXTSLOW__</prosody><break time="400ms"/></speak>
-en-GB-Wavenet-C: <speak><prosody rate="95%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>
+en-GB-Studio-C: <speak><prosody rate="95%">__TOTEXT__</prosody><break time="__WAITTIMETO__ms"/></speak>

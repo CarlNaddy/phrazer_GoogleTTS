@@ -38,10 +38,9 @@ namespace Phrazer
 
         public PhrazeGenerator()
         {
-            // @todo: It might be better to get Lang values from file name
-            // UK_DE_xxxxxxxxxxxxxx.tsv
             LangFrom = "RU";
-            LangTo = "DE";
+            //LangTo = "DE";
+            LangTo = "EN";
             TargetGroup = LangFrom + "_" + LangTo;
             MaxTextLength = 115;
             RowNumber = "";
@@ -146,7 +145,7 @@ namespace Phrazer
             TextFrom = csvEntries[LangFromIndex].Trim();
             TextTo = csvEntries[LangToIndex].Trim();
             Gender = csvEntries[GenderIndex].Trim();
-            FolderSuffix = "-" + csvEntries[FolderSuffixIndex].Trim();
+            if(FolderSuffixIndex > -1) FolderSuffix = "-" + csvEntries[FolderSuffixIndex].Trim();
             RowNumber = (csvEntries.Length > 3 && csvEntries[RowNumberIndex].Trim().Length > 0) ? GetFormattedRowNumber(csvEntries[RowNumberIndex].Trim()) : "";
             TimeCode = (csvEntries.Length > 4 && csvEntries[TimeCodeIndex].Trim().Length > 0) ? GetFormattedTimeCode(csvEntries[TimeCodeIndex].Trim()) : "";
 
