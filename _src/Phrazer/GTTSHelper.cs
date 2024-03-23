@@ -25,7 +25,7 @@ namespace Phrazer
 
         public static string GetSanitizedText(string text, string forWhat)
         {
-            // First remowe the gender prefixes
+            // First remowe the gender prefixes (DEPRECATED)
             if(text.StartsWith("W:")) text = text.Replace("W:", "");
             if(text.StartsWith("M:")) text = text.Replace("M:", "");
 
@@ -49,8 +49,8 @@ namespace Phrazer
                 text = text.Replace("  ", " ");
                 text = text.Replace("(", "-");
                 text = text.Replace(")", "-");
-                text = text.Replace("?", "..");
-                text = text.Replace("+", ""); // due to Ukrainian Lang word stress
+                text = text.Replace("?", ",,"); // Das kann besser zum Fragezeichen zurueckkonvertiert werden
+                //text = text.Replace("+", ""); // due to Ukrainian Lang word stress
             }
 
             text = text.Trim();

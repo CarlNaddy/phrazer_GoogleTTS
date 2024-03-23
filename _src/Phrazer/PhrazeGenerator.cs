@@ -39,8 +39,8 @@ namespace Phrazer
         public PhrazeGenerator()
         {
             LangFrom = "RU";
-            //LangTo = "DE";
-            LangTo = "EN";
+            LangTo = "DE";
+            //LangTo = "EN";
             TargetGroup = LangFrom + "_" + LangTo;
             MaxTextLength = 115;
             RowNumber = "";
@@ -74,6 +74,7 @@ namespace Phrazer
             oFileName = AdjustPath(GetOutputFilenamePrefix() 
             + GTTSHelper.Substring(toText, 0, MaxTextLength) 
             + " (" + oTranslation + ")" 
+            + " " + Gender
             + "." + extension);
             
             return Appdata.GetExportPath(InputFileName, TargetGroup, FolderSuffix, exportSubfolder) + oFileName;
