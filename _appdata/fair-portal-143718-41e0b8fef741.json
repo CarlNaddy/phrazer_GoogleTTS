@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "fair-portal-143718",
-  "private_key_id": "41e0b8fef741b8e75cc881ccfe194196c9f4129c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCYGqFjCgcd/bFn\ncHVp2JDmTius3Aq5G823ej52wcbORUlLQ+IPS8yuXvPEofTayRXX77lfyYufWF7b\n46eUtuZ/p4Nc0q3Xyyz3uM8vNLiz91dXgaG1sLGBgHWiP+T+ClRiwA6T0PBwA1bS\nr+8T3B3NRGNlSw6KIIMUcd5s/76ixrYZs+cmHTgu/jCpxHy8u7i9RjxjHuddsgkF\n3qxbEMj6/87yvHPOgv6lZmXLU/dUe4jcrARtDmGMvSYSdYnVfr/f1dlBrD0nQpcD\nViJBLWnReYruMg0Ei3N5VdkqUQ4gh8BFwR4aoUEqLP89+4QlF8gZiRkBHc9AUk6C\nQmL9fb2zAgMBAAECggEAORUNahCyWRQDRvGSbtWik3vUsjumHpALpQbQeFsClBi2\nh/OC3ACzYOErlKi/Lnh2pSJHLGaD6poMh3MpSgtV96RTDTvXl/uc9Z66yll707ZI\nZgO1P21/QD2IaAqYkqonvyOalOi9wxvNsqXqEEb0PDulHbeMTlQjPUH6mmdkEMvz\nwGjXuZm3/hZs3lrFWrAWXVwd0uGRzbyxnUnQU9J8CMp/S3dFBVABxPL978oWb/Xs\n/1ez+gr2pgkptQbrvg9uHcxdkPczMWhDy594HHK4O3xfD3/GxwYqNcIoR2+QIray\nduw6zWXcSGByscaKIjQAYc4JWWyXGrZqlrmYZUsNKQKBgQDT6MVj4mhrJPwZ/dDM\nmf3WnIjJJ9yrHDNukorsu00Z0NNfinKF8T0QzrevXARoNe86lhoJ20ZS9Jr6eAzd\nfUhs5b8Z1nnqMwDl+MioVurmUXG3XBIZSBjuqXDsjs7baoEfXB+CuFvN1UpxkLeA\n3XoHpRynUdG/7BDXMWRZX+I6tQKBgQC3wF3fiENh57ps+MrGV8o04dXzOe7IR6Fl\nSzqK+H1Kz/eJpdw88Wc0XiyIgPv/DZlbzdgBMSYCJ+42kmXq1o+GL1hBez0bEF2S\n+3fBlvYeI4swHXzN9HTrtmZS5a6bEKJ5l8KgP6KJwnrp/7sRSty/wmk56RtyNTY4\nvOAriduPxwKBgQDMGOhs4LazY4bQPc8qELMUTeXM4HC/+URsHgZiJbAHykKbRYwy\nB3xKQN9XrWetOy0znzhq/9/GrELMNG4nsa/c+pbJevInKIKX/Lq+sCBEPnMpKCti\nYDdrPpU9sfn4CKdenerXi1sYb3Lo2Hp1SltrG5LycHJ1yBccPD0re5c39QKBgAv4\nJuVBrgn5m0Yv6p2C6HQLZfFjC6/WIqhDfzvANgEijOBVgoQhwXRC0inOJRwXGa9G\nOFTTi8NGMJkzbhofAdheyyPw0CksJrxFTya4G64Y6J8ovJF55AfaqM2rknUdX0gG\nX7Iqkv7gQTtu4hOdScXf9xTDn3sQBkkp3HxZjYjPAoGAYksJvUmzhdWanTcYZMGF\nTuu6zYJsWK92u5X0QJegoGExSNTv3vZslFUBpAX5btRzM9EHR7MJ2zAELo3m8hYP\n351vkUpd/prUGbjhzKHLFuO5fMorNVKRG9Va9DclQBGVx1IAKQw57OMSFHvs3CvC\nf1LRzF64dsb/4srYaCQc3ww=\n-----END PRIVATE KEY-----\n",
-  "client_email": "263759797484-compute@developer.gserviceaccount.com",
+  "project_id": "fair-portal-< WE NEED TO CREATE A NEW FILE IN Google Cloud Platform >",
+  "private_key_id": "< WE NEED TO CREATE A NEW FILE IN Google Cloud Platform >",
+  "private_key": "< WE NEED TO CREATE A NEW FILE IN Google Cloud Platform >",
+  "client_email": "< WE NEED TO CREATE A NEW FILE IN Google Cloud Platform >",
   "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/263759797484-compute%40developer.gserviceaccount.com"
+  "client_x509_cert_url": "< WE NEED TO CREATE A NEW FILE IN Google Cloud Platform >"
 }
